@@ -370,11 +370,14 @@ class AI:
             if isinstance(entry, dict):
                 by_name[str(entry.get("name", "")).strip().lower()] = entry
         driver_rows = []
+        known_names = {d.strip().lower() for d in drivers}
         for index, name in enumerate(drivers):
             entry = by_name.get(name.strip().lower())
             if entry is None and index < len(data.get("drivers") or []):
+                # Only borrow the entry in the same position when it does not belong to another driver.
                 candidate = data["drivers"][index]
-                entry = candidate if isinstance(candidate, dict) else {}
+                if isinstance(candidate, dict) and str(candidate.get("name", "")).strip().lower() not in known_names:
+                    entry = candidate
             entry = entry or {}
             driver_rows.append({
                 "name": name,
