@@ -27,7 +27,7 @@ import requests
 
 HKBU_CHAT_URL = "https://genai.hkbu.edu.hk/api/v1/chat/completions"
 TIMEOUT_SECONDS = 180
-NEWS_BATCH_SIZE = 20
+NEWS_BATCH_SIZE = 10
 
 IMPACTS = ("positive", "negative", "neutral")
 IMPORTANCE = ("high", "medium", "low")
@@ -86,6 +86,42 @@ def parse_json(raw):
         raise AIError(f"reply JSON could not be read ({exc.msg})") from None
 
 
+def salvage_items(raw):
+    """Rescue the complete {...} entries from a broken or cut off "items" list."""
+    raw = raw or ""
+    start = raw.find("[", raw.find('"items"') if '"items"' in raw else 0)
+    if start == -1:
+        return []
+    found, depth, begin, in_string, escaped = [], 0, None, False, False
+    for index in range(start + 1, len(raw)):
+        char = raw[index]
+        if in_string:
+            if escaped:
+                escaped = False
+            elif char == "\\":
+                escaped = True
+            elif char == '"':
+                in_string = False
+            continue
+        if char == '"':
+            in_string = True
+        elif char == "{":
+            if depth == 0:
+                begin = index
+            depth += 1
+        elif char == "}" and depth:
+            depth -= 1
+            if depth == 0 and begin is not None:
+                try:
+                    found.append(json.loads(raw[begin:index + 1]))
+                except json.JSONDecodeError:
+                    pass
+                begin = None
+        elif char == "]" and depth == 0:
+            break
+    return found
+
+
 def slug(value):
     value = re.sub(r"[^a-z0-9]+", "-", str(value or "").lower()).strip("-")
     return value[:48] or "story"
@@ -106,6 +142,10 @@ class AI:
 
     def chat(self, model, user_prompt, max_tokens):
         """One call. Returns the parsed JSON object."""
+        return parse_json(self.chat_text(model, user_prompt, max_tokens))
+
+    def chat_text(self, model, user_prompt, max_tokens):
+        """One call. Returns the raw reply text."""
         body = {
             "model": model,
             "messages": [
@@ -141,7 +181,7 @@ class AI:
         if not content.strip():
             finish = payload["choices"][0].get("finish_reason")
             raise AIError(f"empty reply (finish reason: {finish}); try a higher max_tokens")
-        return parse_json(content)
+        return content
 
     def _post(self, body):
         try:
@@ -165,12 +205,25 @@ class AI:
         known_stories: {story_key: title} for stories already on file, so new
                        headlines about the same event join the existing story.
         """
-        results, new_titles = {}, {}
-        for start in range(0, len(new_items), NEWS_BATCH_SIZE):
-            batch = new_items[start:start + NEWS_BATCH_SIZE]
-            batch_results, batch_titles = self._sort_batch(company, batch, {**known_stories, **new_titles}, max_tokens)
-            results.update(batch_results)
-            new_titles.update(batch_titles)
+        results, new_titles, failures = {}, {}, []
+        queue = [new_items[i:i + NEWS_BATCH_SIZE] for i in range(0, len(new_items), NEWS_BATCH_SIZE)]
+        while queue:
+            batch = queue.pop(0)
+            try:
+                batch_results, batch_titles = self._sort_batch(company, batch, {**known_stories, **new_titles}, max_tokens)
+                results.update(batch_results)
+                new_titles.update(batch_titles)
+            except AIError as exc:
+                if len(batch) > 3:
+                    # Try the two halves separately before giving up on this batch.
+                    half = len(batch) // 2
+                    queue[:0] = [batch[:half], batch[half:]]
+                    print(f"news batch of {len(batch)} failed ({exc}); retrying in halves")
+                else:
+                    failures.append(str(exc))
+                    print(f"news batch of {len(batch)} failed: {exc}")
+        if not results and failures:
+            raise AIError(failures[0])
         return results, new_titles
 
     def _sort_batch(self, company, batch, known_stories, max_tokens):
@@ -198,10 +251,15 @@ class AI:
             '  "story_title": for a new story key, a short neutral title of at most 9 words; otherwise ""\n\n'
             'Return {"items": [ ...one entry per headline... ]}'
         )
-        data = self.chat(self.fast_model, prompt, max_tokens)
-        rows = data.get("items")
+        raw = self.chat_text(self.fast_model, prompt, max_tokens)
+        try:
+            rows = parse_json(raw).get("items")
+        except AIError:
+            rows = None
         if not isinstance(rows, list):
-            raise AIError("news reply had no items list")
+            rows = salvage_items(raw)
+            if len(rows) < max(1, len(batch) // 2):
+                raise AIError("news reply JSON could not be read")
 
         known_ids = {i["id"] for i in batch}
         results, titles = {}, {}
