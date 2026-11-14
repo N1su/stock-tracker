@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Tracker">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<title>Stock Tracker</title>
+<style>
+  :root {
+    --bg: #f2f2f7;
+    --card: #ffffff;
+    --label: #000000;
+    --label2: rgba(60, 60, 67, 0.6);
+    --label3: rgba(60, 60, 67, 0.3);
+    --sep: rgba(60, 60, 67, 0.18);
+    --fill: rgba(118, 118, 128, 0.12);
+    --blue: #007aff;
+    --green: #34c759;
+    --red: #ff3b30;
+    --bar: rgba(249, 249, 249, 0.8);
+    --radius: 14px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --card: #1c1c1e;
+      --label: #ffffff;
+      --label2: rgba(235, 235, 245, 0.6);
+      --label3: rgba(235, 235, 245, 0.3);
+      --sep: rgba(84, 84, 88, 0.6);
+      --fill: rgba(118, 118, 128, 0.24);
+      --blue: #0a84ff;
+      --green: #30d158;
+      --red: #ff453a;
+      --bar: rgba(22, 22, 24, 0.8);
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  html, body { margin: 0; background: var(--bg); color: var(--label); }
+  body {
+    font-family: -apple-system, system-ui, "Segoe UI", Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .num { font-variant-numeric: tabular-nums; }
+
+  .topbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 10;
+    padding: env(safe-area-inset-top) 16px 0;
+    height: calc(44px + env(safe-area-inset-top));
+    display: flex; align-items: flex-end; justify-content: center;
+    background: transparent;
+    border-bottom: 0.5px solid transparent;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .topbar-title {
+    font-size: 17px; font-weight: 600; padding-bottom: 11px;
+    opacity: 0; transition: opacity 0.2s;
+  }
+  .topbar.scrolled {
+    background: var(--bar);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-color: var(--sep);
+  }
+  .topbar.scrolled .topbar-title { opacity: 1; }
+
+  main {
+    max-width: 640px; margin: 0 auto;
+    padding: calc(44px + env(safe-area-inset-top)) 16px calc(96px + env(safe-area-inset-bottom));
+  }
+  .tab { display: none; }
+  .tab.active { display: block; }
+  .large-title { font-size: 34px; font-weight: 700; letter-spacing: 0.01em; margin: 4px 0 2px; }
+  .updated { color: var(--label2); font-size: 15px; margin: 0 0 16px; }
+
+  .segmented {
+    display: flex; background: var(--fill); border-radius: 9px; padding: 2px; margin: 0 0 16px;
+  }
+  .segmented button {
+    flex: 1; border: 0; background: transparent; color: var(--label);
+    font: inherit; font-size: 13px; font-weight: 500; padding: 6px 0; border-radius: 7px;
+    min-height: 32px; cursor: pointer;
+  }
+  .segmented button.on { background: var(--card); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12); }
+
+  .card {
+    background: var(--card); border-radius: var(--radius);
+    padding: 16px; margin: 0 0 16px;
+  }
+  .card.spring { animation: spring 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
+  @keyframes spring { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: none; } }
+  .card h2 {
+    font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em;
+    color: var(--label2); margin: 0 0 8px;
+  }
+  .big { font-size: 40px; font-weight: 700; letter-spacing: -0.01em; line-height: 1.1; }
+  .sub { color: var(--label2); font-size: 15px; margin: 4px 0 0; }
+  .up { color: var(--green); }
+  .down { color: var(--red); }
+  .card p { margin: 0 0 8px; }
+  .card p:last-child { margin-bottom: 0; }
+  .brief p { font-size: 17px; }
+  .muted { color: var(--label2); font-size: 13px; }
+
+  .rows { margin: 4px 0 0; }
+  .row {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    padding: 11px 0; border-top: 0.5px solid var(--sep);
+  }
+  .row:first-child { border-top: 0; }
+  .row .k { color: var(--label); }
+  .row .k small { display: block; color: var(--label2); font-size: 13px; }
+  .row .v { font-weight: 600; text-align: right; white-space: nowrap; }
+
+  .range { margin: 14px 0 2px; }
+  .range-track { position: relative; height: 4px; border-radius: 2px; background: var(--fill); }
+  .range-dot {
+    position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%;
+    background: var(--blue); transform: translate(-50%, -50%);
+  }
+  .range-labels { display: flex; justify-content: space-between; color: var(--label2); font-size: 13px; margin-top: 6px; }
+
+  .chart-wrap { margin-top: 14px; }
+  .chart { position: relative; touch-action: none; }
+  .chart svg { display: block; width: 100%; height: 180px; overflow: visible; }
+  .chart-read { font-size: 13px; color: var(--label2); min-height: 18px; margin: 6px 0 0; }
+
+  details.learn { margin-top: 12px; }
+  details.learn summary {
+    list-style: none; color: var(--blue); font-size: 15px; cursor: pointer; min-height: 30px;
+    display: inline-flex; align-items: center;
+  }
+  details.learn summary::-webkit-details-marker { display: none; }
+  details.learn p { color: var(--label2); font-size: 15px; margin-top: 4px; }
+
+  .soon li { color: var(--label2); padding: 4px 0; }
+  .soon ul { margin: 0; padding-left: 20px; }
+
+  label.field { display: block; font-size: 13px; color: var(--label2); margin: 10px 0 4px; }
+  input, textarea {
+    width: 100%; font: inherit; font-size: 17px; color: var(--label);
+    background: var(--fill); border: 0; border-radius: 10px; padding: 11px 12px; min-height: 44px;
+  }
+  textarea { min-height: 120px; resize: vertical; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 8px; }
+  .grid3 > div:first-child { grid-column: 1 / -1; }
+  .scen { display: grid; grid-template-columns: 70px 1fr 1fr; gap: 8px; align-items: center; margin-top: 8px; }
+  .scen span { font-weight: 600; }
+  .btn {
+    display: block; width: 100%; margin-top: 12px; min-height: 48px; border: 0; border-radius: 12px;
+    background: var(--blue); color: #fff; font: inherit; font-weight: 600; cursor: pointer;
+  }
+  .del {
+    border: 0; background: transparent; color: var(--red); font: inherit; font-size: 15px;
+    min-width: 44px; min-height: 44px; cursor: pointer;
+  }
+  .errors li { color: var(--red); font-size: 13px; }
+
+  .tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    display: flex; justify-content: space-around;
+    padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+    background: var(--bar);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-top: 0.5px solid var(--sep);
+  }
+  .tabbar button {
+    flex: 1; border: 0; background: transparent; color: var(--label2);
+    font: inherit; font-size: 10px; font-weight: 500;
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+    min-height: 48px; cursor: pointer;
+  }
+  .tabbar button svg { width: 26px; height: 26px; }
+  .tabbar button.on { color: var(--blue); }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<header class="topbar" id="topbar"><div class="topbar-title" id="topbarTitle">Today</div></header>
+
+<main id="main">
+  <div class="segmented" id="picker" hidden></div>
+
+  <section class="tab active" id="tab-today" data-title="Today">
+    <h1 class="large-title">Today</h1>
+    <p class="updated" id="updated">Loading the latest data</p>
+    <div id="cards-today"></div>
+  </section>
+
+  <section class="tab" id="tab-valuation" data-title="Valuation">
+    <h1 class="large-title">Valuation</h1>
+    <div id="cards-valuation"></div>
+  </section>
+
+  <section class="tab" id="tab-business" data-title="Business">
+    <h1 class="large-title">Business</h1>
+    <div id="cards-business"></div>
+  </section>
+
+  <section class="tab" id="tab-market" data-title="Market">
+    <h1 class="large-title">Market</h1>
+    <div id="cards-market"></div>
+  </section>
+
+  <section class="tab" id="tab-plan" data-title="My plan">
+    <h1 class="large-title">My plan</h1>
+    <div id="cards-plan"></div>
+  </section>
+</main>
+
+<nav class="tabbar" id="tabbar">
+  <button data-tab="today" class="on" aria-label="Today">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    Today
+  </button>
+  <button data-tab="valuation" aria-label="Valuation">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="M12 16l4-5"/></svg>
+    Valuation
+  </button>
+  <button data-tab="business" aria-label="Business">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
+    Business
+  </button>
+  <button data-tab="market" aria-label="Market">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M6 16V10M11 16V5M16 16v-4M21 16V8"/></svg>
+    Market
+  </button>
+  <button data-tab="plan" aria-label="My plan">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg>
+    My plan
+  </button>
+</nav>
+
+<script>
+(function () {
+  "use strict";
+
+  var TABS = ["today", "valuation", "business", "market", "plan"];
+  var BENCH_NAMES = { QQQ: "Nasdaq 100 fund", SOXX: "Chip sector fund", SPY: "S&P 500 fund" };
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var state = { companies: [], ticker: null, data: null, range: "1M", tab: "today" };
+
+  function el(id) { return document.getElementById(id); }
+
+  function esc(value) {
+    return String(value).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function isNum(v) { return typeof v === "number" && isFinite(v); }
+
+  function fmt(v, digits) {
+    if (!isNum(v)) return "n/a";
+    return v.toLocaleString("en-US", { minimumFractionDigits: digits, maximumFractionDigits: digits });
+  }
+
+  function money(v) { return isNum(v) ? "$" + fmt(v, 2) : "n/a"; }
+
+  function pct(v) { return isNum(v) ? (v > 0 ? "+" : "") + fmt(v, 2) + "%" : "n/a"; }
+
+  function bigMoney(v) {
+    if (!isNum(v)) return "n/a";
+    if (Math.abs(v) >= 1e12) return "$" + (v / 1e12).toFixed(2) + "T";
+    if (Math.abs(v) >= 1e9) return "$" + (v / 1e9).toFixed(1) + "B";
+    return "$" + fmt(v, 0);
+  }
+
+  function dir(v) { return isNum(v) ? (v > 0 ? "up" : v < 0 ? "down" : "") : ""; }
+
+  function arrow(v) { return isNum(v) ? (v > 0 ? "▲ " : v < 0 ? "▼ " : "") : ""; }
+
+  function fiscalLabel(dateText) {
+    var d = new Date(dateText + "T00:00:00Z");
+    if (isNaN(d)) return dateText;
+    return "FY ending " + d.toLocaleString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+  }
+
+  function store(key, value) {
+    try {
+      if (value === undefined) return JSON.parse(localStorage.getItem(key) || "null");
+      localStorage.setItem(key, JSON.stringify(value));
+    } catch (e) { return null; }
+    return null;
+  }
+
+  function card(opts) {
+    var html = '<article class="card spring">';
+    if (opts.title) html += "<h2>" + esc(opts.title) + "</h2>";
+    if (opts.big !== undefined) {
+      html += '<div class="big num ' + (opts.bigClass || "") + '"';
+      if (isNum(opts.count)) {
+        html += ' data-count="' + opts.count + '" data-prefix="' + esc(opts.prefix || "") +
+          '" data-suffix="' + esc(opts.suffix || "") + '" data-digits="' + (opts.digits || 0) + '"';
+      }
+      html += ">" + opts.big + "</div>";
+    }
+    if (opts.sub) html += '<p class="sub num">' + opts.sub + "</p>";
+    if (opts.body) html += opts.body;
+    if (opts.learn) html += '<details class="learn"><summary>Learn</summary><p>' + opts.learn + "</p></details>";
+    return html + "</article>";
+  }
+
+  function row(key, value, cls, note) {
+    return '<div class="row"><div class="k">' + key + (note ? "<small>" + note + "</small>" : "") +
+      '</div><div class="v num ' + (cls || "") + '">' + value + "</div></div>";
+  }
+
+  function soon(items) {
+    return card({
+      title: "Coming in later updates",
+      body: '<div class="soon"><ul>' + items.map(function (i) { return "<li>" + esc(i) + "</li>"; }).join("") + "</ul></div>"
+    });
+  }
+
+  function countUp(root) {
+    var nodes = root.querySelectorAll("[data-count]");
+    nodes.forEach(function (node) {
+      var target = parseFloat(node.getAttribute("data-count"));
+      var digits = parseInt(node.getAttribute("data-digits"), 10) || 0;
+      var prefix = node.getAttribute("data-prefix") || "";
+      var suffix = node.getAttribute("data-suffix") || "";
+      if (reduceMotion) return;
+      var start = target * 0.9;
+      var t0 = performance.now();
+      function step(now) {
+        var p = Math.min(1, (now - t0) / 700);
+        var eased = 1 - Math.pow(1 - p, 3);
+        node.textContent = prefix + fmt(start + (target - start) * eased, digits) + suffix;
+        if (p < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  /* ---------- Today ---------- */
+
+  function renderToday(d) {
+    var q = d.quote || {};
+    var html = "";
+
+    if (d.brief && d.brief.lines && d.brief.lines.length) {
+      html += card({
+        title: "30 second brief",
+        body: '<div class="brief">' + d.brief.lines.map(function (l) { return "<p>" + esc(l) + "</p>"; }).join("") +
+          '</div><p class="muted">Written by ' + esc(d.brief.model || "HKBU GenAI") + " from the numbers below.</p>"
+      });
+    }
+
+    var position = isNum(q.low) && isNum(q.high) && q.high > q.low ? ((q.price - q.low) / (q.high - q.low)) * 100 : 50;
+    var rangeHtml = '<div class="range"><div class="range-track"><div class="range-dot" style="left:' +
+      Math.max(0, Math.min(100, position)) + '%"></div></div><div class="range-labels num"><span>Low ' +
+      money(q.low) + "</span><span>High " + money(q.high) + "</span></div></div>";
+
+    html += card({
+      title: d.name + " price",
+      big: money(q.price), count: q.price, prefix: "$", digits: 2,
+      sub: '<span class="' + dir(q.change_pct) + '">' + arrow(q.change_pct) + money(q.change).replace("$-", "-$") +
+        " (" + pct(q.change_pct) + ")</span> today",
+      body: rangeHtml + chartBlock(d),
+      learn: "The blue dot shows where the price closed within today's trading range. A close near the high means buyers were in control late in the day, and a close near the low means sellers were."
+    });
+
+    var bench = d.benchmarks || {};
+    var benchKeys = Object.keys(bench);
+    if (benchKeys.length) {
+      var rows = benchKeys.map(function (s) {
+        var b = bench[s];
+        return row(esc(d.ticker) + " vs " + esc(BENCH_NAMES[s] || s), arrow(b.relative_pct) + fmt(b.relative_pct, 2) + " pts",
+          dir(b.relative_pct), esc(s) + " moved " + pct(b.change_pct));
+      }).join("");
+      var first = bench[benchKeys[0]];
+      var sentence = isNum(first.relative_pct)
+        ? esc(d.ticker) + " did " + fmt(Math.abs(first.relative_pct), 2) + " points " +
+          (first.relative_pct >= 0 ? "better" : "worse") + " than the " + esc(BENCH_NAMES[benchKeys[0]] || benchKeys[0]) + " today."
+        : "";
+      html += card({
+        title: "Versus the market",
+        body: "<p>" + sentence + '</p><div class="rows">' + rows + "</div>",
+        learn: "This separates a move in the stock itself from a move in the whole market. If the market fell 2% and the stock fell 2%, nothing special happened to the company."
+      });
+    }
+
+    if (d.errors && d.errors.length) {
+      html += card({
+        title: "Last update had problems",
+        body: '<ul class="errors">' + d.errors.map(function (e) { return "<li>" + esc(e) + "</li>"; }).join("") + "</ul>"
+      });
+    }
+
+    html += soon(["Top three news stories with impact tags", "Intraday (1D) chart"]);
+    el("cards-today").innerHTML = html;
+    bindChart(d);
+  }
+
+  /* ---------- Chart ---------- */
+
+  var RANGES = { "1W": 7, "1M": 31, "3M": 92, "1Y": 366 };
+
+  function chartBlock(d) {
+    if (!d.history || d.history.length < 2) {
+      return '<p class="muted" style="margin-top:12px">The price chart appears once the script starts saving daily prices.</p>';
+    }
+    var buttons = Object.keys(RANGES).map(function (r) {
+      return '<button data-range="' + r + '" class="' + (r === state.range ? "on" : "") + '">' + r + "</button>";
+    }).join("");
+    return '<div class="chart-wrap"><div class="segmented" id="rangePicker">' + buttons +
+      '</div><div class="chart" id="chart"></div><p class="chart-read num" id="chartRead"></p></div>';
+  }
+
+  function pointsFor(d) {
+    var last = new Date(d.history[d.history.length - 1].date + "T00:00:00Z");
+    var cutoff = new Date(last.getTime() - RANGES[state.range] * 86400000);
+    var pts = d.history.filter(function (p) { return new Date(p.date + "T00:00:00Z") >= cutoff && isNum(p.close); });
+    return pts.length >= 2 ? pts : d.history.slice(-2);
+  }
+
+  function drawChart(d) {
+    var box = el("chart");
+    if (!box) return;
+    var pts = pointsFor(d);
+    var W = 600, H = 180, pad = 8;
+    var closes = pts.map(function (p) { return p.close; });
+    var min = Math.min.apply(null, closes), max = Math.max.apply(null, closes);
+    if (max === min) { max += 1; min -= 1; }
+    var xy = pts.map(function (p, i) {
+      return [pad + (i / (pts.length - 1)) * (W - pad * 2), pad + (1 - (p.close - min) / (max - min)) * (H - pad * 2)];
+    });
+    var up = closes[closes.length - 1] >= closes[0];
+    var color = up ? "var(--green)" : "var(--red)";
+    var line = xy.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1); }).join(" ");
+    var area = line + " L" + xy[xy.length - 1][0].toFixed(1) + " " + H + " L" + xy[0][0].toFixed(1) + " " + H + " Z";
+    var lastPt = xy[xy.length - 1];
+    var len = 2000;
+    box.innerHTML =
+      '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none">' +
+      '<defs><linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="' + color +
+      '" stop-opacity="0.22"/><stop offset="1" stop-color="' + color + '" stop-opacity="0"/></linearGradient></defs>' +
+      '<path d="' + area + '" fill="url(#fade)"/>' +
+      '<path d="' + line + '" fill="none" stroke="' + color + '" stroke-width="2" vector-effect="non-scaling-stroke"' +
+      (reduceMotion ? "" : ' stroke-dasharray="' + len + '" stroke-dashoffset="' + len + '" style="transition:stroke-dashoffset 0.9s ease-out"') + "/>" +
+      '<line id="cursor" x1="0" x2="0" y1="0" y2="' + H + '" stroke="var(--label3)" stroke-width="1" vector-effect="non-scaling-stroke" visibility="hidden"/>' +
+      '<circle id="dot" cx="' + lastPt[0] + '" cy="' + lastPt[1] + '" r="4" fill="' + color + '"/>' +
+      "</svg>";
+    if (!reduceMotion) {
+      var path = box.querySelectorAll("path")[1];
+      requestAnimationFrame(function () { requestAnimationFrame(function () { path.style.strokeDashoffset = "0"; }); });
+    }
+    var last = pts[pts.length - 1];
+    var change = (last.close / pts[0].close - 1) * 100;
+    el("chartRead").innerHTML = "Latest " + money(last.close) + ' <span class="' + dir(change) + '">' + pct(change) +
+      "</span> over " + state.range;
+
+    var svg = box.querySelector("svg");
+    function read(evt) {
+      var rect = svg.getBoundingClientRect();
+      var x = ((evt.clientX - rect.left) / rect.width) * W;
+      var i = Math.round(((x - pad) / (W - pad * 2)) * (pts.length - 1));
+      i = Math.max(0, Math.min(pts.length - 1, i));
+      var c = svg.querySelector("#cursor"), dot = svg.querySelector("#dot");
+      c.setAttribute("x1", xy[i][0]); c.setAttribute("x2", xy[i][0]); c.setAttribute("visibility", "visible");
+      dot.setAttribute("cx", xy[i][0]); dot.setAttribute("cy", xy[i][1]);
+      el("chartRead").textContent = pts[i].date + "  " + money(pts[i].close);
+    }
+    function reset() { drawChart(d); }
+    svg.addEventListener("pointerdown", function (e) { svg.setPointerCapture(e.pointerId); read(e); });
+    svg.addEventListener("pointermove", function (e) { if (e.buttons || e.pointerType === "mouse") read(e); });
+    svg.addEventListener("pointerup", reset);
+    svg.addEventListener("pointerleave", function (e) { if (e.pointerType === "mouse") reset(); });
+  }
+
+  function bindChart(d) {
+    var picker = el("rangePicker");
+    if (!picker) return;
+    picker.addEventListener("click", function (e) {
+      var r = e.target.getAttribute("data-range");
+      if (!r) return;
+      state.range = r;
+      picker.querySelectorAll("button").forEach(function (b) { b.classList.toggle("on", b === e.target); });
+      drawChart(d);
+    });
+    drawChart(d);
+  }
+
+  /* ---------- Valuation ---------- */
+
+  function renderValuation(d) {
+    var v = d.valuation || {};
+    var price = (d.quote || {}).price;
+    var html = card({
+      title: "Forward P/E",
+      big: isNum(v.forward_pe) ? fmt(v.forward_pe, 1) + "x" : "n/a",
+      count: v.forward_pe, suffix: "x", digits: 1,
+      sub: "Price " + money(price) + " divided by forward EPS of " + money(v.forward_eps) + " (next 12 months)",
+      learn: "Forward P/E is how many dollars you pay today for one dollar of profit expected over the next 12 months. A low number on a fast grower usually means the market doubts the growth will last."
+    });
+
+    var rev = v.next_year_revision_30d_pct;
+    html += card({
+      title: "Estimate revisions, last 30 days",
+      big: isNum(rev) ? arrow(rev) + pct(rev) : "Building",
+      bigClass: dir(rev),
+      sub: isNum(rev)
+        ? "Change in consensus EPS for the " + esc(fiscalLabel(v.next_fiscal_year_end)) + "."
+        : "The tracker saves the consensus once a day. This arrow appears after a few days of history.",
+      learn: "Professionals watch whether analysts are raising or cutting their profit forecasts. Over time the share price tends to follow these revisions more than it follows headlines."
+    });
+
+    var years = (d.estimates && d.estimates.years) || [];
+    if (years.length) {
+      var rows = years.map(function (y) {
+        return row(esc(fiscalLabel(y.fiscal_year_end)), money(y.eps_avg), "",
+          "Range " + money(y.eps_low) + " to " + money(y.eps_high) + ", " + (y.analysts_eps || "?") +
+          " analysts, revenue " + bigMoney(y.revenue_avg));
+      }).join("");
+      html += card({
+        title: "Consensus EPS by fiscal year",
+        body: '<div class="rows">' + rows + "</div>",
+        learn: "These are the average forecasts from the analysts who cover the company. A wide range between low and high means analysts disagree a lot about that year."
+      });
+    }
+
+    html += scenarioCard(d);
+    html += soon(["Valuation gauge against the stock's own five year history", "PEG ratio", "Free cash flow yield"]);
+    el("cards-valuation").innerHTML = html;
+    bindScenarios(d);
+  }
+
+  function scenarioCard(d) {
+    var saved = store("scen:" + d.ticker) || {};
+    function inputs(key, label) {
+      var s = saved[key] || {};
+      return '<div class="scen"><span>' + label + '</span><input inputmode="decimal" placeholder="Value $" data-scen="' + key +
+        '" data-field="value" value="' + esc(s.value || "") + '"><input inputmode="decimal" placeholder="Odds %" data-scen="' +
+        key + '" data-field="prob" value="' + esc(s.prob || "") + '"></div>';
+    }
+    return card({
+      title: "Bull, base and bear",
+      body: '<p class="muted">Enter what you think one share is worth in each case, and how likely each case is.</p>' +
+        inputs("bull", "Bull") + inputs("base", "Base") + inputs("bear", "Bear") +
+        '<div class="rows" id="scenResult" style="margin-top:12px"></div>',
+      learn: "Funds handle big uncertainty by valuing the company under a few scenarios and weighting each by its probability. The weighted answer is a fair value estimate that already includes the risk of things going wrong."
+    });
+  }
+
+  function bindScenarios(d) {
+    var box = el("cards-valuation");
+    function update() {
+      var saved = {};
+      box.querySelectorAll("[data-scen]").forEach(function (inp) {
+        var k = inp.getAttribute("data-scen"), f = inp.getAttribute("data-field");
+        saved[k] = saved[k] || {};
+        saved[k][f] = inp.value.trim();
+      });
+      store("scen:" + d.ticker, saved);
+      var total = 0, weighted = 0, complete = true;
+      ["bull", "base", "bear"].forEach(function (k) {
+        var val = parseFloat(saved[k].value), prob = parseFloat(saved[k].prob);
+        if (!isNum(val) || !isNum(prob)) { complete = false; return; }
+        total += prob; weighted += val * prob / 100;
+      });
+      var out = el("scenResult");
+      if (!complete) { out.innerHTML = '<p class="muted">Fill in all six boxes to see your fair value.</p>'; return; }
+      if (Math.abs(total - 100) > 0.5) { out.innerHTML = '<p class="muted">Your odds add up to ' + fmt(total, 0) + "%. Make them add up to 100%.</p>"; return; }
+      var price = (d.quote || {}).price;
+      var gap = isNum(price) ? (weighted / price - 1) * 100 : null;
+      out.innerHTML = row("Your fair value", money(weighted)) + row("Gap to today's price", pct(gap), dir(gap));
+    }
+    box.querySelectorAll("[data-scen]").forEach(function (inp) { inp.addEventListener("input", update); });
+    update();
+  }
+
+  /* ---------- Business ---------- */
+
+  function renderBusiness(d) {
+    var company = state.companies.filter(function (c) { return c.ticker === d.ticker; })[0] || {};
+    var html = "";
+    if (company.customers && company.customers.length) {
+      html += card({
+        title: "Biggest customers",
+        body: "<p>" + company.customers.map(esc).join(", ") + '</p><p class="muted">Their capex guidance will appear here after each earnings season.</p>',
+        learn: "When the biggest buyers raise their spending plans, demand for the company's products usually rises with them. That is why analysts listen closely to customer earnings calls."
+      });
+    }
+    html += soon(["Your 7 driver scorecard", "Hyperscaler capex panel", "Supply chain read through (TSMC monthly sales)", "Earnings report card after each quarter"]);
+    el("cards-business").innerHTML = html;
+  }
+
+  /* ---------- Market ---------- */
+
+  function renderMarket(d) {
+    var peers = d.peers || {};
+    var keys = Object.keys(peers).sort(function (a, b) { return (peers[b].change_pct || 0) - (peers[a].change_pct || 0); });
+    var html = "";
+    if (keys.length) {
+      var q = d.quote || {};
+      var all = keys.map(function (k) { return { s: k, c: peers[k].change_pct, p: peers[k].price }; });
+      all.push({ s: d.ticker, c: q.change_pct, p: q.price });
+      all.sort(function (a, b) { return (b.c || 0) - (a.c || 0); });
+      var rank = all.map(function (x) { return x.s; }).indexOf(d.ticker) + 1;
+      html += card({
+        title: "Competitor watch",
+        body: "<p>" + esc(d.ticker) + " ranked " + rank + " of " + all.length + " in this group today.</p><div class=\"rows\">" +
+          all.map(function (x) {
+            var name = x.s === d.ticker ? "<strong>" + esc(x.s) + "</strong>" : esc(x.s);
+            return row(name, arrow(x.c) + pct(x.c), dir(x.c), money(x.p));
+          }).join("") + "</div>",
+        learn: "Comparing with rivals shows whether a move is about the company or the whole industry. If every chip stock fell, the cause is probably sector wide news."
+      });
+    }
+    html += soon(["Analyst upgrades, downgrades and price targets", "Insider sales and fund holdings", "Short interest", "Event calendar"]);
+    el("cards-market").innerHTML = html;
+  }
+
+  /* ---------- My plan ---------- */
+
+  function renderPlan(d) {
+    var today = new Date().toISOString().slice(0, 10);
+    var price = (d.quote || {}).price;
+    var html = card({
+      title: "Log a DCA buy",
+      body: '<div class="grid3"><div><label class="field">Date</label><input type="date" id="dcaDate" value="' + today +
+        '"></div><div><label class="field">Amount $</label><input inputmode="decimal" id="dcaAmount" placeholder="100"></div>' +
+        '<div><label class="field">Price $</label><input inputmode="decimal" id="dcaPrice" value="' + (isNum(price) ? price : "") +
+        '"></div></div><button class="btn" id="dcaAdd">Add buy</button>' +
+        '<p class="muted" style="margin-top:10px">Saved only on this device, because the site itself is public.</p>'
+    });
+    html += '<div id="dcaSummary"></div>';
+    html += card({
+      title: "My stop rules",
+      body: '<textarea id="rules" placeholder="Write the conditions that would make you stop buying or sell."></textarea>',
+      learn: "Writing your sell conditions down before anything happens stops fear or excitement from making the decision for you. Funds call these kill criteria."
+    });
+    el("cards-plan").innerHTML = html;
+
+    var rulesKey = "rules:" + d.ticker;
+    var rulesBox = el("rules");
+    rulesBox.value = store(rulesKey) || "";
+    rulesBox.addEventListener("input", function () { store(rulesKey, rulesBox.value); });
+
+    el("dcaAdd").addEventListener("click", function () {
+      var amount = parseFloat(el("dcaAmount").value), p = parseFloat(el("dcaPrice").value), date = el("dcaDate").value;
+      if (!isNum(amount) || !isNum(p) || amount <= 0 || p <= 0 || !date) return;
+      var list = store("dca:" + d.ticker) || [];
+      list.push({ date: date, amount: amount, price: p });
+      list.sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+      store("dca:" + d.ticker, list);
+      el("dcaAmount").value = "";
+      drawDca(d);
+    });
+    drawDca(d);
+  }
+
+  function drawDca(d) {
+    var list = store("dca:" + d.ticker) || [];
+    var price = (d.quote || {}).price;
+    if (!list.length) { el("dcaSummary").innerHTML = ""; return; }
+    var invested = 0, shares = 0;
+    list.forEach(function (b) { invested += b.amount; shares += b.amount / b.price; });
+    var value = isNum(price) ? shares * price : null;
+    var gain = isNum(value) ? value - invested : null;
+    var gainPct = isNum(gain) ? (gain / invested) * 100 : null;
+    var rows = list.map(function (b, i) {
+      return '<div class="row"><div class="k">' + esc(b.date) + "<small>" + money(b.amount) + " at " + money(b.price) +
+        '</small></div><div class="v num">' + fmt(b.amount / b.price, 4) + ' sh<button class="del" data-del="' + i +
+        '" aria-label="Delete">Delete</button></div></div>';
+    }).join("");
+    el("dcaSummary").innerHTML = card({
+      title: "My position",
+      big: money(value), bigClass: "",
+      sub: '<span class="' + dir(gain) + '">' + arrow(gain) + money(gain).replace("$-", "-$") + " (" + pct(gainPct) + ")</span> on " + money(invested) + " invested",
+      body: '<div class="rows">' + row("Shares", fmt(shares, 4)) + row("Average cost", money(invested / shares)) + "</div>" +
+        '<h2 style="margin-top:16px">Buys</h2><div class="rows">' + rows + "</div>",
+      learn: "With DCA you buy a fixed amount on a schedule, so you buy more shares when the price is low and fewer when it is high. Your average cost ends up below the average price over the period."
+    });
+    el("dcaSummary").querySelectorAll("[data-del]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var i = parseInt(btn.getAttribute("data-del"), 10);
+        var current = store("dca:" + d.ticker) || [];
+        current.splice(i, 1);
+        store("dca:" + d.ticker, current);
+        drawDca(d);
+      });
+    });
+  }
+
+  /* ---------- Tabs, picker and loading ---------- */
+
+  function showTab(name) {
+    state.tab = name;
+    TABS.forEach(function (t) { el("tab-" + t).classList.toggle("active", t === name); });
+    document.querySelectorAll("#tabbar button").forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-tab") === name); });
+    el("topbarTitle").textContent = el("tab-" + name).getAttribute("data-title");
+    window.scrollTo(0, 0);
+    onScroll();
+  }
+
+  function onScroll() { el("topbar").classList.toggle("scrolled", window.scrollY > 40); }
+
+  function renderAll() {
+    var d = state.data;
+    if (!d) return;
+    var active = document.activeElement;
+    if (active && (active.tagName === "INPUT" || active.tagName === "TEXTAREA") && el("cards-today").innerHTML) return;
+    var when = new Date(d.updated_at);
+    el("updated").textContent = d.name + " (" + d.ticker + ") · updated " +
+      when.toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
+    renderToday(d);
+    renderValuation(d);
+    renderBusiness(d);
+    renderMarket(d);
+    renderPlan(d);
+    countUp(document);
+  }
+
+  function renderPicker() {
+    var picker = el("picker");
+    if (state.companies.length < 2) { picker.hidden = true; return; }
+    picker.hidden = false;
+    picker.innerHTML = state.companies.map(function (c) {
+      return '<button data-ticker="' + esc(c.ticker) + '" class="' + (c.ticker === state.ticker ? "on" : "") + '">' + esc(c.ticker) + "</button>";
+    }).join("");
+  }
+
+  function load() {
+    var bust = "?v=" + Date.now();
+    return fetch("data/" + encodeURIComponent(state.ticker) + ".json" + bust, { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("No data file yet for " + state.ticker); return r.json(); })
+      .then(function (d) { state.data = d; renderAll(); })
+      .catch(function (err) { el("updated").textContent = err.message; });
+  }
+
+  function start() {
+    fetch("config/companies.json?v=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (cfg) {
+        state.companies = cfg.companies || [];
+        var fromUrl = new URLSearchParams(location.search).get("t");
+        var saved = store("ticker");
+        var tickers = state.companies.map(function (c) { return c.ticker; });
+        state.ticker = [fromUrl, saved, tickers[0]].filter(function (t) { return t && tickers.indexOf(t) >= 0; })[0];
+        renderPicker();
+        return load();
+      })
+      .catch(function () { el("updated").textContent = "Could not load the settings file."; });
+  }
+
+  el("tabbar").addEventListener("click", function (e) {
+    var btn = e.target.closest("button");
+    if (btn) showTab(btn.getAttribute("data-tab"));
+  });
+
+  el("picker").addEventListener("click", function (e) {
+    var t = e.target.getAttribute("data-ticker");
+    if (!t || t === state.ticker) return;
+    state.ticker = t;
+    store("ticker", t);
+    renderPicker();
+    load();
+  });
+
+  var touch = null;
+  el("main").addEventListener("touchstart", function (e) {
+    if (e.target.closest(".chart, input, textarea, .segmented")) { touch = null; return; }
+    touch = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  }, { passive: true });
+  el("main").addEventListener("touchend", function (e) {
+    if (!touch) return;
+    var dx = e.changedTouches[0].clientX - touch.x, dy = e.changedTouches[0].clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) < 70 || Math.abs(dy) > 50) return;
+    var i = TABS.indexOf(state.tab) + (dx < 0 ? 1 : -1);
+    if (i >= 0 && i < TABS.length) showTab(TABS[i]);
+  }, { passive: true });
+
+  window.addEventListener("scroll", onScroll, { passive: true });
+  document.addEventListener("visibilitychange", function () { if (!document.hidden && state.ticker) load(); });
+  setInterval(function () { if (!document.hidden && state.ticker) load(); }, 5 * 60 * 1000);
+
+  start();
+})();
+</script>
+</body>
+</html>
