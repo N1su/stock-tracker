@@ -1,0 +1,98 @@
+{
+  "ticker": "NVDA",
+  "name": "NVIDIA",
+  "updated_at": "2026-11-14T03:38:42.501735+00:00",
+  "quote": {
+    "price": 162.85,
+    "change": -3.34,
+    "change_pct": -2.0097,
+    "high": 170,
+    "low": 158.39,
+    "open": 169.905,
+    "prev_close": 166.19,
+    "time": "2026-11-13T21:00:00+00:00"
+  },
+  "benchmarks": {
+    "QQQ": {
+      "change_pct": -1.2032,
+      "relative_pct": -0.81
+    },
+    "SOXX": {
+      "change_pct": -3.6712,
+      "relative_pct": 1.66
+    }
+  },
+  "peers": {
+    "AMD": {
+      "price": 534.06,
+      "change_pct": -8.7545
+    },
+    "AVGO": {
+      "price": 347.01,
+      "change_pct": -4.7618
+    },
+    "TSM": {
+      "price": 398.73,
+      "change_pct": -1.6671
+    },
+    "GOOGL": {
+      "price": 295.77,
+      "change_pct": -0.9809
+    }
+  },
+  "valuation": {
+    "forward_eps": 14.45,
+    "forward_pe": 11.3,
+    "next_fiscal_year_end": "2028-01-25",
+    "next_year_revision_30d_pct": null
+  },
+  "estimates": {
+    "fetched_on": "2026-11-14",
+    "years": [
+      {
+        "fiscal_year_end": "2027-01-25",
+        "eps_avg": 9.29053,
+        "eps_low": 9.01051,
+        "eps_high": 9.71055,
+        "revenue_avg": 410016215102,
+        "analysts_eps": 33
+      },
+      {
+        "fiscal_year_end": "2028-01-25",
+        "eps_avg": 15.71186,
+        "eps_low": 13.93504,
+        "eps_high": 17.00954,
+        "revenue_avg": 692708909588,
+        "analysts_eps": 33
+      },
+      {
+        "fiscal_year_end": "2029-01-25",
+        "eps_avg": 21.38262,
+        "eps_low": 13.92443,
+        "eps_high": 27.2521,
+        "revenue_avg": 925282258078,
+        "analysts_eps": 20
+      }
+    ]
+  },
+  "eps_history": [
+    {
+      "date": "2026-11-14",
+      "eps": {
+        "2027-01-25": 9.29053,
+        "2028-01-25": 15.71186,
+        "2029-01-25": 21.38262
+      }
+    }
+  ],
+  "brief": {
+    "lines": [
+      "NVIDIA fell 2.01 percent to close at $162.85 after moving between a low of $158.39 and a high of $170.",
+      "This drop trailed the QQQ decline of 1.20 percent, but it held up better than the SOXX semiconductor index decline of 3.67 percent and peers like AMD and Broadcom.",
+      "For long term investors, the stock trades at 11.3 times forward earnings with projected earnings of $14.45 per share for the fiscal year ending January 25, 2028."
+    ],
+    "model": "gemini-3.8-flash",
+    "total_tokens": 2040
+  },
+  "errors": []
+}
