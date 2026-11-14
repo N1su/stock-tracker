@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-14T08:08:19.900108+00:00",
+ "updated_at": "2026-11-14T08:13:46.804723+00:00",
  "daily_done": "2026-11-14",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-14T08:08:19.898833+00:00"
+  "checked": "2026-11-14T08:13:46.803442+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -5396,6 +5396,44 @@
     "importance": "high",
     "topic": "regulation",
     "story": "alice-huang-chinese-rival"
+   },
+   "b04bc1a73071": {
+    "id": "b04bc1a73071",
+    "headline": "FormFactor (FORM) Dropped, So What Is Behind The Move?",
+    "summary": "FormFactor (FORM) moved back into focus after a rough session for semiconductor stocks, as investors reacted to Nvidia CEO Jensen Huang’s resignation and reassessed exposure across the artificial-intelligence supply chain. FormFactor’s share price closed at $87.53 after a 1-day share price return t…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/formfactor-form-dropped-behind-move-051120513.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T05:11:20+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T08:13:46.804723+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "FormFactor shares fell as market participants reviewed chip supply chains following Jensen Huang resigning. The report focuses on FormFactor rather than providing new information about Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "supply_chain",
+    "story": "jensen-huang-steps-down"
+   },
+   "57f407839d9c": {
+    "id": "57f407839d9c",
+    "headline": "Read Huang's email to his staff and statement from Nvidia's board of directors",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMlpNM1NTcjhpWU5kMWcxbWhnQmh4SnZFTWU4My1EV1RvNGRNdHR2bUtXckstZlJTWmc3a1Nqeng1SjB1RjQ4UkZKakdTLWdxdkwzYV81ckhEU1R5TUtTRmFhaEd0NW0wcXdZdXJkNGc4R19iN1FoOXg4ZWZXODdaZmZnZWNMbk42Y09PdHdiZmZjaGlFS2fSAZsBQVVfeXFMTzdESkZHb00yRHVFMHhXUkoyeUYzMnpaa2hTN3NsZ3I4Q1R6cDdiS2o5Zjdyaks0Unh3V0o2ZTBSRGxBek13NU9Sc2JOU1BIYnIyU25xRUJtTnFsbEF6dXBZVjFLSkFHa0k5NGc3UXNWR2ZTZlI5TXM5aVdUQ1N5VDBYYVYyRjZxbU0wRDNQZ0hoSmdoUzhJemtYTXM?oc=5",
+    "image": null,
+    "published": "2026-11-08T21:50:38+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T08:13:46.804723+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Jensen Huang sent a farewell note to staff alongside a statement released by the company board. These messages provide official context regarding the sudden leadership transition at the chipmaker.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    }
   },
   "story_titles": {
@@ -5419,7 +5457,7 @@
     "topic": "valuation",
     "latest": "2026-11-14T06:49:02+00:00",
     "first_seen": "2026-11-14T04:26:00.967161+00:00",
-    "count": 31,
+    "count": 32,
     "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
     "sources": [
      {
@@ -5471,7 +5509,7 @@
       "published": "2026-11-13T01:17:00+00:00"
      }
     ],
-    "score": 91.89
+    "score": 93.88
    },
    {
     "key": "huang-relationship-investigation",
@@ -5516,7 +5554,7 @@
       "published": "2026-11-08T20:01:02+00:00"
      }
     ],
-    "score": 45.84
+    "score": 45.83
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -5549,7 +5587,7 @@
       "published": "2026-11-09T16:02:52+00:00"
      }
     ],
-    "score": 37.32
+    "score": 37.31
    },
    {
     "key": "alice-huang-chinese-rival",
@@ -5597,7 +5635,7 @@
       "published": "2026-11-14T06:20:35+00:00"
      }
     ],
-    "score": 11.85
+    "score": 11.84
    },
    {
     "key": "simons-firm-sells-nvidia",
@@ -5618,19 +5656,19 @@
       "published": "2026-11-14T04:33:00+00:00"
      }
     ],
-    "score": 11.7
+    "score": 11.69
    }
   ],
   "mood_7d": {
    "positive": 1,
    "neutral": 0,
-   "negative": 46
+   "negative": 47
   },
   "sentiment_avg": null,
   "by_provider": {
    "finnhub": 1,
    "yahoo": 11,
-   "google": 35
+   "google": 36
   },
   "market": [
    {
@@ -5848,29 +5886,30 @@
  "brief": {
   "mood": "Under pressure",
   "tone": "negative",
-  "headline": "Nvidia stock slid after Jensen Huang left his role amid federal inquiries.",
+  "headline": "Nvidia dropped as Chief Executive Officer Jensen Huang departed amid federal investigations.",
   "sentences": [
    {
-    "text": "Nvidia shares dropped 2.01 percent to close at 162.85 dollars.",
+    "text": "Nvidia fell 2.01 percent today to 162.85 dollars and trades 33.1 percent below its 52 week high.",
     "stories": []
    },
    {
-    "text": "The decline follows news that Jensen Huang left his post as chief executive during a federal inquiry into his ties to China.",
+    "text": "Investors reacted to Jensen Huang stepping down from his leadership post alongside news of an FBI inquiry into his ties.",
     "stories": [
      "jensen-huang-steps-down",
      "huang-relationship-investigation"
     ]
    },
    {
-    "text": "Long term investors now face substantial uncertainty around future company leadership and ongoing government reviews.",
+    "text": "Long term shareholders now face sudden management turnover and expanded government scrutiny over past chip deals.",
     "stories": [
      "jensen-huang-steps-down",
-     "us-scrutiny-nvidia-chips"
+     "us-scrutiny-nvidia-chips",
+     "alice-huang-chinese-rival"
     ]
    }
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T08:04:35.651716+00:00"
+  "written_at": "2026-11-14T08:13:46.804723+00:00"
  },
  "outlook": {
   "summary": "Nvidia faces significant uncertainty after its chief executive resigned. The business is also dealing with federal investigations regarding past chip sales to China. Investors will look to the upcoming November earnings report for guidance on how the company plans to navigate these leadership and legal challenges.",
@@ -5993,8 +6032,8 @@
  "usage": {
   "today": {
    "date": "2026-11-14",
-   "runs": 7,
-   "ai_tokens": 90380
+   "runs": 8,
+   "ai_tokens": 95947
   }
  },
  "errors": []
