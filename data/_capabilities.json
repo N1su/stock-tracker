@@ -1,11 +1,19 @@
 {
  "finnhub.market_status": {
   "status": "ok",
-  "checked": "2026-11-14"
+  "checked": "2026-11-14",
+  "v": 2,
+  "last_ok": {
+   "_all": "2026-11-14T04:38:45.963471+00:00"
+  }
  },
  "finnhub.quote": {
   "status": "ok",
-  "checked": "2026-11-14"
+  "checked": "2026-11-14",
+  "v": 2,
+  "last_ok": {
+   "_all": "2026-11-14T04:38:46.337074+00:00"
+  }
  },
  "finnhub.profile": {
   "status": "ok",
@@ -89,15 +97,40 @@
  },
  "finnhub.company_news": {
   "status": "ok",
-  "checked": "2026-11-14"
+  "checked": "2026-11-14",
+  "v": 2,
+  "last_ok": {
+   "_all": "2026-11-14T04:38:46.422066+00:00"
+  }
  },
  "fmp.news": {
   "status": "plan_limited",
   "checked": "2026-11-14",
+  "v": 2,
   "note": "402 Restricted Endpoint: This endpoint is not available under your current subscription please visit our subscription page to upgrade your plan at https://finan"
  },
  "finnhub.market_news": {
   "status": "ok",
-  "checked": "2026-11-14"
+  "checked": "2026-11-14",
+  "v": 2,
+  "last_ok": {
+   "_all": "2026-11-14T04:40:28.525590+00:00"
+  }
+ },
+ "rss.yahoo": {
+  "status": "ok",
+  "checked": "2026-11-14",
+  "v": 2,
+  "last_ok": {
+   "NVDA": "2026-11-14T04:38:46.620174+00:00"
+  }
+ },
+ "rss.google": {
+  "status": "ok",
+  "checked": "2026-11-14",
+  "v": 2,
+  "last_ok": {
+   "NVDA": "2026-11-14T04:38:47.090446+00:00"
+  }
  }
 }
