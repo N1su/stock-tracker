@@ -17,6 +17,7 @@ Which endpoints work on the free plans is remembered in data/_capabilities.json.
 """
 
 import json
+import math
 import os
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -127,6 +128,33 @@ def merge_series(old, new, limit=400):
     by_date = {d: c for d, c in old or [] if c}
     by_date.update({d: c for d, c in new or [] if c})
     return [[d, by_date[d]] for d in sorted(by_date)][-limit:]
+
+
+def adjust_splits(series, symbol, splits):
+    """Puts prices from before a known split on the new share scale.
+
+    splits comes from the settings file, for example
+    {"symbol": "SOXX", "date": "2026-11-05", "ratio": 3} for a 3 for 1 split.
+    Prices dated before the split are divided by the ratio, but only while the
+    series still shows the jump (checked on the last price before the split and
+    the first price after it), so running this again never divides twice."""
+    series = [list(p) for p in series or [] if isinstance(p, (list, tuple)) and len(p) == 2 and p[1]]
+    for split in splits or []:
+        if not isinstance(split, dict) or split.get("symbol") != symbol:
+            continue
+        when, ratio = split.get("date"), split.get("ratio")
+        if not isinstance(when, str) or not isinstance(ratio, (int, float)) or ratio <= 0 or ratio == 1:
+            continue
+        before = [p for p in series if p[0] < when]
+        after = [p for p in series if p[0] >= when]
+        if not before or not after:
+            continue
+        jump = before[-1][1] / after[0][1]
+        # Adjust only when the jump is closer to the split ratio than to no change.
+        if jump <= 0 or abs(math.log(jump / ratio)) >= abs(math.log(jump)):
+            continue
+        series = [[d, round(c / ratio, 4)] for d, c in before] + after
+    return series
 
 
 def recurring_dates(events, days_ahead=75):
@@ -324,9 +352,14 @@ def update_company(company, config, src, ai, market):
     # and each run adds the live quote so the series keeps growing even without it.
     quote_day = (quote.get("time") or now_iso)[:10]
     bench_series = dict(history.get("benchmarks", {}))
+    splits = config.get("splits") or []
     for symbol, b in benchmarks.items():
         points = src.safe("alphavantage.daily", src.alpha_daily, symbol, min_hours=20, cache_key=symbol)
-        bench_series[symbol] = merge_series(bench_series.get(symbol), (points or []) + [[quote_day, b["price"]]])
+        # Alpha Vantage free prices are not split adjusted, so fix the saved history and the new
+        # download separately before merging them.
+        saved = adjust_splits(bench_series.get(symbol), symbol, splits)
+        fresh = adjust_splits((points or []) + [[quote_day, b["price"]]], symbol, splits)
+        bench_series[symbol] = merge_series(saved, fresh)
     history = {**history, "benchmarks": bench_series}
 
     # ----- valuation ----------------------------------------------------------
