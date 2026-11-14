@@ -1,13 +1,40 @@
 {
-  "model": "gemini-3.8-flash",
-  "max_tokens": 2000,
+  "ai": {
+    "fast_model": "gemini-3.8-flash",
+    "deep_model": "gemini-3.1-pro-preview",
+    "news_tokens": 8000,
+    "brief_tokens": 4000,
+    "outlook_tokens": 8000
+  },
   "companies": [
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
+      "news_query": "Nvidia",
       "benchmarks": ["QQQ", "SOXX"],
+      "benchmark_names": {
+        "QQQ": "Nasdaq 100 fund",
+        "SOXX": "Chip sector fund"
+      },
       "peers": ["AMD", "AVGO", "TSM", "GOOGL"],
-      "customers": ["MSFT", "GOOGL", "AMZN", "META"]
+      "customers": ["MSFT", "GOOGL", "AMZN", "META"],
+      "drivers": [
+        "AI demand",
+        "CUDA software lock",
+        "Supply lock at TSMC",
+        "Market share",
+        "Gross margins",
+        "China",
+        "Leadership and Washington"
+      ],
+      "recurring_events": [
+        {
+          "label": "TSMC monthly sales",
+          "day_of_month": 10,
+          "kind": "supply_chain",
+          "why": "Early read on chip demand"
+        }
+      ]
     }
   ]
 }
