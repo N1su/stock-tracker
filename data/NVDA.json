@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-14T08:04:35.651716+00:00",
+ "updated_at": "2026-11-14T08:08:19.900108+00:00",
  "daily_done": "2026-11-14",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-14T08:04:35.649698+00:00"
+  "checked": "2026-11-14T08:08:19.898833+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -5516,7 +5516,7 @@
       "published": "2026-11-08T20:01:02+00:00"
      }
     ],
-    "score": 45.85
+    "score": 45.84
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -5576,7 +5576,7 @@
       "published": "2026-11-10T10:41:00+00:00"
      }
     ],
-    "score": 31.01
+    "score": 31.0
    },
    {
     "key": "agile-robots-funding",
@@ -5618,7 +5618,7 @@
       "published": "2026-11-14T04:33:00+00:00"
      }
     ],
-    "score": 11.71
+    "score": 11.7
    }
   ],
   "mood_7d": {
@@ -5993,7 +5993,7 @@
  "usage": {
   "today": {
    "date": "2026-11-14",
-   "runs": 6,
+   "runs": 7,
    "ai_tokens": 90380
   }
  },
