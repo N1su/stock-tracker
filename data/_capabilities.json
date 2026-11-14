@@ -1,0 +1,103 @@
+{
+ "finnhub.market_status": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.quote": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.profile": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.basic_financials": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.ratios_ttm": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.key_metrics_ttm": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.quarterly_income": {
+  "status": "plan_limited",
+  "checked": "2026-11-14",
+  "note": "402 Premium Query Parameter: 'Special Parameters : The values for 'limit' must be between 0 and 5 based on your current subscription. Please visit our subscript"
+ },
+ "finnhub.recommendation_trends": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.grades_consensus": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.latest_grades": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.upgrades_downgrades": {
+  "status": "plan_limited",
+  "checked": "2026-11-14",
+  "note": "403 {\"error\":\"You don't have access to this resource.\"}"
+ },
+ "fmp.price_target_consensus": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.price_target_summary": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.earnings_calendar": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.earnings_history": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.insider_transactions": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "finnhub.insider_sentiment": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.analyst_estimates": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.price_history": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.price_history_etf": {
+  "status": "plan_limited",
+  "checked": "2026-11-14",
+  "note": "402 Premium Query Parameter: 'Special Endpoint : This value set for 'symbol' is not available under your current subscription please visit our subscription page"
+ },
+ "fmp.press_releases": {
+  "status": "plan_limited",
+  "checked": "2026-11-14",
+  "note": "402 Restricted Endpoint: This endpoint is not available under your current subscription please visit our subscription page to upgrade your plan at https://finan"
+ },
+ "finnhub.company_news": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ },
+ "fmp.news": {
+  "status": "plan_limited",
+  "checked": "2026-11-14",
+  "note": "402 Restricted Endpoint: This endpoint is not available under your current subscription please visit our subscription page to upgrade your plan at https://finan"
+ },
+ "finnhub.market_news": {
+  "status": "ok",
+  "checked": "2026-11-14"
+ }
+}
