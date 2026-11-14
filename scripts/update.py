@@ -3,12 +3,13 @@
 Runs from GitHub Actions. For every company in config/companies.json it:
 
   every run    market status, quotes for the company, benchmarks and peers,
-               company news from Finnhub and FMP, AI sorting of new headlines,
-               and the 30 second brief when something changed
+               news from Finnhub, Yahoo Finance and Google News (plus Alpha
+               Vantage every few hours), AI sorting of new headlines, and the
+               30 second brief when something changed
   once a day   profile, key metrics, analyst ratings, grades and price targets,
                estimates, earnings history and calendar, customer earnings dates,
                insider trades, valuation ratios, quarterly results, a year of
-               daily prices, and the AI outlook
+               daily prices for the company and its benchmark funds, and the AI outlook
   big news     the outlook is rewritten early when a new high importance story lands
 
 Everything is saved to data/<TICKER>.json for the app page.
@@ -22,7 +23,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from ai import AI, AIError
-from sources import Sources, days_ago_iso, merge_news, number, today_iso, utc_now
+from sources import Sources, days_ago_iso, headline_key, merge_news, number, today_iso, utc_now
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "companies.json"
@@ -36,6 +37,8 @@ MAX_SORT_ATTEMPTS = 3
 BRIEF_MAX_AGE_HOURS = 6
 MAX_OUTLOOKS_PER_DAY = 4
 IMPORTANCE_WEIGHT = {"high": 3, "medium": 2, "low": 1}
+ALPHA_NEWS_HOURS_PER_COMPANY = 2
+EARNINGS_HOURS = {"amc": "after the US close", "bmo": "before the US open", "dmh": "during US trading hours"}
 
 
 # ---------------------------------------------------------------------------
@@ -117,6 +120,13 @@ def insider_summary(transactions, days=90):
             buyers.add(t.get("name"))
     return {"days": days, "sold_usd": round(sold), "bought_usd": round(bought),
             "sellers": len(sellers), "buyers": len(buyers)}
+
+
+def merge_series(old, new, limit=400):
+    """Combine two [[date, close], ...] lists, newer values win."""
+    by_date = {d: c for d, c in old or [] if c}
+    by_date.update({d: c for d, c in new or [] if c})
+    return [[d, by_date[d]] for d in sorted(by_date)][-limit:]
 
 
 def recurring_dates(events, days_ahead=75):
@@ -290,20 +300,17 @@ def update_company(company, config, src, ai, market):
             eps_history = update_eps_history(eps_history, today, years)
 
         company_prices = src.safe("fmp.price_history", src.price_history, ticker)
-        bench_prices = dict(history.get("benchmarks", {}))
-        for symbol in company.get("benchmarks", []):
-            points = src.safe("fmp.price_history_etf", src.price_history, symbol)
-            if points:
-                bench_prices[symbol] = [[p["date"], p["close"]] for p in points]
-        history = {"company": company_prices or history.get("company", []), "benchmarks": bench_prices}
+        history = {"company": company_prices or history.get("company", []),
+                   "benchmarks": dict(history.get("benchmarks", {}))}
 
         press = src.safe("fmp.press_releases", src.press_releases, ticker) or press
 
         catalysts = []
         if earnings.get("next"):
             n = earnings["next"]
+            when = EARNINGS_HOURS.get(n.get("hour"), "time not confirmed")
             catalysts.append({"date": n["date"], "label": f"{ticker} earnings", "kind": "earnings",
-                              "approx": False, "why": f"Results and guidance. Hour: {n.get('hour') or 'not set'}"})
+                              "approx": False, "why": f"Quarterly results and guidance, {when}"})
         for customer in company.get("customers", []):
             rows = src.safe("finnhub.earnings_calendar", src.earnings_calendar, customer) or []
             upcoming = next((r for r in rows if (r.get("date") or "") >= today), None)
@@ -312,6 +319,15 @@ def update_company(company, config, src, ai, market):
                                   "approx": False, "why": "Watch its spending plans for AI chips"})
         catalysts += recurring_dates(company.get("recurring_events"))
         catalysts.sort(key=lambda c: c["date"])
+
+    # Fund price history: Alpha Vantage at most once a day per fund (it allows 25 calls a day),
+    # and each run adds the live quote so the series keeps growing even without it.
+    quote_day = (quote.get("time") or now_iso)[:10]
+    bench_series = dict(history.get("benchmarks", {}))
+    for symbol, b in benchmarks.items():
+        points = src.safe("alphavantage.daily", src.alpha_daily, symbol, min_hours=20, cache_key=symbol)
+        bench_series[symbol] = merge_series(bench_series.get(symbol), (points or []) + [[quote_day, b["price"]]])
+    history = {**history, "benchmarks": bench_series}
 
     # ----- valuation ----------------------------------------------------------
     years = estimates.get("years", [])
@@ -333,6 +349,8 @@ def update_company(company, config, src, ai, market):
         "fcf_yield_pct": round(key_metrics["freeCashFlowYieldTTM"] * 100, 2) if key_metrics.get("freeCashFlowYieldTTM") else None,
         "ev_ebitda": number(key_metrics.get("evToEBITDATTM")),
         "target_upside_pct": round((target_mid / quote["price"] - 1) * 100, 1) if target_mid else None,
+        "target_last_month_avg": number((analysts.get("price_target_summary") or {}).get("lastMonthAvgPriceTarget")),
+        "target_last_month_count": (analysts.get("price_target_summary") or {}).get("lastMonthCount"),
     }
     valuation_history = [v for v in prev.get("valuation_history", []) if v.get("date") != today]
     if valuation["forward_pe"]:
@@ -349,16 +367,28 @@ def update_company(company, config, src, ai, market):
     old_news = prev.get("news", {})
     items = dict(old_news.get("items", {}))
     titles = dict(old_news.get("story_titles", {}))
-    fetched = merge_news(
-        src.safe("finnhub.company_news", src.company_news, ticker, NEWS_DAYS, default=[]),
-        src.safe("fmp.news", src.fmp_news, ticker, default=[]),
-    )
-    known_titles = {(v.get("headline") or "").lower() for v in items.values()}
+    query = company.get("news_query") or company.get("name") or ticker
+    alpha_hours = ALPHA_NEWS_HOURS_PER_COMPANY * max(1, len(config["companies"]))
+    feeds = {
+        "finnhub": src.safe("finnhub.company_news", src.company_news, ticker, NEWS_DAYS, default=[]),
+        "alphavantage": src.safe("alphavantage.news", src.alpha_news, ticker, default=[],
+                                 min_hours=alpha_hours, cache_key=ticker),
+        "yahoo": src.safe("rss.yahoo", src.yahoo_rss, ticker, default=[], cache_key=ticker),
+        "google": src.safe("rss.google", src.google_news_rss, query, default=[], cache_key=ticker),
+        "fmp": src.safe("fmp.news", src.fmp_news, ticker, default=[]),
+    }
+    fetched = merge_news(*feeds.values())
+    known_keys = {headline_key(v.get("headline")) for v in items.values()}
+    added = 0
     for item in fetched:
-        if item["id"] in items or item["headline"].lower() in known_titles:
+        key = headline_key(item["headline"])
+        if item["id"] in items or key in known_keys:
             continue
+        known_keys.add(key)
         items[item["id"]] = {**item, "first_seen": now_iso, "sorted": False, "sort_attempts": 0}
+        added += 1
     items = prune_items(items)
+    print(f"{ticker} news fetched: " + ", ".join(f"{k} {len(v)}" for k, v in feeds.items()) + f" | new {added}")
 
     pending = sorted((i for i in items.values() if not i.get("sorted")),
                      key=lambda i: i.get("published") or "", reverse=True)[:MAX_NEW_ITEMS_PER_RUN]
@@ -398,6 +428,13 @@ def update_company(company, config, src, ai, market):
     mood_counts = {"positive": 0, "neutral": 0, "negative": 0}
     for s in stories:
         mood_counts[s["impact"]] = mood_counts.get(s["impact"], 0) + s["count"]
+    scores = [i["sentiment_score"] for i in items.values()
+              if i.get("relevant") and isinstance(i.get("sentiment_score"), (int, float))]
+    sentiment_avg = round(sum(scores) / len(scores), 3) if scores else None
+    by_source = {}
+    for i in items.values():
+        if i.get("relevant"):
+            by_source[i.get("provider", "other")] = by_source.get(i.get("provider", "other"), 0) + 1
 
     # ----- AI brief and outlook ------------------------------------------------
     facts = {
@@ -416,6 +453,8 @@ def update_company(company, config, src, ai, market):
         "eps_revision_30d_pct": valuation["next_year_revision_30d_pct"],
         "analyst_price_target_consensus": target_mid,
         "upside_to_target_pct": valuation["target_upside_pct"],
+        "price_target_note": "Many targets may predate recent price moves; compare with last month's average.",
+        "price_target_last_month_avg": valuation["target_last_month_avg"],
         "next_earnings": earnings.get("next"),
     }
     top = story_digest(stories, 8)
@@ -491,6 +530,8 @@ def update_company(company, config, src, ai, market):
             "story_titles": titles,
             "stories": stories,
             "mood_7d": mood_counts,
+            "sentiment_avg": sentiment_avg,
+            "by_provider": by_source,
             "market": market_news,
         },
         "major_events": major_events,
@@ -520,9 +561,9 @@ def read_config():
     config["ai"] = {
         "fast_model": fast,
         "deep_model": ai_conf.get("deep_model") or fast,
-        "news_tokens": int(ai_conf.get("news_tokens") or 6000),
-        "brief_tokens": int(ai_conf.get("brief_tokens") or config.get("max_tokens") or 2500),
-        "outlook_tokens": int(ai_conf.get("outlook_tokens") or 6000),
+        "news_tokens": int(ai_conf.get("news_tokens") or 8000),
+        "brief_tokens": max(4000, int(ai_conf.get("brief_tokens") or 0)),
+        "outlook_tokens": int(ai_conf.get("outlook_tokens") or 8000),
     }
     return config
 
@@ -531,7 +572,10 @@ def main():
     config = read_config()
     DATA_DIR.mkdir(exist_ok=True)
     capabilities = load_json(CAPABILITIES_PATH, {})
-    src = Sources(get_key("FINNHUB_KEY"), get_key("FMP_KEY"), capabilities)
+    alpha_key = os.environ.get("ALPHAVANTAGE_KEY", "").strip()
+    if not alpha_key:
+        print("note: no ALPHAVANTAGE_KEY set, so Alpha Vantage news and fund prices are skipped")
+    src = Sources(get_key("FINNHUB_KEY"), get_key("FMP_KEY"), capabilities, alpha_key=alpha_key)
     ai = AI(get_key("HKBU_GENAI_API_KEY"), config["ai"]["fast_model"], config["ai"]["deep_model"])
 
     market = src.safe("finnhub.market_status", src.market_status, default={}) or {}
@@ -550,6 +594,7 @@ def main():
 
     save_json(CAPABILITIES_PATH, src.capabilities)
     print("API calls this run:", dict(src.calls), "| AI tokens:", dict(ai.tokens))
+    print("items returned:", src.sizes)
     for problem in src.problems:
         print("note:", problem)
     if failed == len(config["companies"]):
