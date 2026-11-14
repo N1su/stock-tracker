@@ -6,6 +6,14 @@
     "brief_tokens": 4000,
     "outlook_tokens": 8000
   },
+  "splits": [
+    {
+      "symbol": "SOXX",
+      "date": "2026-11-05",
+      "ratio": 3,
+      "note": "3 for 1 split, iShares filing of 23 Oct 2026"
+    }
+  ],
   "companies": [
     {
       "ticker": "NVDA",
