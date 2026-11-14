@@ -1,0 +1,13 @@
+{
+  "model": "gemini-3.8-flash",
+  "max_tokens": 2000,
+  "companies": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "benchmarks": ["QQQ", "SOXX"],
+      "peers": ["AMD", "AVGO", "TSM", "GOOGL"],
+      "customers": ["MSFT", "GOOGL", "AMZN", "META"]
+    }
+  ]
+}
