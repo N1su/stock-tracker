@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-14T04:38:45.964375+00:00",
+ "updated_at": "2026-11-14T04:42:46.406876+00:00",
  "daily_done": "2026-11-14",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-14T04:38:45.963452+00:00"
+  "checked": "2026-11-14T04:42:46.405830+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -3567,8 +3567,14 @@
     "published": "2026-11-14T04:24:53+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Prominent business figures joined about 36,000 individuals signing a petition to restore Jensen Huang as chief executive. Broad public support highlights confidence in his leadership, but the board retains full control over hiring decisions.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "8f8dc7ca0e4d": {
     "id": "8f8dc7ca0e4d",
@@ -3580,8 +3586,14 @@
     "published": "2026-11-14T04:20:05+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "693f0cb11288": {
     "id": "693f0cb11288",
@@ -3593,8 +3605,14 @@
     "published": "2026-11-14T02:20:02+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "f81606845f3a": {
     "id": "f81606845f3a",
@@ -3606,8 +3624,14 @@
     "published": "2026-11-14T01:50:29+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "0d54d40a6a88": {
     "id": "0d54d40a6a88",
@@ -3619,8 +3643,14 @@
     "published": "2026-11-14T01:00:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Elon Musk is supporting an effort to reinstate Jensen Huang as head of the company. Any leadership change requires formal approval from directors, prolonging uncertainty over who will guide the firm.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "fe599c14f7a9": {
     "id": "fe599c14f7a9",
@@ -3632,8 +3662,14 @@
     "published": "2026-11-14T00:55:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "7633e93ecc09": {
     "id": "7633e93ecc09",
@@ -3645,8 +3681,14 @@
     "published": "2026-11-14T00:47:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Jensen Huang resigned on Thursday without a permanent replacement in place. Historical data indicates that shares often underperform the wider market following the forced departure of a successful chief executive.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "67f468330e76": {
     "id": "67f468330e76",
@@ -3658,8 +3700,14 @@
     "published": "2026-11-14T00:41:41+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "3672ef794cd3": {
     "id": "3672ef794cd3",
@@ -3671,8 +3719,14 @@
     "published": "2026-11-14T00:35:01+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "fa35f7c69751": {
     "id": "fa35f7c69751",
@@ -3684,8 +3738,14 @@
     "published": "2026-11-14T00:27:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
    },
    "445c7ad74904": {
     "id": "445c7ad74904",
@@ -3697,8 +3757,14 @@
     "published": "2026-11-13T23:55:29+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Government officials Scott Bessent and Howard Lutnick disagreed over Nvidia chips and Megaspeed. Deepening federal scrutiny over chip sales could lead to tighter rules for the business.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "regulation",
+    "story": "us-scrutiny-nvidia-chips"
    },
    "788712e5d309": {
     "id": "788712e5d309",
@@ -3710,8 +3776,14 @@
     "published": "2026-11-13T23:48:45+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Super Micro stated that Megaspeed was never a client and defended its actions to Singapore officials. The probe into server sales could impact key partnerships in the Nvidia ecosystem.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "supply_chain",
+    "story": "us-scrutiny-nvidia-chips"
    },
    "60f45353cde4": {
     "id": "60f45353cde4",
@@ -3723,8 +3795,14 @@
     "published": "2026-11-13T23:37:29+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia suffered its steepest weekly stock drop since April of the prior year as leadership changes began. Investors are anxious about company direction while the board searches for a new chief executive.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "36bf8a6e7466": {
     "id": "36bf8a6e7466",
@@ -3736,8 +3814,14 @@
     "published": "2026-11-13T23:37:02+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": false,
+    "ai_summary": "Sandisk shares dropped below 900 dollars on Friday without any change in its corporate forecast. This update focuses on Sandisk and does not directly affect Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "sandisk-stock-decline"
    },
    "85e661c255fc": {
     "id": "85e661c255fc",
@@ -3749,8 +3833,14 @@
     "published": "2026-11-13T22:28:05+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Media reports examined a turbulent week of leadership shakeups and controversies at the chipmaker. Persistent turmoil can hurt market confidence and distract staff from key product goals.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "4022a5b99b7c": {
     "id": "4022a5b99b7c",
@@ -3762,8 +3852,14 @@
     "published": "2026-11-13T21:04:43+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Jensen Huang exited the company while political scrutiny in Washington continues to mount. Ongoing governmental inquiries could bring stricter oversight to future operations.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "regulation",
+    "story": "jensen-huang-steps-down"
    },
    "1fbb571634b9": {
     "id": "1fbb571634b9",
@@ -3775,8 +3871,14 @@
     "published": "2026-11-13T19:18:19+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "The board confirmed it has not yet hired a firm to find a permanent replacement for Jensen Huang. An extended leadership search prolongs uncertainty about who will guide corporate strategy.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "922b4bb41778": {
     "id": "922b4bb41778",
@@ -3788,8 +3890,14 @@
     "published": "2026-11-13T15:07:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Commentators argued that finding a single executive capable of replacing Jensen Huang will be extremely difficult. The unique demands of the top job make selecting the right successor critical for future growth.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "1e98c5163b4f": {
     "id": "1e98c5163b4f",
@@ -3801,8 +3909,14 @@
     "published": "2026-11-13T13:38:49+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Analysts reviewed the aftermath of recent corporate scandals and what lies ahead for the technology firm. Resolving these controversies is vital for stabilizing the business and reassuring shareholders.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "d16821d24b58": {
     "id": "d16821d24b58",
@@ -3814,8 +3928,14 @@
     "published": "2026-11-13T12:54:43+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Jensen Huang has left his role as head of Nvidia, raising questions about future artificial intelligence investments. Investors are closely watching how funding for artificial intelligence projects proceeds without him.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "6d69b018f2e1": {
     "id": "6d69b018f2e1",
@@ -3827,8 +3947,14 @@
     "published": "2026-11-13T12:07:12+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia announced that its chief executive has departed the company. A change at the top can disrupt corporate strategy and operations.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "a3b29d8adbf3": {
     "id": "a3b29d8adbf3",
@@ -3840,8 +3966,14 @@
     "published": "2026-11-13T02:00:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Reports state Jensen Huang criticized the executive who is taking his place prior to his removal. Friction between leaders can make the management transition turbulent.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "f2ff7e6cff88": {
     "id": "f2ff7e6cff88",
@@ -3853,8 +3985,14 @@
     "published": "2026-11-13T01:17:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia workers started a petition requesting the return of Jensen Huang. Internal pushback can hurt workforce morale and hinder new management.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "bbc417cf41fa": {
     "id": "bbc417cf41fa",
@@ -3866,8 +4004,14 @@
     "published": "2026-11-13T00:13:11+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Donald Trump reportedly advised Jensen Huang to contest his removal from Nvidia. High profile attention shows the strong interest in the leadership of the chip company.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "cfa48756a1be": {
     "id": "cfa48756a1be",
@@ -3879,8 +4023,14 @@
     "published": "2026-11-12T20:10:49+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Reports linked Alice Huang to the largest Chinese competitor of Nvidia. Greater scrutiny over connections to foreign rivals can create competitive and regulatory pressure.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "competition",
+    "story": "alice-huang-chinese-rival"
    },
    "df329efbd381": {
     "id": "df329efbd381",
@@ -3892,8 +4042,14 @@
     "published": "2026-11-12T19:27:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Sources state the former Nvidia chief executive had a relationship with a second coworker. Continued workplace conduct reports can cause ongoing governance headaches for the company.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "d3ee8ab6e08b": {
     "id": "d3ee8ab6e08b",
@@ -3905,8 +4061,14 @@
     "published": "2026-11-12T16:09:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia has removed Jensen Huang from his role as chief executive. The loss of its longtime founder introduces major strategic uncertainty.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "ba2a83ddb727": {
     "id": "ba2a83ddb727",
@@ -3918,8 +4080,14 @@
     "published": "2026-11-12T15:45:33+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "The exit of Jensen Huang has brought uncertainty to the artificial intelligence industry. Shifts in corporate leadership may alter investor sentiment across the broader technology space.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "1073a1cde679": {
     "id": "1073a1cde679",
@@ -3931,8 +4099,14 @@
     "published": "2026-11-12T14:17:20+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Chief Executive Jensen Huang has left his role following accusations involving an alleged espionage scandal. His exit creates major uncertainty at the top of the chipmaker.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "b0c42bf4091b": {
     "id": "b0c42bf4091b",
@@ -3944,8 +4118,14 @@
     "published": "2026-11-12T13:52:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Jensen Huang resigned as chief executive officer of the chipmaker. Losing the key figure behind the company expansion in artificial intelligence raises questions about future direction.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "5e0bbd92cc9b": {
     "id": "5e0bbd92cc9b",
@@ -3957,8 +4137,14 @@
     "published": "2026-11-12T11:50:34+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Company directors evaluated the status of Chief Executive Jensen Huang as management turmoil worsened. Instability at the very top of the firm worries shareholders.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "16a9e1ffbca3": {
     "id": "16a9e1ffbca3",
@@ -3970,8 +4156,14 @@
     "published": "2026-11-12T09:02:10+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Shares dropped over 4% after Chief Executive Jensen Huang announced his departure. The market reaction shows immediate investor anxiety about executive turnover.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "6d42329604fd": {
     "id": "6d42329604fd",
@@ -3983,8 +4175,14 @@
     "published": "2026-11-11T22:43:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Jensen Huang stepped down from the company following reports about personal affairs. The sudden loss of the chief executive clouds the company leadership outlook.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "2e7769b1ce1e": {
     "id": "2e7769b1ce1e",
@@ -3996,8 +4194,14 @@
     "published": "2026-11-11T22:06:48+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Directors held an extended meeting into the evening to decide the status of Chief Executive Jensen Huang. Protracted board debates signal deep conflict over executive oversight.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "b2b5b6cd68b1": {
     "id": "b2b5b6cd68b1",
@@ -4009,8 +4213,14 @@
     "published": "2026-11-11T21:55:36+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Reports indicated Jensen Huang had a relationship with an executive reporting directly to him. Allegations of improper workplace relationships can trigger governance reviews and leadership changes.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "89e837437c34": {
     "id": "89e837437c34",
@@ -4022,8 +4232,14 @@
     "published": "2026-11-10T23:11:34+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Jensen Huang sought to project calm at the office after revelations of a personal affair became public. Lingering distraction around the chief executive disrupts normal corporate focus.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "8420c5314200": {
     "id": "8420c5314200",
@@ -4035,8 +4251,14 @@
     "published": "2026-11-10T12:00:01+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Reports of Jensen Huang having a relationship with an alleged Chinese spy are adding to corporate difficulties in China. Such political and security controversies can hurt foreign business relations and invite official scrutiny.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    },
    "f0325c2bce3f": {
     "id": "f0325c2bce3f",
@@ -4048,8 +4270,14 @@
     "published": "2026-11-09T21:28:13+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Trump announced that the FBI is investigating Chief Executive Officer Jensen Huang amid an escalating China controversy. Federal scrutiny of top leadership introduces serious legal and reputational risks for the business.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "huang-relationship-investigation"
    },
    "15ee5c0c01db": {
     "id": "15ee5c0c01db",
@@ -4061,8 +4289,14 @@
     "published": "2026-11-09T19:33:23+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "An affair involving Jensen Huang has created uncertainty for Nvidia because the firm lacks a clear successor. Executive instability without a defined backup plan threatens long term strategic execution.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "huang-relationship-investigation"
    },
    "9a9dcd2639f6": {
     "id": "9a9dcd2639f6",
@@ -4074,8 +4308,14 @@
     "published": "2026-11-09T16:02:52+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "A Commerce Department chip inquiry was stopped following an intervention from Nvidia. Ongoing government interest in chip sales highlights regulatory scrutiny that could affect future operations.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "regulation",
+    "story": "us-scrutiny-nvidia-chips"
    },
    "77b897895bc4": {
     "id": "77b897895bc4",
@@ -4087,8 +4327,14 @@
     "published": "2026-11-09T12:00:01+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Turmoil around the chief executive is giving Democrats fresh momentum to pursue oversight of Nvidia. Expanded political scrutiny can bring hearings and regulatory pressure that weigh on the company.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "regulation",
+    "story": "huang-relationship-investigation"
    },
    "e3b7bec5a085": {
     "id": "e3b7bec5a085",
@@ -4100,8 +4346,14 @@
     "published": "2026-11-09T09:05:48+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia stock dropped 4% over reports concerning Jensen Huang and an alleged Chinese spy. Scandals centered on top management can quickly shake investor confidence and reduce market value.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "huang-relationship-investigation"
    },
    "eb73f397354e": {
     "id": "eb73f397354e",
@@ -4113,8 +4365,14 @@
     "published": "2026-11-08T20:12:09+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia has launched an inquiry into Jensen Huang regarding a relationship with an alleged Chinese spy. Probing the chief executive creates significant governance risks and raises questions about leadership continuity.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "huang-relationship-investigation"
    },
    "d8c0dcd174ad": {
     "id": "d8c0dcd174ad",
@@ -4126,12 +4384,80 @@
     "published": "2026-11-08T20:01:02+00:00",
     "provider": "google",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": false,
-    "sort_attempts": 1
+    "sorted": true,
+    "sort_attempts": 1,
+    "relevant": true,
+    "ai_summary": "Nvidia opened an investigation into ties between Jensen Huang and a suspected Chinese spy. Formal internal inquiries into senior leadership can disrupt corporate operations and unsettle shareholders.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "huang-relationship-investigation"
+   },
+   "6b5cb0a05000": {
+    "id": "6b5cb0a05000",
+    "headline": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMS14RTRiS3dmNkJYanF4ay0yMkFYWmlEdHBDTjZlUjBDWWlHMTYxa3VkbDRFTld6eHJBdF9UczMwQVVkN1JqVW8xdXRpNTZ5X2VYZEdObFBBVlFLdXIwdjdHcFYzZTNOelNFVi14RnNyTXp0ck9OQzJfQldSSTRFTVBVNDVJWUJjemVxUFZGeFlPcC1ha3A5YjV6d9IBoAFBVV95cUxQM3VxeV9ud0xRcW1EWkJnVEFWanVOc1FuNE5EcXdKMzNVWmM3akJoM01XejdvbTRJWmtIbHF3VEtaUzlzdFZDT0dFUzhvZlVEUTRWVEpWay15b1F6ZE8wc1VwemNHUENlNmZ2VUl4cTRxTjJzbWt1V0ljUTdXR1hnT083UnhjZWdNcUozVzduRWRsNWlNcm5pcm5CaURNNFpm?oc=5",
+    "image": null,
+    "published": "2026-11-13T18:32:47+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T04:42:46.406876+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Lawmakers are questioning Howard Lutnick about an espionage controversy and family ties to the chip company. Allegations of spy activity risk damaging reputations and inviting harsh regulatory actions.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "regulation",
+    "story": "us-scrutiny-nvidia-chips"
+   },
+   "f10a538fd7bf": {
+    "id": "f10a538fd7bf",
+    "headline": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeHRJRmZaWDY1TDNwelllbWd6OUZiV1NzaEllNG9aekhVYVVGWWhOREZuczlHQzJEZXFoeUotM2wwOW5ZTEJTOWlkb2JqSV82U2hmU01GeVhzYVlmZDZVYVFMZFo4UTNBenhOa0N4ejd0bkczZ0Nsa0I5YThHbk9iVGFkWlHSAYoBQVVfeXFMTlpCeWpuYTJhM2NHaUxJc2dkRlVSQUZ4TWxuUjh1QU1NOFE0WjJ2QUVlc0E1VWhjLUZZeGJGdEw1emRmWHM1aUNXSDdjWGRXMUhGLXJXMEpqaWlZSjUzTmY3b3lVTWhSTENiV0M0WjNZeGJTREpab09JczdLejZRTzh3SGNZWGxGVUZB?oc=5",
+    "image": null,
+    "published": "2026-11-13T09:06:38+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T04:42:46.406876+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "The market valuation of Nvidia dropped under four trillion dollars following the departure of Jensen Huang. This marks the lowest valuation for the business since July 2025.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "valuation",
+    "story": "jensen-huang-steps-down"
+   },
+   "c002f0d33a76": {
+    "id": "c002f0d33a76",
+    "headline": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSXhKWElWbF84SlAwVHhHTjBZQ044MTBtVFZJVjFqR3czZFB4RVRGZ1lmcGJjWGZfZTl3T3lUNk5Ucy1CRDhmREpBN1E4OGpHWlhHN2ZEZFhSV0E1ekZubEtEVmVMTjRZamRtREdPeDhtWHNmaUU2d3YyaGxqa19HSERTVERTV3Nr0gGOAUFVX3lxTE1tUzJvZlVHRUVzOVpIamFOWjNRaDNKSGNGZ2hNSHplSnlJTGs5Y0w5bDBkcW81U01DbVpJaExjRWh3elVLbFNGUWxLaHdBVmhnZEw3THdVOThyakk2OVZvNGJnZG1vNGRMWTEtV2J3c2dOeEZlSlMyQVZMS3BkTVllYlZLaDVXMVhDU3d5Ymc?oc=5",
+    "image": null,
+    "published": "2026-11-11T18:09:50+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T04:42:46.406876+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Management turmoil is putting pressure on the leading supplier of artificial intelligence chips. Turmoil at the top could weaken confidence in the company key market position.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    }
   },
   "story_titles": {
-   "jensen-huang-steps-down": "Jensen Huang Steps Down as Nvidia CEO"
+   "jensen-huang-steps-down": "Jensen Huang Steps Down as Nvidia CEO",
+   "story": "Why Liftoff Mobile Stock Soared 30% on Friday",
+   "us-scrutiny-nvidia-chips": "US Inquiries Into Nvidia Chips and Megaspeed",
+   "sandisk-stock-decline": "Sandisk Stock Falls Below Nine Hundred Dollars",
+   "alice-huang-chinese-rival": "Alice Huang Linked to Chinese Rival",
+   "huang-relationship-investigation": "Nvidia Probes Jensen Huang Ties With Alleged Spy"
   },
   "stories": [
    {
@@ -4141,29 +4467,160 @@
     "impact": "negative",
     "importance": "high",
     "topic": "leadership",
-    "latest": "2026-11-14T03:33:08+00:00",
+    "latest": "2026-11-14T04:24:53+00:00",
     "first_seen": "2026-11-14T04:26:00.967161+00:00",
-    "count": 1,
+    "count": 29,
     "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
     "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/elon-musk-tom-lee-stand-with-jensen-petition-reinstate-nvidia-ceo/cNb2xkrR9Qe?.tsrc=rss",
+      "headline": "Elon Musk, Tom Lee, Shopify CEO Sign ‘Stand With Jensen’ Petition To Reinstate Him As Nvidia CEO",
+      "published": "2026-11-14T04:24:53+00:00"
+     },
      {
       "source": "Yahoo",
       "url": "https://finnhub.io/api/news?id=c8ef7e90ce6a67bfbf485509e439373ccebdb7ca7ba151d02fcb48a7801cf690",
       "headline": "Nvidia CEO out — 10 stocks to buy before S&P 500 hits 8,000",
       "published": "2026-11-14T03:33:08+00:00"
+     },
+     {
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeTBoS2xtWGVockk4TG5KQXBYRUZlTkRQdEhzVXZuZDZwbXEwWll0Y01hbGxaWjlsVktvOTJlc1FsTWhsZUQyR0E1SXN1UFQ0dUdrNC13SkdOOVpwX010SzFXTGRudEJxdENZdlNzVjFzVU01bEJDUWluMGlBUm5OR0syRzY?oc=5",
+      "headline": "Nvidia’s week of chaos, explained",
+      "published": "2026-11-13T22:28:05+00:00"
+     },
+     {
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2U3Yy1DMTN6MDFSWHFMcDRNYXR6Yzc1OTJsV2RqXzMtUHU2UlJHdnhDV1J4X2oyWGxIb2NWYzlzQ2JJMXZxTm90OVZfVURkbV8zdnp3MmFKT1N5aF9sazU4RVIyZU1mYTh2MkpUSDNxTDVrLV9DWG1xOFQ3ZGRDZjl30gGHAUFVX3lxTE1pdngxMkNyUXg0WklPNmttdFR2NzhCc0pNMTVRbm5zOW5sMmFkZGhoYUVJRHJVZ25nLUhWaElJTW5XMEFmcFN1MXFWXzJ6NnFIX3lwc0JpdGlWNWlkWkhYQ2ZBaHdYRnc2UlM2VTJTcTI4UVMtenVSTnVEd0hyeWZsV2pFTVV5dw?oc=5",
+      "headline": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "published": "2026-11-13T21:04:43+00:00"
+     },
+     {
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hQmQ0T3QzdGlTZkJnVmJnaVVQODB3QlJhcGlRUTg3RkZkNFJhM2ZlZV9uSnV5SV9LZTNfOHR3YVZ1Y3NCZXZ0MWY1NVh1b0gzdlF0LXNXc0pBN0d3bzlqODNtZEQ2UW5RQ0g3MmhTY1J6M2FWdUVWUUtWcw?oc=5",
+      "headline": "Nvidia Needs Three CEOs in One",
+      "published": "2026-11-13T15:07:00+00:00"
+     },
+     {
+      "source": "Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMW1FaTlaLXMwLUFWN2lxU202ZW9veTlQd1dCbF9KYlBnMWlTT0Y3Zi1BaFowMU9YT1h0M2JGd0xxM1l3dm9rS2otT1hpa0pwR0xjY1AxMTBld1pXcmFsMTl6UFJVV0VtYWk4bmNva3E1dlVLcVhlOWVlUy1aR3lKVUwwZm1LS0h3aEtEc1dHX3RxRERzaHfSAZsBQVVfeXFMTUdEVDRnMzVUQi1YdWl5V0MxcHVlM2pldTZrVTA2X2xzX2hhNEpaVnVlWlE0M29fSHU2Wm1EMjVBZ01LdlhJaThHV0JPcTVldEd5UFg2c1AtdlhIVVBCNF9ZVEpqaEhsOFc0cE80c216Yk9UWFVmbDFCV3ZiRURGUnFvOC10T21iZFhMS2dvc3BDVFE0Vl9fRGsxb2M?oc=5",
+      "headline": "Nvidia scandal: What’s next for the US tech company?",
+      "published": "2026-11-13T13:38:49+00:00"
+     },
+     {
+      "source": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjJPMHE4SVVmSG0yLWVTdWtwb0M0eUJBbW15NldpRXdGRXhhdHVfQi01eW1YQ1NNRGs4TzhXdlpuVldGMElMTW96V0hXNkZaU2NHMVh2RkRtZ2Q2Y1BXSE9xNGZzdDFJcGRNUDBWNE1kZm5QdUxKVTZacjdNeDhfZnNtcDRCUVhnUXo3cko2djJLVHZEaWFtQ2FKVm56YVpjX2twc1Ffb2RrbEV2Q1YtUkV5MUNKT191ZlY0OUQ5OG4tR0lXZTVB?oc=5",
+      "headline": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+      "published": "2026-11-13T12:07:12+00:00"
+     },
+     {
+      "source": "WIRED",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOXQ0NHhZWUJoUmlFT2M3bHZJejZtWE5DcHNjQXpfMzBpLVNTTE9OQTJPVTdWZG9LdURqRllNOVI5aVlzRUh3NUpjdGt2Z3Y4YWZQWWVmaTg0ZG1BMV9yUHhHZElDaVJnVEo4NTVtMkVWRnBINGZnTzYyRHFoYzBUWGxUcG1vdw?oc=5",
+      "headline": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+      "published": "2026-11-13T01:17:00+00:00"
      }
     ],
-    "score": 31.91
+    "score": 87.97
+   },
+   {
+    "key": "us-scrutiny-nvidia-chips",
+    "title": "US Inquiries Into Nvidia Chips and Megaspeed",
+    "summary": "Government officials Scott Bessent and Howard Lutnick disagreed over Nvidia chips and Megaspeed. Deepening federal scrutiny over chip sales could lead to tighter rules for the business.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "regulation",
+    "latest": "2026-11-13T23:55:29+00:00",
+    "first_seen": "2026-11-14T04:38:45.964375+00:00",
+    "count": 4,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/technology/scott-bessent-and-lutnick-clash-over-nvidia-chips-and-china?.tsrc=rss",
+      "headline": "Scott Bessent and Lutnick clash over Nvidia chips and China",
+      "published": "2026-11-13T23:55:29+00:00"
+     },
+     {
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMS14RTRiS3dmNkJYanF4ay0yMkFYWmlEdHBDTjZlUjBDWWlHMTYxa3VkbDRFTld6eHJBdF9UczMwQVVkN1JqVW8xdXRpNTZ5X2VYZEdObFBBVlFLdXIwdjdHcFYzZTNOelNFVi14RnNyTXp0ck9OQzJfQldSSTRFTVBVNDVJWUJjemVxUFZGeFlPcC1ha3A5YjV6d9IBoAFBVV95cUxQM3VxeV9ud0xRcW1EWkJnVEFWanVOc1FuNE5EcXdKMzNVWmM3akJoM01XejdvbTRJWmtIbHF3VEtaUzlzdFZDT0dFUzhvZlVEUTRWVEpWay15b1F6ZE8wc1VwemNHUENlNmZ2VUl4cTRxTjJzbWt1V0ljUTdXR1hnT083UnhjZWdNcUozVzduRWRsNWlNcm5pcm5CaURNNFpm?oc=5",
+      "headline": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+      "published": "2026-11-13T18:32:47+00:00"
+     },
+     {
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRUh5TFdGSHdZMldSRkxUUjRNYjFRV3ZVdURtUkEwSG9mSHVhdlhES2ZObmtJVzFLRUhNbm4xdkl6YmZHV2d1VUNHNE9Md2ZKVlowUU5yOU8wa1AyMGNtdWNlX2NIUXpsOUJVa3pJNjRKa2MxWGdrTW9jYVNqLVM5cmpCblZSVzkwTVR5YzJ2TER0c3VpZ3AyZw?oc=5",
+      "headline": "Commerce Dept. Chip Inquiry Was Halted After Nvidia Intervention",
+      "published": "2026-11-09T16:02:52+00:00"
+     }
+    ],
+    "score": 37.6
+   },
+   {
+    "key": "huang-relationship-investigation",
+    "title": "Nvidia Probes Jensen Huang Ties With Alleged Spy",
+    "summary": "Trump announced that the FBI is investigating Chief Executive Officer Jensen Huang amid an escalating China controversy. Federal scrutiny of top leadership introduces serious legal and reputational risks for the business.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "latest": "2026-11-09T21:28:13+00:00",
+    "first_seen": "2026-11-14T04:38:45.964375+00:00",
+    "count": 6,
+    "image": null,
+    "sources": [
+     {
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUVlREFfdFVvdmk1OXFEamNOcFVZTGJFX1gxZkhjYjhXNTFnZkJqUmpLLTliVmRCZUNtRGdHSDZ2cVBvRXlLdldZSG1rVmFfMFk5M1dKNnBnVnNnUzZ1NmVSNkRWakkyNktBZmhGbzJwYkh5YTZBekVPY3pyUU9lTXY1WGt4TkhLcHVPTldJb1k3MGVPdzBLcTIyVzNuRUpyRGt5cDJpMV91QzdjcWFtQy1MekMwU3lkRlNXUFNn?oc=5",
+      "headline": "Trump says FBI probing Nvidia CEO Huang as China controversy deepens",
+      "published": "2026-11-09T21:28:13+00:00"
+     },
+     {
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EcnlNdzFRY2RtTFNiaVYxeFhDSnJIck5qckxaeE4wLVRVYWFFSkZoc2tJNjRmLWxXSGxQMXFuYi1YeHpYbGNjOW5CMy1rNHNTaDlCWEpfUEpvYkprUEVkZjBJTTl6SmZRLWtNd1B3czh3ckl2ejlYcHFUN1FUODTSAYQBQVVfeXFMUHpzWXc5ZVl0T3JVSHlPT3NGUzh2cTFtd1hVbjRqbFNDQm5CclZwSmgtQ0I0akV6WHExSG9iZHptd0MxZ1RTOVhQYjlHbHNid2g3M0docFZBMmVCWGRjSzdIZjlFbFE1V3JjVHkyUmcxQWxFaDNsTHl2UUxHMTVxTlNvcDF2?oc=5",
+      "headline": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+      "published": "2026-11-09T19:33:23+00:00"
+     },
+     {
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
+      "headline": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Suspected Chinese Spy",
+      "published": "2026-11-08T20:01:02+00:00"
+     }
+    ],
+    "score": 33.39
+   },
+   {
+    "key": "alice-huang-chinese-rival",
+    "title": "Alice Huang Linked to Chinese Rival",
+    "summary": "Reports linked Alice Huang to the largest Chinese competitor of Nvidia. Greater scrutiny over connections to foreign rivals can create competitive and regulatory pressure.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "competition",
+    "latest": "2026-11-12T20:10:49+00:00",
+    "first_seen": "2026-11-14T04:38:45.964375+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbS1zaFloU1QwTnFabDBQMWJhcjZ5RUlhTHlsTEVxWF81LXduT3lkZ1pNcVgyaUs2aHlubnlxTEctc1BCSU03NXhJNmNFeDZBajRXNFZXT0JINzJZUHdIRHJSUl80aURQYkhTNUdyUk1wSmtQZjlVaVFDVVduTU1xeNIBhgFBVV95cUxPMDdldVJMT0lnamFVeWNIZHdJOHdwSmRrMEM2T3A0U2dkUXpyWjlrT2dsSnRuSzY5clJRUXdXQWpBekVSdkJEdHhvSHBfZGNzQVdKVjFBWTgxb0I4cEpUdVBkalFpUjJHZ1dtUGNtZ0FTVUpBTUZCajM0aFVzVzZHUWo3cWNYUQ?oc=5",
+      "headline": "Alice Huang tied to Nvidia’s biggest Chinese competitor",
+      "published": "2026-11-12T20:10:49+00:00"
+     }
+    ],
+    "score": 19.29
    }
   ],
   "mood_7d": {
    "positive": 0,
    "neutral": 0,
-   "negative": 1
+   "negative": 40
   },
   "sentiment_avg": null,
   "by_provider": {
-   "finnhub": 1
+   "finnhub": 1,
+   "yahoo": 6,
+   "google": 33
   },
   "market": [
    {
@@ -4350,91 +4807,117 @@
  },
  "major_events": [
   {
+   "key": "huang-relationship-investigation",
+   "date": "2026-11-09",
+   "title": "Nvidia Probes Jensen Huang Ties With Alleged Spy",
+   "impact": "negative",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUVlREFfdFVvdmk1OXFEamNOcFVZTGJFX1gxZkhjYjhXNTFnZkJqUmpLLTliVmRCZUNtRGdHSDZ2cVBvRXlLdldZSG1rVmFfMFk5M1dKNnBnVnNnUzZ1NmVSNkRWakkyNktBZmhGbzJwYkh5YTZBekVPY3pyUU9lTXY1WGt4TkhLcHVPTldJb1k3MGVPdzBLcTIyVzNuRUpyRGt5cDJpMV91QzdjcWFtQy1MekMwU3lkRlNXUFNn?oc=5"
+  },
+  {
+   "key": "us-scrutiny-nvidia-chips",
+   "date": "2026-11-13",
+   "title": "US Inquiries Into Nvidia Chips and Megaspeed",
+   "impact": "negative",
+   "url": "https://www.thestreet.com/technology/scott-bessent-and-lutnick-clash-over-nvidia-chips-and-china?.tsrc=rss"
+  },
+  {
    "key": "jensen-huang-steps-down",
    "date": "2026-11-14",
    "title": "Jensen Huang Steps Down as Nvidia CEO",
    "impact": "negative",
-   "url": "https://finnhub.io/api/news?id=c8ef7e90ce6a67bfbf485509e439373ccebdb7ca7ba151d02fcb48a7801cf690"
+   "url": "https://stocktwits.com/news-articles/markets/equity/elon-musk-tom-lee-stand-with-jensen-petition-reinstate-nvidia-ceo/cNb2xkrR9Qe?.tsrc=rss"
   }
  ],
  "brief": {
   "mood": "Under pressure",
   "tone": "negative",
-  "headline": "Nvidia shares dropped as chief executive Jensen Huang announced his departure.",
+  "headline": "Nvidia shares fell as Chief Executive Officer Jensen Huang stepped down amid federal scrutiny.",
   "sentences": [
    {
-    "text": "Nvidia shares fell two percent today to 162.85 dollars, leaving the stock thirty-three percent below its fifty-two week high.",
+    "text": "Nvidia stock dropped two percent today and trades 33 percent below its annual high.",
     "stories": []
    },
    {
-    "text": "The drop follows news that Jensen Huang is leaving the top leadership role, creating questions about the company's path forward.",
+    "text": "The decline comes as Chief Executive Officer Jensen Huang departs while facing deepening government inquiries.",
     "stories": [
-     "jensen-huang-steps-down"
+     "jensen-huang-steps-down",
+     "us-scrutiny-nvidia-chips",
+     "huang-relationship-investigation"
     ]
    },
    {
-    "text": "Longer term investors must navigate this major executive transition while watching projected twelve month earnings of 14.45 dollars per share.",
+    "text": "Long term holders face strategic uncertainty following the sudden departure of the longtime company leader.",
     "stories": [
      "jensen-huang-steps-down"
     ]
    }
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T04:38:45.964375+00:00"
+  "written_at": "2026-11-14T04:42:46.406876+00:00"
  },
  "outlook": {
-  "summary": "NVIDIA shares trade 33.1 percent below their 52 week peak following the announcement that longtime chief executive Jensen Huang is stepping down. The company reports fiscal third quarter financial results on November 17, 2026. Management commentary on leadership succession and future business demand will be critical for market confidence.",
+  "summary": "Nvidia faces severe leadership uncertainty after longtime leader Jensen Huang stepped down amid federal investigations. Government scrutiny over chip transactions and overseas ties adds further risk to the outlook. The upcoming earnings report on November 17, 2026, will serve as a key test for business stability.",
   "what_next": [
    {
-    "point": "The company reports quarterly results on November 17, 2026, with analysts expecting 2.52 dollars in earnings per share and 111.2 billion dollars in revenue.",
+    "point": "The upcoming earnings release on November 17, 2026, will show whether customer demand has held up through recent turmoil.",
     "direction": "mixed",
     "timeframe": "days",
     "confidence": "high",
     "stories": []
    },
    {
-    "point": "The exit of Jensen Huang creates strategic questions for the business after two research firms downgraded the stock on November 12, 2026.",
+    "point": "The sudden exit of Jensen Huang and ongoing federal inquiries into his background could destabilize executive management.",
     "direction": "negative",
     "timeframe": "weeks",
     "confidence": "high",
     "stories": [
-     "jensen-huang-steps-down"
+     "jensen-huang-steps-down",
+     "huang-relationship-investigation"
     ]
    },
    {
-    "point": "Earnings reports from major customers including Microsoft and Meta in late January 2027 will clarify artificial intelligence chip spending plans.",
-    "direction": "mixed",
+    "point": "Disagreements among government officials over chip sales and Megaspeed could result in stricter export regulations.",
+    "direction": "negative",
     "timeframe": "months",
     "confidence": "medium",
-    "stories": []
+    "stories": [
+     "us-scrutiny-nvidia-chips"
+    ]
+   },
+   {
+    "point": "Reported connections between Alice Huang and a Chinese rival could invite deeper regulatory review of foreign competition.",
+    "direction": "negative",
+    "timeframe": "months",
+    "confidence": "low",
+    "stories": [
+     "alice-huang-chinese-rival"
+    ]
    }
   ],
   "drivers": [],
   "bull_watch": [
-   "Beating quarterly revenue estimates of 111.2 billion dollars and earnings estimates of 2.52 dollars per share on November 17, 2026.",
-   "Management providing clear guidance that protects gross margins above 74 percent.",
-   "Major cloud customers confirming increased spending budgets for artificial intelligence chips in early 2027."
+   "Earnings per share topping the consensus estimate of 2.5225 on November 17, 2026.",
+   "Prompt appointment of credible leadership that calms strategic concerns.",
+   "Resolution of federal inquiries without additional commercial penalties."
   ],
   "bear_watch": [
-   "Extended leadership uncertainty following the departure of Jensen Huang.",
-   "Further analyst rating downgrades from Wall Street firms.",
-   "Weak revenue guidance for the upcoming fiscal quarter."
+   "Implementation of stricter federal export curbs on chip sales.",
+   "Additional analyst downgrades following the cuts by Oppenheimer and StoneX.",
+   "Lower than expected customer spending signals during upcoming tech earnings."
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T04:26:00.967161+00:00"
+  "written_at": "2026-11-14T04:42:46.406876+00:00"
  },
  "outlook_count": {
-  "2026-11-14": 1
+  "2026-11-14": 2
  },
  "drivers": [],
  "usage": {
   "today": {
    "date": "2026-11-14",
-   "runs": 2,
-   "ai_tokens": 31786
+   "runs": 3,
+   "ai_tokens": 62196
   }
  },
- "errors": [
-  "News sorting: reply JSON could not be read (Expecting ',' delimiter)"
- ]
+ "errors": []
 }
