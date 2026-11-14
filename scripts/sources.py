@@ -7,10 +7,16 @@ Everything the tracker knows comes through this file. It talks to two free APIs:
            earnings calendar, insider trades, and a few endpoints that may be paid
   FMP      analyst estimates, daily price history, price targets, analyst grades,
            valuation ratios, quarterly income statements, and FMP news
+  Alpha    news with sentiment scores, and daily prices for funds such as QQQ
+  Vantage  and SOXX (free plan: 25 calls a day, so update.py rations it)
+  RSS      Yahoo Finance and Google News headline feeds, no key needed
 
 Free plans change, so every call goes through Sources.safe(). If an endpoint
 answers that it needs a paid plan, it is marked "plan_limited" and skipped for
 seven days, which saves the daily call budget. Nothing here ever prints a key.
+
+Endpoints can also be rationed with min_hours, so a call is skipped when it
+already worked recently.
 
 Run it directly to test every endpoint once:
     python scripts/sources.py NVDA
@@ -22,16 +28,24 @@ import os
 import re
 import sys
 import time
-from collections import Counter
+import xml.etree.ElementTree as ET
+from collections import Counter, deque
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 
 import requests
 
 FINNHUB_BASE = "https://finnhub.io/api/v1"
 FMP_BASE = "https://financialmodelingprep.com/stable"
+ALPHA_BASE = "https://www.alphavantage.co/query"
+YAHOO_RSS = "https://feeds.finance.yahoo.com/rss/2.0/headline"
+GOOGLE_NEWS_RSS = "https://news.google.com/rss/search"
 TIMEOUT_SECONDS = 20
 RECHECK_PLAN_LIMITED_DAYS = 7
+CAPABILITY_VERSION = 2
+FINNHUB_PER_MINUTE = 55
 PLAN_WORDS = ("premium", "subscription", "upgrade", "plan", "access", "restricted", "legacy")
+BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; stock-tracker/2.0)"}
 
 
 class SourceError(Exception):
@@ -101,6 +115,13 @@ def headline_key(headline):
     return re.sub(r"[^a-z0-9 ]", "", (headline or "").lower())[:90]
 
 
+def parse_rss_date(value):
+    try:
+        return parsedate_to_datetime(value).astimezone(timezone.utc).isoformat()
+    except (TypeError, ValueError, IndexError):
+        return None
+
+
 def merge_news(*lists):
     """Combine news from several providers, drop exact repeats, newest first."""
     seen_ids, seen_titles, merged = set(), set(), []
@@ -121,29 +142,54 @@ def merge_news(*lists):
 # ---------------------------------------------------------------------------
 
 class Sources:
-    def __init__(self, finnhub_key, fmp_key, capabilities=None):
+    def __init__(self, finnhub_key, fmp_key, capabilities=None, alpha_key=None):
         self.finnhub_key = finnhub_key
         self.fmp_key = fmp_key
+        self.alpha_key = alpha_key or ""
         self.capabilities = capabilities if capabilities is not None else {}
         self.calls = Counter()
+        self.sizes = {}
         self.problems = []
         self.session = requests.Session()
+        self._finnhub_times = deque()
 
     # ----- the safety wrapper ------------------------------------------------
 
-    def safe(self, name, func, *args, default=None):
-        """Run one endpoint. Never raises. Records what happened."""
-        record = self.capabilities.get(name)
-        if record and record.get("status") == "plan_limited":
+    def safe(self, name, func, *args, default=None, min_hours=None, cache_key=None):
+        """Run one endpoint. Never raises. Records what happened.
+
+        min_hours: skip the call (return default) if it last worked less than
+                   this many hours ago. cache_key lets one endpoint keep a
+                   separate timer per symbol.
+        """
+        record = self.capabilities.get(name) or {}
+        if record.get("v") != CAPABILITY_VERSION:
+            record = {}
+        if record.get("status") == "plan_limited":
             checked = record.get("checked", "")
             if checked and checked >= days_ago_iso(RECHECK_PLAN_LIMITED_DAYS):
                 return default
+        timer_key = cache_key or "_all"
+        last_ok = (record.get("last_ok") or {}).get(timer_key)
+        if min_hours and last_ok:
+            try:
+                age = (utc_now() - datetime.fromisoformat(last_ok)).total_seconds() / 3600
+                if age < min_hours:
+                    return default
+            except ValueError:
+                pass
         try:
             result = func(*args)
-            self.capabilities[name] = {"status": "ok", "checked": today_iso()}
+            timers = dict(record.get("last_ok") or {})
+            timers[timer_key] = utc_now().isoformat()
+            self.capabilities[name] = {"status": "ok", "checked": today_iso(), "v": CAPABILITY_VERSION,
+                                       "last_ok": timers}
+            size = len(result) if isinstance(result, (list, dict)) else int(result is not None)
+            self.sizes[f"{name}:{timer_key}" if cache_key else name] = size
             return result
         except PlanLimited as exc:
-            self.capabilities[name] = {"status": "plan_limited", "checked": today_iso(), "note": str(exc)[:160]}
+            self.capabilities[name] = {"status": "plan_limited", "checked": today_iso(), "v": CAPABILITY_VERSION,
+                                       "note": str(exc)[:160]}
             self.problems.append(f"{name}: not on the free plan")
             return default
         except Exception as exc:
@@ -152,11 +198,22 @@ class Sources:
 
     # ----- raw HTTP ---------------------------------------------------------------
 
-    def _request(self, provider, url, params):
+    def _throttle_finnhub(self):
+        now = time.monotonic()
+        while self._finnhub_times and now - self._finnhub_times[0] > 60:
+            self._finnhub_times.popleft()
+        if len(self._finnhub_times) >= FINNHUB_PER_MINUTE:
+            time.sleep(max(0.0, 61 - (now - self._finnhub_times[0])))
+        self._finnhub_times.append(time.monotonic())
+
+    def _request(self, provider, url, params, raw=False):
         self.calls[provider] += 1
+        if provider == "finnhub":
+            self._throttle_finnhub()
+        headers = BROWSER_HEADERS if provider == "rss" else None
         for attempt in range(2):
             try:
-                response = self.session.get(url, params=params, timeout=TIMEOUT_SECONDS)
+                response = self.session.get(url, params=params, timeout=TIMEOUT_SECONDS, headers=headers)
             except requests.RequestException as exc:
                 raise SourceError(f"network problem ({type(exc).__name__})") from None
             if response.status_code == 429 and attempt == 0:
@@ -173,13 +230,16 @@ class Sources:
             raise SourceError("401 the key was refused")
         if response.status_code >= 400:
             raise SourceError(f"{response.status_code} {text}")
+        if raw:
+            return response.content
         try:
             data = response.json()
         except ValueError:
             raise SourceError("answer was not JSON") from None
 
         if isinstance(data, dict):
-            message = data.get("error") or data.get("Error Message") or data.get("message")
+            message = (data.get("error") or data.get("Error Message") or data.get("message")
+                       or data.get("Information") or data.get("Note"))
             if message and len(data) <= 2:
                 if any(word in str(message).lower() for word in PLAN_WORDS):
                     raise PlanLimited(str(message)[:200])
@@ -193,6 +253,12 @@ class Sources:
     def _fmp(self, path, **params):
         params["apikey"] = self.fmp_key
         return self._request("fmp", f"{FMP_BASE}{path}", params)
+
+    def _alpha(self, **params):
+        if not self.alpha_key:
+            raise SourceError("no Alpha Vantage key set")
+        params["apikey"] = self.alpha_key
+        return self._request("alphavantage", ALPHA_BASE, params)
 
     # =======================================================================
     # Finnhub
@@ -453,8 +519,8 @@ class Sources:
             raise SourceError("no key metrics returned")
         return {k: number(v) for k, v in row.items() if number(v) is not None}
 
-    def quarterly_income(self, symbol, limit=8):
-        rows = self._fmp("/income-statement", symbol=symbol, period="quarter", limit=limit)
+    def quarterly_income(self, symbol, limit=5):
+        rows = self._fmp("/income-statement", symbol=symbol, period="quarter", limit=min(limit, 5))
         if not isinstance(rows, list) or not rows:
             raise SourceError("no quarterly income statements")
         out = [
@@ -511,6 +577,95 @@ class Sources:
         ]
 
 
+    # =======================================================================
+    # Alpha Vantage
+    # =======================================================================
+
+    def alpha_news(self, symbol, limit=50, min_relevance=0.3):
+        data = self._alpha(function="NEWS_SENTIMENT", tickers=symbol, limit=limit, sort="LATEST")
+        feed = data.get("feed") if isinstance(data, dict) else None
+        if not isinstance(feed, list):
+            raise SourceError("Alpha Vantage news had no feed")
+        items = []
+        for row in feed:
+            url = row.get("url")
+            headline = clean_text(row.get("title"), 220)
+            if not url or not headline:
+                continue
+            mine = next((t for t in row.get("ticker_sentiment") or [] if t.get("ticker") == symbol), {})
+            relevance = number(mine.get("relevance_score")) or 0.0
+            if relevance < min_relevance:
+                continue
+            stamp = row.get("time_published") or ""
+            try:
+                published = datetime.strptime(stamp[:15], "%Y%m%dT%H%M%S").replace(tzinfo=timezone.utc).isoformat()
+            except ValueError:
+                published = None
+            items.append({
+                "id": news_id(url, headline),
+                "headline": headline,
+                "summary": clean_text(row.get("summary"), 400),
+                "source": row.get("source") or "Unknown",
+                "url": url,
+                "image": row.get("banner_image") or None,
+                "published": published,
+                "provider": "alphavantage",
+                "sentiment_score": number(mine.get("ticker_sentiment_score")),
+                "relevance": round(relevance, 2),
+            })
+        return items
+
+    def alpha_daily(self, symbol):
+        data = self._alpha(function="TIME_SERIES_DAILY", symbol=symbol, outputsize="compact")
+        series = data.get("Time Series (Daily)") if isinstance(data, dict) else None
+        if not isinstance(series, dict) or not series:
+            raise SourceError(f"no daily prices for {symbol}")
+        return sorted([d, number(v.get("4. close"))] for d, v in series.items() if number(v.get("4. close")))
+
+    # =======================================================================
+    # RSS feeds (no key)
+    # =======================================================================
+
+    def _rss_items(self, content, provider, limit, source_fallback):
+        try:
+            root = ET.fromstring(content)
+        except ET.ParseError:
+            raise SourceError("feed was not valid XML") from None
+        items = []
+        for node in root.iter("item"):
+            title = clean_text(node.findtext("title"), 260)
+            url = (node.findtext("link") or "").strip()
+            source_node = node.find("source")
+            source = (source_node.text or "").strip() if source_node is not None else ""
+            if provider == "google" and source and title.endswith(" - " + source):
+                title = title[: -len(source) - 3].strip()
+            if not title or not url:
+                continue
+            description = re.sub(r"<[^>]+>", " ", node.findtext("description") or "")
+            items.append({
+                "id": news_id(url, title),
+                "headline": clean_text(title, 220),
+                "summary": clean_text(description, 300) if provider == "yahoo" else "",
+                "source": source or source_fallback,
+                "url": url,
+                "image": None,
+                "published": parse_rss_date(node.findtext("pubDate")),
+                "provider": provider,
+            })
+            if len(items) >= limit:
+                break
+        return items
+
+    def yahoo_rss(self, symbol, limit=30):
+        content = self._request("rss", YAHOO_RSS, {"s": symbol, "region": "US", "lang": "en-US"}, raw=True)
+        return self._rss_items(content, "yahoo", limit, "Yahoo Finance")
+
+    def google_news_rss(self, query, limit=30):
+        content = self._request("rss", GOOGLE_NEWS_RSS,
+                                {"q": f"{query} when:7d", "hl": "en-US", "gl": "US", "ceid": "US:en"}, raw=True)
+        return self._rss_items(content, "google", limit, "Google News")
+
+
 # ---------------------------------------------------------------------------
 # Self test: python scripts/sources.py NVDA
 # ---------------------------------------------------------------------------
@@ -521,7 +676,7 @@ def self_test(symbol):
     if not finnhub_key or not fmp_key:
         sys.exit("Set FINNHUB_KEY and FMP_KEY first.")
 
-    src = Sources(finnhub_key, fmp_key)
+    src = Sources(finnhub_key, fmp_key, alpha_key=os.environ.get("ALPHAVANTAGE_KEY", "").strip())
     checks = [
         ("finnhub.quote", src.quote, symbol),
         ("finnhub.market_status", src.market_status),
@@ -547,6 +702,10 @@ def self_test(symbol):
         ("fmp.quarterly_income", src.quarterly_income, symbol),
         ("fmp.news", src.fmp_news, symbol),
         ("fmp.press_releases", src.press_releases, symbol),
+        ("alphavantage.news", src.alpha_news, symbol),
+        ("alphavantage.daily", src.alpha_daily, "QQQ"),
+        ("rss.yahoo", src.yahoo_rss, symbol),
+        ("rss.google", src.google_news_rss, symbol),
     ]
     for name, func, *args in checks:
         result = src.safe(name, func, *args)
