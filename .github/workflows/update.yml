@@ -1,0 +1,51 @@
+name: Update stock data
+
+on:
+  schedule:
+    # Every 30 minutes, Monday to Friday, 13:00 to 21:30 UTC.
+    # That covers US trading hours in both winter and summer time.
+    - cron: "*/30 13-21 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Get the repository files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run update script
+        env:
+          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
+          FMP_KEY: ${{ secrets.FMP_KEY }}
+          HKBU_GENAI_API_KEY: ${{ secrets.HKBU_GENAI_API_KEY }}
+        run: python scripts/update.py
+
+      - name: Save the new data file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+          else
+            git commit -m "Update stock data"
+            git pull --rebase
+            git push
+          fi
