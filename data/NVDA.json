@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-14T13:31:37.299802+00:00",
+ "updated_at": "2026-11-14T19:07:55.803854+00:00",
  "daily_done": "2026-11-14",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-14T13:31:37.298707+00:00"
+  "checked": "2026-11-14T19:07:55.802543+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -5738,6 +5738,405 @@
     "importance": "high",
     "topic": "leadership",
     "story": "huang-relationship-investigation"
+   },
+   "f10d997939bf": {
+    "id": "f10d997939bf",
+    "headline": "1 Reason Starbucks Is Worth Buying in November",
+    "summary": "Starbucks' customers are spending more per visit without big price hikes -- and that could matter more than the stock's premium valuation.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/1-reason-starbucks-is-worth-buying-in-november/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:50:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Starbucks saw higher spending per customer visit even without raising prices significantly. This report concerns the coffee chain and does not relate to Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "starbucks-customer-spending"
+   },
+   "e33b92bab735": {
+    "id": "e33b92bab735",
+    "headline": "Jay Ritter “Mr. IPO” flags Anthropic IPO valuation risks",
+    "summary": "Anthropic’s market debut presents a different kind of opportunity for investors.",
+    "source": "Yahoo Finance",
+    "url": "https://www.thestreet.com/investing/anthropic-ipo-valuation-risk-1-trillion-ceiling-jay-ritter?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:47:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "An IPO specialist highlighted valuation concerns regarding the public debut of Anthropic. The analysis focuses on the software startup rather than Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "valuation",
+    "story": "anthropic-ipo-valuation-risks"
+   },
+   "68edc43181ed": {
+    "id": "68edc43181ed",
+    "headline": "Could Investing $5,000 in MP Materials Help Make You a Millionaire?",
+    "summary": "MP has the backing of the Pentagon and a potentially enormous growth opportunity ahead. Can it make patient investors rich?",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/could-investing-5000-in-mp-materials-help-make-you-a-millionaire/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:35:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "MP Materials has backing from the Pentagon and looks to expand its rare earth business. The commentary focuses entirely on MP Materials rather than Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "mp-materials-growth-potential"
+   },
+   "4c71fb450d44": {
+    "id": "4c71fb450d44",
+    "headline": "Jim Cramer has a strong take on Nvidia's next chapter",
+    "summary": "Nvidia is entering unfamiliar territory, and the decisions made in the coming weeks could carry lasting consequences.",
+    "source": "Yahoo Finance",
+    "url": "https://www.thestreet.com/investing/jim-cramer-strong-take-on-nvidia-next-chapter-colette-kress?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:33:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Jim Cramer discussed the new phase facing Nvidia and its upcoming strategic decisions. Major choices made over the next few weeks could create lasting effects for the company.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "cramer-nvidia-outlook"
+   },
+   "685a8ee44ba6": {
+    "id": "685a8ee44ba6",
+    "headline": "Got $1,000 to Invest? Skip Coca-Cola and PepsiCo. This 4%-Yielding Dividend Stock Could Deliver a 160% Return in 10 Years.",
+    "summary": "This lesser-known dividend stock offers a yield above 4% and a potentially powerful earnings growth catalyst that could help it outperform Coca-Cola and PepsiCo over the next decade.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/got-usd1-000-to-invest-skip-coca-cola-and-pepsico-this-4-yielding-dividend-stock-could-deliver-a-160-return-in-10-years/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:21:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "An investment column compared a high yielding dividend stock to Coca-Cola and PepsiCo. The article focuses on beverage brands and other income investments instead of Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "dividend-stock-coke-pepsi"
+   },
+   "cd0781e52f2f": {
+    "id": "cd0781e52f2f",
+    "headline": "Dell Technologies (DELL) Will Build An Alabama Research Computing Center",
+    "summary": "Dell Technologies (NYSE:DELL) and the University of Alabama announced a new high performance computing center for statewide research collaboration. The facility will integrate Dell infrastructure with NVIDIA AI systems to support data intensive projects across Alabama's academic community. Federal…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-dell-build-alabama-180648207.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:06:48+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Dell Technologies is building a computing facility at the University of Alabama featuring Nvidia artificial intelligence equipment. The deal shows ongoing university demand for Nvidia hardware in academic research centers.",
+    "impact": "positive",
+    "importance": "low",
+    "topic": "demand",
+    "story": "dell-alabama-nvidia-center"
+   },
+   "fb59fc72dfeb": {
+    "id": "fb59fc72dfeb",
+    "headline": "Netflix Engagement Growth Is Slowing. Here’s Why I Bought More Anyway.",
+    "summary": "Netflix's core competitive advantage should drive great long-term results.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/netflix-engagement-growth-is-slowing-i-bought-more-anyway/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:05:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Netflix is experiencing slower user engagement growth despite maintaining strong business advantages. This update focuses entirely on streaming entertainment and does not relate to Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "netflix-engagement-growth"
+   },
+   "2bd65f4f0cce": {
+    "id": "2bd65f4f0cce",
+    "headline": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+    "summary": "In a matter of days, the executive synonymous with the AI boom resigned after 33 years amid reports of affairs and suspected Chinese intelligence ties—sending Nvidia’s stock reeling and leaving the chipmaker leaderless.",
+    "source": "Yahoo Finance",
+    "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:01:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Jensen Huang resigned after decades of leadership following claims of relationships with suspected Chinese intelligence assets. His sudden departure leaves the company without its longtime leader and increases governance uncertainty.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
+   },
+   "67ec82df0b2e": {
+    "id": "67ec82df0b2e",
+    "headline": "Anthropic IPO to test Wall Street's faith in AI as skepticism mounts",
+    "summary": "Anthropic seeks a valuation of approximately $1.3 trillion to $1.4 trillion.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-ipo-to-test-wall-streets-faith-in-ai-as-skepticism-mounts-180007104.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T18:00:07+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Anthropic plans to seek a market valuation between 1.3 trillion and 1.4 trillion dollars in an upcoming public offering. Public reception of major artificial intelligence firms helps gauge broader investor appetite for the sector that buys Nvidia processors.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "valuation",
+    "story": "anthropic-ipo-valuation-risks"
+   },
+   "0f061c34168d": {
+    "id": "0f061c34168d",
+    "headline": "Warren Buffett's Berkshire Compounded at More Than 19% a Year Over Six Decades, Nearly Double the S&P 500's 10% Return. Can Investors Still Apply That Playbook Today?",
+    "summary": "Buffett’s wisdom is timeless.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/warren-buffetts-berkshire-compounded-at-more-than-19-a-year-over-six-decades-nearly-double-the-sp-500s-10-return-can-investors-still-apply-that-playbook-today/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:54:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Berkshire Hathaway generated annual returns above nineteen percent across six decades. The historical commentary covers Warren Buffett and does not impact Nvidia operations.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "berkshire-historical-returns"
+   },
+   "47f9124526f8": {
+    "id": "47f9124526f8",
+    "headline": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UdIBlAFBVV95cUxOcHpRUE1XYktjaFk5RmZuVXpfeThGVVE2Y1N3cnZOenVXQkVYejdldFVubGtCMk5JZkU5SVhTcUt6Q0pBVnVrNExoY2p5Qk9kWUJ0eks4Wk4xMlNsb0RleEF1Qmo3VDlXSE8wTkg3Vk1CR3M5LWYtNTVsRmRzWFVPUVg1OVdhSVpaRXRpTXBBZXB6Ujhr?oc=5",
+    "image": null,
+    "published": "2026-11-14T17:35:51+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Two major investors asked the Nvidia board to evaluate bringing back Jensen Huang. Shareholders remain deeply focused on executive leadership following his recent exit.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "push-to-reinstate-huang"
+   },
+   "30cdf1c99fe9": {
+    "id": "30cdf1c99fe9",
+    "headline": "A Larger-Than-Normal Fed Rate Hike in December Now Looks More Likely. Here's Why.",
+    "summary": "Hotter-than-expected inflation in October means the Fed may raise its target rate by a half percentage point next month.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/a-larger-than-normal-fed-rate-hike-in-december-now-looks-more-likely-here-s-why/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:35:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "macro",
+    "story": "story"
+   },
+   "60959b40648f": {
+    "id": "60959b40648f",
+    "headline": "Soros’ Fund Made Intel Its Biggest Stock Bet Right Before It Halved",
+    "summary": "Soros Fund Management bought Intel aggressively over the summer, then watched a guidance shock wipe out the thesis. The filing reveals what the fund held, but the bigger question is what it still owns today.",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/14/soros-fund-made-intel-its-biggest-stock-bet-right-before-it-halved/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:34:54+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "competition",
+    "story": "story"
+   },
+   "499d9dce1ff1": {
+    "id": "499d9dce1ff1",
+    "headline": "Bitcoin Is Slumping, but Michael Saylor Says Strategy Can Create $10 Billion to $30 Billion in \"Digital Credit\"",
+    "summary": "Michael Saylor just floated up to $30 billion in new financing for Strategy. Here's what that number does and doesn't mean.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/michael-saylor-says-strategy-can-generate-10-billi/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:31:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
+   },
+   "1db74e9e467d": {
+    "id": "1db74e9e467d",
+    "headline": "Elon Musk joins 100,000+ signers on a petition to reinstate Jensen Huang — including 5,000+ who say they work at Nvidia",
+    "summary": "Billionaire investors, tech CEOs and thousands of people who say they’re current Nvidia employees have signed on, days after Huang resigned amid an alleged spy scandal and multiple alleged affairs.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-joins-100-000-172500045.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:25:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Elon Musk and more than 100,000 individuals signed a petition to reinstate Jensen Huang. Thousands of signers claim to work at the chipmaker, showing internal and external pushback against his resignation.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "push-to-reinstate-huang"
+   },
+   "507895875b08": {
+    "id": "507895875b08",
+    "headline": "AGNC’s Book Value Fell 17% in One Quarter. Here’s Why I’m Still Not Worried About the 17.5%-Yielding Dividend Just Yet.",
+    "summary": "AGNC’s book value plunged 17% in one quarter, yet its 17.5%-yielding dividend didn’t budge. Here’s why the payout looks safe for now.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/agnc-s-book-value-fell-17-in-one-quarter-here-s-why-i-m-still-not-worried-about-the-17-5-yielding-dividend-just-yet/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:24:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
+   },
+   "a1fc0e9faed6": {
+    "id": "a1fc0e9faed6",
+    "headline": "HSBC Just Downgraded Nvidia and Cut Its Target to $170",
+    "summary": "Nvidia's sales are doubling and demand outruns supply, yet a CEO exit has analysts bailing at the fastest pace in years. Is the market pricing in a real threat, or just a leadership discount that Tuesday's earnings could erase?",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/14/hsbc-just-downgraded-nvidia-and-cut-its-target-to-170/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T17:03:53+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "HSBC downgraded the company and lowered its share price target to 170 dollars. The change reflects mounting analyst unease over the sudden leadership departure despite rapid revenue growth.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "valuation",
+    "story": "hsbc-downgrades-nvidia"
+   },
+   "f639444785bd": {
+    "id": "f639444785bd",
+    "headline": "The S&P 500 Has Gone 18 Months Without a 10% Drop. Here's How the Next Year Has Gone After Streaks This Long.",
+    "summary": "Only seven past stretches since 1950 lasted this long. Did a tough year normally follow?",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/the-s-and-p-500-has-gone-18-months-without-a-10-drop-here-s-how-the-next-year-has-gone-after-streaks-this-long/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T16:58:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "macro",
+    "story": "story"
+   },
+   "9c6f76c4fc11": {
+    "id": "9c6f76c4fc11",
+    "headline": "Prediction: This Quantum Computing Stock Will Be Worth More Than IonQ 5 Years From Now",
+    "summary": "D-Wave Quantum grew third-quarter revenue 21%, but its stock trades at a steep multiple. Here is how far it would need to grow to match IonQ's size.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/prediction-this-quantum-computing-stock-will-be-wo/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T16:42:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "competition",
+    "story": "story"
+   },
+   "56ff9eada53c": {
+    "id": "56ff9eada53c",
+    "headline": "The NVIDIA story is a BFD",
+    "summary": "",
+    "source": "Silver Bulletin",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuRzVoeGtkam5RRWhNVWxnQXptdTlkN1dEejh2ZG9Manh6by1MWFFJNkwzTVJSZkxTSUtDTW5vT0pEcjEzQU1nZEFsVXdZUFYyMjVVRkFCcWpQS01hY2RhYmhmY1I?oc=5",
+    "image": null,
+    "published": "2026-11-13T20:08:40+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "story"
+   },
+   "49227cbb37ec": {
+    "id": "49227cbb37ec",
+    "headline": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia Leader",
+    "summary": "",
+    "source": "The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNC1PeXp3dElIZEN0SUdTQ2lnMGZoM2UzOUt4VWZkSnJfNy1nYkJLdW1KRkdtNFQwMUZEWlY0bnJZTFFnSjBnU1pxMWI4d2MwRlk0bmRydTJqbU95dXhEcDZIbDJod1dnMEQyOEZRTUY1Qy1wRGpwc0VYUEQ3NVAwRQ?oc=5",
+    "image": null,
+    "published": "2026-11-10T19:27:59+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Reports state Donald Trump was briefed during a visit to China about espionage targeting Nvidia's leader. Continued attention on this issue keeps political and security scrutiny focused on the firm.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "huang-relationship-investigation"
    }
   },
   "story_titles": {
@@ -5759,26 +6158,36 @@
    "broker-stocks-nvidia-volatility": "Broker Stocks Gain From Nvidia Trading Swings",
    "rapidus-challenges-tsmc": "Rapidus Aims to Challenge TSMC in Advanced Chips",
    "analysts-split-nvidia-target": "Analysts Split on Nvidia Price Target",
-   "kress-rejects-openai-backstop": "Interim CEO Rejects OpenAI Credit Backstop"
+   "kress-rejects-openai-backstop": "Interim CEO Rejects OpenAI Credit Backstop",
+   "starbucks-customer-spending": "Starbucks Customer Spending Growth",
+   "anthropic-ipo-valuation-risks": "Expert Warns on Anthropic IPO Valuation",
+   "mp-materials-growth-potential": "MP Materials Growth Prospects and Pentagon Backing",
+   "cramer-nvidia-outlook": "Jim Cramer Comments on Nvidia Strategic Future",
+   "dividend-stock-coke-pepsi": "Dividend Stock Alternative to Beverage Giants",
+   "dell-alabama-nvidia-center": "Dell Builds Alabama Center Using Nvidia Systems",
+   "netflix-engagement-growth": "Netflix Engagement Growth Slows",
+   "berkshire-historical-returns": "Berkshire Hathaway Long Term Market Returns",
+   "push-to-reinstate-huang": "Investors and Petitioners Call for Jensen Huang Return",
+   "hsbc-downgrades-nvidia": "HSBC Downgrades Nvidia Following Leadership Exit"
   },
   "stories": [
    {
     "key": "jensen-huang-steps-down",
     "title": "Jensen Huang Steps Down as Nvidia CEO",
-    "summary": "Jensen Huang resigned from his roles as president, chief executive, and board member days after the board expressed public support. The unexpected leadership change creates significant governance uncertainty for the business.",
+    "summary": "Jensen Huang resigned after decades of leadership following claims of relationships with suspected Chinese intelligence assets. His sudden departure leaves the company without its longtime leader and increases governance uncertainty.",
     "impact": "negative",
     "importance": "high",
     "topic": "leadership",
-    "latest": "2026-11-14T12:30:00+00:00",
+    "latest": "2026-11-14T18:01:02+00:00",
     "first_seen": "2026-11-14T04:26:00.967161+00:00",
-    "count": 35,
+    "count": 36,
     "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
     "sources": [
      {
       "source": "Yahoo Finance",
-      "url": "https://stocktwits.com/news-articles/markets/equity/elon-musk-trump-kress-nvidia-board-on-jensen-huang-exit/cNbPJ1xR9Qk?.tsrc=rss",
-      "headline": "Elon Musk, Trump, Kress, Nvidia’s Board On Jensen Huang’s Exit: Mag 7 Voices This Week",
-      "published": "2026-11-14T12:30:00+00:00"
+      "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo?.tsrc=rss",
+      "headline": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
+      "published": "2026-11-14T18:01:02+00:00"
      },
      {
       "source": "Yahoo",
@@ -5823,7 +6232,7 @@
       "published": "2026-11-13T01:17:00+00:00"
      }
     ],
-    "score": 99.91
+    "score": 101.9
    },
    {
     "key": "huang-relationship-investigation",
@@ -5834,7 +6243,7 @@
     "topic": "leadership",
     "latest": "2026-11-14T06:14:55+00:00",
     "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "count": 9,
+    "count": 10,
     "image": null,
     "sources": [
      {
@@ -5850,6 +6259,12 @@
       "published": "2026-11-11T18:08:00+00:00"
      },
      {
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNC1PeXp3dElIZEN0SUdTQ2lnMGZoM2UzOUt4VWZkSnJfNy1nYkJLdW1KRkdtNFQwMUZEWlY0bnJZTFFnSjBnU1pxMWI4d2MwRlk0bmRydTJqbU95dXhEcDZIbDJod1dnMEQyOEZRTUY1Qy1wRGpwc0VYUEQ3NVAwRQ?oc=5",
+      "headline": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia Leader",
+      "published": "2026-11-10T19:27:59+00:00"
+     },
+     {
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNRSy1yS0duakdXT1hKbjI2MkFsMVhHeTQ1VVh4QlZYOVdvd0ZKaWVjTzFXT2JCRlR2T2IzSjRKcENSTkNLbVR2VU90Q1VyUHhEZWp0NGZLQUZPRXJ1NlNVNG9OZ0U0T2VwYmJuaURBMWVBYXhHd1hDb00zZU9aUXJGaU10bmFrclgySUZoUE1GX210Q19TQ1pXRjJTVFpoZjN2NG9qblVQMXhHUC1vV3JxaHkxbVJiVkhldEZISHlCdw?oc=5",
       "headline": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
@@ -5860,15 +6275,9 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5EcnlNdzFRY2RtTFNiaVYxeFhDSnJIck5qckxaeE4wLVRVYWFFSkZoc2tJNjRmLWxXSGxQMXFuYi1YeHpYbGNjOW5CMy1rNHNTaDlCWEpfUEpvYkprUEVkZjBJTTl6SmZRLWtNd1B3czh3ckl2ejlYcHFUN1FUODTSAYQBQVVfeXFMUHpzWXc5ZVl0T3JVSHlPT3NGUzh2cTFtd1hVbjRqbFNDQm5CclZwSmgtQ0I0akV6WHExSG9iZHptd0MxZ1RTOVhQYjlHbHNid2g3M0docFZBMmVCWGRjSzdIZjlFbFE1V3JjVHkyUmcxQWxFaDNsTHl2UUxHMTVxTlNvcDF2?oc=5",
       "headline": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
       "published": "2026-11-09T19:33:23+00:00"
-     },
-     {
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaHdZZkpucG9aOVF5R2JPeHljWV85XzlhbUxnbUREYWlKQzBiR1UzeWxwaF9EMnpDajI1aXlmMlo0aENzeGdyRzJDSEtJR0xVanhFSkN3bXE0R1FYV2VWZHdIV1A1MmFlczN4VnRZcVZ5QV9xdUlxZXVlZVl3eHRqVWxsVmE1dktHZzdnelB0ZjUwejJj?oc=5",
-      "headline": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Suspected Chinese Spy",
-      "published": "2026-11-08T20:01:02+00:00"
      }
     ],
-    "score": 47.39
+    "score": 48.92
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -5901,7 +6310,55 @@
       "published": "2026-11-09T16:02:52+00:00"
      }
     ],
-    "score": 36.87
+    "score": 36.4
+   },
+   {
+    "key": "push-to-reinstate-huang",
+    "title": "Investors and Petitioners Call for Jensen Huang Return",
+    "summary": "Two major investors asked the Nvidia board to evaluate bringing back Jensen Huang. Shareholders remain deeply focused on executive leadership following his recent exit.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "leadership",
+    "latest": "2026-11-14T17:35:51+00:00",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "count": 2,
+    "image": null,
+    "sources": [
+     {
+      "source": "CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UdIBlAFBVV95cUxOcHpRUE1XYktjaFk5RmZuVXpfeThGVVE2Y1N3cnZOenVXQkVYejdldFVubGtCMk5JZkU5SVhTcUt6Q0pBVnVrNExoY2p5Qk9kWUJ0eks4Wk4xMlNsb0RleEF1Qmo3VDlXSE8wTkg3Vk1CR3M5LWYtNTVsRmRzWFVPUVg1OVdhSVpaRXRpTXBBZXB6Ujhr?oc=5",
+      "headline": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "published": "2026-11-14T17:35:51+00:00"
+     },
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-joins-100-000-172500045.html?.tsrc=rss",
+      "headline": "Elon Musk joins 100,000+ signers on a petition to reinstate Jensen Huang — including 5,000+ who say they work at Nvidia",
+      "published": "2026-11-14T17:25:00+00:00"
+     }
+    ],
+    "score": 33.87
+   },
+   {
+    "key": "hsbc-downgrades-nvidia",
+    "title": "HSBC Downgrades Nvidia Following Leadership Exit",
+    "summary": "HSBC downgraded the company and lowered its share price target to 170 dollars. The change reflects mounting analyst unease over the sudden leadership departure despite rapid revenue growth.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "valuation",
+    "latest": "2026-11-14T17:03:53+00:00",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://247wallst.com/investing/2026/11/14/hsbc-just-downgraded-nvidia-and-cut-its-target-to-170/?.tsrc=rss",
+      "headline": "HSBC Just Downgraded Nvidia and Cut Its Target to $170",
+      "published": "2026-11-14T17:03:53+00:00"
+     }
+    ],
+    "score": 31.82
    },
    {
     "key": "bond-market-hits-chip-stocks",
@@ -5922,7 +6379,7 @@
       "published": "2026-11-14T13:18:55+00:00"
      }
     ],
-    "score": 31.98
+    "score": 31.51
    },
    {
     "key": "analysts-split-nvidia-target",
@@ -5943,7 +6400,7 @@
       "published": "2026-11-14T12:03:00+00:00"
      }
     ],
-    "score": 31.88
+    "score": 31.41
    },
    {
     "key": "kress-rejects-openai-backstop",
@@ -5964,7 +6421,7 @@
       "published": "2026-11-14T11:42:12+00:00"
      }
     ],
-    "score": 31.85
+    "score": 31.38
    },
    {
     "key": "alice-huang-chinese-rival",
@@ -5991,7 +6448,49 @@
       "published": "2026-11-10T10:41:00+00:00"
      }
     ],
-    "score": 30.55
+    "score": 30.08
+   },
+   {
+    "key": "cramer-nvidia-outlook",
+    "title": "Jim Cramer Comments on Nvidia Strategic Future",
+    "summary": "Jim Cramer discussed the new phase facing Nvidia and its upcoming strategic decisions. Major choices made over the next few weeks could create lasting effects for the company.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "leadership",
+    "latest": "2026-11-14T18:33:00+00:00",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/jim-cramer-strong-take-on-nvidia-next-chapter-colette-kress?.tsrc=rss",
+      "headline": "Jim Cramer has a strong take on Nvidia's next chapter",
+      "published": "2026-11-14T18:33:00+00:00"
+     }
+    ],
+    "score": 21.95
+   },
+   {
+    "key": "anthropic-ipo-valuation-risks",
+    "title": "Expert Warns on Anthropic IPO Valuation",
+    "summary": "Anthropic plans to seek a market valuation between 1.3 trillion and 1.4 trillion dollars in an upcoming public offering. Public reception of major artificial intelligence firms helps gauge broader investor appetite for the sector that buys Nvidia processors.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "valuation",
+    "latest": "2026-11-14T18:00:07+00:00",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/article/anthropic-ipo-to-test-wall-streets-faith-in-ai-as-skepticism-mounts-180007104.html?.tsrc=rss",
+      "headline": "Anthropic IPO to test Wall Street's faith in AI as skepticism mounts",
+      "published": "2026-11-14T18:00:07+00:00"
+     }
+    ],
+    "score": 21.9
    },
    {
     "key": "rapidus-challenges-tsmc",
@@ -6012,7 +6511,28 @@
       "published": "2026-11-14T12:04:00+00:00"
      }
     ],
-    "score": 21.88
+    "score": 21.41
+   },
+   {
+    "key": "dell-alabama-nvidia-center",
+    "title": "Dell Builds Alabama Center Using Nvidia Systems",
+    "summary": "Dell Technologies is building a computing facility at the University of Alabama featuring Nvidia artificial intelligence equipment. The deal shows ongoing university demand for Nvidia hardware in academic research centers.",
+    "impact": "positive",
+    "importance": "low",
+    "topic": "demand",
+    "latest": "2026-11-14T18:06:48+00:00",
+    "first_seen": "2026-11-14T19:07:55.803854+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/dell-technologies-dell-build-alabama-180648207.html?.tsrc=rss",
+      "headline": "Dell Technologies (DELL) Will Build An Alabama Research Computing Center",
+      "published": "2026-11-14T18:06:48+00:00"
+     }
+    ],
+    "score": 11.91
    },
    {
     "key": "agile-robots-funding",
@@ -6033,7 +6553,7 @@
       "published": "2026-11-14T06:20:35+00:00"
      }
     ],
-    "score": 11.4
+    "score": 10.93
    },
    {
     "key": "simons-firm-sells-nvidia",
@@ -6054,21 +6574,48 @@
       "published": "2026-11-14T04:33:00+00:00"
      }
     ],
-    "score": 11.25
+    "score": 10.78
    }
   ],
   "mood_7d": {
-   "positive": 2,
-   "neutral": 0,
-   "negative": 54
+   "positive": 5,
+   "neutral": 2,
+   "negative": 57
   },
   "sentiment_avg": null,
   "by_provider": {
    "finnhub": 1,
-   "yahoo": 18,
-   "google": 37
+   "yahoo": 24,
+   "google": 39
   },
   "market": [
+   {
+    "id": "10ab3d931d5f",
+    "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
+    "summary": "Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
+    "published": "2026-11-14T18:48:39+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "3f887a4ae919",
+    "headline": "Rising rents draw Wall Street money to industrial outdoor storage lot investments across the U.S.",
+    "summary": "A real estate investment in markets across the U.S. called 'industrial outdoor storage' is attracting Wall Street giants including Brookfield and Blackstone.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/14/real-estate-rental-income-industrial-storage-market.html",
+    "published": "2026-11-14T15:14:57+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "8e6bc56f8d35",
+    "headline": "Juice your growth and save on taxes in this workplace investment account",
+    "summary": "High-deductible medical benefit plans with health savings accounts are on the menu at many employers as enrollment season for 2027 continues.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/14/hsa-investing-tax-benefits.html",
+    "published": "2026-11-14T14:08:17+00:00",
+    "provider": "finnhub"
+   },
    {
     "id": "544569cde872",
     "headline": "Retailers are turning to entertainment to win shoppers’ attention",
@@ -6094,15 +6641,6 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
     "published": "2026-11-14T12:00:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "7fd8a8c1170a",
-    "headline": "Latin Grammy Awards: The fashion, moments, winners and performances - Reuters",
-    "summary": "Latin Grammy Awards: The fashion, moments, winners and performances Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLUdWNjJsc1BWTC1ycV83cEN2S3d0Z3hoaW9Cc3FmTVN6dkJpUXpZNDdOSVI1MUh2ZjB6WVdmQ0pFN1I5anRJaXhXeUQ3a3dRT1Y0Qm9GU0ladWhHdmxsQjNpZXNZMTc4YmM3YjBRYXJiV25teHBCSG1IdC1hTTV4SlNjampqR0NfZlVSZ3Zja1h5ZE5fMkZZLVdjQlZkc3dKY0RR?oc=5",
-    "published": "2026-11-14T11:48:06+00:00",
     "provider": "finnhub"
    },
    {
@@ -6230,24 +6768,6 @@
     "url": "https://www.cnbc.com/make-it/2026/11/13/psychologist-many-people-ignore-5-early-red-flags-in-romance-scams.html",
     "published": "2026-11-13T19:48:12+00:00",
     "provider": "finnhub"
-   },
-   {
-    "id": "e276e77530e2",
-    "headline": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
-    "summary": "Speculation has swirled around who Nvidia's board will select to permanently succeed Huang.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-    "published": "2026-11-13T19:42:52+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "9245c263004f",
-    "headline": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack - Reuters",
-    "summary": "Turkey, Qatar sign mutual defence agreement, pledge unified stance against attack Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTGE3d2YwNy1ONlliXzNCVDNiZU01WlB3YUdPMEZwOHJpNS1UWEtvZ3hhM1hWOGN2REsxbEw1SzNERlk3eTVfUTdlOEFJYVAwNXVjT25jczJDRE9iTE5DYjlxNnQ3UlJRVDlRdU1UeHhNZ1NUWnBVU2w2TjZLWTg5emhUZ2RVVXowVWZuMnBiTlhtWlhxUDkxODkzNVlfeGlGbVlYV0todlRQc1JZSXIyVXpsVU1WRDFFU2QxTA?oc=5",
-    "published": "2026-11-13T18:58:37+00:00",
-    "provider": "finnhub"
    }
   ]
  },
@@ -6278,7 +6798,7 @@
    "date": "2026-11-14",
    "title": "Jensen Huang Steps Down as Nvidia CEO",
    "impact": "negative",
-   "url": "https://stocktwits.com/news-articles/markets/equity/elon-musk-trump-kress-nvidia-board-on-jensen-huang-exit/cNbPJ1xR9Qk?.tsrc=rss"
+   "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo?.tsrc=rss"
   },
   {
    "key": "bond-market-hits-chip-stocks",
@@ -6300,34 +6820,48 @@
    "title": "Interim CEO Rejects OpenAI Credit Backstop",
    "impact": "negative",
    "url": "https://www.tikr.com/blog/nvidias-interim-ceo-pushed-back-on-a-250-billion-credit-backstop-for-openai-oracle-has-the-most-at-stake?ref=yahoofinance&tlnk=yf-261114-v5cmv78g&.tsrc=rss"
+  },
+  {
+   "key": "push-to-reinstate-huang",
+   "date": "2026-11-14",
+   "title": "Investors and Petitioners Call for Jensen Huang Return",
+   "impact": "positive",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa01uZk9qV2Rxd1NnaGlxbGpwNlRMMUJUMzZDXzJDcDhDQ1hidlFqOHo5Qm5ZTXBSUXdFQzJDd21LVmwzOTJOT20zUG9kVmRZS09LbkZ6RkxyUW9DVUJ1VE1aaWpZc1ZqdmVNUk1ORUI5dmVMZjhWS0dJaDAxN2NCQlp0Mmh3UHBueWRuOGc1UdIBlAFBVV95cUxOcHpRUE1XYktjaFk5RmZuVXpfeThGVVE2Y1N3cnZOenVXQkVYejdldFVubGtCMk5JZkU5SVhTcUt6Q0pBVnVrNExoY2p5Qk9kWUJ0eks4Wk4xMlNsb0RleEF1Qmo3VDlXSE8wTkg3Vk1CR3M5LWYtNTVsRmRzWFVPUVg1OVdhSVpaRXRpTXBBZXB6Ujhr?oc=5"
+  },
+  {
+   "key": "hsbc-downgrades-nvidia",
+   "date": "2026-11-14",
+   "title": "HSBC Downgrades Nvidia Following Leadership Exit",
+   "impact": "negative",
+   "url": "https://247wallst.com/investing/2026/11/14/hsbc-just-downgraded-nvidia-and-cut-its-target-to-170/?.tsrc=rss"
   }
  ],
  "brief": {
-  "mood": "Under pressure",
+  "mood": "Under heavy pressure",
   "tone": "negative",
-  "headline": "Nvidia shares dropped as the sudden exit of its chief executive shook investor confidence.",
+  "headline": "Nvidia shares fell as longtime chief executive Jensen Huang suddenly resigned amid an investigation.",
   "sentences": [
    {
-    "text": "Nvidia stock slipped two percent today to close at 162.85 dollars.",
+    "text": "Nvidia stock dropped about two percent today to 162.85 dollars, leaving it 33.1 percent below its yearly peak.",
     "stories": []
    },
    {
-    "text": "The decline came after Jensen Huang unexpectedly left his leadership post while federal officials examined chip transactions.",
+    "text": "The slide comes as longtime leader Jensen Huang abruptly exited while the board investigates his ties to suspected foreign intelligence assets.",
+    "stories": [
+     "jensen-huang-steps-down",
+     "huang-relationship-investigation"
+    ]
+   },
+   {
+    "text": "Long term shareholders must navigate severe executive instability and deepening government scrutiny across chip sales.",
     "stories": [
      "jensen-huang-steps-down",
      "us-scrutiny-nvidia-chips"
     ]
-   },
-   {
-    "text": "Long term shareholders must navigate a sudden management transition and regulatory questions as interim leader Colette Kress takes control.",
-    "stories": [
-     "jensen-huang-steps-down",
-     "kress-rejects-openai-backstop"
-    ]
    }
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T13:31:37.299802+00:00"
+  "written_at": "2026-11-14T19:07:55.803854+00:00"
  },
  "outlook": {
   "summary": "Nvidia faces significant uncertainty after its chief executive resigned. The business is also dealing with federal investigations regarding past chip sales to China. Investors will look to the upcoming November earnings report for guidance on how the company plans to navigate these leadership and legal challenges.",
@@ -6450,8 +6984,8 @@
  "usage": {
   "today": {
    "date": "2026-11-14",
-   "runs": 10,
-   "ai_tokens": 107214
+   "runs": 11,
+   "ai_tokens": 137169
   }
  },
  "errors": []
