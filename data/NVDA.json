@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-14T04:42:46.406876+00:00",
+ "updated_at": "2026-11-14T04:47:37.869398+00:00",
  "daily_done": "2026-11-14",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-14T04:42:46.405830+00:00"
+  "checked": "2026-11-14T04:47:37.868077+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -3486,6 +3486,402 @@
   "benchmarks": {
    "QQQ": [
     [
+     "2026-06-25",
+     716.38
+    ],
+    [
+     "2026-06-26",
+     706.52
+    ],
+    [
+     "2026-06-29",
+     724.08
+    ],
+    [
+     "2026-06-30",
+     736.4
+    ],
+    [
+     "2026-07-01",
+     725.17
+    ],
+    [
+     "2026-07-02",
+     712.6
+    ],
+    [
+     "2026-07-06",
+     722.82
+    ],
+    [
+     "2026-07-07",
+     709.43
+    ],
+    [
+     "2026-07-08",
+     711.44
+    ],
+    [
+     "2026-07-09",
+     723.28
+    ],
+    [
+     "2026-07-10",
+     725.51
+    ],
+    [
+     "2026-07-13",
+     711.74
+    ],
+    [
+     "2026-07-14",
+     719.69
+    ],
+    [
+     "2026-07-15",
+     717.74
+    ],
+    [
+     "2026-07-16",
+     705.94
+    ],
+    [
+     "2026-07-17",
+     695.33
+    ],
+    [
+     "2026-07-20",
+     696.06
+    ],
+    [
+     "2026-07-21",
+     708.97
+    ],
+    [
+     "2026-07-22",
+     705.35
+    ],
+    [
+     "2026-07-23",
+     691.96
+    ],
+    [
+     "2026-07-24",
+     684.23
+    ],
+    [
+     "2026-07-27",
+     682.12
+    ],
+    [
+     "2026-07-28",
+     675.49
+    ],
+    [
+     "2026-07-29",
+     661.73
+    ],
+    [
+     "2026-07-30",
+     683.55
+    ],
+    [
+     "2026-07-31",
+     687.99
+    ],
+    [
+     "2026-08-03",
+     700.07
+    ],
+    [
+     "2026-08-04",
+     723.85
+    ],
+    [
+     "2026-08-05",
+     717.3
+    ],
+    [
+     "2026-08-06",
+     714.65
+    ],
+    [
+     "2026-08-07",
+     723.03
+    ],
+    [
+     "2026-08-10",
+     720.87
+    ],
+    [
+     "2026-08-11",
+     718.45
+    ],
+    [
+     "2026-08-12",
+     723.7
+    ],
+    [
+     "2026-08-13",
+     732.07
+    ],
+    [
+     "2026-08-14",
+     731.07
+    ],
+    [
+     "2026-08-17",
+     729.87
+    ],
+    [
+     "2026-08-18",
+     717.51
+    ],
+    [
+     "2026-08-19",
+     716.08
+    ],
+    [
+     "2026-08-20",
+     710.93
+    ],
+    [
+     "2026-08-21",
+     713.44
+    ],
+    [
+     "2026-08-24",
+     706.32
+    ],
+    [
+     "2026-08-25",
+     710.72
+    ],
+    [
+     "2026-08-26",
+     711.37
+    ],
+    [
+     "2026-08-27",
+     721.11
+    ],
+    [
+     "2026-08-28",
+     716.43
+    ],
+    [
+     "2026-08-31",
+     716.76
+    ],
+    [
+     "2026-09-01",
+     707.64
+    ],
+    [
+     "2026-09-02",
+     709.24
+    ],
+    [
+     "2026-09-03",
+     717.67
+    ],
+    [
+     "2026-09-04",
+     718.96
+    ],
+    [
+     "2026-09-08",
+     718.36
+    ],
+    [
+     "2026-09-09",
+     716.31
+    ],
+    [
+     "2026-09-10",
+     708.69
+    ],
+    [
+     "2026-09-11",
+     714.88
+    ],
+    [
+     "2026-09-14",
+     709.18
+    ],
+    [
+     "2026-09-15",
+     704.54
+    ],
+    [
+     "2026-09-16",
+     704.72
+    ],
+    [
+     "2026-09-17",
+     716.92
+    ],
+    [
+     "2026-09-18",
+     721.45
+    ],
+    [
+     "2026-09-21",
+     741.47
+    ],
+    [
+     "2026-09-22",
+     747.46
+    ],
+    [
+     "2026-09-23",
+     741.21
+    ],
+    [
+     "2026-09-24",
+     741.1
+    ],
+    [
+     "2026-09-25",
+     744.5
+    ],
+    [
+     "2026-09-28",
+     736.53
+    ],
+    [
+     "2026-09-29",
+     737.93
+    ],
+    [
+     "2026-09-30",
+     739.77
+    ],
+    [
+     "2026-10-01",
+     742.03
+    ],
+    [
+     "2026-10-02",
+     749.58
+    ],
+    [
+     "2026-10-05",
+     756.2
+    ],
+    [
+     "2026-10-06",
+     759.66
+    ],
+    [
+     "2026-10-07",
+     757.73
+    ],
+    [
+     "2026-10-08",
+     747.58
+    ],
+    [
+     "2026-10-09",
+     751.27
+    ],
+    [
+     "2026-10-12",
+     746.04
+    ],
+    [
+     "2026-10-13",
+     743.57
+    ],
+    [
+     "2026-10-14",
+     728.95
+    ],
+    [
+     "2026-10-15",
+     728.0
+    ],
+    [
+     "2026-10-16",
+     709.8
+    ],
+    [
+     "2026-10-19",
+     718.36
+    ],
+    [
+     "2026-10-20",
+     717.63
+    ],
+    [
+     "2026-10-21",
+     725.2
+    ],
+    [
+     "2026-10-22",
+     704.47
+    ],
+    [
+     "2026-10-23",
+     704.4
+    ],
+    [
+     "2026-10-26",
+     712.2
+    ],
+    [
+     "2026-10-27",
+     721.25
+    ],
+    [
+     "2026-10-28",
+     725.61
+    ],
+    [
+     "2026-10-29",
+     715.34
+    ],
+    [
+     "2026-10-30",
+     690.49
+    ],
+    [
+     "2026-11-02",
+     681.09
+    ],
+    [
+     "2026-11-03",
+     685.28
+    ],
+    [
+     "2026-11-04",
+     691.95
+    ],
+    [
+     "2026-11-05",
+     647.05
+    ],
+    [
+     "2026-11-06",
+     656.1
+    ],
+    [
+     "2026-11-09",
+     679.35
+    ],
+    [
+     "2026-11-10",
+     674.76
+    ],
+    [
+     "2026-11-11",
+     690.38
+    ],
+    [
+     "2026-11-12",
+     688.17
+    ],
+    [
      "2026-11-13",
      679.89
     ]
@@ -4449,6 +4845,44 @@
     "importance": "high",
     "topic": "leadership",
     "story": "jensen-huang-steps-down"
+   },
+   "16319d24d32f": {
+    "id": "16319d24d32f",
+    "headline": "Jim Simons’ firm dumps Nvidia, reveals $2.24 billion in 2 tech stocks",
+    "summary": "One filing, two very different bets on tech.",
+    "source": "Yahoo Finance",
+    "url": "https://www.thestreet.com/investing/stocks/renaissance-technologies-nvidia-13f?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T04:33:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T04:47:37.869398+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Jim Simons' investment firm sold its stake in Nvidia while allocating 2.24 billion dollars to other technology companies. The move signals that a major institutional investor is shifting capital away from the business.",
+    "impact": "negative",
+    "importance": "low",
+    "topic": "valuation",
+    "story": "simons-firm-sells-nvidia"
+   },
+   "23fbfd03f578": {
+    "id": "23fbfd03f578",
+    "headline": "CoreWeave (CRWV) Faces Fresh Risk After A Key Supplier Leadership Shock",
+    "summary": "CoreWeave (NasdaqGS:CRWV) traded through heightened swings on 13 November 2026 after Nvidia CEO Jensen Huang resigned unexpectedly. The departure raised fresh questions over Nvidia's future hardware roadmap and financing support for partners that rely on its GPUs. CoreWeave's close commercial ties…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-faces-fresh-risk-042335689.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T04:23:35+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T04:47:37.869398+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Partner business CoreWeave experienced volatile trading following the sudden exit of Nvidia chief Jensen Huang. Investors worry the leadership vacuum could disrupt Nvidia's future product roadmap and financial backing for key partners.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
    }
   },
   "story_titles": {
@@ -4457,19 +4891,20 @@
    "us-scrutiny-nvidia-chips": "US Inquiries Into Nvidia Chips and Megaspeed",
    "sandisk-stock-decline": "Sandisk Stock Falls Below Nine Hundred Dollars",
    "alice-huang-chinese-rival": "Alice Huang Linked to Chinese Rival",
-   "huang-relationship-investigation": "Nvidia Probes Jensen Huang Ties With Alleged Spy"
+   "huang-relationship-investigation": "Nvidia Probes Jensen Huang Ties With Alleged Spy",
+   "simons-firm-sells-nvidia": "Jim Simons Firm Sells Nvidia Shares"
   },
   "stories": [
    {
     "key": "jensen-huang-steps-down",
     "title": "Jensen Huang Steps Down as Nvidia CEO",
-    "summary": "Jensen Huang is stepping down from his role as chief executive officer while shares have fallen more than 30 percent from their peak. The loss of the company's longtime leader creates significant uncertainty regarding its future strategic direction.",
+    "summary": "Partner business CoreWeave experienced volatile trading following the sudden exit of Nvidia chief Jensen Huang. Investors worry the leadership vacuum could disrupt Nvidia's future product roadmap and financial backing for key partners.",
     "impact": "negative",
     "importance": "high",
     "topic": "leadership",
     "latest": "2026-11-14T04:24:53+00:00",
     "first_seen": "2026-11-14T04:26:00.967161+00:00",
-    "count": 29,
+    "count": 30,
     "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
     "sources": [
      {
@@ -4521,7 +4956,7 @@
       "published": "2026-11-13T01:17:00+00:00"
      }
     ],
-    "score": 87.97
+    "score": 89.97
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -4554,7 +4989,7 @@
       "published": "2026-11-09T16:02:52+00:00"
      }
     ],
-    "score": 37.6
+    "score": 37.59
    },
    {
     "key": "huang-relationship-investigation",
@@ -4608,18 +5043,39 @@
       "published": "2026-11-12T20:10:49+00:00"
      }
     ],
-    "score": 19.29
+    "score": 19.28
+   },
+   {
+    "key": "simons-firm-sells-nvidia",
+    "title": "Jim Simons Firm Sells Nvidia Shares",
+    "summary": "Jim Simons' investment firm sold its stake in Nvidia while allocating 2.24 billion dollars to other technology companies. The move signals that a major institutional investor is shifting capital away from the business.",
+    "impact": "negative",
+    "importance": "low",
+    "topic": "valuation",
+    "latest": "2026-11-14T04:33:00+00:00",
+    "first_seen": "2026-11-14T04:47:37.869398+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://www.thestreet.com/investing/stocks/renaissance-technologies-nvidia-13f?.tsrc=rss",
+      "headline": "Jim Simons’ firm dumps Nvidia, reveals $2.24 billion in 2 tech stocks",
+      "published": "2026-11-14T04:33:00+00:00"
+     }
+    ],
+    "score": 11.98
    }
   ],
   "mood_7d": {
    "positive": 0,
    "neutral": 0,
-   "negative": 40
+   "negative": 42
   },
   "sentiment_avg": null,
   "by_provider": {
    "finnhub": 1,
-   "yahoo": 6,
+   "yahoo": 8,
    "google": 33
   },
   "market": [
@@ -4829,44 +5285,44 @@
   }
  ],
  "brief": {
-  "mood": "Under pressure",
+  "mood": "Under heavy pressure",
   "tone": "negative",
-  "headline": "Nvidia shares fell as Chief Executive Officer Jensen Huang stepped down amid federal scrutiny.",
+  "headline": "NVIDIA shares dropped as chief executive Jensen Huang stepped down amid federal inquiries.",
   "sentences": [
    {
-    "text": "Nvidia stock dropped two percent today and trades 33 percent below its annual high.",
+    "text": "NVIDIA stock fell 2.01 percent to 162.85 dollars, leaving it 33.1 percent below its 52 week peak.",
     "stories": []
    },
    {
-    "text": "The decline comes as Chief Executive Officer Jensen Huang departs while facing deepening government inquiries.",
+    "text": "The drop comes as Jensen Huang departed as chief executive while the company confronts federal investigations.",
     "stories": [
      "jensen-huang-steps-down",
-     "us-scrutiny-nvidia-chips",
-     "huang-relationship-investigation"
+     "huang-relationship-investigation",
+     "us-scrutiny-nvidia-chips"
     ]
    },
    {
-    "text": "Long term holders face strategic uncertainty following the sudden departure of the longtime company leader.",
+    "text": "Long term shareholders face elevated uncertainty regarding future strategy even with the stock trading at 11.3 times forward earnings.",
     "stories": [
      "jensen-huang-steps-down"
     ]
    }
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T04:42:46.406876+00:00"
+  "written_at": "2026-11-14T04:47:37.869398+00:00"
  },
  "outlook": {
-  "summary": "Nvidia faces severe leadership uncertainty after longtime leader Jensen Huang stepped down amid federal investigations. Government scrutiny over chip transactions and overseas ties adds further risk to the outlook. The upcoming earnings report on November 17, 2026, will serve as a key test for business stability.",
+  "summary": "Nvidia faces major leadership and regulatory uncertainty following the sudden departure of CEO Jensen Huang and federal investigations. Upcoming earnings on November 17, 2026 will test whether business fundamentals remain intact despite these executive changes.",
   "what_next": [
    {
-    "point": "The upcoming earnings release on November 17, 2026, will show whether customer demand has held up through recent turmoil.",
+    "point": "The company reports third quarter earnings on November 17, 2026, where investors will focus on demand trends and leadership updates.",
     "direction": "mixed",
     "timeframe": "days",
     "confidence": "high",
     "stories": []
    },
    {
-    "point": "The sudden exit of Jensen Huang and ongoing federal inquiries into his background could destabilize executive management.",
+    "point": "The unexpected exit of Jensen Huang could cause near term uncertainty regarding product roadmaps and strategic partner relationships.",
     "direction": "negative",
     "timeframe": "weeks",
     "confidence": "high",
@@ -4876,47 +5332,46 @@
     ]
    },
    {
-    "point": "Disagreements among government officials over chip sales and Megaspeed could result in stricter export regulations.",
+    "point": "Expanding government scrutiny over chip sales and Megaspeed may result in tighter sales restrictions.",
     "direction": "negative",
     "timeframe": "months",
     "confidence": "medium",
     "stories": [
-     "us-scrutiny-nvidia-chips"
+     "us-scrutiny-nvidia-chips",
+     "alice-huang-chinese-rival"
     ]
    },
    {
-    "point": "Reported connections between Alice Huang and a Chinese rival could invite deeper regulatory review of foreign competition.",
-    "direction": "negative",
+    "point": "Spending updates from key cloud customers in early 2027 will show whether artificial intelligence hardware budgets remain strong.",
+    "direction": "mixed",
     "timeframe": "months",
-    "confidence": "low",
-    "stories": [
-     "alice-huang-chinese-rival"
-    ]
+    "confidence": "medium",
+    "stories": []
    }
   ],
   "drivers": [],
   "bull_watch": [
-   "Earnings per share topping the consensus estimate of 2.5225 on November 17, 2026.",
-   "Prompt appointment of credible leadership that calms strategic concerns.",
-   "Resolution of federal inquiries without additional commercial penalties."
+   "Third quarter earnings and future guidance exceed market estimates on November 17, 2026.",
+   "Smooth transition to new executive leadership with intact partner commitments.",
+   "Customer earnings reports in early 2027 confirm higher artificial intelligence chip spending."
   ],
   "bear_watch": [
-   "Implementation of stricter federal export curbs on chip sales.",
-   "Additional analyst downgrades following the cuts by Oppenheimer and StoneX.",
-   "Lower than expected customer spending signals during upcoming tech earnings."
+   "Further regulatory actions or trade curbs targeting chip sales.",
+   "Disruptions to product development and partner backing following Huang's exit.",
+   "Additional analyst downgrades or reductions in forward revenue targets."
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T04:42:46.406876+00:00"
+  "written_at": "2026-11-14T04:47:37.869398+00:00"
  },
  "outlook_count": {
-  "2026-11-14": 2
+  "2026-11-14": 3
  },
  "drivers": [],
  "usage": {
   "today": {
    "date": "2026-11-14",
-   "runs": 3,
-   "ai_tokens": 62196
+   "runs": 4,
+   "ai_tokens": 73147
   }
  },
  "errors": []
