@@ -42,9 +42,11 @@ YAHOO_RSS = "https://feeds.finance.yahoo.com/rss/2.0/headline"
 GOOGLE_NEWS_RSS = "https://news.google.com/rss/search"
 TIMEOUT_SECONDS = 20
 RECHECK_PLAN_LIMITED_DAYS = 7
-CAPABILITY_VERSION = 2
+CAPABILITY_VERSION = 3
 FINNHUB_PER_MINUTE = 55
+ALPHA_SECONDS_BETWEEN_CALLS = 1.6
 PLAN_WORDS = ("premium", "subscription", "upgrade", "plan", "access", "restricted", "legacy")
+RATE_WORDS = ("per second", "rate limit", "requests per day", "sparingly", "spreading out", "too many requests")
 BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; stock-tracker/2.0)"}
 
 
@@ -152,6 +154,7 @@ class Sources:
         self.problems = []
         self.session = requests.Session()
         self._finnhub_times = deque()
+        self._alpha_last = 0.0
 
     # ----- the safety wrapper ------------------------------------------------
 
@@ -206,10 +209,18 @@ class Sources:
             time.sleep(max(0.0, 61 - (now - self._finnhub_times[0])))
         self._finnhub_times.append(time.monotonic())
 
+    def _throttle_alpha(self):
+        wait = ALPHA_SECONDS_BETWEEN_CALLS - (time.monotonic() - self._alpha_last)
+        if wait > 0:
+            time.sleep(wait)
+        self._alpha_last = time.monotonic()
+
     def _request(self, provider, url, params, raw=False):
         self.calls[provider] += 1
         if provider == "finnhub":
             self._throttle_finnhub()
+        elif provider == "alphavantage":
+            self._throttle_alpha()
         headers = BROWSER_HEADERS if provider == "rss" else None
         for attempt in range(2):
             try:
@@ -241,7 +252,11 @@ class Sources:
             message = (data.get("error") or data.get("Error Message") or data.get("message")
                        or data.get("Information") or data.get("Note"))
             if message and len(data) <= 2:
-                if any(word in str(message).lower() for word in PLAN_WORDS):
+                lowered = str(message).lower()
+                if any(word in lowered for word in RATE_WORDS):
+                    # A busy or daily limit is temporary, so it must not be treated as "paid only".
+                    raise SourceError(f"rate limit: {str(message)[:120]}")
+                if any(word in lowered for word in PLAN_WORDS):
                     raise PlanLimited(str(message)[:200])
                 raise SourceError(str(message)[:200])
         return data
