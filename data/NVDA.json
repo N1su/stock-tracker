@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-14T19:07:55.803854+00:00",
+ "updated_at": "2026-11-14T23:53:43.664911+00:00",
  "daily_done": "2026-11-14",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-14T19:07:55.802543+00:00"
+  "checked": "2026-11-14T23:53:43.662941+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -6137,6 +6137,329 @@
     "importance": "medium",
     "topic": "leadership",
     "story": "huang-relationship-investigation"
+   },
+   "5447aaf34895": {
+    "id": "5447aaf34895",
+    "headline": "Dan Ives Valued Nvidia at “$225 Without Jensen.” Now the Stock Trades Below It",
+    "summary": "Key TakeawaysNVIDIA (NVDA) fell approximately 12. 7% over five trading sessions, closing at $162.",
+    "source": "Yahoo Finance",
+    "url": "https://www.tikr.com/blog/dan-ives-valued-nvidia-at-225-without-jensen-now-the-stock-trades-below-it?ref=yahoofinance&tlnk=yf-261114-wfxc34j3&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T23:11:42+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Nvidia shares fell around 12.7 percent across five trading sessions to end at $162. This drop placed the equity below the $225 valuation previously estimated by Dan Ives without Jensen Huang.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "valuation",
+    "story": "dan-ives-nvidia-valuation"
+   },
+   "84169d43dc0d": {
+    "id": "84169d43dc0d",
+    "headline": "Elon Musk's Tesla and SpaceX Lost More Than $420 Billion in Combined Market Value in Two Days After Democrats Swept the Midterms, With Investors Fearing New Congressional Probes. Here's Why That Political Risk Matters f…",
+    "summary": "Given the nature of their businesses, Tesla and SpaceX's exposure to political risk won't subside anytime soon.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/elon-musks-tesla-and-spacex-lost-more-than-420-billion-in-combined-market-value-in-two-days-after-democrats-swept-the-midterms-with-investors-fearing-new-congressional-probes-heres-why-that-political-risk-matters-for-shareholders/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T22:48:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Tesla and SpaceX lost more than $420 billion in combined market value over two days following the midterm elections. Investors grew cautious over potential congressional probes into the companies.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "tesla-spacex-market-value-loss"
+   },
+   "ad93da70a6f0": {
+    "id": "ad93da70a6f0",
+    "headline": "George Soros’ firm builds $340 million stake in a resurgent tech stock",
+    "summary": "One detail made me check the previous filing.",
+    "source": "Yahoo Finance",
+    "url": "https://www.thestreet.com/investing/stocks/george-soros-firm-builds-340-million-stake-intel-resurgent-tech-stock?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T22:33:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "George Soros' investment firm established a $340 million stake in a technology company. The filing summary did not name the specific firm that was bought.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "soros-tech-investment"
+   },
+   "b8dcc663909d": {
+    "id": "b8dcc663909d",
+    "headline": "ASML vs. NVIDIA: Which Technology Stock Is a Better Buy for 2027?",
+    "summary": "ASML and Nvidia sit at opposite ends of the chip supply chain, and their valuations tell very different stories for investors weighing new money.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/coverage/better-buy/2026/11/14/asml-vs-nvidia-which-technology-stock-is-a-better-buy-for-2027/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T22:14:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "A commentary contrasted the valuations and supply chain roles of ASML and Nvidia. The piece examined which semiconductor firm offers better prospects for 2027.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "valuation",
+    "story": "asml-nvidia-stock-comparison"
+   },
+   "632ae04a9f60": {
+    "id": "632ae04a9f60",
+    "headline": "3 AI Chip Stocks Retail Investors May Be Missing Beyond Nvidia",
+    "summary": "Jensen Huang’s sudden exit from Nvidia has rattled the AI hardware story and thrown a spotlight on the quieter giants that actually build and supply the chips behind it. When a single leadership change can shake confidence in such a critical piece of infrastructure, attention often shifts to where…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-chip-stocks-retail-220906408.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T22:09:06+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "A report highlighted three alternative semiconductor stocks for retail investors following Jensen Huang's exit from Nvidia. The article noted that the leadership change shook confidence across artificial intelligence hardware makers.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "competition",
+    "story": "ai-chip-alternatives-after-huang"
+   },
+   "29ec5bf626ea": {
+    "id": "29ec5bf626ea",
+    "headline": "Forget SpaceX: This Potential Blockbuster IPO Has Attracted $26 Billion From AI Giants",
+    "summary": "Anthropic could start its life as a publicly traded company with a bang.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/forget-spacex-this-potential-blockbuster-ipo-has-attracted-usd26-billion-from-ai-giants/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T22:06:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Anthropic is preparing for a public listing after raising twenty six billion dollars from major artificial intelligence companies. The update centers on Anthropic and does not provide new details about Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "anthropic-ipo-valuation-risks"
+   },
+   "6b7b7e8366f4": {
+    "id": "6b7b7e8366f4",
+    "headline": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals",
+    "summary": "Copper hit a four-month low as Nvidia’s Jensen Huang quit, but the bigger risk to data center metals demand may be AI financing, not chip orders.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/nvidia-without-huang-pause-ai-220000617.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T22:00:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Copper prices dropped to a four month low after Jensen Huang left his post as chief executive. Investors are worried that disruptions to artificial intelligence financing could slow data center development and related equipment spending.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "demand",
+    "story": "jensen-huang-steps-down"
+   },
+   "8d7155bf3a8a": {
+    "id": "8d7155bf3a8a",
+    "headline": "Nvidia Fell While AMD and Broadcom Jumped. Here’s What History Says Happens Next to All 3 Stocks.",
+    "summary": "The news that led Jensen Huang to step down as CEO of Nvidia has crushed the company's stock price.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/nvidia-fell-while-amd-and-broadcom-jumped-here-s-what-history-says-happens-next-to-all-3-stocks/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T21:55:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Nvidia shares dropped sharply following the departure of Jensen Huang while rivals AMD and Broadcom advanced. The leadership exit has damaged investor confidence in the company while temporarily benefiting its direct competitors.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "jensen-huang-steps-down"
+   },
+   "97c0ff543e84": {
+    "id": "97c0ff543e84",
+    "headline": "5 Dividend Stocks to Buy and Hold Forever",
+    "summary": "These five stocks have proven track records of dividend growth backed by attractive businesses.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/5-dividend-stocks-to-buy-and-hold-forever/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T21:35:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "A financial article recommends five dividend paying companies for long term holdings. It is a general list and does not provide meaningful information about Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "dividend-stock-coke-pepsi"
+   },
+   "880954614332": {
+    "id": "880954614332",
+    "headline": "Bitcoin Drops Below $65,000, Extending Weeklong Slide",
+    "summary": "Bitcoin (CRYPTO: $BTC) fell below $65,000 on Saturday, trading at $64,595.23, down 5.57% from a day earlier. ...",
+    "source": "Yahoo Finance",
+    "url": "https://www.cryptoprowl.com/releases/bitcoin-drops-below-65000-extending-weeklong-slide-7908?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T21:28:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Bitcoin traded lower over the weekend and fell beneath sixty five thousand dollars. The report covers cryptocurrency price fluctuations and has no direct material link to Nvidia.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "blockchain-growth-stocks"
+   },
+   "534848cd5e29": {
+    "id": "534848cd5e29",
+    "headline": "Is CoreWeave Stock a Buy After Its Latest Earnings?",
+    "summary": "There are good reasons to be bullish about CoreWeave stock, but the risk is real too.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/is-coreweave-stock-a-buy-after-its-latest-earnings/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T21:07:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "CoreWeave reported its latest financial results amid debate over its risks and rewards. The article considers whether to purchase shares in the cloud computing provider.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "demand",
+    "story": "coreweave-earnings-outlook"
+   },
+   "250b6b4d3993": {
+    "id": "250b6b4d3993",
+    "headline": "The hottest job in AI right now may be counterintelligence as companies pay former spooks $500,000 to protect trade secrets",
+    "summary": "Anthropic alone has hired 33 employees for counterintelligence functions so far this year, up from 14 last year, and nine in 2024.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/hottest-job-ai-now-may-203152085.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T20:31:52+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Technology companies are spending heavily to hire security specialists to defend proprietary data. Anthropic increased its counterintelligence staff to 33 employees this year.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "ai-counterintelligence-hiring"
+   },
+   "697e1d343190": {
+    "id": "697e1d343190",
+    "headline": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+    "summary": "AMD stock beat Nvidia by a record margin over 5 days, then fell 8.75% with Nvidia's first post-Huang earnings due November 17.",
+    "source": "Yahoo Finance",
+    "url": "https://beincrypto.com/amd-stock-record-run-nvidia-earnings/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T20:06:56+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "AMD beat Nvidia over five days by its largest spread since 1999 before falling 8.75%. The move comes right before Nvidia delivers its first quarterly results without Jensen Huang on November 17.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "competition",
+    "story": "amd-stock-gain-nvidia"
+   },
+   "1a8ce15bebf7": {
+    "id": "1a8ce15bebf7",
+    "headline": "Apple's Market Value Grew From $350 Billion to $4 Trillion During Tim Cook's 15 Years as CEO. Here's What That Growth Curve Means for Apple's Next Chapter Under John Ternus",
+    "summary": "Are Apple’s best days in the rearview mirror?",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/apples-market-value-grew-from-350-billion-to-4-trillion-during-tim-cooks-15-years-as-ceo-heres-what-that-growth-curve-means-for-apples-next-chapter-under-john-ternus/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T19:31:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Apple expanded significantly under Tim Cook and is transitioning to John Ternus as chief executive. Observers are evaluating whether the business can continue its historic growth trajectory.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "leadership",
+    "story": "apple-ceo-transition-growth"
+   },
+   "67c7750c0b78": {
+    "id": "67c7750c0b78",
+    "headline": "NVIDIA (NVDA): Can AI Demand Sustain Growth Through Leadership Uncertainty?",
+    "summary": "We just published the list of the 10 AI Infrastructure Stocks to Watch After CoreWeave’s Earnings and NVIDIA Corporation (NASDAQ:NVDA) ranked 10th on this list. Why Are AI Infrastructure Stocks Under Pressure? AI infrastructure stocks have faced considerable selling pressure in recent weeks, as con…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-ai-demand-sustain-192430760.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T19:24:30+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "A market ranking placed Nvidia tenth among artificial intelligence infrastructure stocks to monitor. The broader category has encountered selling pressure as investors question whether demand will hold up during leadership changes.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "demand",
+    "story": "ai-infrastructure-stocks-list"
+   },
+   "41102a226208": {
+    "id": "41102a226208",
+    "headline": "Coca-Cola Has Paid a Growing Dividend for 64 Years. Here's the Income $5,000 Can Start You With.",
+    "summary": "The beverage giant's asset-light model produces high-margin profits on mountains of revenue.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/14/coca-cola-has-paid-a-growing-dividend-for-64-years-heres-the-income-5000-can-start-you-with/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-14T19:16:57+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "Coca-Cola has increased dividend payments to shareholders for 64 consecutive years. An asset light operating structure supports strong profit margins on massive overall sales.",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "dividend-stock-coke-pepsi"
+   },
+   "0d73a6c24e7b": {
+    "id": "0d73a6c24e7b",
+    "headline": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
+    "summary": "",
+    "source": "Axios",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU?oc=5",
+    "image": null,
+    "published": "2026-11-11T21:03:01+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Lutnick delayed proposed government limits on Nvidia chip sales to China following an Oval Office confrontation. Avoiding tighter export curbs helps Nvidia retain vital revenue from the Chinese market.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "regulation",
+    "story": "lutnick-china-chip-curbs"
    }
   },
   "story_titles": {
@@ -6168,26 +6491,37 @@
    "netflix-engagement-growth": "Netflix Engagement Growth Slows",
    "berkshire-historical-returns": "Berkshire Hathaway Long Term Market Returns",
    "push-to-reinstate-huang": "Investors and Petitioners Call for Jensen Huang Return",
-   "hsbc-downgrades-nvidia": "HSBC Downgrades Nvidia Following Leadership Exit"
+   "hsbc-downgrades-nvidia": "HSBC Downgrades Nvidia Following Leadership Exit",
+   "dan-ives-nvidia-valuation": "Dan Ives Nvidia Valuation and Share Decline",
+   "tesla-spacex-market-value-loss": "Tesla and SpaceX Suffer Market Value Losses",
+   "soros-tech-investment": "Soros Firm Buys Technology Stock Stake",
+   "asml-nvidia-stock-comparison": "ASML and Nvidia Stock Comparison for 2027",
+   "ai-chip-alternatives-after-huang": "Alternative AI Chip Stocks Highlighted After Huang Exit",
+   "coreweave-earnings-outlook": "CoreWeave Earnings and Investment Prospects",
+   "ai-counterintelligence-hiring": "AI Companies Expand Counterintelligence Teams",
+   "amd-stock-gain-nvidia": "AMD Share Performance Against Nvidia",
+   "apple-ceo-transition-growth": "Apple Leadership Transition and Valuation Growth",
+   "ai-infrastructure-stocks-list": "AI Infrastructure Stocks List and Market Pressures",
+   "lutnick-china-chip-curbs": "Lutnick Delays Curbs on Nvidia China Chip Sales"
   },
   "stories": [
    {
     "key": "jensen-huang-steps-down",
     "title": "Jensen Huang Steps Down as Nvidia CEO",
-    "summary": "Jensen Huang resigned after decades of leadership following claims of relationships with suspected Chinese intelligence assets. His sudden departure leaves the company without its longtime leader and increases governance uncertainty.",
+    "summary": "Nvidia shares dropped sharply following the departure of Jensen Huang while rivals AMD and Broadcom advanced. The leadership exit has damaged investor confidence in the company while temporarily benefiting its direct competitors.",
     "impact": "negative",
     "importance": "high",
     "topic": "leadership",
-    "latest": "2026-11-14T18:01:02+00:00",
+    "latest": "2026-11-14T22:00:00+00:00",
     "first_seen": "2026-11-14T04:26:00.967161+00:00",
-    "count": 36,
+    "count": 38,
     "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
     "sources": [
      {
       "source": "Yahoo Finance",
-      "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo?.tsrc=rss",
-      "headline": "The Week Jensen Huang Fell: How a Spy Scandal Toppled Nvidia’s CEO",
-      "published": "2026-11-14T18:01:02+00:00"
+      "url": "https://finance.yahoo.com/markets/commodities/articles/nvidia-without-huang-pause-ai-220000617.html?.tsrc=rss",
+      "headline": "Nvidia Without Huang: What a Pause in AI Deals Means for Metals",
+      "published": "2026-11-14T22:00:00+00:00"
      },
      {
       "source": "Yahoo",
@@ -6232,7 +6566,7 @@
       "published": "2026-11-13T01:17:00+00:00"
      }
     ],
-    "score": 101.9
+    "score": 105.84
    },
    {
     "key": "huang-relationship-investigation",
@@ -6277,7 +6611,7 @@
       "published": "2026-11-09T19:33:23+00:00"
      }
     ],
-    "score": 48.92
+    "score": 48.53
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -6310,7 +6644,7 @@
       "published": "2026-11-09T16:02:52+00:00"
      }
     ],
-    "score": 36.4
+    "score": 36.0
    },
    {
     "key": "push-to-reinstate-huang",
@@ -6337,7 +6671,7 @@
       "published": "2026-11-14T17:25:00+00:00"
      }
     ],
-    "score": 33.87
+    "score": 33.47
    },
    {
     "key": "hsbc-downgrades-nvidia",
@@ -6358,7 +6692,7 @@
       "published": "2026-11-14T17:03:53+00:00"
      }
     ],
-    "score": 31.82
+    "score": 31.43
    },
    {
     "key": "bond-market-hits-chip-stocks",
@@ -6379,7 +6713,7 @@
       "published": "2026-11-14T13:18:55+00:00"
      }
     ],
-    "score": 31.51
+    "score": 31.11
    },
    {
     "key": "analysts-split-nvidia-target",
@@ -6400,7 +6734,7 @@
       "published": "2026-11-14T12:03:00+00:00"
      }
     ],
-    "score": 31.41
+    "score": 31.01
    },
    {
     "key": "kress-rejects-openai-backstop",
@@ -6421,7 +6755,7 @@
       "published": "2026-11-14T11:42:12+00:00"
      }
     ],
-    "score": 31.38
+    "score": 30.98
    },
    {
     "key": "alice-huang-chinese-rival",
@@ -6448,7 +6782,70 @@
       "published": "2026-11-10T10:41:00+00:00"
      }
     ],
-    "score": 30.08
+    "score": 29.69
+   },
+   {
+    "key": "lutnick-china-chip-curbs",
+    "title": "Lutnick Delays Curbs on Nvidia China Chip Sales",
+    "summary": "Lutnick delayed proposed government limits on Nvidia chip sales to China following an Oval Office confrontation. Avoiding tighter export curbs helps Nvidia retain vital revenue from the Chinese market.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "regulation",
+    "latest": "2026-11-11T21:03:01+00:00",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Axios",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU?oc=5",
+      "headline": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
+      "published": "2026-11-11T21:03:01+00:00"
+     }
+    ],
+    "score": 25.76
+   },
+   {
+    "key": "dan-ives-nvidia-valuation",
+    "title": "Dan Ives Nvidia Valuation and Share Decline",
+    "summary": "Nvidia shares fell around 12.7 percent across five trading sessions to end at $162. This drop placed the equity below the $225 valuation previously estimated by Dan Ives without Jensen Huang.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "valuation",
+    "latest": "2026-11-14T23:11:42+00:00",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://www.tikr.com/blog/dan-ives-valued-nvidia-at-225-without-jensen-now-the-stock-trades-below-it?ref=yahoofinance&tlnk=yf-261114-wfxc34j3&.tsrc=rss",
+      "headline": "Dan Ives Valued Nvidia at “$225 Without Jensen.” Now the Stock Trades Below It",
+      "published": "2026-11-14T23:11:42+00:00"
+     }
+    ],
+    "score": 21.94
+   },
+   {
+    "key": "amd-stock-gain-nvidia",
+    "title": "AMD Share Performance Against Nvidia",
+    "summary": "AMD beat Nvidia over five days by its largest spread since 1999 before falling 8.75%. The move comes right before Nvidia delivers its first quarterly results without Jensen Huang on November 17.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "competition",
+    "latest": "2026-11-14T20:06:56+00:00",
+    "first_seen": "2026-11-14T23:53:43.664911+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://beincrypto.com/amd-stock-record-run-nvidia-earnings/?.tsrc=rss",
+      "headline": "AMD Just Had Its Biggest Run Against Nvidia Since 1999. Can It Survive Earnings?",
+      "published": "2026-11-14T20:06:56+00:00"
+     }
+    ],
+    "score": 21.68
    },
    {
     "key": "cramer-nvidia-outlook",
@@ -6469,7 +6866,7 @@
       "published": "2026-11-14T18:33:00+00:00"
      }
     ],
-    "score": 21.95
+    "score": 21.55
    },
    {
     "key": "anthropic-ipo-valuation-risks",
@@ -6490,7 +6887,7 @@
       "published": "2026-11-14T18:00:07+00:00"
      }
     ],
-    "score": 21.9
+    "score": 21.51
    },
    {
     "key": "rapidus-challenges-tsmc",
@@ -6511,7 +6908,7 @@
       "published": "2026-11-14T12:04:00+00:00"
      }
     ],
-    "score": 21.41
+    "score": 21.01
    },
    {
     "key": "dell-alabama-nvidia-center",
@@ -6532,7 +6929,7 @@
       "published": "2026-11-14T18:06:48+00:00"
      }
     ],
-    "score": 11.91
+    "score": 11.51
    },
    {
     "key": "agile-robots-funding",
@@ -6553,7 +6950,7 @@
       "published": "2026-11-14T06:20:35+00:00"
      }
     ],
-    "score": 10.93
+    "score": 10.53
    },
    {
     "key": "simons-firm-sells-nvidia",
@@ -6574,21 +6971,39 @@
       "published": "2026-11-14T04:33:00+00:00"
      }
     ],
-    "score": 10.78
+    "score": 10.38
    }
   ],
   "mood_7d": {
-   "positive": 5,
-   "neutral": 2,
-   "negative": 57
+   "positive": 6,
+   "neutral": 3,
+   "negative": 60
   },
   "sentiment_avg": null,
   "by_provider": {
    "finnhub": 1,
-   "yahoo": 24,
-   "google": 39
+   "yahoo": 28,
+   "google": 40
   },
   "market": [
+   {
+    "id": "dd6252a4d829",
+    "headline": "Iran's navy says three tankers on fire after hitting mines in Hormuz - Reuters",
+    "summary": "Iran's navy says three tankers on fire after hitting mines in Hormuz Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
+    "published": "2026-11-14T22:54:19+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "daadbbb0bd00",
+    "headline": "SpaceX, in a historic first, catches upper stage of its Starship rocket",
+    "summary": "Starship Test Flight 15 marks the first time Elon Musk's company has tried to catch both the booster and upper stage of the rocket.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
+    "published": "2026-11-14T21:26:31+00:00",
+    "provider": "finnhub"
+   },
    {
     "id": "10ab3d931d5f",
     "headline": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
@@ -6650,15 +7065,6 @@
     "source": "Reuters",
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
     "published": "2026-11-14T11:04:10+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "dd6252a4d829",
-    "headline": "Iran's navy says oil tanker on fire after hitting mine in Hormuz - Reuters",
-    "summary": "Iran's navy says oil tanker on fire after hitting mine in Hormuz Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZWt1cHFualJEVktnTTVvd21uVnljc0FqR2dRaWpaRnYwZ3luZ2t1dUlJNVUtLTVlWHJFOS1ocDBlaVZsTFNZdjRMeldFVFE1Q0Jqem9FbU9fMmp1YTBUTUhqTmYzR3FJN1Z1Y1dHY2d0Yjlzb2lBR0JvNllyT3pScjI2SEpkbkhiYzZSWW9Tb3dwemdWaVVmMjBPbXZqd0hOZzdpRDVSZlVlbzBnV1BjMQ?oc=5",
-    "published": "2026-11-14T10:31:30+00:00",
     "provider": "finnhub"
    },
    {
@@ -6759,19 +7165,17 @@
     "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
     "published": "2026-11-13T19:59:17+00:00",
     "provider": "finnhub"
-   },
-   {
-    "id": "e461477c1163",
-    "headline": "Many people ignore these ‘early red flags’ in romance scams, says Harvard-trained psychologist",
-    "summary": "Psychologist and relationship expert Dr. Sabrina Romanoff shares her best advice for how to spot a romance scammer.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/make-it/2026/11/13/psychologist-many-people-ignore-5-early-red-flags-in-romance-scams.html",
-    "published": "2026-11-13T19:48:12+00:00",
-    "provider": "finnhub"
    }
   ]
  },
  "major_events": [
+  {
+   "key": "lutnick-china-chip-curbs",
+   "date": "2026-11-11",
+   "title": "Lutnick Delays Curbs on Nvidia China Chip Sales",
+   "impact": "positive",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU?oc=5"
+  },
   {
    "key": "alice-huang-chinese-rival",
    "date": "2026-11-12",
@@ -6798,7 +7202,7 @@
    "date": "2026-11-14",
    "title": "Jensen Huang Steps Down as Nvidia CEO",
    "impact": "negative",
-   "url": "https://decrypt.co/383280/the-week-jensen-huang-fell-how-spy-scandal-toppled-nvidia-ceo?.tsrc=rss"
+   "url": "https://finance.yahoo.com/markets/commodities/articles/nvidia-without-huang-pause-ai-220000617.html?.tsrc=rss"
   },
   {
    "key": "bond-market-hits-chip-stocks",
@@ -6837,31 +7241,31 @@
   }
  ],
  "brief": {
-  "mood": "Under heavy pressure",
+  "mood": "Under pressure",
   "tone": "negative",
-  "headline": "Nvidia shares fell as longtime chief executive Jensen Huang suddenly resigned amid an investigation.",
+  "headline": "Nvidia shares declined after leader Jensen Huang resigned amid corporate probes.",
   "sentences": [
    {
-    "text": "Nvidia stock dropped about two percent today to 162.85 dollars, leaving it 33.1 percent below its yearly peak.",
+    "text": "Nvidia stock fell 2.01 percent today to close at 162.85 dollars.",
     "stories": []
    },
    {
-    "text": "The slide comes as longtime leader Jensen Huang abruptly exited while the board investigates his ties to suspected foreign intelligence assets.",
+    "text": "The drop comes after Jensen Huang departed from his role as chief executive and the business opened an inquiry into his overseas contacts.",
     "stories": [
      "jensen-huang-steps-down",
      "huang-relationship-investigation"
     ]
    },
    {
-    "text": "Long term shareholders must navigate severe executive instability and deepening government scrutiny across chip sales.",
+    "text": "For multi year holders, the sudden executive exit and Wall Street target cuts bring fresh governance risks alongside ongoing federal chip inquiries.",
     "stories": [
-     "jensen-huang-steps-down",
+     "hsbc-downgrades-nvidia",
      "us-scrutiny-nvidia-chips"
     ]
    }
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-14T19:07:55.803854+00:00"
+  "written_at": "2026-11-14T23:53:43.664911+00:00"
  },
  "outlook": {
   "summary": "Nvidia faces significant uncertainty after its chief executive resigned. The business is also dealing with federal investigations regarding past chip sales to China. Investors will look to the upcoming November earnings report for guidance on how the company plans to navigate these leadership and legal challenges.",
@@ -6984,8 +7388,8 @@
  "usage": {
   "today": {
    "date": "2026-11-14",
-   "runs": 11,
-   "ai_tokens": 137169
+   "runs": 12,
+   "ai_tokens": 170528
   }
  },
  "errors": []
