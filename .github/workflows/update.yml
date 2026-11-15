@@ -3,12 +3,12 @@ name: Update stock data
 on:
   schedule:
     # Times are UTC. Hong Kong is UTC+8.
-    # US trading hours, every 30 minutes, Monday to Friday (9pm to 5:30am Hong Kong).
-    - cron: "*/30 13-21 * * 1-5"
-    # Outside trading hours, every 2 hours, every day (news and the brief only).
-    - cron: "15 0-12/2,22 * * *"
-    # Weekend daytime in the US, three extra news checks.
-    - cron: "15 14,17,20 * * 0,6"
+    # US trading hours, every hour, Monday to Friday (9pm to 5am Hong Kong).
+    - cron: "5 13-21 * * 1-5"
+    # Outside trading hours, every 3 hours, every day (news and the brief only).
+    - cron: "15 0-12/3,23 * * *"
+    # Weekend daytime in the US, two extra news checks.
+    - cron: "15 16,20 * * 0,6"
   workflow_dispatch:
 
 permissions:
