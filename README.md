@@ -35,7 +35,7 @@ flowchart LR
 
 There is no server and no database. A scheduled GitHub Actions job runs the Python script, saves the results to a JSON file in the repo, and commits it. The web page is a single static file that reads that JSON.
 
-**Schedule (Hong Kong time):** every 30 minutes from 9pm to 5:30am on US trading days, every 2 hours outside trading hours, and a few extra news checks on weekends. GitHub sometimes delays or skips scheduled runs, so the page always shows when the data was last updated.
+**Schedule (Hong Kong time):** every hour from 9pm to 5am on US trading days, every 3 hours outside trading hours, and two extra news checks on weekends. GitHub sometimes delays or skips scheduled runs, so the page always shows when the data was last updated.
 
 **Daily and per-run work:** prices and news are refreshed on every run. Slower data such as fundamentals, estimates, analyst grades, earnings dates and insider trades is refreshed once a day to save API calls.
 
@@ -59,6 +59,19 @@ The AI does three jobs through the HKBU GenAI API:
 3. **Write the outlook.** Once a day, or early when high-importance news lands.
 
 AI output is never trusted blindly. Every reply must be valid JSON, every field is checked against a fixed list of allowed values, broken replies are partly recovered where possible, and a failed news batch is split in half and retried. If a job still fails, the page keeps the last good version and shows a note instead of going blank.
+
+## Keeping AI usage low
+
+The AI runs on a university API, so I treat its tokens as a limited budget rather than a free resource. The tracker only calls the AI when the answer would actually be different.
+
+* **Daily budget.** `daily_token_budget` in `config/companies.json` caps AI use per day. As the budget fills up, optional jobs are skipped in a fixed order: extra outlooks first at 60%, then the brief and the daily outlook at 90%, and news sorting last at 100%. A skipped job keeps its last good version.
+* **Change-driven brief.** The brief is rewritten only when there is new medium or high importance news, the price has moved at least 2% since the last brief, or the brief is over 6 hours old and something has changed. A quiet weekend costs almost nothing.
+* **Change-driven outlook.** The daily outlook is skipped when nothing important has happened since the last one, and early rewrites after big news are limited to two a day.
+* **Free filter first.** Before any headline reaches the AI, a keyword check drops generic "stocks to buy" lists and articles that never mention the company or its industry. Headlines that name the company always pass. On a week of real data this removed about 23% of headlines without losing any the AI had marked relevant.
+* **Smaller prompts and replies.** Compact JSON, shorter story summaries, one sentence per headline, and irrelevant headlines answered with just an id.
+* **Less hidden thinking.** Requests ask the model for low reasoning effort. If the API does not accept that setting, it is dropped automatically for that model.
+
+Every run logs its token use per job (news, brief, outlook), including hidden thinking tokens where the API reports them, in `data/_usage.json`, with the last 60 days and a 7-day average. The Today tab shows how much of the daily budget has been used.
 
 ## Some finance details
 
