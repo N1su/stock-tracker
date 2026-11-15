@@ -2,13 +2,18 @@
 
 Three jobs, each returning checked JSON:
 
-  sort_news      Reads new headlines only. Writes a two sentence summary in its own
-                 words for each one, tags impact, importance and topic, drops noise,
-                 and groups headlines about the same event into one story.
+  sort_news      Reads new headlines only. Writes a one sentence summary in its own
+                 words for each relevant one, tags impact, importance and topic, and
+                 groups headlines about the same event into one story.
   write_brief    The 30 second view: a mood label and three sentences on what
                  happened, why, and what it means. Every sentence names its stories.
-  write_outlook  Runs once a day or after big news: what happens next, the driver
-                 scorecard, and what would confirm the bull or bear case.
+  write_outlook  What happens next, the driver scorecard, and what would confirm
+                 the bull or bear case.
+
+Token use is tracked per job and checked against a daily budget, so update.py can
+skip optional jobs instead of overspending. Models are asked to keep their hidden
+thinking short (reasoning_effort). If the API does not accept that setting, it is
+dropped for that model and the call is retried once.
 
 Every answer is checked before it is used. If the AI returns something broken,
 the job raises AIError and update.py keeps the last good version instead.
@@ -27,7 +32,7 @@ import requests
 
 HKBU_CHAT_URL = "https://genai.hkbu.edu.hk/api/v1/chat/completions"
 TIMEOUT_SECONDS = 180
-NEWS_BATCH_SIZE = 10
+NEWS_BATCH_SIZE = 15
 
 IMPACTS = ("positive", "negative", "neutral")
 IMPORTANCE = ("high", "medium", "low")
@@ -132,19 +137,47 @@ def slug(value):
 # ---------------------------------------------------------------------------
 
 class AI:
-    def __init__(self, key, fast_model, deep_model):
+    def __init__(self, key, fast_model, deep_model, reasoning_effort=None, daily_budget=None, spent_today=0):
         self.key = key
         self.fast_model = fast_model
         self.deep_model = deep_model
-        self.tokens = Counter()
-        self.calls = Counter()
+        self.reasoning_effort = reasoning_effort or None
+        self.daily_budget = daily_budget or None
+        self.spent_before_run = int(spent_today or 0)
+        self.tokens = Counter()       # by model
+        self.calls = Counter()        # by model
+        self.job_tokens = Counter()   # by job: news, brief, outlook
+        self.job_calls = Counter()
+        self.thinking_tokens = Counter()
+        self.skipped = Counter()      # jobs skipped because of the budget
         self.json_mode_off = set()
+        self.reasoning_off = set()
 
-    def chat(self, model, user_prompt, max_tokens):
+    # ----- budget -------------------------------------------------------------
+
+    def spent_today(self):
+        return self.spent_before_run + sum(self.tokens.values())
+
+    def used_pct(self):
+        if not self.daily_budget:
+            return 0.0
+        return self.spent_today() / self.daily_budget * 100
+
+    def can_spend(self, job, limit_pct=100):
+        """True when today's spending is below limit_pct of the daily budget."""
+        if not self.daily_budget or self.used_pct() < limit_pct:
+            return True
+        self.skipped[job] += 1
+        print(f"budget: skipped {job} ({self.used_pct():.0f}% of the daily budget used)")
+        return False
+
+    # ----- calls ----------------------------------------------------------------
+
+    def chat(self, model, user_prompt, max_tokens, job="other"):
         """One call. Returns the parsed JSON object."""
-        return parse_json(self.chat_text(model, user_prompt, max_tokens))
+        return parse_json(self.chat_text(model, user_prompt, max_tokens, job))
 
-    def chat_text(self, model, user_prompt, max_tokens):
+    def chat_text(self, model, user_prompt, max_tokens, job="other"):
         """One call. Returns the raw reply text."""
         body = {
             "model": model,
@@ -157,8 +190,16 @@ class AI:
         }
         if model not in self.json_mode_off:
             body["response_format"] = {"type": "json_object"}
+        if self.reasoning_effort and model not in self.reasoning_off:
+            body["reasoning_effort"] = self.reasoning_effort
 
         response = self._post(body)
+        if response.status_code == 400 and "reasoning_effort" in body:
+            # The API may not accept the thinking setting. Remember that and try without it.
+            self.reasoning_off.add(model)
+            body.pop("reasoning_effort")
+            print(f"note: {model} did not accept reasoning_effort, so it was dropped")
+            response = self._post(body)
         if response.status_code == 400 and "response_format" in body:
             # Some models reject JSON mode. Remember that and try once without it.
             self.json_mode_off.add(model)
@@ -173,11 +214,21 @@ class AI:
         except (ValueError, KeyError, IndexError, TypeError):
             raise AIError("HKBU GenAI answer had an unexpected shape") from None
 
-        usage = payload.get("usage") or {}
-        self.tokens[model] += int(usage.get("total_tokens") or 0)
-        self.calls[model] += 1
-
         content = message.get("content") or ""
+        usage = payload.get("usage") or {}
+        used = int(usage.get("total_tokens") or 0)
+        if not used:
+            # No usage reported, so estimate about 4 characters per token.
+            used = (len(HOUSE_RULES) + len(user_prompt) + len(content)) // 4
+        details = usage.get("completion_tokens_details") or {}
+        thinking = int(details.get("reasoning_tokens") or 0)
+
+        self.tokens[model] += used
+        self.calls[model] += 1
+        self.job_tokens[job] += used
+        self.job_calls[job] += 1
+        self.thinking_tokens[job] += thinking
+
         if not content.strip():
             finish = payload["choices"][0].get("finish_reason")
             raise AIError(f"empty reply (finish reason: {finish}); try a higher max_tokens")
@@ -193,6 +244,17 @@ class AI:
             )
         except requests.RequestException as exc:
             raise AIError(f"network problem reaching HKBU GenAI ({type(exc).__name__})") from None
+
+    def report(self):
+        """Usage numbers for this run, saved by update.py."""
+        return {
+            "tokens": sum(self.tokens.values()),
+            "by_job": dict(self.job_tokens),
+            "calls_by_job": dict(self.job_calls),
+            "thinking_by_job": dict(self.thinking_tokens),
+            "skipped_for_budget": dict(self.skipped),
+            "reasoning_effort_dropped_for": sorted(self.reasoning_off),
+        }
 
     # =======================================================================
     # Job 1: sort the news
@@ -228,19 +290,22 @@ class AI:
 
     def _sort_batch(self, company, batch, known_stories, max_tokens):
         items = [
-            {"id": i["id"], "headline": i["headline"], "summary": i.get("summary", "")[:400],
-             "source": i.get("source"), "published": i.get("published")}
+            {"id": i["id"], "headline": i["headline"], "summary": i.get("summary", "")[:250],
+             "source": i.get("source")}
             for i in batch
         ]
         prompt = (
             f"Company: {company['name']} ({company['ticker']}).\n"
-            f"Existing stories (key: title): {json.dumps(known_stories)[:3000]}\n\n"
-            f"New headlines:\n{json.dumps(items, indent=1)}\n\n"
-            "For every headline, return an entry with these fields:\n"
+            f"Existing stories (key: title): {json.dumps(known_stories)[:2500]}\n\n"
+            f"New headlines:\n{json.dumps(items)}\n\n"
+            "For every headline return one entry.\n"
+            f"If it says nothing real about {company['name']}, its products, customers, rivals or industry "
+            "(for example 'stocks to buy' lists or pieces that only mention the name), return only "
+            '{"id": the id, "relevant": false}.\n'
+            "Otherwise return:\n"
             '  "id": the headline id, unchanged\n'
-            f'  "relevant": true only if it says something real about {company["name"]}, its products, customers, '
-            "rivals or industry. Lists like 'stocks to buy' and pieces that only mention the name are false.\n"
-            '  "summary": two short sentences in your own words: what happened, and why it matters for the company\n'
+            '  "relevant": true\n'
+            '  "summary": one short sentence in your own words on what happened and why it matters\n'
             f'  "impact": one of {list(IMPACTS)} for the company\n'
             f'  "importance": one of {list(IMPORTANCE)}. High means it could change the long term story '
             "or move the stock several percent.\n"
@@ -251,7 +316,7 @@ class AI:
             '  "story_title": for a new story key, a short neutral title of at most 9 words; otherwise ""\n\n'
             'Return {"items": [ ...one entry per headline... ]}'
         )
-        raw = self.chat_text(self.fast_model, prompt, max_tokens)
+        raw = self.chat_text(self.fast_model, prompt, max_tokens, job="news")
         try:
             rows = parse_json(raw).get("items")
         except AIError:
@@ -266,13 +331,17 @@ class AI:
         for row in rows:
             if not isinstance(row, dict) or str(row.get("id")) not in known_ids:
                 continue
+            if not bool(row.get("relevant", True)):
+                results[str(row["id"])] = {"relevant": False, "ai_summary": "", "impact": "neutral",
+                                           "importance": "low", "topic": "other", "story": "irrelevant"}
+                continue
             key = slug(row.get("story"))
             title = text(row.get("story_title"), 90)
             if key not in known_stories and key not in titles:
                 titles[key] = title or text(next(i["headline"] for i in batch if i["id"] == str(row["id"])), 90)
             results[str(row["id"])] = {
-                "relevant": bool(row.get("relevant", True)),
-                "ai_summary": text(row.get("summary"), 420),
+                "relevant": True,
+                "ai_summary": text(row.get("summary"), 300),
                 "impact": choice(row.get("impact"), IMPACTS, "neutral"),
                 "importance": choice(row.get("importance"), IMPORTANCE, "low"),
                 "topic": choice(row.get("topic"), TOPICS, "other"),
@@ -292,8 +361,8 @@ class AI:
         prompt = (
             f"Company: {company['name']} ({company['ticker']}).\n"
             f"Market numbers (percent values are already percentages; forward_eps_next_12_months is a blend of "
-            f"this fiscal year and next, not a single fiscal year):\n{json.dumps(facts, indent=1)}\n\n"
-            f"Top stories from the last few days:\n{json.dumps(stories, indent=1)[:6000]}\n\n"
+            f"this fiscal year and next, not a single fiscal year):\n{json.dumps(facts)}\n\n"
+            f"Top stories from the last few days:\n{json.dumps(stories)[:5000]}\n\n"
             "Write the 30 second brief. Return:\n"
             '{"mood": two or three words for how the stock is doing right now, such as "Under pressure", '
             '"Steady", "Strong day", "Recovering",\n'
@@ -303,7 +372,7 @@ class AI:
             "Sentence 1 says what happened to the stock. Sentence 2 says the most likely reason, using the stories. "
             "Sentence 3 says what it means for someone holding the stock for years.}"
         )
-        data = self.chat(self.fast_model, prompt, max_tokens)
+        data = self.chat(self.fast_model, prompt, max_tokens, job="brief")
         sentences = data.get("sentences")
         if not isinstance(sentences, list) or len(sentences) < 2:
             raise AIError("brief reply did not have the sentences")
@@ -334,9 +403,9 @@ class AI:
         drivers = company.get("drivers") or []
         prompt = (
             f"Company: {company['name']} ({company['ticker']}).\n"
-            f"Market numbers:\n{json.dumps(facts, indent=1)}\n\n"
-            f"Analyst, earnings and calendar data:\n{json.dumps(extra, indent=1)[:6000]}\n\n"
-            f"Stories from the last 7 days:\n{json.dumps(stories, indent=1)[:9000]}\n\n"
+            f"Market numbers:\n{json.dumps(facts)}\n\n"
+            f"Analyst, earnings and calendar data:\n{json.dumps(extra)[:5000]}\n\n"
+            f"Stories from the last 7 days:\n{json.dumps(stories)[:7000]}\n\n"
             f"The investor tracks these drivers: {json.dumps(drivers)}\n\n"
             "Write the outlook: the likely consequences of the current news and what drives the stock next. "
             "This is analysis, not a prediction or advice. Return:\n"
@@ -350,7 +419,7 @@ class AI:
             ' "bull_watch": two or three short things that would confirm the optimistic case,\n'
             ' "bear_watch": two or three short things that would confirm the pessimistic case}'
         )
-        data = self.chat(self.deep_model, prompt, max_tokens)
+        data = self.chat(self.deep_model, prompt, max_tokens, job="outlook")
 
         points = []
         for entry in data.get("what_next") or []:
@@ -400,7 +469,7 @@ class AI:
 
 
 # ---------------------------------------------------------------------------
-# Quick model test: python scripts/ai.py MODEL_NAME
+# Quick model test: python scripts/ai.py MODEL_NAME [reasoning_effort]
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
@@ -408,7 +477,10 @@ if __name__ == "__main__":
     if not key:
         sys.exit("Set HKBU_GENAI_API_KEY first.")
     model = sys.argv[1] if len(sys.argv) > 1 else "gemini-3.8-flash"
-    ai = AI(key, model, model)
-    reply = ai.chat(model, 'Return {"ok": true, "model_says": "one short sentence about forward P/E"}', 1500)
+    effort = sys.argv[2] if len(sys.argv) > 2 else "low"
+    ai = AI(key, model, model, reasoning_effort=effort)
+    reply = ai.chat(model, 'Return {"ok": true, "model_says": "one short sentence about forward P/E"}', 1500, job="test")
     print(json.dumps(reply, indent=2))
-    print("tokens used:", dict(ai.tokens), "| JSON mode off for:", sorted(ai.json_mode_off) or "none")
+    print("tokens used:", dict(ai.tokens), "| thinking tokens:", dict(ai.thinking_tokens))
+    print("JSON mode off for:", sorted(ai.json_mode_off) or "none",
+          "| reasoning_effort dropped for:", sorted(ai.reasoning_off) or "none")
