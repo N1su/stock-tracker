@@ -2,6 +2,10 @@
   "ai": {
     "fast_model": "gemini-3.8-flash",
     "deep_model": "gemini-3.1-pro-preview",
+    "reasoning_effort": "low",
+    "daily_token_budget": 150000,
+    "max_outlooks_per_day": 2,
+    "brief_price_move_pct": 2,
     "news_tokens": 8000,
     "brief_tokens": 4000,
     "outlook_tokens": 8000
@@ -19,6 +23,8 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "news_query": "Nvidia",
+      "news_keywords": ["jensen huang", "cuda", "blackwell", "rubin", "geforce", "tsmc", "semiconductor", "chip",
+                        "data center", "hyperscaler", "artificial intelligence", "openai", "anthropic", "ai rally", "ai stocks"],
       "benchmarks": ["QQQ", "SOXX"],
       "benchmark_names": {
         "QQQ": "Nasdaq 100 fund",
