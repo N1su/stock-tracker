@@ -680,6 +680,13 @@ document.addEventListener("DOMContentLoaded", function () {
       html += '<p class="note">The last update had ' + d.errors.length + (d.errors.length === 1 ? " problem" : " problems") + ': ' + esc(d.errors.slice(0, 2).join(" | ")) + "</p>";
     }
     html += '<p class="note">' + esc(d.name || d.ticker) + " data updated " + esc(hkt(d.updated_at, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", hour12: false })) + " HKT. For tracking and learning, not financial advice.</p>";
+    var ab = d.ai_budget || {}, ud = (d.usage || {}).today || {};
+    if (isNum(ab.used_today)) {
+      html += '<p class="note">AI use today: ' + fmt(ab.used_today / 1000, 0) + "k tokens" +
+        (isNum(ab.daily) ? " of a " + fmt(ab.daily / 1000, 0) + "k daily budget (" + fmt(ab.used_pct, 0) + "%)" : "") +
+        ". The brief is only rewritten when the news or price changes" +
+        (ud.filtered_headlines ? ", and " + fmt(ud.filtered_headlines, 0) + " off topic headlines were dropped before reaching the AI" : "") + ".</p>";
+    }
     $("today").innerHTML = html;
     if (isNum(q.price) && $("heroPrice")) { odometer($("heroPrice"), money(q.price)); S.lastPriceText = money(q.price); }
   }
