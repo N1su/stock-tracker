@@ -4,9 +4,10 @@ A self-updating stock research dashboard that runs for free on GitHub. It pulls 
 
 I built it to follow NVIDIA (NVDA) while I dollar cost average into it, but any company can be added through one settings file.
 
-**Live page:** [add your GitHub Pages link here]
+**Live page:** https://n1su.github.io/stock-tracke
 
-![Screenshot of the Today tab](docs/screenshot-today.png)
+<img width="374" height="954" alt="home_page" src="https://github.com/user-attachments/assets/04ffc2d2-98e8-4b75-bad4-80fdafe1ba25" />
+
 
 ## Why I built it
 
