@@ -1,0 +1,26 @@
+{
+ "budget_per_day": 150000,
+ "reasoning_effort": "low",
+ "reasoning_effort_dropped_for": [],
+ "average_last_7_days": 6248,
+ "days": [
+  {
+   "date": "2026-11-15",
+   "runs": 1,
+   "tokens": 6248,
+   "by_job": {
+    "news": 4336,
+    "brief": 1912
+   },
+   "calls_by_job": {
+    "news": 2,
+    "brief": 1
+   },
+   "thinking_by_job": {
+    "news": 0,
+    "brief": 0
+   },
+   "skipped_for_budget": {}
+  }
+ ]
+}
