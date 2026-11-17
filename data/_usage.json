@@ -2,7 +2,7 @@
  "budget_per_day": 150000,
  "reasoning_effort": "low",
  "reasoning_effort_dropped_for": [],
- "average_last_7_days": 22470,
+ "average_last_7_days": 24907,
  "days": [
   {
    "date": "2026-11-15",
@@ -45,16 +45,16 @@
   },
   {
    "date": "2026-11-17",
-   "runs": 2,
-   "tokens": 23167,
+   "runs": 3,
+   "tokens": 30480,
    "by_job": {
-    "news": 8200,
-    "brief": 3682,
+    "news": 13682,
+    "brief": 5513,
     "outlook": 11285
    },
    "calls_by_job": {
-    "news": 3,
-    "brief": 2,
+    "news": 5,
+    "brief": 3,
     "outlook": 2
    },
    "thinking_by_job": {
