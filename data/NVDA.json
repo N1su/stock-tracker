@@ -2,20 +2,20 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-18T21:17:53.190968+00:00",
- "daily_done": "2026-11-18",
+ "updated_at": "2026-11-19T04:14:30.015106+00:00",
+ "daily_done": "2026-11-19",
  "market": {
   "is_open": false,
-  "session": "post-market",
+  "session": null,
   "holiday": null,
-  "checked": "2026-11-18T21:17:53.186482+00:00"
+  "checked": "2026-11-19T04:14:30.010471+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
   "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959144056.png",
   "industry": "Semiconductors",
   "exchange": "NASDAQ NMS - GLOBAL MARKET",
-  "market_cap_musd": 3746585.985355059,
+  "market_cap_musd": 3638136.1571203643,
   "shares_out_m": 24100.0,
   "website": "https://www.nvidia.com",
   "ipo": "1999-01-22"
@@ -71,18 +71,18 @@
   }
  },
  "valuation": {
-  "forward_eps": 14.55,
-  "forward_pe": 10.4,
+  "forward_eps": 14.88,
+  "forward_pe": 10.1,
   "next_fiscal_year_end": "2028-01-25",
-  "next_year_eps": 15.74955,
-  "next_year_revision_30d_pct": 0.24,
-  "pe_ttm": 19.5095,
-  "peg": 0.12760785661575164,
-  "fcf_yield_pct": 3.97,
-  "ev_ebitda": 13.698584418758184,
-  "target_upside_pct": 101.3,
-  "target_last_month_avg": 232.87,
-  "target_last_month_count": 15
+  "next_year_eps": 16.10928,
+  "next_year_revision_30d_pct": 2.53,
+  "pe_ttm": 16.5591,
+  "peg": 0.12391407458326169,
+  "fcf_yield_pct": 4.09,
+  "ev_ebitda": 13.30301681846201,
+  "target_upside_pct": 82.7,
+  "target_last_month_avg": 229.6,
+  "target_last_month_count": 25
  },
  "valuation_history": [
   {
@@ -109,56 +109,61 @@
    "date": "2026-11-18",
    "price": 150.96,
    "forward_pe": 10.4
+  },
+  {
+   "date": "2026-11-19",
+   "price": 150.96,
+   "forward_pe": 10.1
   }
  ],
  "estimates": {
-  "fetched_on": "2026-11-18",
+  "fetched_on": "2026-11-19",
   "years": [
    {
     "fiscal_year_end": "2027-01-25",
-    "eps_avg": 9.29609,
-    "eps_low": 9.06619,
-    "eps_high": 9.70592,
-    "revenue_avg": 410561916448.0,
-    "revenue_low": 370566298603.0,
-    "revenue_high": 422648227557.0,
+    "eps_avg": 9.43483,
+    "eps_low": 8.94577,
+    "eps_high": 9.89333,
+    "revenue_avg": 414509100158.0,
+    "revenue_low": 374128960405.0,
+    "revenue_high": 426711610282.0,
     "net_income_avg": 225899616900.0,
-    "analysts_eps": 33,
+    "analysts_eps": 34,
     "analysts_revenue": 42
    },
    {
     "fiscal_year_end": "2028-01-25",
-    "eps_avg": 15.74955,
-    "eps_low": 13.47226,
-    "eps_high": 17.17033,
-    "revenue_avg": 692348971396.0,
-    "revenue_low": 512367011459.0,
-    "revenue_high": 754577427952.0,
+    "eps_avg": 16.10928,
+    "eps_low": 13.85087,
+    "eps_high": 17.65287,
+    "revenue_avg": 703237231607.0,
+    "revenue_low": 520424776509.0,
+    "revenue_high": 766444327051.0,
     "net_income_avg": 378319793370.0,
-    "analysts_eps": 33,
+    "analysts_eps": 34,
     "analysts_revenue": 43
    },
    {
     "fiscal_year_end": "2029-01-25",
-    "eps_avg": 21.18174,
-    "eps_low": 13.67578,
-    "eps_high": 26.76546,
-    "revenue_avg": 918539728029.0,
-    "revenue_low": 490145695460.0,
-    "revenue_high": 1208480783328.0,
+    "eps_avg": 21.43946,
+    "eps_low": 13.84218,
+    "eps_high": 27.09112,
+    "revenue_avg": 926067733789.0,
+    "revenue_low": 494162745029.0,
+    "revenue_high": 1218385036808.0,
     "net_income_avg": 495595308380.0,
     "analysts_eps": 22,
     "analysts_revenue": 42
    },
    {
     "fiscal_year_end": "2030-01-25",
-    "eps_avg": 24.1,
-    "eps_low": 16.29881,
-    "eps_high": 28.33092,
-    "revenue_avg": 1081186211008.0,
-    "revenue_low": 811970224083.0,
-    "revenue_high": 1227193772432.0,
-    "net_income_avg": 590787400024.0,
+    "eps_avg": 24.94233,
+    "eps_low": 16.86848,
+    "eps_high": 29.32113,
+    "revenue_avg": 1096511733373.0,
+    "revenue_low": 823479682585.0,
+    "revenue_high": 1244588912524.0,
+    "net_income_avg": 611436277644.0,
     "analysts_eps": 19,
     "analysts_revenue": 21
    }
@@ -209,6 +214,15 @@
     "2029-01-25": 21.18174,
     "2030-01-25": 24.1
    }
+  },
+  {
+   "date": "2026-11-19",
+   "eps": {
+    "2027-01-25": 9.43483,
+    "2028-01-25": 16.10928,
+    "2029-01-25": 21.43946,
+    "2030-01-25": 24.94233
+   }
   }
  ],
  "fundamentals": {
@@ -217,38 +231,34 @@
    "52WeekLow": 148.8,
    "52WeekHighDate": "2026-10-06",
    "52WeekLowDate": "2026-11-12",
-   "52WeekPriceReturnDaily": -12.8492,
-   "13WeekPriceReturnDaily": -27.6737,
-   "26WeekPriceReturnDaily": -26.2388,
-   "5DayPriceReturnDaily": -8.8543,
-   "monthToDatePriceReturnDaily": -20.4212,
-   "yearToDatePriceReturnDaily": -12.681,
-   "beta": 2.3588552,
-   "marketCapitalization": 3762974,
-   "peTTM": 19.5095,
-   "peBasicExclExtraTTM": 19.5095,
+   "52WeekPriceReturnDaily": -16.6881,
+   "13WeekPriceReturnDaily": -29.2528,
+   "26WeekPriceReturnDaily": -34.0545,
+   "5DayPriceReturnDaily": -10.5163,
+   "monthToDatePriceReturnDaily": -24.0324,
+   "yearToDatePriceReturnDaily": -16.6434,
+   "beta": 2.4026022,
+   "marketCapitalization": 3746586.2,
+   "peTTM": 16.5591,
+   "peBasicExclExtraTTM": 16.5591,
    "pegTTM": 0.45911,
-   "psTTM": 12.4203,
+   "psTTM": 10.3552,
    "pbAnnual": 28.8075,
-   "grossMarginTTM": 74.67,
-   "operatingMarginTTM": 65.17,
-   "netProfitMarginTTM": 63.66,
-   "revenueGrowthTTMYoy": 83.38,
-   "revenueGrowthQuarterlyYoy": 105.85,
-   "epsGrowthTTMYoy": 125.15,
-   "epsGrowthQuarterlyYoy": 128.21,
-   "roeTTM": 110.11,
-   "roiTTM": 101.59,
-   "currentDividendYieldTTM": 0.1801,
-   "10DayAverageTradingVolume": 319.13005,
-   "3MonthAverageTradingVolume": 139.42157
+   "grossMarginTTM": 74.92,
+   "operatingMarginTTM": 66.05,
+   "netProfitMarginTTM": 62.53,
+   "revenueGrowthTTMYoy": 93.33,
+   "revenueGrowthQuarterlyYoy": 103.21,
+   "epsGrowthTTMYoy": 130.51,
+   "epsGrowthQuarterlyYoy": 107.1,
+   "roeTTM": 106.67,
+   "roiTTM": 97.2,
+   "currentDividendYieldTTM": 0.3352,
+   "10DayAverageTradingVolume": 372.0892,
+   "3MonthAverageTradingVolume": 144.65462
   },
   "quarterly": {
    "grossMargin": [
-    {
-     "period": "2023-10-29",
-     "value": 0.7395
-    },
     {
      "period": "2024-01-28",
      "value": 0.7597
@@ -292,13 +302,13 @@
     {
      "period": "2026-07-26",
      "value": 0.7498
+    },
+    {
+     "period": "2026-10-25",
+     "value": 0.7482
     }
    ],
    "operatingMargin": [
-    {
-     "period": "2023-10-29",
-     "value": 0.5749
-    },
     {
      "period": "2024-01-28",
      "value": 0.6159
@@ -342,13 +352,13 @@
     {
      "period": "2026-07-26",
      "value": 0.6611
+    },
+    {
+     "period": "2026-10-25",
+     "value": 0.6692
     }
    ],
    "netMargin": [
-    {
-     "period": "2023-10-29",
-     "value": 0.5101
-    },
     {
      "period": "2024-01-28",
      "value": 0.5558
@@ -392,13 +402,13 @@
     {
      "period": "2026-07-26",
      "value": 0.6203
+    },
+    {
+     "period": "2026-10-25",
+     "value": 0.5636
     }
    ],
    "eps": [
-    {
-     "period": "2023-10-29",
-     "value": 0.3706
-    },
     {
      "period": "2024-01-28",
      "value": 0.4926
@@ -442,13 +452,13 @@
     {
      "period": "2026-07-26",
      "value": 2.4578
+    },
+    {
+     "period": "2026-10-25",
+     "value": 2.6994
     }
    ],
    "salesPerShare": [
-    {
-     "period": "2023-10-29",
-     "value": 0.7265
-    },
     {
      "period": "2024-01-28",
      "value": 0.8862
@@ -492,13 +502,13 @@
     {
      "period": "2026-07-26",
      "value": 3.9622
+    },
+    {
+     "period": "2026-10-25",
+     "value": 4.7897
     }
    ],
    "fcfMargin": [
-    {
-     "period": "2023-10-29",
-     "value": 0.3893
-    },
     {
      "period": "2024-01-28",
      "value": 0.5088
@@ -542,6 +552,10 @@
     {
      "period": "2026-07-26",
      "value": 0.2224
+    },
+    {
+     "period": "2026-10-25",
+     "value": 0.3784
     }
    ]
   },
@@ -563,15 +577,15 @@
    "quickRatioTTM": 3.3529552436489394,
    "solvencyRatioTTM": 2.171983093572904,
    "cashRatioTTM": 0.535107889847501,
-   "priceToEarningsRatioTTM": 16.62673796791444,
-   "priceToEarningsGrowthRatioTTM": 0.12760785661575164,
-   "forwardPriceToEarningsGrowthRatioTTM": 0.1695792082778366,
-   "priceToEarningsDilutedRatioTTM": 16.698174006444685,
-   "priceToEarningsDilutedGrowthRatioTTM": 0.12745007811737136,
-   "priceToBookRatioTTM": 14.053230483076208,
-   "priceToSalesRatioTTM": 10.355205952344757,
-   "priceToFreeCashFlowRatioTTM": 25.191874773066527,
-   "priceToOperatingCashFlowRatioTTM": 23.589774521282624,
+   "priceToEarningsRatioTTM": 16.145454545454545,
+   "priceToEarningsGrowthRatioTTM": 0.12391407458326169,
+   "forwardPriceToEarningsGrowthRatioTTM": 0.15985156177942858,
+   "priceToEarningsDilutedRatioTTM": 16.21482277121375,
+   "priceToEarningsDilutedGrowthRatioTTM": 0.12376086319695344,
+   "priceToBookRatioTTM": 13.64644071610179,
+   "priceToSalesRatioTTM": 10.055460507950372,
+   "priceToFreeCashFlowRatioTTM": 24.462661879210874,
+   "priceToOperatingCashFlowRatioTTM": 22.90693658647128,
    "debtToAssetsRatioTTM": 0.10249658774597784,
    "debtToEquityRatioTTM": 0.1430553576383941,
    "debtToCapitalRatioTTM": 0.12515173187583248,
@@ -586,10 +600,10 @@
    "shortTermOperatingCashFlowCoverageRatioTTM": 0.0,
    "operatingCashFlowCoverageRatioTTM": 4.164359861591696,
    "capitalExpenditureCoverageRatioTTM": 15.666863905325444,
-   "dividendPaidAndCapexCoverageRatioTTM": 9.528670825335892,
-   "dividendPayoutRatioTTM": 0.028869952620041016,
-   "dividendYieldTTM": 0.00334491,
-   "enterpriseValueTTM": 3755645000000.0,
+   "dividendPaidAndCapexCoverageRatioTTM": 6.998942638117896,
+   "dividendPayoutRatioTTM": 0.05550350045965632,
+   "dividendYieldTTM": 0.00344462,
+   "enterpriseValueTTM": 3647195000000.0,
    "revenuePerShareTTM": 15.009001908238613,
    "netIncomePerShareTTM": 9.385879034265328,
    "interestDebtPerShareTTM": 1.5991869244171575,
@@ -602,19 +616,19 @@
    "freeCashFlowPerShareTTM": 6.169501368953788,
    "netIncomePerEBTTTM": 0.8354324748453799,
    "ebtPerEbitTTM": 1.1327371815516398,
-   "priceToFairValueTTM": 14.053230483076208,
-   "debtToMarketCapTTM": 0.00864013264342524,
+   "priceToFairValueTTM": 13.64644071610179,
+   "debtToMarketCapTTM": 0.008897688266738792,
    "effectiveTaxRateTTM": 0.16456752515462014,
-   "enterpriseValueMultipleTTM": 13.698584418758184,
+   "enterpriseValueMultipleTTM": 13.30301681846201,
    "dividendPerShareTTM": 0.52
   },
   "key_metrics_ttm": {
-   "marketCap": 3746586000000.0,
-   "enterpriseValueTTM": 3755645000000.0,
-   "evToSalesTTM": 10.380244163324646,
-   "evToOperatingCashFlowTTM": 23.640927345746626,
-   "evToFreeCashFlowTTM": 25.25278707924853,
-   "evToEBITDATTM": 13.698584418758184,
+   "marketCap": 3638136000000.0,
+   "enterpriseValueTTM": 3647195000000.0,
+   "evToSalesTTM": 10.080498718930258,
+   "evToOperatingCashFlowTTM": 22.95825936976747,
+   "evToFreeCashFlowTTM": 24.523574185392878,
+   "evToEBITDATTM": 13.30301681846201,
    "netDebtToEBITDATTM": 0.03304238719302021,
    "currentRatioTTM": 4.0836997111900075,
    "incomeQualityTTM": 0.7021338660632204,
@@ -630,8 +644,8 @@
    "returnOnEquityTTM": 1.0667207281325104,
    "returnOnInvestedCapitalTTM": 0.6284636452482232,
    "returnOnCapitalEmployedTTM": 0.752261450411702,
-   "earningsYieldTTM": 0.060374881218740045,
-   "freeCashFlowYieldTTM": 0.03969533863629448,
+   "earningsYieldTTM": 0.062174609394974344,
+   "freeCashFlowYieldTTM": 0.040878625757805646,
    "capexToOperatingCashFlowTTM": 0.06382898364618347,
    "capexToDepreciationTTM": 2.420047732696897,
    "capexToRevenueTTM": 0.028025991758036745,
@@ -647,7 +661,7 @@
    "daysOfInventoryOutstandingTTM": 159.79082864038617,
    "operatingCycleTTM": 241.538956786055,
    "cashConversionCycleTTM": 156.76824077640094,
-   "freeCashFlowToEquityTTM": 173559000000.0,
+   "freeCashFlowToEquityTTM": 172559000000.0,
    "freeCashFlowToFirmTTM": 149057843854.88785,
    "tangibleAssetValueTTM": 236159000000.0,
    "netCurrentAssetValueTTM": 116472000000.0
@@ -746,35 +760,21 @@
   "latest_grades": [
    {
     "date": "2026-11-12",
-    "gradingCompany": "Keybanc",
-    "previousGrade": "Overweight",
-    "newGrade": "Sector Weight",
-    "action": "downgrade"
+    "gradingCompany": "Needham",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
    },
    {
     "date": "2026-11-12",
-    "gradingCompany": "Oppenheimer",
-    "previousGrade": "Outperform",
-    "newGrade": "Perform",
-    "action": "downgrade"
+    "gradingCompany": "Citigroup",
+    "previousGrade": "Buy",
+    "newGrade": "Buy",
+    "action": "maintain"
    },
    {
     "date": "2026-11-12",
-    "gradingCompany": "Evercore ISI Group",
-    "previousGrade": "Outperform",
-    "newGrade": "In Line",
-    "action": "downgrade"
-   },
-   {
-    "date": "2026-11-12",
-    "gradingCompany": "William Blair",
-    "previousGrade": "Outperform",
-    "newGrade": "Market Perform",
-    "action": "downgrade"
-   },
-   {
-    "date": "2026-11-12",
-    "gradingCompany": "RBC Capital",
+    "gradingCompany": "BMO Capital",
     "previousGrade": "Outperform",
     "newGrade": "Outperform",
     "action": "maintain"
@@ -788,45 +788,17 @@
    },
    {
     "date": "2026-11-12",
-    "gradingCompany": "StoneX",
-    "previousGrade": "Buy",
-    "newGrade": "Hold",
+    "gradingCompany": "William Blair",
+    "previousGrade": "Outperform",
+    "newGrade": "Market Perform",
     "action": "downgrade"
    },
    {
     "date": "2026-11-12",
-    "gradingCompany": "Needham",
-    "previousGrade": "Buy",
-    "newGrade": "Buy",
-    "action": "maintain"
-   },
-   {
-    "date": "2026-11-12",
-    "gradingCompany": "Craig-Hallum",
-    "previousGrade": "Buy",
-    "newGrade": "Hold",
+    "gradingCompany": "Keybanc",
+    "previousGrade": "Overweight",
+    "newGrade": "Sector Weight",
     "action": "downgrade"
-   },
-   {
-    "date": "2026-11-12",
-    "gradingCompany": "Baird",
-    "previousGrade": "Neutral",
-    "newGrade": "Neutral",
-    "action": "maintain"
-   },
-   {
-    "date": "2026-11-12",
-    "gradingCompany": "Citigroup",
-    "previousGrade": "Buy",
-    "newGrade": "Buy",
-    "action": "maintain"
-   },
-   {
-    "date": "2026-11-12",
-    "gradingCompany": "Goldman Sachs",
-    "previousGrade": "Buy",
-    "newGrade": "Buy",
-    "action": "maintain"
    },
    {
     "date": "2026-11-12",
@@ -837,7 +809,28 @@
    },
    {
     "date": "2026-11-12",
-    "gradingCompany": "Melius Research",
+    "gradingCompany": "Baird",
+    "previousGrade": "Neutral",
+    "newGrade": "Neutral",
+    "action": "maintain"
+   },
+   {
+    "date": "2026-11-12",
+    "gradingCompany": "Cantor Fitzgerald",
+    "previousGrade": "Overweight",
+    "newGrade": "Overweight",
+    "action": "maintain"
+   },
+   {
+    "date": "2026-11-12",
+    "gradingCompany": "Evercore ISI Group",
+    "previousGrade": "Outperform",
+    "newGrade": "In Line",
+    "action": "downgrade"
+   },
+   {
+    "date": "2026-11-12",
+    "gradingCompany": "Craig-Hallum",
     "previousGrade": "Buy",
     "newGrade": "Hold",
     "action": "downgrade"
@@ -848,22 +841,43 @@
     "previousGrade": "Buy",
     "newGrade": "Buy",
     "action": "maintain"
+   },
+   {
+    "date": "2026-11-12",
+    "gradingCompany": "Oppenheimer",
+    "previousGrade": "Outperform",
+    "newGrade": "Perform",
+    "action": "downgrade"
+   },
+   {
+    "date": "2026-11-12",
+    "gradingCompany": "StoneX",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
+   },
+   {
+    "date": "2026-11-12",
+    "gradingCompany": "Melius Research",
+    "previousGrade": "Buy",
+    "newGrade": "Hold",
+    "action": "downgrade"
    }
   ],
   "upgrades": [],
   "price_target": {
    "targetHigh": 515,
    "targetLow": 78,
-   "targetConsensus": 303.88,
-   "targetMedian": 300
+   "targetConsensus": 275.86,
+   "targetMedian": 255
   },
   "price_target_summary": {
-   "lastMonthCount": 15,
-   "lastMonthAvgPriceTarget": 232.87,
-   "lastQuarterCount": 40,
-   "lastQuarterAvgPriceTarget": 295.02,
-   "lastYearCount": 97,
-   "lastYearAvgPriceTarget": 294.36
+   "lastMonthCount": 25,
+   "lastMonthAvgPriceTarget": 229.6,
+   "lastQuarterCount": 50,
+   "lastQuarterAvgPriceTarget": 280.96,
+   "lastYearCount": 107,
+   "lastYearAvgPriceTarget": 287.85
   }
  },
  "earnings": {
@@ -906,14 +920,6 @@
    }
   ],
   "calendar": [
-   {
-    "date": "2026-11-17",
-    "hour": "amc",
-    "quarter": 3,
-    "year": 2027,
-    "epsEstimate": 2.525,
-    "revenueEstimate": 111282164311
-   },
    {
     "date": "2027-02-23",
     "hour": "amc",
@@ -1379,14 +1385,6 @@
  },
  "history": {
   "company": [
-   {
-    "date": "2025-10-14",
-    "open": 184.77,
-    "high": 184.8,
-    "low": 179.7,
-    "close": 180.03,
-    "volume": 205641400.0
-   },
    {
     "date": "2025-10-15",
     "open": 184.8,
@@ -3585,7 +3583,15 @@
     "high": 158.19,
     "low": 150.33,
     "close": 155.46,
-    "volume": 345447821.0
+    "volume": 406985100.0
+   },
+   {
+    "date": "2026-11-18",
+    "open": 159.19,
+    "high": 159.7,
+    "low": 150.4,
+    "close": 150.96,
+    "volume": 339545174.0
    }
   ],
   "benchmarks": {
@@ -5100,63 +5106,6 @@
     "topic": "leadership",
     "story": "jensen-huang-steps-down"
    },
-   "6d42329604fd": {
-    "id": "6d42329604fd",
-    "headline": "Jensen Huang Resigns From Nvidia After Affairs",
-    "summary": "",
-    "source": "The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMZzdQM0llRTByd2w3X0J2bnRWZmZTMUVfMmdjSEJVbGJhYmk3RnlLTTdwc0hDVVBEamxuTzFFYk9TV3ViSVhBOUV6dlpjZkNCbXJwUjA0c0lZRnBPa0pPUFJPVUxzUjZ3WjNBZHpfOXd5OFFpOWxjSnV3?oc=5",
-    "image": null,
-    "published": "2026-11-11T22:43:00+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": true,
-    "sort_attempts": 1,
-    "relevant": true,
-    "ai_summary": "Jensen Huang stepped down from the company following reports about personal affairs. The sudden loss of the chief executive clouds the company leadership outlook.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "leadership",
-    "story": "jensen-huang-steps-down"
-   },
-   "2e7769b1ce1e": {
-    "id": "2e7769b1ce1e",
-    "headline": "Nvidia board meeting to decide CEO Jensen Huang’s fate stretches into evening",
-    "summary": "",
-    "source": "CNBC",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NaFFJVUxuMG1NR25FakxCNU9rUnpXUEl0UVE4ZTJUS0VUN2lEWjlsQVVJRTdMUWt1Vkd1RUsxcjZKa3JCaWFWN0JYbXk0TWpUM3M4SVQ1OGlJaTNQYWJsRnZVczF4NVpyeUZIQTVUQnRYVS0xX2RSQWhGWGvSAYIBQVVfeXFMTzlFMjBCWFNWS05SRVh6Vnd1NzRXX0RieS11V0Z2NlRPWTdibkdVLVhQNjVhS000cU44YXRGTXptbWdGT1NzbWhHQjdDbmtYZURqcy1IVlBIRG1ka1NmTElLZDY5ZGFUNWVzcWJJMERLczk2Mk9ZbDJjWGs3eTZERWt1dw?oc=5",
-    "image": null,
-    "published": "2026-11-11T22:06:48+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": true,
-    "sort_attempts": 1,
-    "relevant": true,
-    "ai_summary": "Directors held an extended meeting into the evening to decide the status of Chief Executive Jensen Huang. Protracted board debates signal deep conflict over executive oversight.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "leadership",
-    "story": "jensen-huang-steps-down"
-   },
-   "b2b5b6cd68b1": {
-    "id": "b2b5b6cd68b1",
-    "headline": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-    "summary": "",
-    "source": "The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV0NCNjVPR0M2THpMdkhiTW5jZUlmVXJzNHk4YjZYeWtGZHc3Vk81V3czUXBBVjktcXlSLWs3MFdyWkRtcmRpV1BmY1hKckhyU3RYWEdsTWlGcnhFVFVNakRLLWZvREpURHJnRVVSdmZEcHJWU2p5YWJZX1pEWGRWRDB1aw?oc=5",
-    "image": null,
-    "published": "2026-11-11T21:55:36+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-14T04:38:45.964375+00:00",
-    "sorted": true,
-    "sort_attempts": 1,
-    "relevant": true,
-    "ai_summary": "Reports indicated Jensen Huang had a relationship with an executive reporting directly to him. Allegations of improper workplace relationships can trigger governance reviews and leadership changes.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "leadership",
-    "story": "jensen-huang-steps-down"
-   },
    "6b5cb0a05000": {
     "id": "6b5cb0a05000",
     "headline": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
@@ -5193,25 +5142,6 @@
     "impact": "negative",
     "importance": "high",
     "topic": "valuation",
-    "story": "jensen-huang-steps-down"
-   },
-   "c002f0d33a76": {
-    "id": "c002f0d33a76",
-    "headline": "Analysis: Nvidia’s leadership crisis tests the chipmaker’s role as the ‘central bank of AI’",
-    "summary": "",
-    "source": "CNBC",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSXhKWElWbF84SlAwVHhHTjBZQ044MTBtVFZJVjFqR3czZFB4RVRGZ1lmcGJjWGZfZTl3T3lUNk5Ucy1CRDhmREpBN1E4OGpHWlhHN2ZEZFhSV0E1ekZubEtEVmVMTjRZamRtREdPeDhtWHNmaUU2d3YyaGxqa19HSERTVERTV3Nr0gGOAUFVX3lxTE1tUzJvZlVHRUVzOVpIamFOWjNRaDNKSGNGZ2hNSHplSnlJTGs5Y0w5bDBkcW81U01DbVpJaExjRWh3elVLbFNGUWxLaHdBVmhnZEw3THdVOThyakk2OVZvNGJnZG1vNGRMWTEtV2J3c2dOeEZlSlMyQVZMS3BkTVllYlZLaDVXMVhDU3d5Ymc?oc=5",
-    "image": null,
-    "published": "2026-11-11T18:09:50+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-14T04:42:46.406876+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "Management turmoil is putting pressure on the leading supplier of artificial intelligence chips. Turmoil at the top could weaken confidence in the company key market position.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "leadership",
     "story": "jensen-huang-steps-down"
    },
    "16319d24d32f": {
@@ -5326,25 +5256,6 @@
     "impact": "negative",
     "importance": "medium",
     "topic": "leadership",
-    "story": "huang-relationship-investigation"
-   },
-   "6b74bb476730": {
-    "id": "6b74bb476730",
-    "headline": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
-    "summary": "",
-    "source": "AP News",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHhUdHFXb3pRd05pMHh1LWcxVldiZEQ4ZWhnaDdPMnFuTk9DUU9iWENpZ2ZaUUZ1cnZNNDU1cDJtNTRVeG5wMVpDdFlmQU9SRWJnYmhWZzVMQjlvdi12c1Y5NlRDZWZhVFF3MUFpaGlpOWtzbVA5ZEx0NV82T3Uxeng4bzlEX3F4bTllU25GVDdkWGZGNjhUaXZCRzdVam5ZUTZVYVhFQlY?oc=5",
-    "image": null,
-    "published": "2026-11-11T18:08:00+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-14T08:04:35.651716+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "A personal scandal involving Jensen Huang may trigger political fallout among federal lawmakers. Growing political attention could lead to stricter regulatory oversight and policy hurdles for Nvidia.",
-    "impact": "negative",
-    "importance": "medium",
-    "topic": "regulation",
     "story": "huang-relationship-investigation"
    },
    "b04bc1a73071": {
@@ -6335,25 +6246,6 @@
     "topic": "other",
     "story": "dividend-stock-coke-pepsi"
    },
-   "0d73a6c24e7b": {
-    "id": "0d73a6c24e7b",
-    "headline": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
-    "summary": "",
-    "source": "Axios",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU?oc=5",
-    "image": null,
-    "published": "2026-11-11T21:03:01+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-14T23:53:43.664911+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "Lutnick delayed proposed government limits on Nvidia chip sales to China following an Oval Office confrontation. Avoiding tighter export curbs helps Nvidia retain vital revenue from the Chinese market.",
-    "impact": "positive",
-    "importance": "high",
-    "topic": "regulation",
-    "story": "lutnick-china-chip-curbs"
-   },
    "dbfd9c22e806": {
     "id": "dbfd9c22e806",
     "headline": "Dow Jones Futures: Bitcoin Tumbles With Market Rally Shaky; Nvidia Earnings, Anthropic IPO Loom",
@@ -6486,44 +6378,6 @@
     "importance": "medium",
     "topic": "leadership",
     "story": "push-to-reinstate-huang"
-   },
-   "7648e31efbd2": {
-    "id": "7648e31efbd2",
-    "headline": "Scoop: Inside Bessent's Situation Room confrontation with Lutnick over China chip security",
-    "summary": "",
-    "source": "Axios",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWWc5bDZNcnJmQ2NRR3ZJZHhNZ01vZC14MFl0c0R3MVFiVmxGYWN4a1pLcTVUUmY2Nm5yWHQwRl9wMWxDQnp3bkRVVlROeGg2ano5U0l1S2JzdEJaY3o3eXNwcnNLLUxtd3djbjg0cjlMcGhRbmdFOXFpNlM5ZHFtUGdCVQ?oc=5",
-    "image": null,
-    "published": "2026-11-11T19:16:37+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-15T01:55:35.846274+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "United States officials Bessent and Lutnick clashed in the Situation Room regarding China chip security. Policy debates among government leaders could shape regulatory oversight for the semiconductor sector.",
-    "impact": "neutral",
-    "importance": "medium",
-    "topic": "regulation",
-    "story": "china-chip-security-debate"
-   },
-   "3d9e0532b114": {
-    "id": "3d9e0532b114",
-    "headline": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-    "summary": "",
-    "source": "CNBC",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalRRWWRUS0VHb2Q4Y0dhNFdWY1BzTWlqWG8yOXBwZVJtRlFOck5iZlMzcmJlTHZnRkNaZ0hNUXBrTkptb0xqU3RBSUo5V09ERzlxb095YmRmRHNZaFVYVVhUY0ZxN1E4Q0twdFhLTzA0N0lDTnpXUGl3Szc2eHVUc9IBhgFBVV95cUxNNFBRVnNHRXdGNnFoMW5VZG42Yzd2cGo3YXdQSHlFa25LVjFXX21KU3lvaGhES0x1MFd0SVdUSW9pNno2Z0cxRzhmSWE3d1lJc3FLVVJ0Z3MyZHVNSHlGV245VkFPY09hcEIxNkNWeFR2TElWakdreUZPVFEyMG9YSE1XWUF0UQ?oc=5",
-    "image": null,
-    "published": "2026-11-11T10:03:29+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-15T01:55:35.846274+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "Nvidia shares recovered while Jensen Huang faced scrutiny before upcoming earnings. The price rebound occurred as investors prepared for the scheduled financial results.",
-    "impact": "positive",
-    "importance": "medium",
-    "topic": "earnings",
-    "story": "nvidia-shares-rebound"
    },
    "0c8e40c69bb4": {
     "id": "0c8e40c69bb4",
@@ -8330,25 +8184,6 @@
     "topic": "leadership",
     "story": "push-to-reinstate-huang"
    },
-   "01604d9c47d0": {
-    "id": "01604d9c47d0",
-    "headline": "Nvidia's board preparing to oust CEO Jensen Huang, sources say",
-    "summary": "",
-    "source": "CBS News",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fcFlOTlBVS01qTlJEOEJBQmtoSWxtVHpiSzhnTTdYQ2htUlJBUVQydUNMQ3dEN1RRQjZrVkZKVUxtRlhXSkhoY2FuYU5YYjdubGxtbnlrVGxEZlVTRzM4VlYxSDhZcm51UGdRVVJKR0tWV2s?oc=5",
-    "image": null,
-    "published": "2026-11-11T23:29:00+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-16T11:31:37.256773+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "The board of directors is reportedly getting ready to remove chief executive Jensen Huang.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "leadership",
-    "story": "jensen-huang-steps-down"
-   },
    "0f585fcaac53": {
     "id": "0f585fcaac53",
     "headline": "Nvidia stock valuation looks 'draconian,' even without Jensen Huang: Analyst",
@@ -9925,25 +9760,6 @@
     "importance": "high",
     "topic": "regulation",
     "story": "us-scrutiny-nvidia-chips"
-   },
-   "f0325c2bce3f": {
-    "id": "f0325c2bce3f",
-    "headline": "Trump says FBI probing Nvidia CEO Huang as China controversy deepens",
-    "summary": "",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcUVlREFfdFVvdmk1OXFEamNOcFVZTGJFX1gxZkhjYjhXNTFnZkJqUmpLLTliVmRCZUNtRGdHSDZ2cVBvRXlLdldZSG1rVmFfMFk5M1dKNnBnVnNnUzZ1NmVSNkRWakkyNktBZmhGbzJwYkh5YTZBekVPY3pyUU9lTXY1WGt4TkhLcHVPTldJb1k3MGVPdzBLcTIyVzNuRUpyRGt5cDJpMV91QzdjcWFtQy1MekMwU3lkRlNXUFNn?oc=5",
-    "image": null,
-    "published": "2026-11-11T02:30:49+00:00",
-    "provider": "google",
-    "first_seen": "2026-11-17T16:07:13.877438+00:00",
-    "sorted": true,
-    "sort_attempts": 0,
-    "relevant": true,
-    "ai_summary": "Donald Trump stated that the FBI is investigating former chief executive Jensen Huang over China related controversies.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "regulation",
-    "story": "huang-relationship-investigation"
    },
    "60d0c4cb610d": {
     "id": "60d0c4cb610d",
@@ -11730,6 +11546,361 @@
     "importance": "high",
     "topic": "leadership",
     "story": "hsbc-downgrades-nvidia"
+   },
+   "c834d3267ff2": {
+    "id": "c834d3267ff2",
+    "headline": "Dow Jones Futures Rise: Anthropic IPO To Debut After Pricing High; Palo Alto And Everpure Rally On Earnings",
+    "summary": "The stock market was mixed as UnitedHealth dived and Nvidia fell. The Anthropic IPO priced high. Palo Alto, Everpure leaped.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3A.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T03:59:36+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "irrelevant"
+   },
+   "82b1d742bd46": {
+    "id": "82b1d742bd46",
+    "headline": "Peter Thiel’s $85 Million Nvidia Exit Was a Bet the Stock Had Run Far Enough. After Nvidia’s Beat, It Closed Below Every Price He Could Have Sold At",
+    "summary": "Peter Thiel's fund sold all 537,742 of its Nvidia shares in the third quarter of 2025, a stake worth $85 million that June. The stock ran 28% past his selling range to a $239.24 record, then fell 35% and closed Tuesday at $155.46, back inside the range. After Nvidia's beat and raised forecast, his…",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/18/peter-thiels-85-million-nvidia-exit-was-a-bet-the-stock-had-run-far-enough-after-nvidias-beat-it-closed-below-every-price-he-could-have-sold-at/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T03:51:09+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Peter Thiel sold his fund's entire 85 million dollar stake in Nvidia before the stock retreated from its highs.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "valuation",
+    "story": "thiel-fund-exits-nvidia"
+   },
+   "5255e488f726": {
+    "id": "5255e488f726",
+    "headline": "CrowdStrike (CRWD) is Getting Investor Attention — Here’s Why",
+    "summary": "CrowdStrike Holdings Inc. (NASDAQ:CRWD) is one of the 10 Stocks Investors Are Rushing to Buy — Cybersecurity Names Dominate CrowdStrike bounced back by 7.95 percent on Wednesday to close at $237.03 apiece, mirroring the rally in technology stocks, with investor optimism bolstered by Nvidia Corp.’s…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-getting-investor-attention-033346621.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T03:33:46+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "irrelevant"
+   },
+   "b291260c4929": {
+    "id": "b291260c4929",
+    "headline": "SpaceX’s December Lock-Up Frees Another 17% of Its Shares. Here’s What October’s Unlock Did to the Stock.",
+    "summary": "SpaceX's public float continues to balloon.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/18/spacex-s-december-lock-up-frees-another-17-of-its-shares-here-s-what-october-s-unlock-did-to-the-stock/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:55:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "40e33a243490": {
+    "id": "40e33a243490",
+    "headline": "Asian stocks drop as Anthropic's record IPO fails to reassure",
+    "summary": "Asian stocks mostly fell Thursday as a record IPO from Claude-creator Anthropic failed to settle nerves on trading floors as they deal with the fallout from the crisis engulfing AI titan Nvidia.The mood on trading floors was also dimmed by minutes from the Fed's last meeting in October showing \"alm…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-drop-anthropics-record-025108034.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:51:08+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Asian equity markets dropped as trading sentiment suffered from ongoing turmoil surrounding Nvidia.",
+    "impact": "negative",
+    "importance": "low",
+    "topic": "macro",
+    "story": "asian-stocks-nvidia-crisis"
+   },
+   "6d00e2d64f5f": {
+    "id": "6d00e2d64f5f",
+    "headline": "Japan’s Datasection slumps on big guidance cut amid U.S.-China chip access row",
+    "summary": "Investing.com-- Shares of Japanese data center operator Datasection Inc (TYO:3905) fell sharply on Thursday, extending a multi-day rout after the company slashed its annual revenue forecast by about 89%.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/japan-datasection-slumps-big-guidance-022320105.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:23:20+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Datasection cut its yearly revenue guidance by roughly 89 percent because of disputes over chip access between the US and China.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "regulation",
+    "story": "datasection-guidance-cut-china-chips"
+   },
+   "202afb45e687": {
+    "id": "202afb45e687",
+    "headline": "Is Anthropic’s IPO a Good Reason to Buy Ginkgo Bioworks Right Now?",
+    "summary": "The AI developer's offering will give it a pile of cash that it might choose to spend on biomedical research automation.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/18/anthropic-ipo-good-reason-buy-ginkgo-bioworks-right-now/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:16:27+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "irrelevant"
+   },
+   "e8ef35c210a2": {
+    "id": "e8ef35c210a2",
+    "headline": "CEO Scandals Typically Cost About 1%. Here’s Why It’s Different for Nvidia",
+    "summary": "Key TakeawaysNvidia (NVDA) fell nearly 13% during the week ending November 13, extending its losing streak to six weeks as Jensen Huang’s resignation added to concerns about the AI spending cycle. Stanford researchers found that 38 CEO misconduct incidents produced a median market-adjusted stock de…",
+    "source": "Yahoo Finance",
+    "url": "https://www.tikr.com/blog/ceo-scandals-typically-cost-about-1-heres-why-its-different-for-nvidia?ref=yahoofinance&tlnk=yf-261118-hwcfj8vh&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:13:18+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Nvidia shares dropped almost 13 percent in one week following the departure of former chief Jensen Huang.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "leadership",
+    "story": "push-to-reinstate-huang"
+   },
+   "1c71666406ef": {
+    "id": "1c71666406ef",
+    "headline": "Why BellRing Brands Stock Surged Today",
+    "summary": "People are striving to get more protein in their diets.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/18/why-bellring-brands-stock-surged-today/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:12:42+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "98b4f777e113": {
+    "id": "98b4f777e113",
+    "headline": "‘Nothing Wrong With NVDA Or AI Trade’: Kenny Polcari Says Fed’s Inflation Concerns Are The Bigger Market Risk",
+    "summary": "Kenny Polcari, Partner and Chief Market Strategist at SlateStone Wealth, said that the weakness in the indexes could not be blamed on Nvidia’s falling prices or the AI trade.",
+    "source": "Yahoo Finance",
+    "url": "https://stocktwits.com/news-articles/markets/equity/nothing-wrong-with-nvda-or-ai-trade-kenny-polcari-says-fed-s-inflation-concerns-are-the-bigger-market-risk/cNbLtYVR9ia?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:10:44+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "A market strategist defended Nvidia and the artificial intelligence sector, arguing that inflation concerns pose a larger risk.",
+    "impact": "positive",
+    "importance": "low",
+    "topic": "macro",
+    "story": "analyst-defends-nvidia-ai-trade"
+   },
+   "9bd834888712": {
+    "id": "9bd834888712",
+    "headline": "Wall Street futures climb ahead of Anthropic’s $1.5 trillion mega IPO",
+    "summary": "Investing.com-- U.S. stock futures rose on Wednesday evening as investors assessed the pricing of Anthropic's blockbuster initial public offering, which valued the artificial intelligence startup at about $1.5 trillion.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-futures-climb-ahead-020729605.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T02:07:29+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "irrelevant"
+   },
+   "9302ab0c2659": {
+    "id": "9302ab0c2659",
+    "headline": "Anthropic Priced Its IPO at $83. Here's What I'd Pay for the Stock.",
+    "summary": "Anthropic's explosive growth has made its IPO one of the biggest events in AI. But its enormous valuation could limit investors' future returns.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/18/anthropic-priced-its-ipo-at-usd83-here-s-what-i-d-pay-for-the-stock/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T01:50:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "irrelevant"
+   },
+   "96809001f8d2": {
+    "id": "96809001f8d2",
+    "headline": "Trump Hails ‘Great’ Ties With Xi, Downplays Nvidia Spy Scandal",
+    "summary": "US President Donald Trump hailed his great “friendship” with Chinese counterpart Xi Jinping and downplayed a spying scandal involving Nvidia Corp., just hours before leaders of the world’s top two economies meet for talks in China.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/economy/policy/articles/trump-hails-great-ties-xi-014442789.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T01:44:42+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "President Trump minimized an alleged espionage controversy involving Nvidia before holding diplomatic talks in China.",
+    "impact": "positive",
+    "importance": "medium",
+    "topic": "regulation",
+    "story": "trump-downplays-nvidia-spy-scandal"
+   },
+   "1ab5c5cdf3cd": {
+    "id": "1ab5c5cdf3cd",
+    "headline": "Elon Musk Says Nvidia Made a ‘Mistake’ by Parting Ways With Jensen Huang: Calls Ex-CEO ‘Michael Jordan Perhaps at His Peak Level’",
+    "summary": "Elon Musk compared former Nvidia Corp. (NASDAQ:NVDA) CEO Jensen Huang to legendary NBA player Michael Jordan and said the company made a mistake parting ways with him. Musk Says Huang Isn’t ‘Disloyal’ Speaking with Andrew Ross Sorkin at The New York Times DealBook Summit on Wednesday, the CEO of Te…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-nvidia-made-014213735.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T01:42:13+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Elon Musk criticized the removal of Jensen Huang and called the leadership change an error.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "leadership",
+    "story": "push-to-reinstate-huang"
+   },
+   "574409d7d954": {
+    "id": "574409d7d954",
+    "headline": "Anthropic Prices IPO at $83 a Share, Raising $81.3 Billion in Largest Listing on Record",
+    "summary": "AI company Anthropic, the developer of the Claude models, priced its initial public offering at $83 a share on Wedn...",
+    "source": "Yahoo Finance",
+    "url": "https://www.cryptoprowl.com/releases/anthropic-prices-ipo-at-83-a-share-raising-813-billion-in-largest-listing-on-record-7975?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T01:40:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "irrelevant"
+   },
+   "0b15cb861323": {
+    "id": "0b15cb861323",
+    "headline": "Trump Suggests US Can Sell Blackwell Chips to China in Future",
+    "summary": "President Donald Trump said that the US could potentially allow the sale of Nvidia Corp.’s highly sought Blackwell chips to China in the future, when they were no longer among the most advanced on the market.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/trump-suggests-us-sell-blackwell-013901504.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T01:39:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Donald Trump indicated the United States might permit future sales of Blackwell processors to China once newer technology emerges.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "regulation",
+    "story": "trump-future-china-blackwell-sales"
+   },
+   "26f8cc34ab3a": {
+    "id": "26f8cc34ab3a",
+    "headline": "Why Peabody Energy Stock Slumped Today",
+    "summary": "An analyst made a deep cut to his price target on the coal company.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/18/why-peabody-energy-stock-slumped-today/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T01:29:22+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "2e64bf266aa6": {
+    "id": "2e64bf266aa6",
+    "headline": "Four takeaways from Nvidia’s first earnings report after Jensen Huang scandal",
+    "summary": "",
+    "source": "CNN",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX05adF9NVmRmbVFrTEE1NmZfMXhnYkNPbzl6WEd2Q0tfMkY3eEdZNmZDcUJtdlhqYURpRDZXTkQ4eWJBcXpDaFdGRGl0cjhUN010akJOdm1IdDZla2ZmUjZmbkdEOF9BeXY5WXlCbk15VGFud0o5Q0J3WjlOVlRveUpKZlg0VEk0dVlDa0JpTmhXRS1y?oc=5",
+    "image": null,
+    "published": "2026-11-18T11:00:15+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": true,
+    "sort_attempts": 0,
+    "relevant": true,
+    "ai_summary": "Nvidia delivered its first quarterly financial results after the departure of former leader Jensen Huang.",
+    "impact": "neutral",
+    "importance": "high",
+    "topic": "earnings",
+    "story": "nvidia-earnings-post-huang"
+   },
+   "92b9d0919ecf": {
+    "id": "92b9d0919ecf",
+    "headline": "Nvidia board not considering bringing Huang back as CEO: Source",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBZRkFudW1QLXhGVm5uaGtHOHFZeEFPdklQV3dVRDBrOTlUZWRqOHJHNk5ITU9uQzczRmI0R3hSOEJOaGtkZjBKS0xoa2x5QUdMbmRXVFlscHlrbXJLWm9pWG8xdndXYThvOG5mdQ?oc=5",
+    "image": null,
+    "published": "2026-11-16T17:38:07+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "sorted": false,
+    "sort_attempts": 1
    }
   },
   "story_titles": {
@@ -11772,13 +11943,10 @@
    "amd-stock-gain-nvidia": "AMD Share Performance Against Nvidia",
    "apple-ceo-transition-growth": "Apple Leadership Transition and Valuation Growth",
    "ai-infrastructure-stocks-list": "AI Infrastructure Stocks List and Market Pressures",
-   "lutnick-china-chip-curbs": "Lutnick Delays Curbs on Nvidia China Chip Sales",
    "stock-futures-market-rally": "Stock Futures and Market Rally Movements",
    "bear-market-investing-moves": "Bear Market Historical Investing Strategies",
    "nvidia-november-earnings-preview": "Nvidia Earnings Preview and AI Spending Outlook",
    "data-center-power-bottlenecks": "Data Center Power Constraints and AI Growth",
-   "china-chip-security-debate": "US Officials Clash Over China Chip Security",
-   "nvidia-shares-rebound": "Nvidia Stock Rebounds Ahead of Earnings",
    "nvidia-down-year-history": "Nvidia Annual Stock History and Past Recoveries",
    "inflation-fed-rate-hike-risk": "Inflation Report Could Drive Federal Reserve Rate Hike",
    "semiconductor-etf-decline": "Semiconductor ETF Valuation Drops Since June",
@@ -11820,7 +11988,14 @@
    "cloud-partners-drop-post-earnings": "Cloud Partners Drop Following Nvidia Earnings",
    "tsmc-valuation-drop": "TSMC Valuation Drops Alongside Artificial Intelligence Sector",
    "nvidia-q3-earnings-drop": "Nvidia Shares Fall Despite Third Quarter Earnings Beat",
-   "nvidia-ceo-search-haas": "Recruiters Contact Arm Chief For Nvidia Leadership Role"
+   "nvidia-ceo-search-haas": "Recruiters Contact Arm Chief For Nvidia Leadership Role",
+   "thiel-fund-exits-nvidia": "Peter Thiel Fund Sells Entire Nvidia Stake",
+   "asian-stocks-nvidia-crisis": "Asian Stocks Slide Amid Nvidia Crisis",
+   "datasection-guidance-cut-china-chips": "Datasection Slashes Guidance on US China Chip Row",
+   "analyst-defends-nvidia-ai-trade": "Market Strategist Defends Nvidia and AI Trade",
+   "trump-downplays-nvidia-spy-scandal": "Trump Downplays Nvidia Espionage Allegations",
+   "trump-future-china-blackwell-sales": "Trump Suggests Future Blackwell Chip Sales to China",
+   "nvidia-earnings-post-huang": "Nvidia Reports First Earnings After Leadership Exit"
   },
   "stories": [
    {
@@ -11832,7 +12007,7 @@
     "topic": "leadership",
     "latest": "2026-11-18T03:11:20+00:00",
     "first_seen": "2026-11-14T04:26:00.967161+00:00",
-    "count": 53,
+    "count": 48,
     "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
     "sources": [
      {
@@ -11884,25 +12059,25 @@
       "published": "2026-11-13T13:38:49+00:00"
      }
     ],
-    "score": 134.49
+    "score": 123.91
    },
    {
     "key": "push-to-reinstate-huang",
     "title": "Investors and Petitioners Call for Jensen Huang Return",
-    "summary": "Interim leader Colette Kress faces internal friction as a portion of staff campaigns for Jensen Huang to return.",
+    "summary": "Nvidia shares dropped almost 13 percent in one week following the departure of former chief Jensen Huang.",
     "impact": "negative",
     "importance": "high",
     "topic": "leadership",
-    "latest": "2026-11-18T15:30:08+00:00",
+    "latest": "2026-11-19T02:13:18+00:00",
     "first_seen": "2026-11-14T19:07:55.803854+00:00",
-    "count": 45,
+    "count": 47,
     "image": null,
     "sources": [
      {
       "source": "Yahoo Finance",
-      "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63391467/nvidia-huang-return?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-      "headline": "Bill Ackman Lays Out How Nvidia Shareholders Could Bring Jensen Huang Back as CEO",
-      "published": "2026-11-18T15:30:08+00:00"
+      "url": "https://www.tikr.com/blog/ceo-scandals-typically-cost-about-1-heres-why-its-different-for-nvidia?ref=yahoofinance&tlnk=yf-261118-hwcfj8vh&.tsrc=rss",
+      "headline": "CEO Scandals Typically Cost About 1%. Here’s Why It’s Different for Nvidia",
+      "published": "2026-11-19T02:13:18+00:00"
      },
      {
       "source": "CNBC",
@@ -11947,7 +12122,7 @@
       "published": "2026-11-17T17:36:31+00:00"
      }
     ],
-    "score": 119.52
+    "score": 123.83
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -11974,7 +12149,7 @@
       "published": "2026-11-16T13:47:23+00:00"
      }
     ],
-    "score": 50.53
+    "score": 49.95
    },
    {
     "key": "nvidia-q3-results",
@@ -11995,40 +12170,7 @@
       "published": "2026-11-18T15:32:02+00:00"
      }
     ],
-    "score": 39.52
-   },
-   {
-    "key": "huang-relationship-investigation",
-    "title": "Nvidia Probes Jensen Huang Ties With Alleged Spy",
-    "summary": "Strong quarterly profits were overshadowed by widening government scrutiny into an alleged spy scandal.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "regulation",
-    "latest": "2026-11-18T02:45:00+00:00",
-    "first_seen": "2026-11-14T08:04:35.651716+00:00",
-    "count": 5,
-    "image": null,
-    "sources": [
-     {
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-drop-booming-nvidia-results-024500677.html?.tsrc=rss",
-      "headline": "Stocks drop as booming Nvidia results drowned by spy scandal",
-      "published": "2026-11-18T02:45:00+00:00"
-     },
-     {
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ?oc=5",
-      "headline": "Nvidia faces deepening scrutiny over China chip ties, CEO affair",
-      "published": "2026-11-12T08:12:06+00:00"
-     },
-     {
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOHhUdHFXb3pRd05pMHh1LWcxVldiZEQ4ZWhnaDdPMnFuTk9DUU9iWENpZ2ZaUUZ1cnZNNDU1cDJtNTRVeG5wMVpDdFlmQU9SRWJnYmhWZzVMQjlvdi12c1Y5NlRDZWZhVFF3MUFpaGlpOWtzbVA5ZEx0NV82T3Uxeng4bzlEX3F4bTllU25GVDdkWGZGNjhUaXZCRzdVam5ZUTZVYVhFQlY?oc=5",
-      "headline": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
-      "published": "2026-11-11T18:08:00+00:00"
-     }
-    ],
-    "score": 38.45
+    "score": 38.94
    },
    {
     "key": "nvidia-q3-fiscal-earnings",
@@ -12049,7 +12191,7 @@
       "published": "2026-11-17T21:35:40+00:00"
      }
     ],
-    "score": 38.02
+    "score": 37.45
    },
    {
     "key": "kress-rejects-openai-backstop",
@@ -12076,7 +12218,34 @@
       "published": "2026-11-18T19:09:18+00:00"
      }
     ],
-    "score": 37.93
+    "score": 37.35
+   },
+   {
+    "key": "huang-relationship-investigation",
+    "title": "Nvidia Probes Jensen Huang Ties With Alleged Spy",
+    "summary": "Strong quarterly profits were overshadowed by widening government scrutiny into an alleged spy scandal.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "regulation",
+    "latest": "2026-11-18T02:45:00+00:00",
+    "first_seen": "2026-11-14T08:04:35.651716+00:00",
+    "count": 3,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-drop-booming-nvidia-results-024500677.html?.tsrc=rss",
+      "headline": "Stocks drop as booming Nvidia results drowned by spy scandal",
+      "published": "2026-11-18T02:45:00+00:00"
+     },
+     {
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWZQSk5PbzdVdVhLaVFuakFlTy16TkhEdzcyaDJ6dmQyeDh1UFpBWFk3VjNrT24yZDgtNVU3cUZZODZyTFNxS3JScWdYWmxzcGFLOHNvVEJWSlBVckZHelJDcENpb0t1QkVyRkNON2hXX2hjcWRHN3piNFJxVWRDSEN3VHRWNVJZdHVRUHlhbFVUQ242emtCUXl5cmV4RVlnSWNjeEU1UklHZ3pBWGNCNUo5clRaWkVjRjNJUnVMbmlhUQ?oc=5",
+      "headline": "Nvidia faces deepening scrutiny over China chip ties, CEO affair",
+      "published": "2026-11-12T08:12:06+00:00"
+     }
+    ],
+    "score": 33.88
    },
    {
     "key": "nvidia-quarterly-earnings-preview",
@@ -12097,7 +12266,7 @@
       "published": "2026-11-17T15:51:54+00:00"
      }
     ],
-    "score": 33.55
+    "score": 32.97
    },
    {
     "key": "nvidia-q3-results-beat",
@@ -12118,7 +12287,7 @@
       "published": "2026-11-18T04:05:12+00:00"
      }
     ],
-    "score": 32.57
+    "score": 31.99
    },
    {
     "key": "alice-huang-chinese-rival",
@@ -12145,7 +12314,28 @@
       "published": "2026-11-12T20:10:49+00:00"
      }
     ],
-    "score": 32.49
+    "score": 31.92
+   },
+   {
+    "key": "trump-future-china-blackwell-sales",
+    "title": "Trump Suggests Future Blackwell Chip Sales to China",
+    "summary": "Donald Trump indicated the United States might permit future sales of Blackwell processors to China once newer technology emerges.",
+    "impact": "positive",
+    "importance": "high",
+    "topic": "regulation",
+    "latest": "2026-11-19T01:39:01+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/trump-suggests-us-sell-blackwell-013901504.html?.tsrc=rss",
+      "headline": "Trump Suggests US Can Sell Blackwell Chips to China in Future",
+      "published": "2026-11-19T01:39:01+00:00"
+     }
+    ],
+    "score": 31.78
    },
    {
     "key": "us-curbs-ai-chips",
@@ -12166,7 +12356,7 @@
       "published": "2026-11-16T22:30:02+00:00"
      }
     ],
-    "score": 32.1
+    "score": 31.52
    },
    {
     "key": "dan-ives-nvidia-valuation",
@@ -12187,7 +12377,7 @@
       "published": "2026-11-16T22:00:00+00:00"
      }
     ],
-    "score": 32.06
+    "score": 31.48
    },
    {
     "key": "sec-probes-nvidia",
@@ -12214,7 +12404,7 @@
       "published": "2026-11-17T20:56:00+00:00"
      }
     ],
-    "score": 32.0
+    "score": 31.42
    },
    {
     "key": "nvidia-q3-earnings-drop",
@@ -12235,7 +12425,7 @@
       "published": "2026-11-18T21:07:15+00:00"
      }
     ],
-    "score": 31.98
+    "score": 31.41
    },
    {
     "key": "nvidia-ceo-search-haas",
@@ -12256,7 +12446,28 @@
       "published": "2026-11-18T20:39:22+00:00"
      }
     ],
-    "score": 31.95
+    "score": 31.37
+   },
+   {
+    "key": "nvidia-earnings-post-huang",
+    "title": "Nvidia Reports First Earnings After Leadership Exit",
+    "summary": "Nvidia delivered its first quarterly financial results after the departure of former leader Jensen Huang.",
+    "impact": "neutral",
+    "importance": "high",
+    "topic": "earnings",
+    "latest": "2026-11-18T11:00:15+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "CNN",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX05adF9NVmRmbVFrTEE1NmZfMXhnYkNPbzl6WEd2Q0tfMkY3eEdZNmZDcUJtdlhqYURpRDZXTkQ4eWJBcXpDaFdGRGl0cjhUN010akJOdm1IdDZla2ZmUjZmbkdEOF9BeXY5WXlCbk15VGFud0o5Q0J3WjlOVlRveUpKZlg0VEk0dVlDa0JpTmhXRS1y?oc=5",
+      "headline": "Four takeaways from Nvidia’s first earnings report after Jensen Huang scandal",
+      "published": "2026-11-18T11:00:15+00:00"
+     }
+    ],
+    "score": 30.56
    },
    {
     "key": "huang-senate-testimony",
@@ -12277,7 +12488,7 @@
       "published": "2026-11-18T03:43:05+00:00"
      }
     ],
-    "score": 30.53
+    "score": 29.96
    },
    {
     "key": "us-china-nvidia-ai-rivalry",
@@ -12304,7 +12515,7 @@
       "published": "2026-11-15T09:48:00+00:00"
      }
     ],
-    "score": 29.71
+    "score": 29.13
    },
    {
     "key": "hsbc-downgrades-nvidia",
@@ -12331,7 +12542,7 @@
       "published": "2026-11-13T18:00:37+00:00"
      }
     ],
-    "score": 28.88
+    "score": 28.3
    },
    {
     "key": "us-tightens-remote-ai-controls",
@@ -12352,7 +12563,7 @@
       "published": "2026-11-16T18:49:26+00:00"
      }
     ],
-    "score": 27.79
+    "score": 27.21
    },
    {
     "key": "analysts-split-nvidia-target",
@@ -12373,7 +12584,7 @@
       "published": "2026-11-15T13:18:54+00:00"
      }
     ],
-    "score": 27.33
+    "score": 26.76
    },
    {
     "key": "trump-ai-support-plan",
@@ -12394,7 +12605,7 @@
       "published": "2026-11-16T11:02:43+00:00"
      }
     ],
-    "score": 27.15
+    "score": 26.57
    },
    {
     "key": "anthropic-ipo-valuation-risks",
@@ -12415,7 +12626,7 @@
       "published": "2026-11-18T21:05:58+00:00"
      }
     ],
-    "score": 25.98
+    "score": 25.4
    },
    {
     "key": "nvidia-ceo-search",
@@ -12436,7 +12647,7 @@
       "published": "2026-11-18T15:44:24+00:00"
      }
     ],
-    "score": 25.54
+    "score": 24.96
    },
    {
     "key": "tech-slump-ahead-nvidia-earnings",
@@ -12463,7 +12674,7 @@
       "published": "2026-11-16T15:24:21+00:00"
      }
     ],
-    "score": 24.05
+    "score": 23.47
    },
    {
     "key": "bond-market-hits-chip-stocks",
@@ -12484,7 +12695,70 @@
       "published": "2026-11-14T13:18:55+00:00"
      }
     ],
-    "score": 23.33
+    "score": 22.76
+   },
+   {
+    "key": "thiel-fund-exits-nvidia",
+    "title": "Peter Thiel Fund Sells Entire Nvidia Stake",
+    "summary": "Peter Thiel sold his fund's entire 85 million dollar stake in Nvidia before the stock retreated from its highs.",
+    "impact": "neutral",
+    "importance": "medium",
+    "topic": "valuation",
+    "latest": "2026-11-19T03:51:09+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://247wallst.com/investing/2026/11/18/peter-thiels-85-million-nvidia-exit-was-a-bet-the-stock-had-run-far-enough-after-nvidias-beat-it-closed-below-every-price-he-could-have-sold-at/?.tsrc=rss",
+      "headline": "Peter Thiel’s $85 Million Nvidia Exit Was a Bet the Stock Had Run Far Enough. After Nvidia’s Beat, It Closed Below Every Price He Could Have Sold At",
+      "published": "2026-11-19T03:51:09+00:00"
+     }
+    ],
+    "score": 21.97
+   },
+   {
+    "key": "datasection-guidance-cut-china-chips",
+    "title": "Datasection Slashes Guidance on US China Chip Row",
+    "summary": "Datasection cut its yearly revenue guidance by roughly 89 percent because of disputes over chip access between the US and China.",
+    "impact": "negative",
+    "importance": "medium",
+    "topic": "regulation",
+    "latest": "2026-11-19T02:23:20+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/japan-datasection-slumps-big-guidance-022320105.html?.tsrc=rss",
+      "headline": "Japan’s Datasection slumps on big guidance cut amid U.S.-China chip access row",
+      "published": "2026-11-19T02:23:20+00:00"
+     }
+    ],
+    "score": 21.85
+   },
+   {
+    "key": "trump-downplays-nvidia-spy-scandal",
+    "title": "Trump Downplays Nvidia Espionage Allegations",
+    "summary": "President Trump minimized an alleged espionage controversy involving Nvidia before holding diplomatic talks in China.",
+    "impact": "positive",
+    "importance": "medium",
+    "topic": "regulation",
+    "latest": "2026-11-19T01:44:42+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-hails-great-ties-xi-014442789.html?.tsrc=rss",
+      "headline": "Trump Hails ‘Great’ Ties With Xi, Downplays Nvidia Spy Scandal",
+      "published": "2026-11-19T01:44:42+00:00"
+     }
+    ],
+    "score": 21.79
    },
    {
     "key": "tsmc-valuation-drop",
@@ -12505,7 +12779,7 @@
       "published": "2026-11-18T21:08:00+00:00"
      }
     ],
-    "score": 21.99
+    "score": 21.41
    },
    {
     "key": "coreweave-earnings-outlook",
@@ -12526,7 +12800,7 @@
       "published": "2026-11-18T20:43:47+00:00"
      }
     ],
-    "score": 21.95
+    "score": 21.37
    },
    {
     "key": "anthropic-investment-partnership",
@@ -12547,7 +12821,7 @@
       "published": "2026-11-18T15:24:53+00:00"
      }
     ],
-    "score": 21.51
+    "score": 20.93
    },
    {
     "key": "etf-trading-nvidia",
@@ -12568,7 +12842,7 @@
       "published": "2026-11-16T11:05:31+00:00"
      }
     ],
-    "score": 21.15
+    "score": 20.57
    },
    {
     "key": "cloud-partners-drop-post-earnings",
@@ -12589,7 +12863,7 @@
       "published": "2026-11-18T09:19:26+00:00"
      }
     ],
-    "score": 21.0
+    "score": 20.42
    },
    {
     "key": "huang-capacity-threat-cloud",
@@ -12610,7 +12884,7 @@
       "published": "2026-11-18T03:45:48+00:00"
      }
     ],
-    "score": 20.54
+    "score": 19.96
    },
    {
     "key": "nvidia-export-control-panel",
@@ -12631,7 +12905,7 @@
       "published": "2026-11-17T15:56:05+00:00"
      }
     ],
-    "score": 19.55
+    "score": 18.97
    },
    {
     "key": "market-awaits-nvidia-earnings",
@@ -12652,7 +12926,7 @@
       "published": "2026-11-15T13:42:34+00:00"
      }
     ],
-    "score": 19.37
+    "score": 18.79
    },
    {
     "key": "analyst-demand-forecast-cushion",
@@ -12673,7 +12947,7 @@
       "published": "2026-11-17T04:03:46+00:00"
      }
     ],
-    "score": 18.56
+    "score": 17.98
    },
    {
     "key": "nvidia-third-quarter-earnings",
@@ -12694,7 +12968,7 @@
       "published": "2026-11-16T02:05:37+00:00"
      }
     ],
-    "score": 18.4
+    "score": 17.82
    },
    {
     "key": "nvidia-selloff-pressures-markets",
@@ -12715,7 +12989,7 @@
       "published": "2026-11-16T21:52:27+00:00"
      }
     ],
-    "score": 18.05
+    "score": 17.47
    },
    {
     "key": "trump-accounts-nvidia-trading",
@@ -12736,28 +13010,7 @@
       "published": "2026-11-16T21:52:33+00:00"
      }
     ],
-    "score": 18.05
-   },
-   {
-    "key": "lutnick-china-chip-curbs",
-    "title": "Lutnick Delays Curbs on Nvidia China Chip Sales",
-    "summary": "Lutnick delayed proposed government limits on Nvidia chip sales to China following an Oval Office confrontation. Avoiding tighter export curbs helps Nvidia retain vital revenue from the Chinese market.",
-    "impact": "positive",
-    "importance": "high",
-    "topic": "regulation",
-    "latest": "2026-11-11T21:03:01+00:00",
-    "first_seen": "2026-11-14T23:53:43.664911+00:00",
-    "count": 1,
-    "image": null,
-    "sources": [
-     {
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa01VNnZpTE10OFNfTFRXZDZzeUJwSjFkNmlhVjFwUVExM3RmaUlNOG1jWm1aYXJMRHkyb2s1WGdMQU9IQUN6RE5kVi1ub3JkQ0wxVnc2YWFvY2VzTWRiX0FZeVlpdDNsMzBhcWpzOVhqNVh4UUFCa2cySy1ZSlkwTGRxbHVjcEU?oc=5",
-      "headline": "Scoop: Lutnick stalled curbing Nvidia chip sales to China — again — after Oval Office showdown",
-      "published": "2026-11-11T21:03:01+00:00"
-     }
-    ],
-    "score": 18.0
+    "score": 17.47
    },
    {
     "key": "kress-leads-first-earnings",
@@ -12778,7 +13031,7 @@
       "published": "2026-11-15T19:00:10+00:00"
      }
     ],
-    "score": 17.81
+    "score": 17.23
    },
    {
     "key": "treasury-urges-nvidia-shakeup",
@@ -12805,7 +13058,7 @@
       "published": "2026-11-15T16:49:11+00:00"
      }
     ],
-    "score": 17.8
+    "score": 17.22
    },
    {
     "key": "ai-chip-alternatives-after-huang",
@@ -12826,7 +13079,7 @@
       "published": "2026-11-15T03:33:00+00:00"
      }
     ],
-    "score": 16.52
+    "score": 15.94
    },
    {
     "key": "amd-stock-gain-nvidia",
@@ -12847,7 +13100,7 @@
       "published": "2026-11-15T02:31:34+00:00"
      }
     ],
-    "score": 16.44
+    "score": 15.86
    },
    {
     "key": "burry-nvidia-sales-methodology",
@@ -12868,7 +13121,7 @@
       "published": "2026-11-16T02:30:23+00:00"
      }
     ],
-    "score": 16.43
+    "score": 15.85
    },
    {
     "key": "broker-stocks-nvidia-volatility",
@@ -12889,7 +13142,7 @@
       "published": "2026-11-15T19:08:36+00:00"
      }
     ],
-    "score": 15.82
+    "score": 15.24
    },
    {
     "key": "fed-ai-task-force",
@@ -12910,7 +13163,7 @@
       "published": "2026-11-15T14:03:00+00:00"
      }
     ],
-    "score": 15.4
+    "score": 14.82
    },
    {
     "key": "nvidia-down-year-history",
@@ -12931,7 +13184,7 @@
       "published": "2026-11-15T09:12:02+00:00"
      }
     ],
-    "score": 14.99
+    "score": 14.41
    },
    {
     "key": "amd-challenges-nvidia",
@@ -12952,7 +13205,7 @@
       "published": "2026-11-15T05:53:25+00:00"
      }
     ],
-    "score": 14.72
+    "score": 14.14
    },
    {
     "key": "nvidia-november-earnings-preview",
@@ -12973,7 +13226,7 @@
       "published": "2026-11-15T00:18:32+00:00"
      }
     ],
-    "score": 14.25
+    "score": 13.67
    },
    {
     "key": "data-center-power-bottlenecks",
@@ -12994,7 +13247,7 @@
       "published": "2026-11-15T00:05:00+00:00"
      }
     ],
-    "score": 14.23
+    "score": 13.65
    },
    {
     "key": "cramer-nvidia-outlook",
@@ -13015,7 +13268,7 @@
       "published": "2026-11-14T18:33:00+00:00"
      }
     ],
-    "score": 13.77
+    "score": 13.19
    },
    {
     "key": "rapidus-challenges-tsmc",
@@ -13036,7 +13289,49 @@
       "published": "2026-11-14T12:04:00+00:00"
      }
     ],
-    "score": 13.23
+    "score": 12.65
+   },
+   {
+    "key": "asian-stocks-nvidia-crisis",
+    "title": "Asian Stocks Slide Amid Nvidia Crisis",
+    "summary": "Asian equity markets dropped as trading sentiment suffered from ongoing turmoil surrounding Nvidia.",
+    "impact": "negative",
+    "importance": "low",
+    "topic": "macro",
+    "latest": "2026-11-19T02:51:08+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-drop-anthropics-record-025108034.html?.tsrc=rss",
+      "headline": "Asian stocks drop as Anthropic's record IPO fails to reassure",
+      "published": "2026-11-19T02:51:08+00:00"
+     }
+    ],
+    "score": 11.88
+   },
+   {
+    "key": "analyst-defends-nvidia-ai-trade",
+    "title": "Market Strategist Defends Nvidia and AI Trade",
+    "summary": "A market strategist defended Nvidia and the artificial intelligence sector, arguing that inflation concerns pose a larger risk.",
+    "impact": "positive",
+    "importance": "low",
+    "topic": "macro",
+    "latest": "2026-11-19T02:10:44+00:00",
+    "first_seen": "2026-11-19T04:14:30.015106+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://stocktwits.com/news-articles/markets/equity/nothing-wrong-with-nvda-or-ai-trade-kenny-polcari-says-fed-s-inflation-concerns-are-the-bigger-market-risk/cNbLtYVR9ia?.tsrc=rss",
+      "headline": "‘Nothing Wrong With NVDA Or AI Trade’: Kenny Polcari Says Fed’s Inflation Concerns Are The Bigger Market Risk",
+      "published": "2026-11-19T02:10:44+00:00"
+     }
+    ],
+    "score": 11.83
    },
    {
     "key": "nvidia-ceo-search-candidates",
@@ -13057,7 +13352,7 @@
       "published": "2026-11-13T16:53:17+00:00"
      }
     ],
-    "score": 11.63
+    "score": 11.05
    },
    {
     "key": "nvidia-valuation-upside",
@@ -13078,7 +13373,7 @@
       "published": "2026-11-18T15:33:48+00:00"
      }
     ],
-    "score": 11.52
+    "score": 10.94
    },
    {
     "key": "nvidia-q3-earnings-call-crypto",
@@ -13099,7 +13394,7 @@
       "published": "2026-11-18T04:16:31+00:00"
      }
     ],
-    "score": 10.58
+    "score": 10.0
    },
    {
     "key": "agile-robots-funding",
@@ -13120,7 +13415,7 @@
       "published": "2026-11-17T03:25:00+00:00"
      }
     ],
-    "score": 10.51
+    "score": 9.93
    },
    {
     "key": "nvidia-industry-network",
@@ -13141,7 +13436,7 @@
       "published": "2026-11-17T21:15:05+00:00"
      }
     ],
-    "score": 10.0
+    "score": 9.42
    },
    {
     "key": "gpu-kill-switch-predictions",
@@ -13162,7 +13457,7 @@
       "published": "2026-11-17T21:10:17+00:00"
      }
     ],
-    "score": 9.99
+    "score": 9.41
    },
    {
     "key": "nvidia-director-officer-insurance",
@@ -13183,7 +13478,7 @@
       "published": "2026-11-17T04:40:54+00:00"
      }
     ],
-    "score": 8.61
+    "score": 8.04
    },
    {
     "key": "bluequbit-quantum-grant-program",
@@ -13204,7 +13499,7 @@
       "published": "2026-11-17T03:25:00+00:00"
      }
     ],
-    "score": 8.51
+    "score": 7.93
    },
    {
     "key": "gene-munster-apple-comparison",
@@ -13225,49 +13520,7 @@
       "published": "2026-11-17T03:23:55+00:00"
      }
     ],
-    "score": 8.51
-   },
-   {
-    "key": "china-chip-security-debate",
-    "title": "US Officials Clash Over China Chip Security",
-    "summary": "United States officials Bessent and Lutnick clashed in the Situation Room regarding China chip security. Policy debates among government leaders could shape regulatory oversight for the semiconductor sector.",
-    "impact": "neutral",
-    "importance": "medium",
-    "topic": "regulation",
-    "latest": "2026-11-11T19:16:37+00:00",
-    "first_seen": "2026-11-15T01:55:35.846274+00:00",
-    "count": 1,
-    "image": null,
-    "sources": [
-     {
-      "source": "Axios",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWWc5bDZNcnJmQ2NRR3ZJZHhNZ01vZC14MFl0c0R3MVFiVmxGYWN4a1pLcTVUUmY2Nm5yWHQwRl9wMWxDQnp3bkRVVlROeGg2ano5U0l1S2JzdEJaY3o3eXNwcnNLLUxtd3djbjg0cjlMcGhRbmdFOXFpNlM5ZHFtUGdCVQ?oc=5",
-      "headline": "Scoop: Inside Bessent's Situation Room confrontation with Lutnick over China chip security",
-      "published": "2026-11-11T19:16:37+00:00"
-     }
-    ],
-    "score": 8.0
-   },
-   {
-    "key": "nvidia-shares-rebound",
-    "title": "Nvidia Stock Rebounds Ahead of Earnings",
-    "summary": "Nvidia shares recovered while Jensen Huang faced scrutiny before upcoming earnings. The price rebound occurred as investors prepared for the scheduled financial results.",
-    "impact": "positive",
-    "importance": "medium",
-    "topic": "earnings",
-    "latest": "2026-11-11T10:03:29+00:00",
-    "first_seen": "2026-11-15T01:55:35.846274+00:00",
-    "count": 1,
-    "image": null,
-    "sources": [
-     {
-      "source": "CNBC",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNalRRWWRUS0VHb2Q4Y0dhNFdWY1BzTWlqWG8yOXBwZVJtRlFOck5iZlMzcmJlTHZnRkNaZ0hNUXBrTkptb0xqU3RBSUo5V09ERzlxb095YmRmRHNZaFVYVVhUY0ZxN1E4Q0twdFhLTzA0N0lDTnpXUGl3Szc2eHVUc9IBhgFBVV95cUxNNFBRVnNHRXdGNnFoMW5VZG42Yzd2cGo3YXdQSHlFa25LVjFXX21KU3lvaGhES0x1MFd0SVdUSW9pNno2Z0cxRzhmSWE3d1lJc3FLVVJ0Z3MyZHVNSHlGV245VkFPY09hcEIxNkNWeFR2TElWakdreUZPVFEyMG9YSE1XWUF0UQ?oc=5",
-      "headline": "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings",
-      "published": "2026-11-11T10:03:29+00:00"
-     }
-    ],
-    "score": 8.0
+    "score": 7.93
    },
    {
     "key": "nvidia-market-jitters",
@@ -13288,7 +13541,7 @@
       "published": "2026-11-16T11:14:41+00:00"
      }
     ],
-    "score": 7.16
+    "score": 6.58
    },
    {
     "key": "dell-alabama-nvidia-center",
@@ -13309,7 +13562,7 @@
       "published": "2026-11-14T18:06:48+00:00"
      }
     ],
-    "score": 3.73
+    "score": 3.16
    },
    {
     "key": "simons-firm-sells-nvidia",
@@ -13330,21 +13583,84 @@
       "published": "2026-11-14T04:33:00+00:00"
      }
     ],
-    "score": 2.6
+    "score": 2.03
    }
   ],
   "mood_7d": {
-   "positive": 86,
-   "neutral": 30,
-   "negative": 105
+   "positive": 82,
+   "neutral": 31,
+   "negative": 107
   },
   "sentiment_avg": null,
   "by_provider": {
    "finnhub": 1,
-   "yahoo": 139,
-   "google": 81
+   "yahoo": 147,
+   "google": 72
   },
   "market": [
+   {
+    "id": "6b53276e42cb",
+    "headline": "Islam forecast to soon exceed Christianity as world's biggest faith - Reuters",
+    "summary": "Islam forecast to soon exceed Christianity as world's biggest faith Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZzhzMHplMEVtRTFScDNDeERNU05DOVY1TXVIeDl3Uko3bkcyU3NLYlJPRTVITEIyNHg1TGtZVVJhOWVlUFNYU1hTUk5CaldhMW04UXM4MEJsNjJ2WG02bG56bGJjQW91b2dBUDlHSm5WMnpxbkp6WkFqbjBiUk1tLXczSm9FWEMzZE1YNDRCdU54ME1LS3B5YmhZNVBSeUZ4WXZwN2hvbTBvcjRsQUpCNjBjNDM?oc=5",
+    "published": "2026-11-19T01:34:00+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "c58b16d8b7d3",
+    "headline": "Takeaways from Day 2 of Trump's Asia tour: Putin's handshake, fried chicken and high-stakes diplomacy - Reuters",
+    "summary": "Takeaways from Day 2 of Trump's Asia tour: Putin's handshake, fried chicken and high-stakes diplomacy Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZURieEZtR2ttUWZVdGRYNEF1UGYyNHBNZTlCXzlUUm5vRTB0RWVON2pJendGa3daSWVWMVhUMDh0RW1vdGphMGxWbUhWV3JjVUYxdzQwS0puNmtJYVdpNDk0UmVzZ045ellsZHhIT3hranMxM3pCTGYzRndWd2lvbEhVcWpYXzhmT0xjR2JFX3FMTjJJLUg0b0owS1VLalRMa0FoZUl0SWc1X1d1RTVZMWtmUmt5VnBvaVp2SzVXOA?oc=5",
+    "published": "2026-11-18T23:24:00+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "9a93819b6aba",
+    "headline": "Trump says historic summit with Xi, Putin already a 'win' before event - Reuters",
+    "summary": "Trump says historic summit with Xi, Putin already a 'win' before event Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5",
+    "published": "2026-11-18T23:05:00+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "814e25358f50",
+    "headline": "Saudi Arabia says danger has passed in three southern cities after alerts - Reuters",
+    "summary": "Saudi Arabia says danger has passed in three southern cities after alerts Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjhHY29idmhCTzZKZ0dYQ0thMzhWbFpCM1VEUUdVQWNWb1RHaG04anZ4Y21nN05IeGZ0eXpacEItMnlHYld1U2JHb2dnUEpxcmZwV2RwUDNkcmFMckVwbE5VWTByUjc5RjRIM3RFd3hLaUFNdlVMdDlHSHdfd0dlOGo4ZkFTWXhKVmNOd2xSaFBDd3JxQUlOUWV1YURybThsVExoeV83TUNiSHU1Slh5VFNoMVNaLThMb3U0d1k3TUhTQQ?oc=5",
+    "published": "2026-11-18T21:21:23+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "673d7df676a0",
+    "headline": "EXCLUSIVE: Orlen, QatarEnergy in talks on new LNG deal days after contract termination, sources say - Reuters",
+    "summary": "EXCLUSIVE: Orlen, QatarEnergy in talks on new LNG deal days after contract termination, sources say Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN09ma2xvQVVUbWJDcFlLNWNXVUZJQmk4YnJNRkZIODF5VkNxX1BMemVKR3FxYTNMeEM1MEtGemYtQ0NrY2QwbWlDbV9YcGVrX3VuaUtXX040X2xET1JqckxHSWdUdUhXTE1YVE1lMUZabWotTnBlM2NFMDZrSFRZOGR4RTllNm5sUzM5ZkEwUm9jc0tYajk4U0RYYWxqaXJodW5rN1hMcWZ1WEtTZE5FQWRXQ2dMWVZYSWk0OTBCX2VUWkNONHQ0NWJYeWQ?oc=5",
+    "published": "2026-11-18T20:57:46+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "e1721bda5b0d",
+    "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
+    "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
+    "published": "2026-11-18T20:43:20+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "fb7453102d10",
+    "headline": "NEWSLETTER: Gulf conflict end date? Depends on who you ask - Reuters",
+    "summary": "NEWSLETTER: Gulf conflict end date? Depends on who you ask Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFxRlJDQXZxWXZ2UkF2Z0FvempVZFlETlZURW9NQTZqV3NjQ2VuVDZ3SjdaYS1VNzRJTzN5TTJvNlI4Q3RIRW8tRTI1b29yWndaVFd5YVVMbHZuTUdHeGFwR3NlMGUtWnlveGtaaEV1MVJ0dDltU3R4V3VwZUZqMVBPby1oTllISWZBaUY2UzA2R0EtN2hXbV9VQk0?oc=5",
+    "published": "2026-11-18T20:29:37+00:00",
+    "provider": "finnhub"
+   },
    {
     "id": "c50ef9f1c5c7",
     "headline": "Why Anthropic's hot IPO is bringing out sellers — plus, a silver lining of the down market",
@@ -13418,12 +13734,12 @@
     "provider": "finnhub"
    },
    {
-    "id": "e1721bda5b0d",
-    "headline": "Israel launches ground operation in central Gaza, dozens flee - Reuters",
-    "summary": "Israel launches ground operation in central Gaza, dozens flee Reuters",
+    "id": "e32336b234bf",
+    "headline": "As criticism mounts, Trump administration says tech outages not coordinated - Reuters",
+    "summary": "As criticism mounts, Trump administration says tech outages not coordinated Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaVdVck4yZnVKU01QQ0Nrd1c2VXRReEloTk1IS0xKWjRkcUdrR3BiTlAyU2dQVm1POVg0MmM5anI0YWlIa0txYms3Sjh6QW9kRjU3bmk0ajlHZ3BZbHM5eHBqazVBbVRvYkt4NENBZ0VuU3NEREFaVGpEOXFyMkdPWEktNE41aUIzY2U3enZDX1dmTTZkQzJPNHh0WktQUV80M2ZTb2o0ZDBYUHR0YmIxRWlB?oc=5",
-    "published": "2026-11-18T18:17:51+00:00",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbEE1dGhXVGJrYlFUZHZySzRlNDdaQ0dKckl1MFpkdE94V1JaODhValBDZDYxUjl3NXhTc1c2SS1xQUIzZ2hDWUoyYi12T2RCdV9HczFJZnhKZGpsZl80dzB2bnpKMU5yZ3BtMVVhRGJXRHFONE1BQVFQMzFaNlA0X1ZQNXh3RUJKR0JvcF9GVkVYY29sREppRnlmRGVjZ0NmY19MOGlWdWs0a0QwYk5mTzloODFUQ2VVU3liQi1JS21FUzBYN3VJNA?oc=5",
+    "published": "2026-11-18T18:29:46+00:00",
     "provider": "finnhub"
    },
    {
@@ -13460,69 +13776,6 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html",
     "published": "2026-11-18T17:29:31+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "a3eb80ea111e",
-    "headline": "Threats from Iran have increased substantially, US intelligence director says - Reuters",
-    "summary": "Threats from Iran have increased substantially, US intelligence director says Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVVIOHhPWnFWVF94TVJ0cTI0YU5hNERTcWNyU0phOVlSejlUbVFmYmkwSlZUNGNHenVpZHlydHpHdW9kWHc2UFF6aXJfQVZYcElYVlFsT0Y1RUV4Wnl2aVloNU1nY196aHRMNmV0NTFhWDhtVFlSV19MTElzZVRpUEJNYkpKcURQLUtFd1JfNlB3cmRvYmtONW1vNzBHTmgtYXhmMnNLNE54c1hpd2dZNi1mSlRnOG8?oc=5",
-    "published": "2026-11-18T17:10:25+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "daa587d4f23e",
-    "headline": "Ford starts U.S. battery cell production using Chinese tech amid geopolitical tensions",
-    "summary": "Ford has started U.S. production and shipments of battery cells for its next-generation EVs using technologies licensed by Chinese battery giant CATL.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/18/ford-us-battery-cells-catl-tech.html",
-    "published": "2026-11-18T17:02:53+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "5df5d55ae23d",
-    "headline": "Jim Cramer looks at what turned the market lower and where stocks could go next",
-    "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/investingclub/2026/11/18/cramer-looks-at-what-turned-the-market-lower-where-stocks-could-go-next.html",
-    "published": "2026-11-18T16:54:42+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "2ee53bb0a661",
-    "headline": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses - Reuters",
-    "summary": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONTZfWHVZQkZBSHhzWl9pY3ZMUk9HQVhEUmtmckJNcVBYUXFHQ2ZDZF9XUkpESEF2bjM1cjh3S2R6T3N4cG8xeDJCS0NOQ1JLMDRRcFZvUjl0X3YzREVxM1RheFRESF9QekdKTnpFRC1oaW51Mkwwb0w1REYwSngzRjh1VXA1ZVJick5SczdmTjltWExrV0JEeXRVUmVpbDhEQ0lORlAzWGpWaG50UWJFOGpValMzd09jZGhQNQ?oc=5",
-    "published": "2026-11-18T16:44:19+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "42857a0a6410",
-    "headline": "UAE top destination for smuggled African gold despite tighter measures, NGO says - Reuters",
-    "summary": "UAE top destination for smuggled African gold despite tighter measures, NGO says Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmxOSFNrVGdTTjFzdmxReVZQVmFBVUp0LVFvaS05di1vSG5STzZpRWZPckpvdnVybVhhSWVCMTBzNlFWWGd2QXRNQXFmU0FIejhUN0xyeVNvWTYwZUNWaVBGSWdiM3drbmdHOTA1bGRpZnhpNDZMaWZuUDhKTFFYQ1I5S1FnTGo2bDcxdjhONjFiOHFRYTJ5SW9xLXRIaFVBNjhPdG8wcjV5eTQ4RklkbU5vZDBTYmlhWXNTcjdyV3JYeUg1YUpNRg?oc=5",
-    "published": "2026-11-18T16:21:07+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "9ebb9a6aefb3",
-    "headline": "Jeffries wins Democratic House speaker race, on track to make history in January",
-    "summary": "Jeffries will still need to win a floor vote in January to officially become House speaker.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html",
-    "published": "2026-11-18T16:14:51+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "c3037cc63668",
-    "headline": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say - Reuters",
-    "summary": "Israeli spy chief lobbied for joint Iran strikes on US visit, sources say Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5",
-    "published": "2026-11-18T15:46:19+00:00",
     "provider": "finnhub"
    }
   ]
@@ -13634,13 +13887,6 @@
    "url": "https://finance.yahoo.com/technology/article/nvidia-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-210312776.html?.tsrc=rss"
   },
   {
-   "key": "push-to-reinstate-huang",
-   "date": "2026-11-18",
-   "title": "Investors and Petitioners Call for Jensen Huang Return",
-   "impact": "negative",
-   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63391467/nvidia-huang-return?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
-  },
-  {
    "key": "us-scrutiny-nvidia-chips",
    "date": "2026-11-18",
    "title": "US Inquiries Into Nvidia Chips and Megaspeed",
@@ -13688,70 +13934,99 @@
    "title": "Recruiters Contact Arm Chief For Nvidia Leadership Role",
    "impact": "neutral",
    "url": "https://finance.yahoo.com/video/arm-ceo-haas-approached-nvidia-203922543.html?.tsrc=rss"
+  },
+  {
+   "key": "nvidia-earnings-post-huang",
+   "date": "2026-11-18",
+   "title": "Nvidia Reports First Earnings After Leadership Exit",
+   "impact": "neutral",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX05adF9NVmRmbVFrTEE1NmZfMXhnYkNPbzl6WEd2Q0tfMkY3eEdZNmZDcUJtdlhqYURpRDZXTkQ4eWJBcXpDaFdGRGl0cjhUN010akJOdm1IdDZla2ZmUjZmbkdEOF9BeXY5WXlCbk15VGFud0o5Q0J3WjlOVlRveUpKZlg0VEk0dVlDa0JpTmhXRS1y?oc=5"
+  },
+  {
+   "key": "push-to-reinstate-huang",
+   "date": "2026-11-19",
+   "title": "Investors and Petitioners Call for Jensen Huang Return",
+   "impact": "negative",
+   "url": "https://www.tikr.com/blog/ceo-scandals-typically-cost-about-1-heres-why-its-different-for-nvidia?ref=yahoofinance&tlnk=yf-261118-hwcfj8vh&.tsrc=rss"
+  },
+  {
+   "key": "trump-future-china-blackwell-sales",
+   "date": "2026-11-19",
+   "title": "Trump Suggests Future Blackwell Chip Sales to China",
+   "impact": "positive",
+   "url": "https://finance.yahoo.com/technology/ai/articles/trump-suggests-us-sell-blackwell-013901504.html?.tsrc=rss"
   }
  ],
  "brief": {
   "mood": "Under pressure",
   "tone": "negative",
-  "headline": "Nvidia drops as leadership turmoil and regulatory scrutiny outweigh strong quarterly revenue.",
+  "headline": "Nvidia drops as leadership changes and regulatory scrutiny offset record sales",
   "sentences": [
    {
-    "text": "Nvidia fell nearly 2.9 percent today to 150.96 dollars, lagging the broader market and chip peers.",
+    "text": "Nvidia fell nearly 2.9 percent today to 150.96 dollars, trailing behind peers and benchmarks.",
     "stories": []
    },
    {
-    "text": "The decline comes amid leadership changes after Jensen Huang left his post, alongside regulatory inquiries into chip access.",
+    "text": "The decline follows the departure of Jensen Huang and fresh trade limits on processors in Southeast Asia and Brazil.",
     "stories": [
      "jensen-huang-steps-down",
      "push-to-reinstate-huang",
-     "us-scrutiny-nvidia-chips",
-     "huang-relationship-investigation"
+     "us-scrutiny-nvidia-chips"
     ]
    },
    {
-    "text": "Long-term investors must weigh record 115.8 billion dollar quarterly revenue against executive friction and evolving trade limits.",
+    "text": "Long-term holders must weigh executive instability and regulatory headwinds against robust business growth and raised forecasts.",
     "stories": [
      "nvidia-q3-results",
-     "push-to-reinstate-huang",
-     "us-scrutiny-nvidia-chips"
+     "nvidia-q3-fiscal-earnings"
     ]
    }
   ],
   "model": "gemini-3.8-flash",
-  "written_at": "2026-11-18T21:17:53.190968+00:00",
+  "written_at": "2026-11-19T04:14:30.015106+00:00",
   "price": 150.96,
   "reason": "new important news"
  },
  "outlook": {
-  "summary": "Nvidia faces significant leadership uncertainty following the departure of CEO Jensen Huang, which overshadows its strong third-quarter financial performance. The company must navigate internal friction, CEO succession, and widening regulatory scrutiny over its chips, particularly concerning export restrictions.",
+  "summary": "Nvidia recently posted strong third-quarter earnings that beat estimates, but the stock has been weighed down by the departure of CEO Jensen Huang and mounting regulatory scrutiny. Investors will be watching how new leadership navigates export restrictions, an SEC probe, and shifting customer spending plans in the coming months.",
   "what_next": [
    {
-    "point": "The search for a permanent CEO is underway, with Arm's Rene Haas reportedly contacted, but internal campaigns to reinstate Jensen Huang may cause disruption.",
+    "point": "The market will closely monitor Interim CEO Colette Kress and the board as investors and industry figures push for Jensen Huang's return.",
     "direction": "mixed",
     "timeframe": "weeks",
     "confidence": "high",
     "stories": [
      "jensen-huang-steps-down",
      "push-to-reinstate-huang",
-     "nvidia-ceo-search-haas"
+     "dan-ives-nvidia-valuation"
     ]
    },
    {
-    "point": "Investigations by the SEC and scrutiny into alleged spy ties could weigh heavily on the stock as regulatory risks increase.",
+    "point": "Government investigations, including an SEC probe and scrutiny over an alleged spy scandal, could create ongoing volatility for the stock.",
+    "direction": "negative",
+    "timeframe": "months",
+    "confidence": "medium",
+    "stories": [
+     "sec-probes-nvidia",
+     "huang-relationship-investigation",
+     "alice-huang-chinese-rival"
+    ]
+   },
+   {
+    "point": "New export restrictions on advanced AI chips to Southeast Asia and Brazil will test the company's ability to maintain its growth trajectory.",
     "direction": "negative",
     "timeframe": "months",
     "confidence": "high",
     "stories": [
-     "huang-relationship-investigation",
-     "alice-huang-chinese-rival",
-     "sec-probes-nvidia"
+     "us-scrutiny-nvidia-chips",
+     "us-curbs-ai-chips"
     ]
    },
    {
-    "point": "Interim CEO Colette Kress's rejection of a credit backstop for OpenAI may signal a moderation in AI spending, potentially impacting future demand.",
-    "direction": "negative",
+    "point": "Upcoming earnings reports from major tech customers like Microsoft, Meta, Alphabet, and Amazon will provide crucial insight into future AI chip demand.",
+    "direction": "mixed",
     "timeframe": "months",
-    "confidence": "medium",
+    "confidence": "high",
     "stories": [
      "kress-rejects-openai-backstop"
     ]
@@ -13760,74 +14035,81 @@
   "drivers": [
    {
     "name": "AI demand",
-    "status": "worsening",
-    "reason": "Interim leadership has rejected a major credit backstop for OpenAI, suggesting a possible moderation in AI spending.",
+    "status": "steady",
+    "reason": "While third-quarter earnings showed strong revenue, the rejection of a credit backstop for OpenAI signals potential moderation in customer spending.",
     "stories": [
+     "nvidia-q3-results",
      "kress-rejects-openai-backstop"
     ]
    },
    {
     "name": "CUDA software lock",
     "status": "steady",
-    "reason": "Recent news does not provide updates on the status of the CUDA software ecosystem.",
+    "reason": "Recent news has not provided specific updates on the CUDA software ecosystem.",
     "stories": []
    },
    {
     "name": "Supply lock at TSMC",
     "status": "steady",
-    "reason": "There are no new developments regarding TSMC supply constraints in the recent news.",
+    "reason": "There have been no recent reports altering the status of Nvidia's supply chain relationship with TSMC.",
     "stories": []
    },
    {
     "name": "Market share",
     "status": "steady",
-    "reason": "Recent reports do not indicate any material changes to Nvidia's market share.",
-    "stories": []
+    "reason": "Nvidia's market share position remains strong following record third-quarter revenue, though regulatory curbs could pose future risks.",
+    "stories": [
+     "nvidia-q3-results",
+     "us-curbs-ai-chips"
+    ]
    },
    {
     "name": "Gross margins",
     "status": "steady",
-    "reason": "While revenue was strong, specific updates on gross margin trends are not detailed in the recent news.",
+    "reason": "The company continues to report strong quarterly profits and raised financial guidance, indicating healthy margins.",
     "stories": [
-     "nvidia-q3-results"
+     "nvidia-q3-fiscal-earnings",
+     "nvidia-q3-results-beat"
     ]
    },
    {
     "name": "China",
-    "status": "worsening",
-    "reason": "New US export restrictions on advanced AI chips and probes into smuggled chips present ongoing challenges in the region.",
+    "status": "steady",
+    "reason": "The US has tightened restrictions on advanced AI chips, but Donald Trump suggested future sales of Blackwell processors to China might be permitted.",
     "stories": [
      "us-curbs-ai-chips",
-     "alice-huang-chinese-rival"
+     "trump-future-china-blackwell-sales"
     ]
    },
    {
     "name": "Leadership and Washington",
     "status": "worsening",
-    "reason": "The sudden departure of Jensen Huang, internal friction, and multiple government investigations create severe leadership and regulatory headwinds.",
+    "reason": "Jensen Huang's departure, an SEC probe, and investigations into smuggling and spy connections have significantly increased leadership and regulatory risks.",
     "stories": [
      "jensen-huang-steps-down",
-     "push-to-reinstate-huang",
      "sec-probes-nvidia",
-     "huang-relationship-investigation"
+     "huang-relationship-investigation",
+     "alice-huang-chinese-rival"
     ]
    }
   ],
   "bull_watch": [
-   "A swift and well-received appointment of a permanent CEO to stabilize leadership.",
-   "Major customers like Microsoft, Meta, and Google confirming sustained or increased spending on AI chips in upcoming earnings."
+   "Major customers maintaining or increasing their AI capital expenditure in early 2027.",
+   "A swift resolution to the leadership uncertainty or regulatory investigations.",
+   "A loosening of export restrictions, potentially allowing Blackwell sales to China."
   ],
   "bear_watch": [
-   "Escalation of SEC investigations or further export restrictions impacting sales.",
-   "Major AI customers pulling back on capital expenditures for AI infrastructure."
+   "Significant capital expenditure cuts from top customers like Microsoft or Meta.",
+   "Expansion of SEC or other government probes leading to fines or structural changes.",
+   "Further decline in investor confidence due to the absence of Jensen Huang."
   ],
   "model": "gemini-3.1-pro-preview",
-  "written_at": "2026-11-18T21:17:53.190968+00:00",
+  "written_at": "2026-11-19T04:14:30.015106+00:00",
   "price": 150.96,
-  "reason": "high importance news"
+  "reason": "daily update"
  },
  "outlook_count": {
-  "2026-11-18": 2
+  "2026-11-19": 1
  },
  "drivers": [
   "AI demand",
@@ -13840,17 +14122,17 @@
  ],
  "usage": {
   "today": {
-   "date": "2026-11-18",
-   "runs": 3,
-   "ai_tokens": 30719,
-   "filtered_headlines": 15,
-   "briefs_written": 3
+   "date": "2026-11-19",
+   "runs": 1,
+   "ai_tokens": 10910,
+   "filtered_headlines": 3,
+   "briefs_written": 1
   }
  },
  "errors": [],
  "ai_budget": {
   "daily": 150000,
-  "used_today": 30719,
-  "used_pct": 20.5
+  "used_today": 10910,
+  "used_pct": 7.3
  }
 }
