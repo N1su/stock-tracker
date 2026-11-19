@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-19T15:49:44.992178+00:00",
+ "updated_at": "2026-11-19T21:21:23.163757+00:00",
  "daily_done": "2026-11-19",
  "market": {
-  "is_open": true,
-  "session": "regular",
+  "is_open": false,
+  "session": "post-market",
   "holiday": null,
-  "checked": "2026-11-19T15:49:44.988900+00:00"
+  "checked": "2026-11-19T21:21:23.160422+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -21,31 +21,31 @@
   "ipo": "1999-01-22"
  },
  "quote": {
-  "price": 152.09,
-  "change": 1.13,
-  "change_pct": 0.7485,
+  "price": 145.98,
+  "change": -4.98,
+  "change_pct": -3.2989,
   "high": 158.1301,
-  "low": 151.48,
-  "open": 153.0875,
+  "low": 145.71,
+  "open": 152.915,
   "prev_close": 150.96,
-  "time": "2026-11-19T15:49:16+00:00"
+  "time": "2026-11-19T21:00:00+00:00"
  },
  "range_52w": {
   "high": 243.37,
   "low": 148.8,
-  "position_pct": 3.5,
-  "from_high_pct": -37.5
+  "position_pct": -3.0,
+  "from_high_pct": -40.0
  },
  "benchmarks": {
   "QQQ": {
-   "price": 658.35,
-   "change_pct": -0.1759,
-   "relative_pct": 0.92
+   "price": 645.04,
+   "change_pct": -2.1941,
+   "relative_pct": -1.1
   },
   "SOXX": {
-   "price": 141.54,
-   "change_pct": -0.2185,
-   "relative_pct": 0.97
+   "price": 137.95,
+   "change_pct": -2.7494,
+   "relative_pct": -0.55
   }
  },
  "benchmark_names": {
@@ -54,25 +54,25 @@
  },
  "peers": {
   "AMD": {
-   "price": 481.71,
-   "change_pct": -9.1353
+   "price": 489.19,
+   "change_pct": -7.7244
   },
   "AVGO": {
-   "price": 355.91,
-   "change_pct": 0.5253
+   "price": 346.65,
+   "change_pct": -2.0901
   },
   "TSM": {
-   "price": 362.06,
-   "change_pct": -0.1544
+   "price": 352.09,
+   "change_pct": -2.9039
   },
   "GOOGL": {
-   "price": 289.91,
-   "change_pct": 2.6448
+   "price": 272.66,
+   "change_pct": -3.4627
   }
  },
  "valuation": {
   "forward_eps": 14.88,
-  "forward_pe": 10.2,
+  "forward_pe": 9.8,
   "next_fiscal_year_end": "2028-01-25",
   "next_year_eps": 16.10928,
   "next_year_revision_30d_pct": 2.53,
@@ -80,7 +80,7 @@
   "peg": 0.12391407458326169,
   "fcf_yield_pct": 4.09,
   "ev_ebitda": 13.30301681846201,
-  "target_upside_pct": 81.4,
+  "target_upside_pct": 89.0,
   "target_last_month_avg": 229.6,
   "target_last_month_count": 25
  },
@@ -112,8 +112,8 @@
   },
   {
    "date": "2026-11-19",
-   "price": 152.09,
-   "forward_pe": 10.2
+   "price": 145.98,
+   "forward_pe": 9.8
   }
  ],
  "estimates": {
@@ -4010,7 +4010,7 @@
     ],
     [
      "2026-11-19",
-     658.35
+     645.04
     ]
    ],
    "SOXX": [
@@ -4428,7 +4428,7 @@
     ],
     [
      "2026-11-19",
-     141.54
+     137.95
     ]
    ]
   }
@@ -11907,8 +11907,14 @@
     "published": "2026-11-16T17:38:07+00:00",
     "provider": "google",
     "first_seen": "2026-11-19T04:14:30.015106+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "c510c550631c": {
     "id": "c510c550631c",
@@ -11921,7 +11927,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "dbe8580aa54a": {
     "id": "dbe8580aa54a",
@@ -11953,7 +11959,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "af35b377d397": {
     "id": "af35b377d397",
@@ -11966,7 +11972,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "e7b2d10152fb": {
     "id": "e7b2d10152fb",
@@ -12055,7 +12061,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "84237ff14a1d": {
     "id": "84237ff14a1d",
@@ -12106,7 +12112,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "12cb4e099e3e": {
     "id": "12cb4e099e3e",
@@ -12138,7 +12144,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "d19fe4682dec": {
     "id": "d19fe4682dec",
@@ -12151,7 +12157,7 @@
     "provider": "google",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "7d19f0376950": {
     "id": "7d19f0376950",
@@ -12164,7 +12170,7 @@
     "provider": "google",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "7e4b6e523b8e": {
     "id": "7e4b6e523b8e",
@@ -12177,7 +12183,7 @@
     "provider": "google",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "f11226b61106": {
     "id": "f11226b61106",
@@ -12189,6 +12195,358 @@
     "published": "2026-11-13T01:02:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-19T15:49:44.992178+00:00",
+    "sorted": false,
+    "sort_attempts": 2
+   },
+   "7f7b157c1275": {
+    "id": "7f7b157c1275",
+    "headline": "3 Dividend Kings to Buy in November and Never Sell",
+    "summary": "Recent developments could drive strong total returns for these three Dividend Kings.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/3-dividend-kings-to-buy-in-november-and-never-sell/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T21:05:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "1b84be35f1d5": {
+    "id": "1b84be35f1d5",
+    "headline": "Why USA Rare Earth Stock Is Rising Today",
+    "summary": "This rare-earth stock has plummeted more than 40% since the start of the year, but a company insider believes that now's a great time to buy.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/why-usa-rare-earth-stock-is-rising-today/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T21:02:36+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "34c6146f30dd": {
+    "id": "34c6146f30dd",
+    "headline": "Pfizer Is Shopping for China’s Biotech Breakthroughs",
+    "summary": "The agreement with Starna Therapeutics gives Pfizer access to a new generation of cancer-inspired immune therapies",
+    "source": "Yahoo Finance",
+    "url": "https://app.moby.co/home/news/news-pfizer-is-shopping-for-chinas-biotech-breakthroughs?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:56:55+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "1949dc34245d": {
+    "id": "1949dc34245d",
+    "headline": "This Is Incredible News for AMD Stock Investors (Hint: It’s Bad News for Intel)",
+    "summary": "AMD continues to chip away at Intel's dominance in the server CPU market.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/this-is-incredible-news-for-amd-stock-investors-hint-it-s-bad-news-for-intel/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:56:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "2235f2085eb1": {
+    "id": "2235f2085eb1",
+    "headline": "Why Liquidity Services Stock Fell 23% Today",
+    "summary": "Why did Liquidity Services stock plunge more than 20% on Thursday? Mixed top-line comparisons, near-term retail inventory headwinds, and Q1 guidance outweighed strong full-year profit growth.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/why-liquidity-services-stock-fell-23-today/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:53:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "b86d11bd66ce": {
+    "id": "b86d11bd66ce",
+    "headline": "Market Storylines: Chip Giant Earnings Beat, AI IPO's + Equity Selloff",
+    "summary": "Michael Reinking, Senior Market Strategist at the NYSE, reviews a volatile holiday-shortened week in which the S&P 500 sold off sharply and slipped to test its early June lows. Nvidia delivered a strong earnings beat and raised its growth guidance, but the shares still slid as succession and fundin…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/video/market-storylines-chip-giant-earnings-205016561.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:50:16+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "bdbfabdc1960": {
+    "id": "bdbfabdc1960",
+    "headline": "Could $1,000 in Oklo Stock Set You Up for Life by 2035?",
+    "summary": "Oklo stock is as jittery as an electron. Can this volatile nuclear stock deliver explosive gains by 2035?",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/could-in-oklo-stock-set-you-up-for-life-by-2035/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:50:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "5e62a33a398b": {
+    "id": "5e62a33a398b",
+    "headline": "Prediction: Silver Will Be Worth This Much By the End of 2027",
+    "summary": "The precious metal could be bottoming out at these levels.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/prediction-silver-will-be-worth-this-much-by-the-end-of-2027/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:46:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "8760809005f6": {
+    "id": "8760809005f6",
+    "headline": "Nvidia Up 8.9% After a Strong Anthropic IPO? That’s What Tilt’s New Investing Tool Modeled",
+    "summary": "Anthropic (NASDAQ:ANT) opened at $111.50 on Thursday, 34% above its $83 IPO price. Investing startup Tilt had modeled what a strong debut might mean for shareholders in two other tech giants. Over 20 days, it put Nvidia Corp. (NASDAQ:NVDA) up...",
+    "source": "Yahoo Finance",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63457684/anthropic-ipo-nvidia?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:44:06+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "578ba5948a98": {
+    "id": "578ba5948a98",
+    "headline": "If I Were Building a Portfolio From Scratch With $10,000, These 3 Consumer Stocks Would Come First",
+    "summary": "Of course, these are also some of the simplest but most reliable names that plenty of experienced investors with long-lived portfolios are also holding.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/if-i-were-building-a-portfolio-from-scratch-with-10000-these-3-consumer-stocks-would-come-first/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:35:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "56bebfbe0c76": {
+    "id": "56bebfbe0c76",
+    "headline": "Trump Just Disclosed Tesla and SpaceX Stock Purchases. Here's What His Portfolio Moves Reveal",
+    "summary": "The president's latest financial disclosure includes purchases of Tesla and SpaceX, but the stocks he sold tell a more interesting story.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/trump-just-disclosed-tesla-and-spacex-stock-purchases-here-s-what-his-portfolio-moves-reveal/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:29:31+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "4eb896858ac6": {
+    "id": "4eb896858ac6",
+    "headline": "Marvell Stock Halved Again. What Does Its Cash Say?",
+    "summary": "Today's big story: Could Anthropic Stock Fall 25.",
+    "source": "Yahoo Finance",
+    "url": "https://www.trefis.com/stock/mrvl/articles/626972/own-marvell-its-cash-says-2022-not-2006/2026-11-19?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:25:57+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "908c64acb1cf": {
+    "id": "908c64acb1cf",
+    "headline": "Can $300 a Month in VOO Really Build a $1 Million Portfolio? Yes, But There's 1 Factor to Consider.",
+    "summary": "Even small investments can build substantial wealth over time.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/can-300-month-voo-build-1-million-portfolio-yes/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:20:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "336d53061307": {
+    "id": "336d53061307",
+    "headline": "The unfolding Jensen Huang scandal: a timeline",
+    "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ceo-jensen-huang-affair-170419585.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:18:49+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "27cbd986c146": {
+    "id": "27cbd986c146",
+    "headline": "First Nvidia, Now AMD: A Short Seller Just Put Its China Business Under the Microscope",
+    "summary": "A short report claims AMD’s firmware keeps turning up in updates from a blacklisted Chinese server maker, and the stock is falling.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/first-nvidia-now-amd-a-short-seller-just-put-its-china-business-under-the-microscope/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:15:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "937c72d71605": {
+    "id": "937c72d71605",
+    "headline": "Why PDD Holdings Stock Jumped Today",
+    "summary": "Shares of the Pinduoduo parent gained on earnings even as revenue was flat.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/19/why-pdd-holdings-stock-jumped-today/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:13:22+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "83dfe414f426": {
+    "id": "83dfe414f426",
+    "headline": "Looks Like AMD Also Has A China Problem",
+    "summary": "Hunterbrook Media dropped a new report tying AMD to China because there was really nothing else going on.",
+    "source": "Yahoo Finance",
+    "url": "https://app.moby.co/home/news/news-looks-like-amd-also-has-a-china-problem?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-19T20:12:54+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "c4c0e9a05299": {
+    "id": "c4c0e9a05299",
+    "headline": "Jensen Huang's — and Nvidia's — legal exposure balloons",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5renBiTFZfWW5JYjR5VmVjOC1ZVWVlMWFqa2NzNmZadWMyUE8zYkxVaVhCYTBUTm5rU0VoS0ZvdVJBaEljeWxpRVV6WkVrbUM4SlVfUERfRU1wbFg3Z1hlRHF2M250ZlQtWWZTek9tb9IBdEFVX3lxTFBmOHY3TDNVM1JySWlETDlPMlRsOE5QbW1lYlNCaXRKSGp4eVZOZkJ0TF84WGdJUmd2eU11aklNYkJEZ3I0RVRYUXdDU1BldVBFNkN5cmJXODAzUUV5SklLSENQUUltOVBNZWRsQmtOU2tHaFdh?oc=5",
+    "image": null,
+    "published": "2026-11-19T17:30:25+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "f11227c24ea9": {
+    "id": "f11227c24ea9",
+    "headline": "Exclusive | Wall Street Pledged to Mobilize $500 Billion for Nvidia—but Hasn’t Put Up a Dime",
+    "summary": "",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWjdzR25CWl9WWlp1SVp4cVl0OE1TUWhmVXBKZVJ1RFNudjFKOEtabjJCX1o0bTRteGZPbVZmRURDazJ3a2UtajRYQ3d2eENyUFpCNHoxZzlSWFRHYnlITVNoSWx4V0g5bjN0S2o0MWVsMm9XSzN3Znd2Zk9CbVkxc2VKa0xJUDRWRGh0aVdEcU4tNTVNVkw3cV9SQUc0d3Nya1dCNkFLTlc0VWdqTWh6M0VwZlQ?oc=5",
+    "image": null,
+    "published": "2026-11-19T02:00:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "ed7e1cda996d": {
+    "id": "ed7e1cda996d",
+    "headline": "Jensen Huang Says He Would Return as Nvidia CEO if Asked",
+    "summary": "",
+    "source": "The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTjI2WlkxTmMzSkt5elM5dU1XRkoxbXhWUTJMOU12TmQ4RUt2QjFMYnNYX1dIa1F5ODlRbjQ1MlhzS3BnS2k2cFBwbVhRancteG84TUhIN2VGdU9kVlJ2WWFvQ0h3TUw2eFZuWG5BTzVWXzJqWFRLV1NaUlo4WUVDQUdmeHRkTkU?oc=5",
+    "image": null,
+    "published": "2026-11-17T16:21:23+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "ff3ebcfe5825": {
+    "id": "ff3ebcfe5825",
+    "headline": "EXCLUSIVE: Ex-Nvidia CEO misled top lawyer on affair with Chinese businesswoman, sources say",
+    "summary": "",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONzdHUzc1NjBCWjJNbldoNEhWS3RkQzJNdHJGTXFfX0h0YWR5QjhHbjdkd3NENnU2eXZpMktjMWRzT216Y2tMbnB0dS04T25QZEtxQmNpZzQ2SjNXRHNwQ2h4ckdOdkJ3d19IRDBYaUs5dzZzc2o2WmliV3hnRjNSN3VyM0trT1hxMEh4M2ppd3RBQ2RXTVUtWE40MmI0S2Z1d0ZBVjZGV2FSa2tDVEpDWU02WXR0QjBOdHRmTHJRV09faXc?oc=5",
+    "image": null,
+    "published": "2026-11-14T13:11:58+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "80d1654cecd3": {
+    "id": "80d1654cecd3",
+    "headline": "A Timeline of the Scandals That Brought Down Nvidia CEO Jensen Huang",
+    "summary": "",
+    "source": "WSJ",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWXB2RnB0R01qNVRtM25qWVlJUFhtM3lFOTJLdEtGQklVRC1zUFJTeW5ST2c4T3dZZVFHNlJJNW44WTBfd0xOelpwUTJybllxd254dDhOMXFBQmx6NmxvZVJmcmpUSnRTUW5vS3Q4MGV0ckRmMVRsbURjUzM1RHBkdmpMNnMzSFMwb201c3BkcDRkY2V6dlVvR1Iyaw?oc=5",
+    "image": null,
+    "published": "2026-11-13T14:08:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-19T21:21:23.163757+00:00",
     "sorted": false,
     "sort_attempts": 1
    }
@@ -12349,7 +12707,7 @@
       "published": "2026-11-13T13:38:49+00:00"
      }
     ],
-    "score": 122.95
+    "score": 122.49
    },
    {
     "key": "push-to-reinstate-huang",
@@ -12412,7 +12770,7 @@
       "published": "2026-11-17T17:36:31+00:00"
      }
     ],
-    "score": 122.87
+    "score": 122.41
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -12439,7 +12797,7 @@
       "published": "2026-11-16T13:47:23+00:00"
      }
     ],
-    "score": 48.98
+    "score": 48.52
    },
    {
     "key": "nvidia-q3-results",
@@ -12460,7 +12818,7 @@
       "published": "2026-11-18T15:32:02+00:00"
      }
     ],
-    "score": 37.98
+    "score": 37.51
    },
    {
     "key": "nvidia-q3-fiscal-earnings",
@@ -12481,7 +12839,7 @@
       "published": "2026-11-17T21:35:40+00:00"
      }
     ],
-    "score": 36.48
+    "score": 36.02
    },
    {
     "key": "kress-rejects-openai-backstop",
@@ -12508,7 +12866,7 @@
       "published": "2026-11-18T19:09:18+00:00"
      }
     ],
-    "score": 36.38
+    "score": 35.92
    },
    {
     "key": "huang-relationship-investigation",
@@ -12535,7 +12893,7 @@
       "published": "2026-11-12T08:12:06+00:00"
      }
     ],
-    "score": 32.91
+    "score": 32.45
    },
    {
     "key": "nvidia-quarterly-earnings-preview",
@@ -12556,7 +12914,7 @@
       "published": "2026-11-17T15:51:54+00:00"
      }
     ],
-    "score": 32.0
+    "score": 31.54
    },
    {
     "key": "nvidia-q3-results-beat",
@@ -12577,7 +12935,7 @@
       "published": "2026-11-18T04:05:12+00:00"
      }
     ],
-    "score": 31.02
+    "score": 30.56
    },
    {
     "key": "alice-huang-chinese-rival",
@@ -12604,7 +12962,7 @@
       "published": "2026-11-12T20:10:49+00:00"
      }
     ],
-    "score": 30.95
+    "score": 30.49
    },
    {
     "key": "trump-future-china-blackwell-sales",
@@ -12625,7 +12983,7 @@
       "published": "2026-11-19T01:39:01+00:00"
      }
     ],
-    "score": 30.82
+    "score": 30.36
    },
    {
     "key": "us-curbs-ai-chips",
@@ -12646,7 +13004,7 @@
       "published": "2026-11-16T22:30:02+00:00"
      }
     ],
-    "score": 30.56
+    "score": 30.09
    },
    {
     "key": "dan-ives-nvidia-valuation",
@@ -12667,7 +13025,7 @@
       "published": "2026-11-16T22:00:00+00:00"
      }
     ],
-    "score": 30.51
+    "score": 30.05
    },
    {
     "key": "sec-probes-nvidia",
@@ -12694,7 +13052,7 @@
       "published": "2026-11-17T20:56:00+00:00"
      }
     ],
-    "score": 30.46
+    "score": 30.0
    },
    {
     "key": "nvidia-q3-earnings-drop",
@@ -12715,7 +13073,7 @@
       "published": "2026-11-18T21:07:15+00:00"
      }
     ],
-    "score": 30.44
+    "score": 29.98
    },
    {
     "key": "nvidia-ceo-search-haas",
@@ -12736,7 +13094,7 @@
       "published": "2026-11-18T20:39:22+00:00"
      }
     ],
-    "score": 30.4
+    "score": 29.94
    },
    {
     "key": "nvidia-earnings-post-huang",
@@ -12757,7 +13115,7 @@
       "published": "2026-11-18T11:00:15+00:00"
      }
     ],
-    "score": 29.6
+    "score": 29.14
    },
    {
     "key": "huang-senate-testimony",
@@ -12778,7 +13136,7 @@
       "published": "2026-11-18T03:43:05+00:00"
      }
     ],
-    "score": 28.99
+    "score": 28.53
    },
    {
     "key": "us-china-nvidia-ai-rivalry",
@@ -12805,7 +13163,7 @@
       "published": "2026-11-15T09:48:00+00:00"
      }
     ],
-    "score": 28.17
+    "score": 27.71
    },
    {
     "key": "hsbc-downgrades-nvidia",
@@ -12832,7 +13190,7 @@
       "published": "2026-11-13T18:00:37+00:00"
      }
     ],
-    "score": 27.34
+    "score": 26.88
    },
    {
     "key": "us-tightens-remote-ai-controls",
@@ -12853,7 +13211,7 @@
       "published": "2026-11-16T18:49:26+00:00"
      }
     ],
-    "score": 26.25
+    "score": 25.79
    },
    {
     "key": "analysts-split-nvidia-target",
@@ -12874,7 +13232,7 @@
       "published": "2026-11-15T13:18:54+00:00"
      }
     ],
-    "score": 25.79
+    "score": 25.33
    },
    {
     "key": "trump-ai-support-plan",
@@ -12895,7 +13253,7 @@
       "published": "2026-11-16T11:02:43+00:00"
      }
     ],
-    "score": 25.6
+    "score": 25.14
    },
    {
     "key": "anthropic-ipo-valuation-risks",
@@ -12916,7 +13274,7 @@
       "published": "2026-11-18T21:05:58+00:00"
      }
     ],
-    "score": 24.44
+    "score": 23.98
    },
    {
     "key": "nvidia-ceo-search",
@@ -12937,7 +13295,7 @@
       "published": "2026-11-18T15:44:24+00:00"
      }
     ],
-    "score": 23.99
+    "score": 23.53
    },
    {
     "key": "tech-slump-ahead-nvidia-earnings",
@@ -12964,7 +13322,7 @@
       "published": "2026-11-16T15:24:21+00:00"
      }
     ],
-    "score": 22.51
+    "score": 22.05
    },
    {
     "key": "bond-market-hits-chip-stocks",
@@ -12985,7 +13343,7 @@
       "published": "2026-11-14T13:18:55+00:00"
      }
     ],
-    "score": 21.79
+    "score": 21.33
    },
    {
     "key": "thiel-fund-exits-nvidia",
@@ -13006,7 +13364,7 @@
       "published": "2026-11-19T03:51:09+00:00"
      }
     ],
-    "score": 21.0
+    "score": 20.54
    },
    {
     "key": "datasection-guidance-cut-china-chips",
@@ -13027,7 +13385,7 @@
       "published": "2026-11-19T02:23:20+00:00"
      }
     ],
-    "score": 20.88
+    "score": 20.42
    },
    {
     "key": "trump-downplays-nvidia-spy-scandal",
@@ -13048,7 +13406,7 @@
       "published": "2026-11-19T01:44:42+00:00"
      }
     ],
-    "score": 20.83
+    "score": 20.37
    },
    {
     "key": "tsmc-valuation-drop",
@@ -13069,7 +13427,7 @@
       "published": "2026-11-18T21:08:00+00:00"
      }
     ],
-    "score": 20.44
+    "score": 19.98
    },
    {
     "key": "coreweave-earnings-outlook",
@@ -13090,7 +13448,7 @@
       "published": "2026-11-18T20:43:47+00:00"
      }
     ],
-    "score": 20.41
+    "score": 19.95
    },
    {
     "key": "anthropic-investment-partnership",
@@ -13111,7 +13469,7 @@
       "published": "2026-11-18T15:24:53+00:00"
      }
     ],
-    "score": 19.97
+    "score": 19.5
    },
    {
     "key": "etf-trading-nvidia",
@@ -13132,7 +13490,7 @@
       "published": "2026-11-16T11:05:31+00:00"
      }
     ],
-    "score": 19.61
+    "score": 19.14
    },
    {
     "key": "cloud-partners-drop-post-earnings",
@@ -13153,7 +13511,7 @@
       "published": "2026-11-18T09:19:26+00:00"
      }
     ],
-    "score": 19.46
+    "score": 19.0
    },
    {
     "key": "huang-capacity-threat-cloud",
@@ -13174,7 +13532,7 @@
       "published": "2026-11-18T03:45:48+00:00"
      }
     ],
-    "score": 18.99
+    "score": 18.53
    },
    {
     "key": "nvidia-export-control-panel",
@@ -13195,7 +13553,7 @@
       "published": "2026-11-17T15:56:05+00:00"
      }
     ],
-    "score": 18.01
+    "score": 17.55
    },
    {
     "key": "market-awaits-nvidia-earnings",
@@ -13216,7 +13574,7 @@
       "published": "2026-11-15T13:42:34+00:00"
      }
     ],
-    "score": 17.82
+    "score": 17.36
    },
    {
     "key": "analyst-demand-forecast-cushion",
@@ -13237,7 +13595,7 @@
       "published": "2026-11-17T04:03:46+00:00"
      }
     ],
-    "score": 17.02
+    "score": 16.56
    },
    {
     "key": "nvidia-third-quarter-earnings",
@@ -13258,7 +13616,7 @@
       "published": "2026-11-16T02:05:37+00:00"
      }
     ],
-    "score": 16.86
+    "score": 16.39
    },
    {
     "key": "nvidia-selloff-pressures-markets",
@@ -13279,7 +13637,7 @@
       "published": "2026-11-16T21:52:27+00:00"
      }
     ],
-    "score": 16.5
+    "score": 16.04
    },
    {
     "key": "trump-accounts-nvidia-trading",
@@ -13300,7 +13658,7 @@
       "published": "2026-11-16T21:52:33+00:00"
      }
     ],
-    "score": 16.5
+    "score": 16.04
    },
    {
     "key": "kress-leads-first-earnings",
@@ -13321,7 +13679,7 @@
       "published": "2026-11-15T19:00:10+00:00"
      }
     ],
-    "score": 16.26
+    "score": 15.8
    },
    {
     "key": "treasury-urges-nvidia-shakeup",
@@ -13348,7 +13706,7 @@
       "published": "2026-11-15T16:49:11+00:00"
      }
     ],
-    "score": 16.25
+    "score": 15.79
    },
    {
     "key": "ai-chip-alternatives-after-huang",
@@ -13369,7 +13727,7 @@
       "published": "2026-11-15T03:33:00+00:00"
      }
     ],
-    "score": 14.98
+    "score": 14.52
    },
    {
     "key": "amd-stock-gain-nvidia",
@@ -13390,7 +13748,7 @@
       "published": "2026-11-15T02:31:34+00:00"
      }
     ],
-    "score": 14.89
+    "score": 14.43
    },
    {
     "key": "burry-nvidia-sales-methodology",
@@ -13411,7 +13769,7 @@
       "published": "2026-11-16T02:30:23+00:00"
      }
     ],
-    "score": 14.89
+    "score": 14.43
    },
    {
     "key": "broker-stocks-nvidia-volatility",
@@ -13432,7 +13790,7 @@
       "published": "2026-11-15T19:08:36+00:00"
      }
     ],
-    "score": 14.28
+    "score": 13.82
    },
    {
     "key": "fed-ai-task-force",
@@ -13453,7 +13811,7 @@
       "published": "2026-11-15T14:03:00+00:00"
      }
     ],
-    "score": 13.85
+    "score": 13.39
    },
    {
     "key": "nvidia-down-year-history",
@@ -13474,7 +13832,7 @@
       "published": "2026-11-15T09:12:02+00:00"
      }
     ],
-    "score": 13.45
+    "score": 12.99
    },
    {
     "key": "amd-challenges-nvidia",
@@ -13495,7 +13853,7 @@
       "published": "2026-11-15T05:53:25+00:00"
      }
     ],
-    "score": 13.17
+    "score": 12.71
    },
    {
     "key": "nvidia-november-earnings-preview",
@@ -13516,7 +13874,7 @@
       "published": "2026-11-15T00:18:32+00:00"
      }
     ],
-    "score": 12.71
+    "score": 12.25
    },
    {
     "key": "data-center-power-bottlenecks",
@@ -13537,7 +13895,7 @@
       "published": "2026-11-15T00:05:00+00:00"
      }
     ],
-    "score": 12.69
+    "score": 12.23
    },
    {
     "key": "cramer-nvidia-outlook",
@@ -13558,7 +13916,7 @@
       "published": "2026-11-14T18:33:00+00:00"
      }
     ],
-    "score": 12.23
+    "score": 11.77
    },
    {
     "key": "rapidus-challenges-tsmc",
@@ -13579,7 +13937,7 @@
       "published": "2026-11-14T12:04:00+00:00"
      }
     ],
-    "score": 11.69
+    "score": 11.23
    },
    {
     "key": "asian-stocks-nvidia-crisis",
@@ -13600,7 +13958,7 @@
       "published": "2026-11-19T02:51:08+00:00"
      }
     ],
-    "score": 10.92
+    "score": 10.46
    },
    {
     "key": "analyst-defends-nvidia-ai-trade",
@@ -13621,7 +13979,7 @@
       "published": "2026-11-19T02:10:44+00:00"
      }
     ],
-    "score": 10.86
+    "score": 10.4
    },
    {
     "key": "nvidia-ceo-search-candidates",
@@ -13642,7 +14000,7 @@
       "published": "2026-11-13T16:53:17+00:00"
      }
     ],
-    "score": 10.09
+    "score": 9.63
    },
    {
     "key": "nvidia-valuation-upside",
@@ -13663,7 +14021,7 @@
       "published": "2026-11-18T15:33:48+00:00"
      }
     ],
-    "score": 9.98
+    "score": 9.52
    },
    {
     "key": "nvidia-q3-earnings-call-crypto",
@@ -13684,7 +14042,7 @@
       "published": "2026-11-18T04:16:31+00:00"
      }
     ],
-    "score": 9.04
+    "score": 8.58
    },
    {
     "key": "agile-robots-funding",
@@ -13705,7 +14063,7 @@
       "published": "2026-11-17T03:25:00+00:00"
      }
     ],
-    "score": 8.97
+    "score": 8.5
    },
    {
     "key": "nvidia-industry-network",
@@ -13726,7 +14084,7 @@
       "published": "2026-11-17T21:15:05+00:00"
      }
     ],
-    "score": 8.45
+    "score": 7.99
    },
    {
     "key": "gpu-kill-switch-predictions",
@@ -13747,7 +14105,7 @@
       "published": "2026-11-17T21:10:17+00:00"
      }
     ],
-    "score": 8.45
+    "score": 7.98
    },
    {
     "key": "nvidia-director-officer-insurance",
@@ -13768,7 +14126,7 @@
       "published": "2026-11-17T04:40:54+00:00"
      }
     ],
-    "score": 7.07
+    "score": 6.61
    },
    {
     "key": "bluequbit-quantum-grant-program",
@@ -13789,7 +14147,7 @@
       "published": "2026-11-17T03:25:00+00:00"
      }
     ],
-    "score": 6.97
+    "score": 6.5
    },
    {
     "key": "gene-munster-apple-comparison",
@@ -13810,7 +14168,7 @@
       "published": "2026-11-17T03:23:55+00:00"
      }
     ],
-    "score": 6.96
+    "score": 6.5
    },
    {
     "key": "nvidia-market-jitters",
@@ -13831,7 +14189,7 @@
       "published": "2026-11-16T11:14:41+00:00"
      }
     ],
-    "score": 5.62
+    "score": 5.16
    },
    {
     "key": "dell-alabama-nvidia-center",
@@ -13852,7 +14210,7 @@
       "published": "2026-11-14T18:06:48+00:00"
      }
     ],
-    "score": 2.19
+    "score": 1.73
    },
    {
     "key": "simons-firm-sells-nvidia",
@@ -13873,7 +14231,7 @@
       "published": "2026-11-14T04:33:00+00:00"
      }
     ],
-    "score": 1.06
+    "score": 0.6
    }
   ],
   "mood_7d": {
@@ -13889,12 +14247,156 @@
   },
   "market": [
    {
+    "id": "d813cd6d70c9",
+    "headline": "3-step method to influence people and win them over, from a Stanford expert: ‘Your voice is like a muscle’",
+    "summary": "Stanford University communications lecturer Matt Abrahams teaches current and future leaders how to train their voices to be more engaging and persuasive.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/make-it/2026/11/19/matt-abrahams-persuasive-speaking-tips.html",
+    "published": "2026-11-19T20:17:36+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "ce77f0b4b6ac",
+    "headline": "Somalia orders UAE ambassador to leave, citing 'invasion' - Reuters",
+    "summary": "Somalia orders UAE ambassador to leave, citing 'invasion' Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWEg3aWNsUnlnMDBWSmdjZGtyWjJrMXROTHFNMXlycC15MU14bzV1UjUwVVJzR1JFek53RDVnV05DSkdtZnVzLUpQdFEyMGFLbDdpZEc0MlNUNzFFVHV2YkxLMnlHd2hBUVA2M1BlaW5OT041Y0s1OERhT1o3YTRXZ2d6aUl4NGs2cFVyRnQ0VmhLOXJUMkRCQWpmZ3FYODMwTU1iekNoelc?oc=5",
+    "published": "2026-11-19T20:09:48+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "1b8854af76e6",
+    "headline": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
+    "summary": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html",
+    "published": "2026-11-19T19:52:06+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "5661d725d2a0",
+    "headline": "As Sanofi's Pompe drug shortage drags on, some patients struggle to access treatments",
+    "summary": "An ongoing shortage of Sanofi’s Pompe disease treatment is forcing some patients to miss critical doses. They worry their health is at risk.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/19/as-pompe-drug-shortage-drags-on-patients-struggle-to-get-treatments.html",
+    "published": "2026-11-19T18:55:57+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "b9c740441b64",
+    "headline": "Anthropic's historic IPO is a boon to these 12 portfolio stocks. Here's how they benefit",
+    "summary": "From chips to industrials and banks, we have companies that stand to gain from Anthropic's blockbuster debut.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/11/19/anthropics-historic-ipo-is-a-boon-to-these-12-portfolio-stocks-heres-how-they-benefit.html",
+    "published": "2026-11-19T18:48:29+00:00",
+    "provider": "finnhub"
+   },
+   {
     "id": "071949b48e80",
     "headline": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites - Reuters",
     "summary": "West presses Iran at IAEA to let inspections resume at bombed nuclear sites Reuters",
     "source": "Reuters",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNX1BENXJsTm9KVlRxVjk0SENfVmszM1ZXVFpjQzJZcVRneVFiR210MTNseE0yUlJqWmRObE9ndjlKQkZUVFJqd0Joc3hFLWNhcW5KQ0ZKZWdBWDZ5Q1BCNWFQcDdBN1N5MDllSGNNYjdOUG1IaG5BNjB2S3hPMHRTSGpDM2phXzkzSUF6TkJtMktQRWpodkdiRVVSM0FJZ0lDOVRLZk5Dby1SdXV1elBEaW5GM0k?oc=5",
-    "published": "2026-11-19T14:43:53+00:00",
+    "published": "2026-11-19T18:40:09+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "0d053b326752",
+    "headline": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say - Reuters",
+    "summary": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVE54c3Eza3gxMTYwRmh4U0tZR0ZvWmctdm1OV1dkN1BzZXNXdFFiTjZkZlc5Mk01YVQzN2ZkZFZzUVVPdmMtc3ZzRjJZY28wdFE3ejFtcnlkbWZmUkZicXFKMU1ydEJZalZwZlFnQkhWSGVaMXFUUkt5T0pVaUp1WUxJMjdiVDhCWnlOLXRKaFh2UXhvQnNNQnNnZVBkWEdwMFBPOEEtc1ZzOTFIOHNfZklhZWJuQVVJaDBpU3hPNk4ycllOcTg4WmZoRG5zaDg?oc=5",
+    "published": "2026-11-19T18:39:18+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "a9f00088f2f1",
+    "headline": "Trump says US will 'see what happens' in conflict with Iran after January 1 - Reuters",
+    "summary": "Trump says US will 'see what happens' in conflict with Iran after January 1 Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkkzQVk3M3pnOXRWVlFCMmVzUEN0alhCS0gzQUhYNkhCMDhCOUM0N0tmMFpZNVNKcnVNbktaYXV5MV9ERm13WHoxTEVtUGRMUkZwT3dJZmlRZ2pyRE1WMGoyZW1VcXVWdTVRTmxZV1RISHNXWE9YY1BUUC1EWlJWRWRsYzlGTXo0WmhjaUxiUnAyMDl2OU9mWmliYndLd0htWGVLYWFUUldMOUIzLV9TSnBB?oc=5",
+    "published": "2026-11-19T18:37:43+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "d84c95f15b1f",
+    "headline": "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say - Reuters",
+    "summary": "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXY4SS1DQy01LTV4VDEwYTVCV2hCeThSemNINHhHNFk2Zk1ZNGpIWVk1MFlyMUJwWGFlS1otZGRYSHpYYUlqQlZOMjRrQURxU29GNlhkTmJVU1l3VE1TTkR1dWhCM2dJT2QyUnRkR0dlRVE5eHhiUHBVSUVaa0ppOFJDb0I1M081eHhNQUd4WXhlWnJ6d0RYTVhWamRONXVFZmpjVGFuYmtTeG5FYXVkcXRFaVY1RnhobzYzZjNB?oc=5",
+    "published": "2026-11-19T18:08:24+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "4a495b137e3c",
+    "headline": "Jim Cramer says to buy stock in this sleeping tech giant 'aggressively, aggressively'",
+    "summary": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/11/19/jim-cramer-says-to-buy-stock-in-this-sleeping-tech-giant-aggressively.html",
+    "published": "2026-11-19T17:15:33+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "91e723dd188e",
+    "headline": "We're adding to a consumer stock as the market enters oversold territory",
+    "summary": "The S&P Oscillator officially moved into oversold territory after Wednesday's session.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/investingclub/2026/11/19/were-adding-to-a-consumer-stock-as-the-market-enters-oversold-territory.html",
+    "published": "2026-11-19T17:12:46+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "2c4f06a9d0d5",
+    "headline": "US weekly jobless claims edge up, but labor market remains resilient - Reuters",
+    "summary": "US weekly jobless claims edge up, but labor market remains resilient Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUjdpV0lCY3lUWlhjZzVkdTNNa1hrazREdFRCMjFSRlpzYmpXNlpYeXdOeXJyZk44NGQwT0FuN1cxdWRyUWtLenNCTGNDSVM0NERhNW5PemtfbTI1UkFtcDdvUklKdjZZM2c4NTZlUVBlYVF5SVBubVFnbkhueHNTWDhLd1c4MVJLM2g1ekQ3bHo?oc=5",
+    "published": "2026-11-19T17:06:57+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "f9d3d79c6f6e",
+    "headline": "Houthi attacks on Saudi Arabia - Reuters",
+    "summary": "Houthi attacks on Saudi Arabia Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTXVIQUMwVTA5TllQb203X3V6XzNUVlNqaHhXd3NlNjJ0VF9rVUp1OTdRRjBWaVFMREswSVlfNjVESFAwb2w0NGMyVk5LeWNjTU42RnBIOWRsR05kWFktNFhrNnJtMm84cGNmekdUYmlvREJLQkt6NjUxMEZ2Sy1wUjVQbnhMS2JG?oc=5",
+    "published": "2026-11-19T16:20:38+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "88ad1820dfba",
+    "headline": "Amazon launches in-app push against Mamdani-backed delivery bill in New York City",
+    "summary": "Amazon has lobbied heavily against the proposed legislation, while New York City Mayor Zohran Mamdani backed the bill earlier this year.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html",
+    "published": "2026-11-19T16:15:40+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "ba7131b49e3f",
+    "headline": "EU countries, Parliament agree to delay EU methane regulation by two years - Reuters",
+    "summary": "EU countries, Parliament agree to delay EU methane regulation by two years Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWlc2MHpUb3VmbGltejJydzV6TVc3bVFyZTdEYVlkZmVKTVlwOVhyMHVyQnp5b21RTHIybHJ6WHl3c3pTNFhHTlRmOUpMVVdaaXZhZVlFeWtKbTZTbjdNdndrVWIwcVljRDVJM3dIdDFmaWM4YUZobldOZkJ2c3AzV19GT1NoaDdFcFhfUGZobEpKX2ZmQy1KUUhYQmF6U09XcnpDSWNtVUJzMzhEN1ZZOHJFZDcyWGllRFJpZVNmYw?oc=5",
+    "published": "2026-11-19T15:56:34+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "e6bc772a0aac",
+    "headline": "Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up - Reuters",
+    "summary": "Putin defends his 'Yalta', as 3-way summit draws parallels to post-war carve-up Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS2RyVUFBbDcxYWtIYjFjd0NtUmhUMzJDSXZqbWhkTFNYYXkzU3kzRF9WZnBTTGphWmI0UmQzUFFMRk9WODN6ZmlGVk1QSXNBR01hdk93RG9SbWJrb3RObU40aWFNUjFNX1JLTnlXbmdqSmlZLUVOaWdtMFBqZVYwV3BhbmFlcS1TRTFRUnZ3YXlzN190M3dXa0QtazJ5d1NVT2huaDFGR29OSTgtVnNmLUxfVWx0R1BVeEE?oc=5",
+    "published": "2026-11-19T15:25:08+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "630bc5ae968b",
+    "headline": "Gazans return to battered camp after Israel says it concluded tank raid - Reuters",
+    "summary": "Gazans return to battered camp after Israel says it concluded tank raid Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSTlHeU1CNWItYmpkOXVld21mVVRpNm9EbHhicnE3d1BQcmJ3em1HREh3NkFTUVNSUVFxMjFrWVU5V1dhT2Q2TWZEZ3VwYW9WSjB0SkhJU0JNMUxVMlAyU0RWYnZTekpLUS1oT0xPUXNzUWpjT0dhSktadFFXalBlcG1EaUJXaU1HMnBYb3pxd0V6OVBGdElzYg?oc=5",
+    "published": "2026-11-19T15:09:40+00:00",
     "provider": "finnhub"
    },
    {
@@ -13922,150 +14424,6 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-wealth-spawn-a-new-leaner-kind-of-family-office.html",
     "published": "2026-11-19T14:00:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "3d43a7a82c1b",
-    "headline": "Gold's bad year is getting worse. Why its price keeps falling",
-    "summary": "Gold has fallen sharply from its January record as higher interest rates and a stronger dollar change the investment case for the precious metal.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/19/gold-prices-fall-fed-rates-dollar.html",
-    "published": "2026-11-19T13:37:52+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "ce77f0b4b6ac",
-    "headline": "Somalia orders UAE ambassador to leave, citing 'invasion' - Reuters",
-    "summary": "Somalia orders UAE ambassador to leave, citing 'invasion' Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWEg3aWNsUnlnMDBWSmdjZGtyWjJrMXROTHFNMXlycC15MU14bzV1UjUwVVJzR1JFek53RDVnV05DSkdtZnVzLUpQdFEyMGFLbDdpZEc0MlNUNzFFVHV2YkxLMnlHd2hBUVA2M1BlaW5OT041Y0s1OERhT1o3YTRXZ2d6aUl4NGs2cFVyRnQ0VmhLOXJUMkRCQWpmZ3FYODMwTU1iekNoelc?oc=5",
-    "published": "2026-11-19T13:08:14+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "53a0250bb8d5",
-    "headline": "Family offices move more money into stocks, hedge AI risk, according to CNBC Family Office Portfolio Tracker",
-    "summary": "Family offices continued to boost their stock holdings, but they hedged the AI trade with financials, according to the CNBC Family Office Portfolio Tracker.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/19/family-offices-moved-more-money-into-stocks-but-hedged-ai-risk.html",
-    "published": "2026-11-19T12:31:10+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "f6260030e1e5",
-    "headline": "Anthropic IPO could create thousands of multimillionaire employees",
-    "summary": "The average Anthropic employee could be worth over $40 million after the company's IPO today, according to SEC filings and investors.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-could-create-thousands-of-multimillionaire-employees.html",
-    "published": "2026-11-19T12:30:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "a9f00088f2f1",
-    "headline": "Trump says US will 'see what happens' in conflict with Iran after January 1 - Reuters",
-    "summary": "Trump says US will 'see what happens' in conflict with Iran after January 1 Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkkzQVk3M3pnOXRWVlFCMmVzUEN0alhCS0gzQUhYNkhCMDhCOUM0N0tmMFpZNVNKcnVNbktaYXV5MV9ERm13WHoxTEVtUGRMUkZwT3dJZmlRZ2pyRE1WMGoyZW1VcXVWdTVRTmxZV1RISHNXWE9YY1BUUC1EWlJWRWRsYzlGTXo0WmhjaUxiUnAyMDl2OU9mWmliYndLd0htWGVLYWFUUldMOUIzLV9TSnBB?oc=5",
-    "published": "2026-11-19T12:13:43+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "6d5dc82fb237",
-    "headline": "Hackers access financial data of retired NYC government workers, Politico reports - Reuters",
-    "summary": "Hackers access financial data of retired NYC government workers, Politico reports Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLWRPejl6dU81Ty1UaWYxU1h1MUowcElUOHdPM1Q0TE9XNENtRldiSGpTMVgxWVVSdVVuT2hBTXJDd19FREF0akZaMEx3NWVvbmhKUVMtUFdNWTBUbThDc1QxaDljeGlxalp2cy0xelkzM0R2Nl9FN0pmX3p3VjM3R0Rfb3Z5NGZCSDJtQ1ZGbUdSSGxWVDVQd2pXalRvSnlOazVvc1BYSGlBT0FGT0hRbXdHcDVSVXFTamhz?oc=5",
-    "published": "2026-11-19T11:09:38+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "630bc5ae968b",
-    "headline": "Israel says it concludes Gaza tank raid - Reuters",
-    "summary": "Israel says it concludes Gaza tank raid Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSTlHeU1CNWItYmpkOXVld21mVVRpNm9EbHhicnE3d1BQcmJ3em1HREh3NkFTUVNSUVFxMjFrWVU5V1dhT2Q2TWZEZ3VwYW9WSjB0SkhJU0JNMUxVMlAyU0RWYnZTekpLUS1oT0xPUXNzUWpjT0dhSktadFFXalBlcG1EaUJXaU1HMnBYb3pxd0V6OVBGdElzYg?oc=5",
-    "published": "2026-11-19T10:41:29+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "d5ba42fbe1ea",
-    "headline": "Data center electricity use could double by 2030, IEA says",
-    "summary": "Global electricity use by data centers could double by 2030 as the AI boom adds pressure to power grids across the world, according to the IEA.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
-    "published": "2026-11-19T10:14:03+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "cf6d4d0d3f71",
-    "headline": "World Court finds Myanmar forces killed thousands of Rohingya, ruling ongoing - Reuters",
-    "summary": "World Court finds Myanmar forces killed thousands of Rohingya, ruling ongoing Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnpTTEM4UUNIZi1KbDViNGdmVlV2MTgxSUVGWjdra045RXVoZWhYbnNGcUFob1d1OUljd01LNGo1NGV5UDN6emRwVlZ2R0dtamU5RFo0SVBVSmVGR1MyUF9aSmlqZVRST0V2eE5vVGE1QS1sb2oyV05VVWF5T25XQ1lBVjhhN1FRV2VHMFVKak00TkluZzdrbzk0Q1BXOENRbjNHLXE1S3F6LWpYeHlXOVk0QWhpcE1vY1pObkxpT1FNV2xYSkZr?oc=5",
-    "published": "2026-11-19T09:47:34+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "d9d3c862de03",
-    "headline": "French Green leader ready to back hard-left Melenchon's bid for presidency - Reuters",
-    "summary": "French Green leader ready to back hard-left Melenchon's bid for presidency Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTExqWEtlVHJFdzgtMkI4NnM4eUhnVzhycVozYTVFanZ2UHNTXzMyMjJSQzBwVmx5b3U1b0F6dUIzRzg3aXpUOE9OSnVkNHNEcUJtU1BnOWdqNW1CQ043YTdXTXdCY1Z0MnRyM29oS1JRUlhReEtwRFdSeVF4SDVLWktsbjU3QWMtaFRHUV9iYWlKZzJKM1dvOTNWLWFrZlpTVDM4WHNSQ28xWkxf?oc=5",
-    "published": "2026-11-19T08:47:45+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "d84c95f15b1f",
-    "headline": "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say - Reuters",
-    "summary": "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUXY4SS1DQy01LTV4VDEwYTVCV2hCeThSemNINHhHNFk2Zk1ZNGpIWVk1MFlyMUJwWGFlS1otZGRYSHpYYUlqQlZOMjRrQURxU29GNlhkTmJVU1l3VE1TTkR1dWhCM2dJT2QyUnRkR0dlRVE5eHhiUHBVSUVaa0ppOFJDb0I1M081eHhNQUd4WXhlWnJ6d0RYTVhWamRONXVFZmpjVGFuYmtTeG5FYXVkcXRFaVY1RnhobzYzZjNB?oc=5",
-    "published": "2026-11-19T08:05:13+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "42feae27eef9",
-    "headline": "Without Iranian oil, China's small refiners face pain but not collapse - Reuters",
-    "summary": "Without Iranian oil, China's small refiners face pain but not collapse Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRkQ0emVia1RNOE8xUWN0a2RMczczQTVWRWhQTEZ0dkE3d0hCRms3aWxjM2xlMWs4c25OX0Zfdk1hRnhxS1ZyU19ubjY4RmJjX05wZlVSZ183cFlXelJPRnpoTUpha0Q0WGFaN3BiWWhrbGpEczZWdU1OMUt3MUNwN25IclowUVNleTBvZTZ2ajQ1Z1ItSHdoWHNrc2dKZFF4X0dDVUk4MnBiU3JReENVVmJQTmtsQVU?oc=5",
-    "published": "2026-11-19T07:17:00+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "fb841260b29e",
-    "headline": "Gold recoups from 14-month low, tighter Fed outlook caps gains - Reuters",
-    "summary": "Gold recoups from 14-month low, tighter Fed outlook caps gains Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0RVRVVhd0g1djYyRGpzbTcyZXFtSXd3cTV1T0REekJaYm9FOTlzblJzU3hlMmsxSkF0UmtzZ1gwWVFiUzI3VXdGNzJLTndoZC1oVkpXSnRmZ0ZmNkEybVRFSnhIVzFCNnlTS2hQRGV2bnNGTHVsaUZ5RmllU0otWWcxV2wwejMwcXpTOWFxam1xb2dRMXMyQ1c0T0RkZy1SX09YR3lYdmxkQQ?oc=5",
-    "published": "2026-11-19T06:53:00+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "0d902e7a2673",
-    "headline": "Ukraine was main topic at Trump-Putin meeting, Kremlin says - Reuters",
-    "summary": "Ukraine was main topic at Trump-Putin meeting, Kremlin says Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNDJ3ZUp3ZjhsQ01rN3VaRGlJNkx3SVpycUdaVENpLUtwT01aQmJ0c01ielVrbW0zcUtjVHlMbjlXc1IxaFFCYnhyWHpoY19vY0N0MVk5dXplemZKM0hSaWpIMndSMzBoZ3lndFpyeEhhUE5pTWVlRWpjMDhDYXpmNEJqZVRiMXgzWVRtNHE4cE1LNE1sWTNSM0lRQ2w5cU00MDE5dmdn?oc=5",
-    "published": "2026-11-19T06:38:00+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "97328e32651d",
-    "headline": "Saudi Arabia overtakes UAE as India's No. 2 oil supplier; Russia retains lead - Reuters",
-    "summary": "Saudi Arabia overtakes UAE as India's No. 2 oil supplier; Russia retains lead Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOGFFLXpheVdRTVdEZmh5dzNVdWpQR3RJRnJSbjZMMkNscHBaZWlNWTFLT0RpN3RGVU5xbHh1WFJoYTQyVGROQnRDcjZxaW9QaTZKZ2tkWGhDdUpRWnNHNXY5ay1PN3BZcmY2TFcxYnF0OFBtWUUxZzlfblZrZU9tVFZ6aDRaOFhuZjlyX3ctVS1wQ3h0VzFrRUd3eWNvRlJTakkxZjMtOWFsaVJjWDBLVnZ5aFV1QVMxb044M1pYbS0?oc=5",
-    "published": "2026-11-19T06:29:00+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "2dbfad16d7b1",
-    "headline": "South Korea becomes fourth country globally to hit $1 trillion exports on AI chip boom - Reuters",
-    "summary": "South Korea becomes fourth country globally to hit $1 trillion exports on AI chip boom Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYjJyUW83NEllOTVXWDNHUnY0UW85MjF2dzVVQ1NxOVBGaW1EY0trbjRZZU5zZWFLUnZnQ1RGUkhiM3ZmZVA2VUxZNm5UQlpJR2F2OXotX0EzOUJJdHNkZlhCUXVnM2xqaEZ1Zmh6R19sSmUyelZzSVJSSkVTZHBvd2ZUQkNJOFZPaEZ6amhLd1BGWlcxd2M4N0pLa0J5Z28taFE2M293Z1puMWViY3FhZDh6WXd4SjFsNzg0dkZ3?oc=5",
-    "published": "2026-11-19T06:29:00+00:00",
     "provider": "finnhub"
    }
   ]
@@ -14413,9 +14771,9 @@
  "usage": {
   "today": {
    "date": "2026-11-19",
-   "runs": 2,
+   "runs": 3,
    "ai_tokens": 10910,
-   "filtered_headlines": 11,
+   "filtered_headlines": 22,
    "briefs_written": 1
   }
  },
