@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-22T19:45:22.539277+00:00",
+ "updated_at": "2026-11-22T21:47:12.694095+00:00",
  "daily_done": "2026-11-22",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-22T19:45:22.535977+00:00"
+  "checked": "2026-11-22T21:47:12.689356+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -13583,8 +13583,14 @@
     "published": "2026-11-22T11:11:02+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "18d2c5a76ea1": {
     "id": "18d2c5a76ea1",
@@ -13596,8 +13602,14 @@
     "published": "2026-11-22T11:08:01+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "2fa029f8819f": {
     "id": "2fa029f8819f",
@@ -13609,8 +13621,14 @@
     "published": "2026-11-22T11:07:09+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "6e70f7f024f9": {
     "id": "6e70f7f024f9",
@@ -13641,8 +13659,14 @@
     "published": "2026-11-22T11:00:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "b84f494fbed2": {
     "id": "b84f494fbed2",
@@ -13749,8 +13773,14 @@
     "published": "2026-11-22T10:07:16+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "a1cda1d02332": {
     "id": "a1cda1d02332",
@@ -13762,8 +13792,14 @@
     "published": "2026-11-22T10:04:27+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "1821647b2265": {
     "id": "1821647b2265",
@@ -13832,8 +13868,14 @@
     "published": "2026-11-22T09:34:02+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "17dc37c00296": {
     "id": "17dc37c00296",
@@ -13864,8 +13906,14 @@
     "published": "2026-11-20T21:41:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "66087adc2867": {
     "id": "66087adc2867",
@@ -13877,8 +13925,14 @@
     "published": "2026-11-20T21:07:29+00:00",
     "provider": "google",
     "first_seen": "2026-11-22T11:40:29.988724+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "8a15e21ae4d5": {
     "id": "8a15e21ae4d5",
@@ -13891,7 +13945,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-22T19:45:22.539277+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "509b9a53d310": {
     "id": "509b9a53d310",
@@ -13904,7 +13958,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-22T19:45:22.539277+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "4080f117be28": {
     "id": "4080f117be28",
@@ -13936,7 +13990,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-22T19:45:22.539277+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "3d01cbb2a07f": {
     "id": "3d01cbb2a07f",
@@ -14006,7 +14060,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-22T19:45:22.539277+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "f78bf1985d3b": {
     "id": "f78bf1985d3b",
@@ -14095,7 +14149,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-22T19:45:22.539277+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "20ba23b4b2cc": {
     "id": "20ba23b4b2cc",
@@ -14165,7 +14219,256 @@
     "provider": "google",
     "first_seen": "2026-11-22T19:45:22.539277+00:00",
     "sorted": false,
+    "sort_attempts": 2
+   },
+   "6cb958e24ec4": {
+    "id": "6cb958e24ec4",
+    "headline": "Altria Yields 5.9%. Here's How Many Shares You'd Need for $5,000 in Yearly Dividend Income.",
+    "summary": "The cigarette giant has reliably raised its payouts annually for decades.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/altria-yields-59-heres-how-many-shares-youd-need-f/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:34:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "5ca8427fcb6c": {
+    "id": "5ca8427fcb6c",
+    "headline": "Procter & Gamble Has Raised Its Dividend 70 Straight Years. Here's Why I'd Buy Before 2027.",
+    "summary": "P&G's 70-year dividend streak is the headline, but what the company is changing right now is the real reason I'd buy.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/procter-gamble-has-raised-its-dividend-70-straight-years-heres-why-id-buy-before-2027/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:20:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "b75f1d6a4493": {
+    "id": "b75f1d6a4493",
+    "headline": "Charlie Bilello Flags the Nasdaq 100’s First Bear Market Since April 2025",
+    "summary": "The Nasdaq 100 slipped past a line it hasn't touched in over a year, then barely escaped at the closing bell. If you hold no Nasdaq fund, your retirement account may still be more exposed than you think.",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/22/charlie-bilello-flags-the-nasdaq-100s-first-bear-market-since-april-2025/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:17:16+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "f56d69508dfd": {
+    "id": "f56d69508dfd",
+    "headline": "How exposed is the S&P 500 to an AI trade bust?",
+    "summary": "Investing.com -- Around half of the S&P 500’s market capitalization has exposure to artificial intelligence in some form, a Capital Economics analysis suggested, using an approach in which the AI industry and ecosystem was divided into five kinds of companies ranging from AI infrastructure provider…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/exposed-p-500-ai-trade-211253614.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:12:53+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": false,
     "sort_attempts": 1
+   },
+   "25d81bf7cfe6": {
+    "id": "25d81bf7cfe6",
+    "headline": "U.S. Treasury Secretary Scott Bessent Just Delivered Great News to Former Nvidia CEO Jensen Huang. Should You Buy Nvidia Stock Before Nov. 25?",
+    "summary": "On CBS's Face the Nation, U.S. Treasury Secretary Scott Bessent seemed to change his tone regarding a potential return of Jensen Huang to Nvidia.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/u-s-treasury-secretary-scott-bessent-just-delivered-great-news-to-former-nvidia-ceo-jensen-huang-should-you-buy-nvidia-stock-before-nov-25/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:08:04+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "c953325e2c33": {
+    "id": "c953325e2c33",
+    "headline": "Jeff Bezos sends a strong signal to Nvidia stock investors as CEO search heats up",
+    "summary": "The Amazon founder has a warning for Nvidia’s board as it weighs who should replace Jensen Huang.",
+    "source": "Yahoo Finance",
+    "url": "https://www.thestreet.com/investing/jeff-bezos-sends-a-strong-signal-to-nvidia-stock-investors-as-ceo-search-heats-up?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:07:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "2d77ed50dba4": {
+    "id": "2d77ed50dba4",
+    "headline": "Dow Jones Futures Due As Oracle, Korea Try To Ease Market Fears; Look For These Absolute Losers",
+    "summary": "Futures loom as Oracle and South Korea try to calm market fears after the stock market worst week since Covid.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures-due-as.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T21:05:29+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "b352a6f692f6": {
+    "id": "b352a6f692f6",
+    "headline": "Does Anthropic Have a Competitive Advantage? These are the Four Big Ones",
+    "summary": "Anthropic is officially public, and there's plenty of uncertainty about where the stock goes from here.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/does-anthropic-have-a-competitive-advantage-these-are-the-four-big-ones/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T20:50:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "a8555ac65ed8": {
+    "id": "a8555ac65ed8",
+    "headline": "Warren Buffett’s Successor, Greg Abel, Has Invested Nearly 47% of Berkshire Hathaway’s $360 Billion Stock Portfolio in Just 3 Stocks (and None Are AI Hyperscalers)",
+    "summary": "Like Buffett, Abel continues to take a concentrated approach in Berkshire Hathaway's massive stock portfolio.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/warren-buffett-s-successor-greg-abel-has-invested-nearly-47-of-berkshire-hathaway-s-usd360-billion-stock-portfolio-in-just-3-stocks-and-none-are-ai-hyperscalers/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T20:47:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "07d45a32b5b8": {
+    "id": "07d45a32b5b8",
+    "headline": "Anthropic Stock Could Soar by 72%, According to This Wall Street Analyst",
+    "summary": "Needham sees Anthropic soaring to $150, but is that realistic?",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/anthropic-stock-could-soar-by-72-according-to-this-wall-street-analyst/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T20:36:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "c20937b2d2ca": {
+    "id": "c20937b2d2ca",
+    "headline": "When Can Anthropic Insiders Sell? What the Post-IPO Lockup Period Means for Shareholders.",
+    "summary": "There are more important long-term drivers for the stock price than the expirations of its lockup periods.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/when-can-anthropic-insiders-sell-what-the-lockup-means-for-shareholders/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T20:29:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "e378f9346dc4": {
+    "id": "e378f9346dc4",
+    "headline": "United Airlines Has Warned Air Traffic Control Isn’t Ready for Air Taxis. That’s a Bigger Problem for Archer Than Its Cash Burn.",
+    "summary": "The recent air delays don't have anything to do with Archer Aviation, but they could mean a more delayed regulatory process for the eVTOL maker.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/united-airlines-has-warned-air-traffic-control-isn-t-ready-for-air-taxis-that-s-a-bigger-problem-for-archer-than-its-cash-burn/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T20:25:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "6101db4c4815": {
+    "id": "6101db4c4815",
+    "headline": "Uber Trades at 16 Times Forward Earnings and a 30% Discount to Its All-Time High Stock Price. Here’s Why Robotaxis Make That a Mistake.",
+    "summary": "Sentiment toward this disruptive business reflects the market's fears about autonomous vehicle technology.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/22/uber-trades-16-times-forward-earnings-and-30-discount-all-time-high-stock-price-here-why-robotaxis-make-that-a-mistake/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T20:05:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "21823558001f": {
+    "id": "21823558001f",
+    "headline": "Ken Fisher and 13 Other Big Funds Bought Arista Networks Last Quarter, While 10 Sold. Who’s Right?",
+    "summary": "Key TakeawaysOf the 460 big funds that have filed 13Fs for the quarter ended Sept. 30, 14 bought Arista Networks, Ken Fisher’s Fisher Investments among them, and 10 sold.",
+    "source": "Yahoo Finance",
+    "url": "https://www.tikr.com/blog/ken-fisher-and-13-other-big-funds-bought-arista-networks-last-quarter-while-10-sold-whos-right?ref=yahoofinance&tlnk=yf-261122-96cgvpf5&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T19:50:24+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "0035982cc91b": {
+    "id": "0035982cc91b",
+    "headline": "Your 401(k) Has New Contribution Limits for 2027. Here's What You Need to Know",
+    "summary": "Workers will be able to contribute an additional $1,000 to their plans next year.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/retirement/2026/11/22/your-401-k-has-new-contribution-limits-for-2027-here-s-what-you-need-to-know/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-22T19:50:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-22T21:47:12.694095+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
    }
   },
   "story_titles": {
@@ -14299,7 +14602,7 @@
       "published": "2026-11-17T17:36:31+00:00"
      }
     ],
-    "score": 110.54
+    "score": 110.37
    },
    {
     "key": "jensen-huang-steps-down",
@@ -14332,7 +14635,7 @@
       "published": "2026-11-17T09:18:45+00:00"
      }
     ],
-    "score": 48.62
+    "score": 48.45
    },
    {
     "key": "us-scrutiny-nvidia-chips",
@@ -14359,7 +14662,7 @@
       "published": "2026-11-16T13:47:23+00:00"
      }
     ],
-    "score": 36.66
+    "score": 36.49
    },
    {
     "key": "nvidia-q3-results",
@@ -14380,7 +14683,7 @@
       "published": "2026-11-18T15:32:02+00:00"
      }
     ],
-    "score": 31.65
+    "score": 31.48
    },
    {
     "key": "nvidia-q3-fiscal-earnings",
@@ -14401,7 +14704,7 @@
       "published": "2026-11-17T21:35:40+00:00"
      }
     ],
-    "score": 30.15
+    "score": 29.98
    },
    {
     "key": "nvidia-quarterly-earnings-preview",
@@ -14422,7 +14725,7 @@
       "published": "2026-11-17T15:51:54+00:00"
      }
     ],
-    "score": 25.68
+    "score": 25.51
    },
    {
     "key": "nvidia-q3-results-beat",
@@ -14443,7 +14746,7 @@
       "published": "2026-11-18T04:05:12+00:00"
      }
     ],
-    "score": 24.69
+    "score": 24.52
    },
    {
     "key": "trump-future-china-blackwell-sales",
@@ -14464,7 +14767,7 @@
       "published": "2026-11-19T01:39:01+00:00"
      }
     ],
-    "score": 24.49
+    "score": 24.32
    },
    {
     "key": "us-curbs-ai-chips",
@@ -14485,7 +14788,7 @@
       "published": "2026-11-16T22:30:02+00:00"
      }
     ],
-    "score": 24.23
+    "score": 24.06
    },
    {
     "key": "sec-probes-nvidia",
@@ -14512,7 +14815,7 @@
       "published": "2026-11-17T20:56:00+00:00"
      }
     ],
-    "score": 24.13
+    "score": 23.96
    },
    {
     "key": "nvidia-q3-earnings-drop",
@@ -14533,7 +14836,7 @@
       "published": "2026-11-18T21:07:15+00:00"
      }
     ],
-    "score": 24.11
+    "score": 23.94
    },
    {
     "key": "nvidia-ceo-search-haas",
@@ -14554,7 +14857,7 @@
       "published": "2026-11-18T20:39:22+00:00"
      }
     ],
-    "score": 24.07
+    "score": 23.91
    },
    {
     "key": "nvidia-earnings-post-huang",
@@ -14575,7 +14878,7 @@
       "published": "2026-11-18T11:00:15+00:00"
      }
     ],
-    "score": 23.27
+    "score": 23.1
    },
    {
     "key": "huang-senate-testimony",
@@ -14596,7 +14899,7 @@
       "published": "2026-11-18T03:43:05+00:00"
      }
     ],
-    "score": 22.66
+    "score": 22.49
    },
    {
     "key": "alice-huang-chinese-rival",
@@ -14617,7 +14920,7 @@
       "published": "2026-11-18T03:14:25+00:00"
      }
     ],
-    "score": 22.62
+    "score": 22.45
    },
    {
     "key": "huang-relationship-investigation",
@@ -14638,7 +14941,7 @@
       "published": "2026-11-18T02:45:00+00:00"
      }
     ],
-    "score": 22.58
+    "score": 22.41
    },
    {
     "key": "dan-ives-nvidia-valuation",
@@ -14659,7 +14962,7 @@
       "published": "2026-11-16T22:00:00+00:00"
      }
     ],
-    "score": 22.19
+    "score": 22.02
    },
    {
     "key": "us-china-nvidia-ai-rivalry",
@@ -14686,7 +14989,7 @@
       "published": "2026-11-15T09:48:00+00:00"
      }
     ],
-    "score": 21.84
+    "score": 21.67
    },
    {
     "key": "us-tightens-remote-ai-controls",
@@ -14707,7 +15010,7 @@
       "published": "2026-11-16T18:49:26+00:00"
      }
     ],
-    "score": 19.92
+    "score": 19.75
    },
    {
     "key": "trump-ai-support-plan",
@@ -14728,7 +15031,28 @@
       "published": "2026-11-16T11:02:43+00:00"
      }
     ],
-    "score": 19.27
+    "score": 19.1
+   },
+   {
+    "key": "analysts-split-nvidia-target",
+    "title": "Analysts Split on Nvidia Price Target",
+    "summary": "At least ten Wall Street brokerages cut their ratings from buy to hold following the departure of the chief executive.",
+    "impact": "negative",
+    "importance": "high",
+    "topic": "valuation",
+    "latest": "2026-11-15T13:18:54+00:00",
+    "first_seen": "2026-11-15T15:07:24.446673+00:00",
+    "count": 1,
+    "image": null,
+    "sources": [
+     {
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/massive-shoes-to-fill-wall-street-weighs-nvidia-stock-amid-ceo-fallout-131854664.html?.tsrc=rss",
+      "headline": "'Massive shoes to fill': Wall Street sours on Nvidia stock after Jensen Huang's exit",
+      "published": "2026-11-15T13:18:54+00:00"
+     }
+    ],
+    "score": 18.0
    },
    {
     "key": "kress-rejects-openai-backstop",
@@ -14755,28 +15079,7 @@
       "published": "2026-11-18T19:09:18+00:00"
      }
     ],
-    "score": 18.06
-   },
-   {
-    "key": "analysts-split-nvidia-target",
-    "title": "Analysts Split on Nvidia Price Target",
-    "summary": "At least ten Wall Street brokerages cut their ratings from buy to hold following the departure of the chief executive.",
-    "impact": "negative",
-    "importance": "high",
-    "topic": "valuation",
-    "latest": "2026-11-15T13:18:54+00:00",
-    "first_seen": "2026-11-15T15:07:24.446673+00:00",
-    "count": 1,
-    "image": null,
-    "sources": [
-     {
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/article/massive-shoes-to-fill-wall-street-weighs-nvidia-stock-amid-ceo-fallout-131854664.html?.tsrc=rss",
-      "headline": "'Massive shoes to fill': Wall Street sours on Nvidia stock after Jensen Huang's exit",
-      "published": "2026-11-15T13:18:54+00:00"
-     }
-    ],
-    "score": 18.0
+    "score": 17.89
    },
    {
     "key": "nvidia-ceo-search",
@@ -14797,7 +15100,7 @@
       "published": "2026-11-18T15:44:24+00:00"
      }
     ],
-    "score": 17.66
+    "score": 17.5
    },
    {
     "key": "tech-slump-ahead-nvidia-earnings",
@@ -14824,7 +15127,7 @@
       "published": "2026-11-16T15:24:21+00:00"
      }
     ],
-    "score": 16.18
+    "score": 16.01
    },
    {
     "key": "anthropic-ipo-valuation-risks",
@@ -14845,7 +15148,7 @@
       "published": "2026-11-18T21:05:58+00:00"
      }
     ],
-    "score": 16.11
+    "score": 15.94
    },
    {
     "key": "thiel-fund-exits-nvidia",
@@ -14866,7 +15169,7 @@
       "published": "2026-11-19T03:51:09+00:00"
      }
     ],
-    "score": 14.67
+    "score": 14.51
    },
    {
     "key": "datasection-guidance-cut-china-chips",
@@ -14887,7 +15190,7 @@
       "published": "2026-11-19T02:23:20+00:00"
      }
     ],
-    "score": 14.55
+    "score": 14.38
    },
    {
     "key": "trump-downplays-nvidia-spy-scandal",
@@ -14908,7 +15211,7 @@
       "published": "2026-11-19T01:44:42+00:00"
      }
     ],
-    "score": 14.5
+    "score": 14.33
    },
    {
     "key": "tsmc-valuation-drop",
@@ -14929,7 +15232,7 @@
       "published": "2026-11-18T21:08:00+00:00"
      }
     ],
-    "score": 14.11
+    "score": 13.95
    },
    {
     "key": "coreweave-earnings-outlook",
@@ -14950,7 +15253,7 @@
       "published": "2026-11-18T20:43:47+00:00"
      }
     ],
-    "score": 14.08
+    "score": 13.91
    },
    {
     "key": "anthropic-investment-partnership",
@@ -14971,7 +15274,7 @@
       "published": "2026-11-18T15:24:53+00:00"
      }
     ],
-    "score": 13.64
+    "score": 13.47
    },
    {
     "key": "etf-trading-nvidia",
@@ -14992,7 +15295,7 @@
       "published": "2026-11-16T11:05:31+00:00"
      }
     ],
-    "score": 13.28
+    "score": 13.11
    },
    {
     "key": "cloud-partners-drop-post-earnings",
@@ -15013,7 +15316,7 @@
       "published": "2026-11-18T09:19:26+00:00"
      }
     ],
-    "score": 13.13
+    "score": 12.96
    },
    {
     "key": "huang-capacity-threat-cloud",
@@ -15034,7 +15337,7 @@
       "published": "2026-11-18T03:45:48+00:00"
      }
     ],
-    "score": 12.67
+    "score": 12.5
    },
    {
     "key": "market-awaits-nvidia-earnings",
@@ -15076,7 +15379,7 @@
       "published": "2026-11-17T15:56:05+00:00"
      }
     ],
-    "score": 11.68
+    "score": 11.51
    },
    {
     "key": "analyst-demand-forecast-cushion",
@@ -15097,7 +15400,7 @@
       "published": "2026-11-17T04:03:46+00:00"
      }
     ],
-    "score": 10.69
+    "score": 10.52
    },
    {
     "key": "nvidia-third-quarter-earnings",
@@ -15118,7 +15421,7 @@
       "published": "2026-11-16T02:05:37+00:00"
      }
     ],
-    "score": 10.53
+    "score": 10.36
    },
    {
     "key": "nvidia-selloff-pressures-markets",
@@ -15139,7 +15442,7 @@
       "published": "2026-11-16T21:52:27+00:00"
      }
     ],
-    "score": 10.18
+    "score": 10.01
    },
    {
     "key": "trump-accounts-nvidia-trading",
@@ -15160,7 +15463,7 @@
       "published": "2026-11-16T21:52:33+00:00"
      }
     ],
-    "score": 10.18
+    "score": 10.01
    },
    {
     "key": "ai-chip-alternatives-after-huang",
@@ -15250,7 +15553,7 @@
       "published": "2026-11-16T02:30:23+00:00"
      }
     ],
-    "score": 8.56
+    "score": 8.39
    },
    {
     "key": "nvidia-november-earnings-preview",
@@ -15439,7 +15742,7 @@
       "published": "2026-11-19T02:51:08+00:00"
      }
     ],
-    "score": 4.59
+    "score": 4.42
    },
    {
     "key": "analyst-defends-nvidia-ai-trade",
@@ -15460,7 +15763,7 @@
       "published": "2026-11-19T02:10:44+00:00"
      }
     ],
-    "score": 4.53
+    "score": 4.37
    },
    {
     "key": "nvidia-valuation-upside",
@@ -15481,7 +15784,7 @@
       "published": "2026-11-18T15:33:48+00:00"
      }
     ],
-    "score": 3.65
+    "score": 3.48
    },
    {
     "key": "nvidia-q3-earnings-call-crypto",
@@ -15502,7 +15805,7 @@
       "published": "2026-11-18T04:16:31+00:00"
      }
     ],
-    "score": 2.71
+    "score": 2.54
    },
    {
     "key": "nvidia-industry-network",
@@ -15523,7 +15826,7 @@
       "published": "2026-11-17T21:15:05+00:00"
      }
     ],
-    "score": 2.12
+    "score": 1.96
    },
    {
     "key": "gpu-kill-switch-predictions",
@@ -15544,7 +15847,7 @@
       "published": "2026-11-17T21:10:17+00:00"
      }
     ],
-    "score": 2.12
+    "score": 1.95
    },
    {
     "key": "nvidia-director-officer-insurance",
@@ -15565,7 +15868,7 @@
       "published": "2026-11-17T04:40:54+00:00"
      }
     ],
-    "score": 0.74
+    "score": 0.57
    },
    {
     "key": "bluequbit-quantum-grant-program",
@@ -15586,7 +15889,7 @@
       "published": "2026-11-17T03:25:00+00:00"
      }
     ],
-    "score": 0.64
+    "score": 0.47
    },
    {
     "key": "agile-robots-funding",
@@ -15607,7 +15910,7 @@
       "published": "2026-11-17T03:25:00+00:00"
      }
     ],
-    "score": 0.64
+    "score": 0.47
    },
    {
     "key": "gene-munster-apple-comparison",
@@ -15628,7 +15931,7 @@
       "published": "2026-11-17T03:23:55+00:00"
      }
     ],
-    "score": 0.64
+    "score": 0.47
    },
    {
     "key": "nvidia-market-jitters",
@@ -15649,7 +15952,7 @@
       "published": "2026-11-16T11:14:41+00:00"
      }
     ],
-    "score": -0.71
+    "score": -0.88
    }
   ],
   "mood_7d": {
@@ -15664,12 +15967,30 @@
   },
   "market": [
    {
+    "id": "e363d535bf5a",
+    "headline": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank - Reuters",
+    "summary": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0NtOW83bnNaeXNoY0g0REh2Ym8yMU52U0FCaGVTRy1oeTRrM1dPclNpZTF4QWVtVE95eG9TUXJkT3JBZldRWDNjejBRcFpiWTVPV1ZqeEVZdS1qMVZ6QzVvNUtSRXY0RUxLX05pdlB3V0tvLXA1Nk0wQXhxT1dQYVNyMm1YYTZtX0pRZFI4VWNDTHctYVk2NnJMdDlWSmhxbWlzbVg5OWFacVhQUzdHSU5lNDdJTlBRZVhlVXZaUQ?oc=5",
+    "published": "2026-11-22T20:21:39+00:00",
+    "provider": "finnhub"
+   },
+   {
     "id": "2e34b198714b",
     "headline": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
     "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
     "published": "2026-11-22T18:55:05+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "81a8e808e711",
+    "headline": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery - Reuters",
+    "summary": "Yemen's Houthis say they attacked Saudi Rabigh oil refinery Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5",
+    "published": "2026-11-22T17:52:15+00:00",
     "provider": "finnhub"
    },
    {
@@ -15688,15 +16009,6 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/make-it/2026/11/22/google-worker-earns-323000-a-yearbut-he-lives-on-minimum-wage.html",
     "published": "2026-11-22T14:00:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "e363d535bf5a",
-    "headline": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank - Reuters",
-    "summary": "Israel's Eisenkot condemns arson attacks by Jewish settlers in West Bank Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0NtOW83bnNaeXNoY0g0REh2Ym8yMU52U0FCaGVTRy1oeTRrM1dPclNpZTF4QWVtVE95eG9TUXJkT3JBZldRWDNjejBRcFpiWTVPV1ZqeEVZdS1qMVZ6QzVvNUtSRXY0RUxLX05pdlB3V0tvLXA1Nk0wQXhxT1dQYVNyMm1YYTZtX0pRZFI4VWNDTHctYVk2NnJMdDlWSmhxbWlzbVg5OWFacVhQUzdHSU5lNDdJTlBRZVhlVXZaUQ?oc=5",
-    "published": "2026-11-22T13:33:09+00:00",
     "provider": "finnhub"
    },
    {
@@ -15781,6 +16093,15 @@
     "provider": "finnhub"
    },
    {
+    "id": "2d0ac324ad04",
+    "headline": "COMMENTARY: The West challenges China's critical minerals dominance with unglamorous tungsten - Reuters",
+    "summary": "COMMENTARY: The West challenges China's critical minerals dominance with unglamorous tungsten Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOMlRQcTdOLUU4SUtDTFBsaC1ncUJyTUNoRFRkNFNiWng5UFotbmFwTmxONjktMF9uT2RqM1JTZUswWXA0Q0pBZ29PcGVIMnFyckZkaGpGUUdQaHdjc0Etb2NoUUh3dXRtMlhMcG1WbXVwcXA4NkpTQmI2Wnc0emdXaXNXdTBrU3BVSDJGZ1FWRWpObmhFalpQcFlLMC1nLXE4SHd5T3RkU3FLc3dEX1BReVc1N0cxaHJCMHF5a3c5NEhuSWg2WHFYbGNsZ3VVSU52NkktaHZqanZRenJfUEE?oc=5",
+    "published": "2026-11-21T15:14:39+00:00",
+    "provider": "finnhub"
+   },
+   {
     "id": "a8129f873421",
     "headline": "Qatari delegation visits Tehran for talks, Iranian official says - Reuters",
     "summary": "Qatari delegation visits Tehran for talks, Iranian official says Reuters",
@@ -15823,24 +16144,6 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
     "published": "2026-11-21T12:00:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "15cc7d4be537",
-    "headline": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz - Reuters",
-    "summary": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQWE4czlabDhxX0p1R0pxTHh1TVdxWDVDWG1PeTFucUVvb0FIODBPUU5CcHNyekU3OU1QM3VuN3FjMmxCTm1uWXJUUnRmVWJYUDFkbFJHT080OUNzYkw5OW1hSGxxUUtKVFNLblFyZldZRmZ1RUhscnBaa1FoVkdpQ1Rocndtc25iWS1fY0ctTW05b1dOQTJoZ3VxWDhZZ1h0RjlPc3htR3FQQTBQbjYzQ29QOA?oc=5",
-    "published": "2026-11-21T11:33:02+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "ef625298acf3",
-    "headline": "S&P 500 correction: Five forces behind the market sell-off",
-    "summary": "The S&P 500 and Dow Jones Industrial Average closed in correction territory, off 10% from their records. The Nasdaq Composite lost its gain for the year.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/20/sp-500-correction-market-sell-off.html",
-    "published": "2026-11-21T11:29:25+00:00",
     "provider": "finnhub"
    }
   ]
@@ -16188,9 +16491,9 @@
  "usage": {
   "today": {
    "date": "2026-11-22",
-   "runs": 3,
+   "runs": 4,
    "ai_tokens": 0,
-   "filtered_headlines": 35,
+   "filtered_headlines": 44,
    "briefs_written": 0
   }
  },
