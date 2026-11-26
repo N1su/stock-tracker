@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-26T05:07:59.218809+00:00",
+ "updated_at": "2026-11-26T16:58:51.829020+00:00",
  "daily_done": "2026-11-26",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": "Thanksgiving Day",
-  "checked": "2026-11-26T05:07:59.216286+00:00"
+  "checked": "2026-11-26T16:58:51.825895+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -21,12 +21,12 @@
   "ipo": "1999-01-22"
  },
  "quote": {
-  "price": 149.3,
-  "change": -6.08,
-  "change_pct": -3.913,
+  "price": 149.33,
+  "change": -6.05,
+  "change_pct": -3.8937,
   "high": 150.37,
   "low": 141.17,
-  "open": 144.06,
+  "open": 144.07,
   "prev_close": 155.38,
   "time": "2026-11-25T21:00:00+00:00"
  },
@@ -34,17 +34,17 @@
   "high": 243.37,
   "low": 124.5,
   "position_pct": 20.9,
-  "from_high_pct": -38.7
+  "from_high_pct": -38.6
  },
  "benchmarks": {
   "QQQ": {
-   "price": 633.93,
-   "change_pct": -0.6535,
-   "relative_pct": -3.26
+   "price": 633.97,
+   "change_pct": -0.6472,
+   "relative_pct": -3.25
   },
   "SOXX": {
-   "price": 127.98,
-   "change_pct": -0.4976,
+   "price": 128.01,
+   "change_pct": -0.4743,
    "relative_pct": -3.42
   }
  },
@@ -54,20 +54,20 @@
  },
  "peers": {
   "AMD": {
-   "price": 406.03,
-   "change_pct": -1.7519
+   "price": 406.07,
+   "change_pct": -1.7422
   },
   "AVGO": {
-   "price": 300.86,
-   "change_pct": -0.0731
+   "price": 300.9,
+   "change_pct": -0.0598
   },
   "TSM": {
-   "price": 342.34,
-   "change_pct": -1.9645
+   "price": 342.38,
+   "change_pct": -1.953
   },
   "GOOGL": {
-   "price": 273.1,
-   "change_pct": -2.1322
+   "price": 273.14,
+   "change_pct": -2.1179
   }
  },
  "valuation": {
@@ -80,7 +80,7 @@
   "peg": 0.12255147943349876,
   "fcf_yield_pct": 4.13,
   "ev_ebitda": 13.097190805215364,
-  "target_upside_pct": 74.9,
+  "target_upside_pct": 74.8,
   "target_last_month_avg": 236.67,
   "target_last_month_count": 27
  },
@@ -147,7 +147,7 @@
   },
   {
    "date": "2026-11-26",
-   "price": 149.3,
+   "price": 149.33,
    "forward_pe": 9.7
   }
  ],
@@ -4124,7 +4124,7 @@
     ],
     [
      "2026-11-25",
-     633.93
+     633.97
     ]
    ],
    "SOXX": [
@@ -4558,7 +4558,7 @@
     ],
     [
      "2026-11-25",
-     127.98
+     128.01
     ]
    ]
   }
@@ -12721,8 +12721,14 @@
     "published": "2026-11-25T22:07:20+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "a76dca1638bc": {
     "id": "a76dca1638bc",
@@ -12734,8 +12740,14 @@
     "published": "2026-11-25T22:06:45+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "f71ff2dc02e1": {
     "id": "f71ff2dc02e1",
@@ -12747,8 +12759,14 @@
     "published": "2026-11-25T22:00:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "2feea5cf9b28": {
     "id": "2feea5cf9b28",
@@ -12760,8 +12778,14 @@
     "published": "2026-11-25T21:51:14+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "01985a83fcdd": {
     "id": "01985a83fcdd",
@@ -12830,8 +12854,14 @@
     "published": "2026-11-25T21:32:22+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "655d7cf0e4b5": {
     "id": "655d7cf0e4b5",
@@ -12862,8 +12892,14 @@
     "published": "2026-11-25T21:28:03+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "1ee64cc550eb": {
     "id": "1ee64cc550eb",
@@ -12894,8 +12930,14 @@
     "published": "2026-11-25T21:17:18+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "4fdd658f7d46": {
     "id": "4fdd658f7d46",
@@ -12926,8 +12968,14 @@
     "published": "2026-11-24T23:48:14+00:00",
     "provider": "google",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "16b38dfcd31e": {
     "id": "16b38dfcd31e",
@@ -12939,8 +12987,14 @@
     "published": "2026-11-24T09:00:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "32c2e31fd71b": {
     "id": "32c2e31fd71b",
@@ -12952,8 +13006,14 @@
     "published": "2026-11-23T23:36:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-25T22:22:18.996136+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "ed9fd046b7f7": {
     "id": "ed9fd046b7f7",
@@ -12966,7 +13026,7 @@
     "provider": "google",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "ef1d19cec4de": {
     "id": "ef1d19cec4de",
@@ -12998,7 +13058,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "05166fb01292": {
     "id": "05166fb01292",
@@ -13011,7 +13071,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "5c1699fd77a3": {
     "id": "5c1699fd77a3",
@@ -13024,7 +13084,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "6f99c0b9c40d": {
     "id": "6f99c0b9c40d",
@@ -13037,7 +13097,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "de2b1f7b79b6": {
     "id": "de2b1f7b79b6",
@@ -13050,7 +13110,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "a0364e43f801": {
     "id": "a0364e43f801",
@@ -13063,7 +13123,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "943aee1403b0": {
     "id": "943aee1403b0",
@@ -13076,7 +13136,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "fbb4d2da818b": {
     "id": "fbb4d2da818b",
@@ -13089,7 +13149,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "7d9582e960a4": {
     "id": "7d9582e960a4",
@@ -13102,7 +13162,7 @@
     "provider": "google",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "0ea2556a0674": {
     "id": "0ea2556a0674",
@@ -13115,7 +13175,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "e4d8b835124f": {
     "id": "e4d8b835124f",
@@ -13147,7 +13207,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "5f51c225a0c9": {
     "id": "5f51c225a0c9",
@@ -13160,7 +13220,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "0215d3b6651f": {
     "id": "0215d3b6651f",
@@ -13173,7 +13233,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "3bf68cdce878": {
     "id": "3bf68cdce878",
@@ -13186,7 +13246,7 @@
     "provider": "google",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "c41eebd0a4c9": {
     "id": "c41eebd0a4c9",
@@ -13199,7 +13259,7 @@
     "provider": "google",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "475b256a3929": {
     "id": "475b256a3929",
@@ -13211,6 +13271,365 @@
     "published": "2026-11-23T18:27:26+00:00",
     "provider": "google",
     "first_seen": "2026-11-26T05:07:59.218809+00:00",
+    "sorted": false,
+    "sort_attempts": 2
+   },
+   "b6f0aad23f43": {
+    "id": "b6f0aad23f43",
+    "headline": "Did Arm CEO Rene Haas Dodge a Bullet With Jensen Huang’s Reinstatement at Nvidia?",
+    "summary": "Which looks stronger for a retirement-focused investor right now: Arm Holdings (NASDAQ:ARM) or NVIDIA (NASDAQ:NVDA)? The question got sharper this month. Arm CEO Rene Haas was reportedly considered for NVIDIA’s top job after Jensen Huang’s November 12 resignation. Bloomberg reported that Haas spoke…",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/26/did-arm-ceo-rene-haas-dodge-a-bullet-with-jensen-huangs-reinstatement-at-nvidia/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:49:41+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "99b6ccc0c71a": {
+    "id": "99b6ccc0c71a",
+    "headline": "Dow Jones Futures Rise With U.S. Markets Shut; Look For This Bullish Signal",
+    "summary": "Futures are rising with U.S. markets shut after a wild session in which the Nasdaq rallied off lows while the Dow Jones and Anthropic reversed higher.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures-rise-with.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:48:35+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "d9ff3205412b": {
+    "id": "d9ff3205412b",
+    "headline": "Eli Lilly Is Now Worth 7 Novo Nordisks. Here’s How the Gap Got So Wide.",
+    "summary": "Eli Lilly's GLP-1 weight-loss drugs continue to grow at a rapid clip.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/26/eli-lilly-is-now-worth-nearly-9-novo-nordisks-heres-how-the-gap-got-so-wide/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:40:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "3e524bf361c9": {
+    "id": "3e524bf361c9",
+    "headline": "Oracle Stock Dipped Under $100 as Banks Try to Unload Its Data-Center Loans",
+    "summary": "Oracle's backlog is huge and the demand is real, yet lenders are quietly accepting steep discounts on the debt behind its data centers. What does the bond market see that the analysts' bullish targets don't?",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/26/oracle-stock-dipped-under-100-as-banks-try-to-unload-its-data-center-loans/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:27:22+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "1eec09ef2e51": {
+    "id": "1eec09ef2e51",
+    "headline": "Meta Platforms Just Partnered With Walmart. Here's Why Investors Should Pay Attention",
+    "summary": "Meta landing Walmart as a shopping partner may signal that the tech leader's AI spending could eventually pay off.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/26/meta-platforms-just-partnered-with-walmart-here-s-why-investors-should-pay-attention/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:25:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "8569d9b18a97": {
+    "id": "8569d9b18a97",
+    "headline": "For the Retiree Who Wants the Portfolio to Match Their Faith at 69: 3 ETFs Built Around Values",
+    "summary": "One glance at your index fund's holdings can reveal a company you'd never fund on purpose. Three faith-screened ETFs promise a fix, but each draws its moral lines differently, and one of those differences could matter more than you expect.",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/etf/2026/11/26/for-the-retiree-who-wants-the-portfolio-to-match-their-faith-at-69-3-etfs-built-around-values/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:23:36+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "b8b79ea83473": {
+    "id": "b8b79ea83473",
+    "headline": "Scott Bessent sends the Fed a stern warning it cannot ignore",
+    "summary": "Scott Bessent stepped into the Fed’s most contentious debate of the year. The timing was not an accident.",
+    "source": "Yahoo Finance",
+    "url": "https://www.thestreet.com/fed/scott-bessent-sends-the-fed-a-stern-warning-it-cannot-ignore?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:17:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "de52ac44466f": {
+    "id": "de52ac44466f",
+    "headline": "BlackBerry (TSX:BB) Rebounds Before Earnings, Is The Stock Fully Priced?",
+    "summary": "BlackBerry stock reacts to tech rebound and upcoming earnings BlackBerry (TSX:BB) moved back into the spotlight after an 8.38% jump on a broader technology rally sparked by Nvidia's CEO reinstatement, with traders now watching the December 17, 2026 earnings announcement. At a CA$12.07 share price,…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/blackberry-tsx-bb-rebounds-earnings-161012685.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:10:12+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "86a5d3386622": {
+    "id": "86a5d3386622",
+    "headline": "NVIDIA Just Dropped 31% in a Month. Will NVDA Stock Hit $125 or $200 First?",
+    "summary": "A CEO resignation, a credit rating on watch, and export rules scrambling China-bound GPUs have rattled the AI trade's biggest name. Two very different futures now compete for NVIDIA shares, and the next catalysts could tip the balance.",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/26/nvidia-just-dropped-31-in-a-month-will-nvda-stock-hit-125-or-200-first/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:06:22+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "4eaac34dfe8f": {
+    "id": "4eaac34dfe8f",
+    "headline": "S&P 500 Sell-Off: Here's Why I'm Not Panicking -- and What I'm Doing Instead",
+    "summary": "History shows why it's important to stay invested.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/26/sp-500-sell-off-heres-why-im-not-panicking-and-what-im-doing-instead/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T16:05:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "886134c72b07": {
+    "id": "886134c72b07",
+    "headline": "Semiconductor Sales Will Soar to $2.6 Trillion in 2027. Buy This Top Stock Before It Skyrockets Next Year",
+    "summary": "Strong memory demand will push semiconductor sales higher in 2027, and that's great news for Lam Research investors.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/26/semiconductor-sales-will-soar-to-usd2-6-trillion-in-2027-buy-this-top-stock-before-it-skyrockets-next-year/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:52:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "8ca90908138d": {
+    "id": "8ca90908138d",
+    "headline": "S&P’s NVIDIA Warning is Backward Looking Governance Theater That Gives Everyone an Opportunity to Buy at $150",
+    "summary": "NVIDIA lost its CEO, drew a credit warning, and watched its stock slide nearly a third in a month. So why does one investor keep buying more every week, and which three numbers convinced him the real story lies elsewhere?",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/26/sps-nvidia-warning-is-backward-looking-governance-theater-that-gives-everyone-an-opportunity-to-buy-at-150/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:45:38+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "164892e98da7": {
+    "id": "164892e98da7",
+    "headline": "Rocket Lab Stock Just Fell to Its Lowest Price in About a Year. Is It a Buy Now?",
+    "summary": "Shares are back where they were a year ago, but the business behind them is much bigger.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/26/rocket-lab-stock-just-fell-to-its-lowest-price-in-about-a-year-is-it-a-buy-now/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:43:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "1e0378078759": {
+    "id": "1e0378078759",
+    "headline": "Anthropic Is Down 7% Since Its IPO. History Says a $5,000 Investment Could Be Worth This Much in a Year.",
+    "summary": "IPO stocks tend to have bumpy rides.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/26/anthropic-is-down-7-since-its-ipo-history-says-a-usd5-000-investment-could-be-worth-this-much-in-a-year/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:33:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "147cedae1ba0": {
+    "id": "147cedae1ba0",
+    "headline": "The Economy Grew Way Faster Than First Reported: Q3 GDP Revised Up to 4.3%",
+    "summary": "A blockbuster growth revision sounds like a green light for stocks, yet the market barely cheered. Behind the headline sits a boom that is narrower than it looks, plus an inflation reading that complicates the rate-cut story.",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/26/the-economy-grew-way-faster-than-first-reported-q3-gdp-revised-up-to-4-3/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:28:09+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "fa6c5c2d6cf2": {
+    "id": "fa6c5c2d6cf2",
+    "headline": "Marvell Reports Tuesday. How Often Has It Dropped 10%?",
+    "summary": "Marvell Technology reports its quarterly results next Tuesday, Dec 1, after the market close. The first trading session after that report is Wednesday, Dec 2. In the 26 reports our earnings calendar lists since March 2020, Marvell fell 10% or more the next day 6 times. That is about 1 in 4 reports.",
+    "source": "Yahoo Finance",
+    "url": "https://www.trefis.com/stock/mrvl/articles/629177/marvell-reports-tuesday-how-often-has-it-dropped-10/2026-11-26?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:15:26+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "1dac1937ce50": {
+    "id": "1dac1937ce50",
+    "headline": "SpaceX Just Slid 11% in a Week. Can Elon Musk’s FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
+    "summary": "The FCC just handed SpaceX permission for a constellation no regulator has ever approved, yet the stock keeps sliding. Between orbital AI dreams, cooling doubts, and years of heavy spending, can Starmind move the needle on Wall Street any time soon?",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T15:08:35+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "efcdeefd9f9e": {
+    "id": "efcdeefd9f9e",
+    "headline": "ETO Markets Marks 13th Anniversary With “Race Beyond Limits” Global Brand Strategy",
+    "summary": "SYDNEY, Nov. 26, 2026 (GLOBE NEWSWIRE) -- ETO Markets has unveiled its global brand strategy, “Race Beyond Limits,” to mark its 13th anniversary. Drawing on its involvement in international endurance racing, the company is applying the same emphasis on precision and reliability to order execution,…",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/eto-markets-marks-13th-anniversary-145900039.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-26T14:59:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "7e4b6e523b8e": {
+    "id": "7e4b6e523b8e",
+    "headline": "NVIDIA Corporation (NVDA) stock price, news, quote and history",
+    "summary": "",
+    "source": "Yahoo Finance UK",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
+    "image": null,
+    "published": "2026-11-26T13:27:56+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "5d4b7ed43043": {
+    "id": "5d4b7ed43043",
+    "headline": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount?",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYzItSUR4SzlJaHlBR0NFVVVqZjZsSnpzR1BGZy1QRk8tN0J3X1puRExQdWwyal90Y3NuZGlIakswU1BkQXkxMnl3cUc4NkZHS3NTdGxmNm01WGN5Mk9DalI1c3pvMjMwMnY2aE4tQXhYVjl3Slc2UlJkRGxMRmdNYkIyNkZWeWRRS3hNcmwxNXZmWGhkV1hZZEpETjh6Sk50b0RGd9IBqgFBVV95cUxPTERtVkRCekFTdThqeU9RQUNnbTRhYmE5VmxEUEpNcVhnZkNtRFc2V1IxX1BjR1Y0ejlfbmJvcTIyWXJTcDZzUVZldjVRTGdhRUJSaC1NMmRNeTV2VnFfMGFfekFuU184UnFUV3V1WnlxRjRobUlRQkJ0YTNXU1NKQjhITVJSRTdnYW42aXVOdUFBLTdOQmFWU0tFUUxfSnBPeE1rTzhIc3FWQQ?oc=5",
+    "image": null,
+    "published": "2026-11-25T18:02:45+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "de21e4218130": {
+    "id": "de21e4218130",
+    "headline": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+    "summary": "",
+    "source": "NPR",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWFFDQm5ERWNWTXg2VE1aUkUxdkRMcmhyZExSMlJJS2xtVjAwZ3RtRHZXeUhBQ1p3VVNnUi1XZXI4S05oV1dKcHptYTM2cThGN1ltU3BNMm1PSnpFTHRsN1RYQVNoSkhsM1dXUGJ2c2xGUlZFbl9DVEtOYkpXT2ZDN1ZTM29hQU1hYUtBdHJ4YkQyTkxodm9yNW5jTzAzWTNUSTRBNGZybkp5SzQy?oc=5",
+    "image": null,
+    "published": "2026-11-25T11:50:05+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "2d57bb73a1a4": {
+    "id": "2d57bb73a1a4",
+    "headline": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+    "summary": "",
+    "source": "CNBC",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93bkEwcTRvd1ZmbzFrU2xFTzIxTnY5X295SmRFZzE0aHk1X2pLbXV1LW9hcTZBNEhZNjRYM3lIaWdnWDdJVGk1S3dsTWZRNGl0TnpqWUN1cGl6NzdFVzBBbS05UGdrdENFbUI0d0VzYnJYQ3NITzRjdFp3ONIBgAFBVV95cUxOclg2enRqODZHZGpqT1U1VUJVa3dHWHR1a3ctMmxxTlB6MzQ3TFhDSTBrYXc3Z0V6S2dNZHNJNzJLSW5WVXVLQmM5WXJjNTZsWVVhWlF3a2xBcHhVSWRENkRaR2ZubzVjRjVYZkQ5NHRnV0U0SENkTGVUTEpGUGp3Qg?oc=5",
+    "image": null,
+    "published": "2026-11-25T00:57:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "31e3026695a3": {
+    "id": "31e3026695a3",
+    "headline": "Jensen Huang Returns: Timeline Of The Scandal That Led To Resignation And Comeback",
+    "summary": "",
+    "source": "Forbes",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVWFXRkhZY2RzUE5maUxaOW11N3NYbXZabWhvZFFiMHdZLUE1aEdPd01uSjNaYjhRazAyVFNWbW0wd28zV2ZlcElaWTZnejJ3SEVNWHBsek9kTEppMjA2REU0ZlhiR1UxZ2NBTWVhZHl4WDFmM3l4MFZqbVZURXdSU2xuU3F5QnE0d3VlVVNqUnNwUEdMc1I4RS1HLXMwRzlwSWV2aTFWSlJlRDliUGsxYmc4UUpZdGlJczdEQjJqcXhSdHM4YnpJ?oc=5",
+    "image": null,
+    "published": "2026-11-23T16:24:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-26T16:58:51.829020+00:00",
     "sorted": false,
     "sort_attempts": 1
    }
@@ -13384,183 +13803,183 @@
   },
   "market": [
    {
-    "id": "08802b49ccfd",
-    "headline": "Musk says every child in the US will get two SpaceX shares - Reuters",
-    "summary": "Musk says every child in the US will get two SpaceX shares Reuters",
+    "id": "b4ed3f58a675",
+    "headline": "Hamas weighs response after Israel kills 10 people in Gaza - Reuters",
+    "summary": "Hamas weighs response after Israel kills 10 people in Gaza Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
-    "published": "2026-11-26T04:15:00+00:00",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNzFiM29KUVhvZHZUYTV1SWtlLXNYbXg3ZzRodFVmanZkNzJsczZ4UldfRkNkSW1fVDhMaTFYOW9ETUxXaXFKcktCTThoYnBYS21mVjQxYkNWM19MR1h0WHNSdjlGenRTNkExU2RKU0ZKNUhCRWR0OVU2VmFqTUJHeE5QMVNybDE4Qk1WTmp5VGgyWDV0NjhaM3h4Ulp1bWZDUThnSlI0TFMwMnQzNk5KQnZXVTRCUUxvc2FLbmlDYVREeHpwOUpV?oc=5",
+    "published": "2026-11-26T15:40:25+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "6067f07c0f3f",
-    "headline": "Oil rises on supply concerns as Iran claims mine strikes on ships - Reuters",
-    "summary": "Oil rises on supply concerns as Iran claims mine strikes on ships Reuters",
+    "id": "45a12976dd23",
+    "headline": "Spain's De Cos set to be nominated by EU countries as next head of ECB - Reuters",
+    "summary": "Spain's De Cos set to be nominated by EU countries as next head of ECB Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWHpfX3p2RFoxU2l0SGZVbVdSejdGYkc0NFpERWlxVEtab0pQbGd1NUtqQ3c0cXprdWItUF9fRmVVVElET3BNbklnbElwaC1UZ0xoNnd4dE9Wb2dFVDFGN2JyQ3YyUVhfTWxsNGFWNFNURG5kX1pMdVBtb2QyLXFMaXZPM0ZPdGdud1hWdHFuTEpNQXBtdUh6RmpWcW1jelhTU0JHdmp3dWphb0hB?oc=5",
-    "published": "2026-11-26T03:08:00+00:00",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOV8wZkxRVTY5U0ZQeVZwSGtCMVZJTjV2d2t5TlhsSVoxQmpLRXI4OTV1R0QwQkV1QmZma3BDN0lrOEJTNGFVeloyeE5HbnhmWDZfR1VrbzN5TzZrck5WTTlKNTBaeFhVbDd4RldhY0hZMnFsczlsTURLY0FpWWgzeE5YVVc2NUZqMy1KbldQVDJfcUtsVEhINHF2emJ5SEFrMXozWUdTM3BFQQ?oc=5",
+    "published": "2026-11-26T14:57:22+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "a3e2147af71e",
-    "headline": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
-    "summary": "S&P Global Ratings said Nvidia's credit rating could be cut by one notch as it flagged \"rising\" management and governance risk at the chipmaker.",
+    "id": "1247e85137b4",
+    "headline": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam - Reuters",
+    "summary": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQnltOGlBZG16OU1LUGlBS25WVUFhN2VnM0NhWHpzTlVscC1iOE5kdFZnaGhBbmNOdm80b05IQWttZm9MV0liVmZzVE56bXVxSHJXYXBmMktWSVQwZ2hfNmVGdWVJQmp5RkRtS1dXR0wwT0pXX1dFdUM5dDJrUWNTNHVsYjRNWXBWcmx3RTlqQ0ZQNEJWWFVxalA1Z0tkRExSbGJVOWpWX1pMY25aZHB3VnlvTWF0QUNvaElpM0FORVM5a1ZPa05mWDBXQQ?oc=5",
+    "published": "2026-11-26T14:50:34+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "02aa9c758607",
+    "headline": "Two Italian workers killed in Iranian strike in Kuwait, source says - Reuters",
+    "summary": "Two Italian workers killed in Iranian strike in Kuwait, source says Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZ2hPQWhhdW9HTWxtRndjQkN3aFhQTzhyWV9sQ0NTbHNsRFpINkRjMHhKRGN4QTk1NTJYWU1yVHhmYVJSazJEVGtOdVIzZ2xsNFJFeHF0YXNEbXBqTF94bnBDOEFnMV9JdGRRbWVROFJGRmZISmZWUXhtYTlJTXFFMlBWa2IwdXBfUXY4OENRd2tVeWh0Q1M1OThsMl9kMkVEamJiTjMzdWxwZHRzdlVHYmtwTUI?oc=5",
+    "published": "2026-11-26T14:02:19+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "0aa648b37a01",
+    "headline": "Airline Norse Atlantic flags bankruptcy risk as flights suspended - Reuters",
+    "summary": "Airline Norse Atlantic flags bankruptcy risk as flights suspended Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVSdGZIMFMxelZ3SVpNZHYyYzRTZWN4S010bExkN0lmVVk5eng2VWp0VUszQXhGVDF5TUFxTDQzSXFuNmxHazV3d1VSR1BWMFRIeFBMQzJDeUM0RG5Cazhya0dpdDA2ZzJDSnd0WGVvVGItS0ttemdLUGhUbUwwbjBWbUk2VktZQUxsa0haX290d21lVFg5Ri1UZ0FkcFo1ZUpnSUNTd1ZudHJWYnQ5T0U4X0w2aExZRXBSOE9ETlEwa2ljRmxF?oc=5",
+    "published": "2026-11-26T13:58:06+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "c387150e3b60",
+    "headline": "Iran's supreme leader urges Guards-linked Basij volunteers to broaden social reach - Reuters",
+    "summary": "Iran's supreme leader urges Guards-linked Basij volunteers to broaden social reach Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYmt1bHZnbVJoU3dJN3o2VEQ1c1c2WXRPeTRxRVFRT0I5bHc5MEJweVVlZ1J1aXNVd0NCZ0piWlg1OU14dVJiR3FyZTVicHoxc3FIS2tZbXdvU3gxLXBQRi1mOGhmaEZGUkV4elpkWk94MVdtVDBtTngyT0FaSm1OQ1BZV0dNNnBqTWNZcTR0U1FfU3pLQlNKN2NYWkJFWlFIRmdlOURCWTlaWHN6ZEpYTXhuelJiSUstVDQ4TQ?oc=5",
+    "published": "2026-11-26T13:47:44+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "15f99b6d6cfc",
+    "headline": "OPEC+ oil capacity disputes persist ahead of Sunday meeting on 2027 quotas, sources say - Reuters",
+    "summary": "OPEC+ oil capacity disputes persist ahead of Sunday meeting on 2027 quotas, sources say Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRWNNN09tM1phcUhhRlFRRTlHaW0yYU5fQUxJUVFEZjl5cEdhaHRnOGNwRkl6QUZTWEhNeU16Vnk5bHhNQ3JSd0FXNDlHZkdDVTV4ZkVsbUpQUFV4VWdobEhfdlpHOUt4SEJadFRpNHlYZTZRZFdBaEZKYnUyTHJ0eHlyWjE1a1FjenhuYWtoZHJJSHVPYVhjSlprNF81NkNiMlpQNUpBcy1kcHd3eEFaRjZHczhHV3RIWlJRaHZOQlBXUQ?oc=5",
+    "published": "2026-11-26T13:02:42+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "223cf83dd69f",
+    "headline": "Serbia presidential election set for December 27 - Reuters",
+    "summary": "Serbia presidential election set for December 27 Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSm1tYjVaQVYwTmZWQk9pQXBBNlZvQjZGcjdpVlpzQ09hQmwxVmNJOXhiZVF1TTJsS05JM3NOOHhaRzJIaU9MT0c4bXdManBOdXk2Z2hReHlKTFJOaUR0aWRSMl9lVzNuelZRMkIycmpJRlV4RTBRd09kWVJTZ0tNdUNqRWNncHAtMzlyQnVmRQ?oc=5",
+    "published": "2026-11-26T12:39:43+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "bee516bcef3c",
+    "headline": "Ukraine says Russia hits two grain ships near Odesa ports - Reuters",
+    "summary": "Ukraine says Russia hits two grain ships near Odesa ports Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYlR6OVYzNjI0N0hVQ2FsMVFSWU13djRFWmZDLUFQSUNoOFdWZ2RSdlZuLVZvbjc3bDlwWGlrN3NLMnktVFQtTndObHZZQVBFTjRGSkY0SmJVSkVteFYyY2RXRDNfRkdlQ1VNVWtkbjBQZmgtbXhpYTFXOElWeDYxNVlHdUlwVnhDV28xZlJoSC1GQ0tjcGRvXzZjNnpvZ2l4SHNqS1pLaFpaUQ?oc=5",
+    "published": "2026-11-26T12:30:05+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "f0da9b6807e9",
+    "headline": "German police arrest two Iraqis over alleged Cologne synagogue bomb plot - Reuters",
+    "summary": "German police arrest two Iraqis over alleged Cologne synagogue bomb plot Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONnk2X1RfVHc3VF8ybnZCVzdIbjFrdTNMbzI2SXhxVW9VTGx4RV94OV8zdU9yRzJPS1daUUZzMXBKM0o5aW1HMklsR1Y5OUlxMEhWTVpNX0tXclphbWhDcE1kb050ekVqaWtrcEpyenZQdS1MWlE2ZVp3ZjNJUjg4ay1HM2VPa0l3emJ0MHpGNHFmdUhsWGIwRXdfMUFuRlBWNDZSNXNzcE9kTkFLd2VnREE1Vl8zOVU0REpaT3o5dkhtTElF?oc=5",
+    "published": "2026-11-26T12:28:28+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "a46b87c63c5a",
+    "headline": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab - Reuters",
+    "summary": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcHNnYmJXdWlaS3JfaTRfQUhza0lkR0lSNjhWNVJoY1Mxd3VSVVZyOHV0R0xZbHl2TS1FX2VROGg0bmg1dHFUbG9ZckxfT2lSaFotSmNFczlabFRHWjZZUEYycHA3S0tXN0p4cHFvbjUyam9IcDBwYkFBSTJfbFZwLTVickFLaFU0bTYxeHI3eHVGTmQyV3ozMTQzWm4tWGduQi00RHJoclptRnlsQjJqdTdMTU9yX2w0OXRmanYtUndOZmtaSy1JdmRuRzg?oc=5",
+    "published": "2026-11-26T12:06:18+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "971aeaf326b0",
+    "headline": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+    "summary": "The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
     "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html",
-    "published": "2026-11-26T02:57:32+00:00",
+    "url": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+    "published": "2026-11-26T12:00:01+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "d4faf20776ef",
-    "headline": "South Korea's central bank raises rates, upgrades 2027 growth outlook - Reuters",
-    "summary": "South Korea's central bank raises rates, upgrades 2027 growth outlook Reuters",
+    "id": "af2e64b428b5",
+    "headline": "US chip curbs will slow Asia data-center investment, Fitch says - Reuters",
+    "summary": "US chip curbs will slow Asia data-center investment, Fitch says Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTJjdUdXNzZ0QVUtZS1QMGowZkw1ellJM1ZkZUMzYVQ1OVp5ME5vQnRTMHgyYm9YVFRxcm11TkdSUmJ6RV9nYlY0YnkzZnhuNkNWa0g0MmNQVDhNMTRiYVN0M1lUbERad1Rqb1h0U3BCa2RJam5DVXBXUk8zNy1CNDlVaXQwRE56Ykl6NjhXTy1Bc21Lbm1sc214UlNVLUdOajVQWlprbG1mRnlIQVNyaWpNSDFBa0Fo?oc=5",
-    "published": "2026-11-26T01:05:00+00:00",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOelNJWFVtc1BvNXp5TFMzbWtqVTdzc3JVM3pmY1hkR09YMi1WV3k3TzZ4VzFDQUpkcGJHVEZ2R0NqVnRNNmZsTThQZ0V3SlNzUmY1dUFURGtVckNOTXVQamlqSnVxTG5NVy1UVVR1dnlaNFE1MTluNFdUOTZzSHg2eHYzYTF1emwxMjZKUVIxcWhqYzhxTUdYZ0VZU3BsV1UxRHp3RTZnc2lyS2U5SDAydW5vcjVqaFFz?oc=5",
+    "published": "2026-11-26T11:19:43+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "0294813c06ea",
-    "headline": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft - Reuters",
-    "summary": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft Reuters",
+    "id": "324287cfd4c5",
+    "headline": "How Trump's proposed tariffs for India compare with rival nations - Reuters",
+    "summary": "How Trump's proposed tariffs for India compare with rival nations Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTGZ4TFg5REgyY0VnandHQjZIMFN1cnNBOEJVQTBDaU1IWDFLVUxmdHFTXzRLVnVKc3pHd3lTYk9lRHZBOWV1Skd5V0VzVU05ZDRjZXdZekl5cWFneWI2b3ptS09taEhjNzZIcGhuWVdydDk5cnpkcElkMUdTZkJjTjROT09sOG5adVUxNVpNeGp5UmxaaHl2bzh6TklXMlp2eVQyVW9idi1QV25LcnpIeFBjMEF4RzNNbkNIU3JOUlN6WWVqSjRtTlFZMA?oc=5",
-    "published": "2026-11-25T23:42:10+00:00",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNazJTSjI3dk40ZnhoM2ZJR2N2eXp0NUFoaWUxNUI4NW9wV19YWEtpd24tS0t5YnFHV2YzSkRmSXdiTnR6cjRuMTROY1d1VlQ2NUR3UjNNMUJkeU5XQVBOeUQ1VnVTQmtQU3BVOUNndHdyeUhvWDcxdmRHMGtheVJCREs4UzdCWS1VVDQwcmdQYWtILXltMHRhN1UxeTVtdGhuMFhpemlOdDRkLTB5?oc=5",
+    "published": "2026-11-26T11:10:56+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "52ed407d2307",
-    "headline": "New Trump tariffs would likely increase sugar prices in the US - Reuters",
-    "summary": "New Trump tariffs would likely increase sugar prices in the US Reuters",
+    "id": "900f8951faf2",
+    "headline": "India swaps, treasury bills signal possibility of outsized RBI rate hike next week - Reuters",
+    "summary": "India swaps, treasury bills signal possibility of outsized RBI rate hike next week Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOUJSZDlKMEI2OHVpZjlzVFhrbXlSVFpZRHFCMWFSSVVHRmZhcG9WVHlObTdFVGhUdjROUmRCYWYyRmFMQjNaMTlsOEktdVcyYlR6YjlMQUtiTXhPRm8wSTVRWGNLbllNVTVxR3VocFcxa1ZEQlZyeEpOTXk2ZUdENjczRl9zYnA4ODJQaEM4eHo4ZnNZdWZGOGdneVZ0ZjFDMGc?oc=5",
-    "published": "2026-11-25T23:41:00+00:00",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTURLc0UwZjNUdy05dVdJMVFLLUpDNUQwN19INXh3cVcwdW5fM2k3eDV2bnY4ZkZkMDVzSjN4N3Yzcm9CQ1MtT1hmaVJzMmY5VkpMUzgxQzVrQm1zZzU2OERSak1TeU84dDlTOVk0aEZSNXFGcUNzaFo2bVlXN2wwYjRScUxtVE9GeXFFRjBFdWdlZ2tjOEpnQ19UTmVJVnlBQ0ZVclBQdHhieTd0SDJlVEU3c0ZTaFZFazB6cVAtbWpqMmU2?oc=5",
+    "published": "2026-11-26T10:21:58+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "0f3093528add",
-    "headline": "US airlines face higher costs from proposed Embraer duty - Reuters",
-    "summary": "US airlines face higher costs from proposed Embraer duty Reuters",
+    "id": "8ba125a9dee3",
+    "headline": "China's defence ministry urges Japan to stop 'stirring up' South China Sea disputes - Reuters",
+    "summary": "China's defence ministry urges Japan to stop 'stirring up' South China Sea disputes Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQWpyd1BJdFpVWVVZa2U5Zzcxa2trQ29NTFItblc0Q0VJaWx3TEZvUjkwb1BlWXUwZW1vUXZSNkZSODduRzM5a1diUGJOdE1zc0dlb2lxNGhUaDhTVUJQUzk2b1JSZTRzSDBPenkxTVU0T2QtYlhsb2RGX0o1OG4tNkltblFaMUVRMk9hUEZsU2hGUlRVNnpNN3JIVGtWMkpUR0g0S3pSQUlYdkpUdTdfWkFQRGs?oc=5",
-    "published": "2026-11-25T23:25:43+00:00",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbUJVQ2JZcnNsSFBFOTVuU0tTUjZUOHpSNFhpMXFkOVIxR0NFSUJ5d0F4a3BVa1BRcXdIUldMZjFKd1lMV2c3VjYxRHZEWnpvOTY2UE92dXowSUh6U00xRHpVYm52Y3VYQklTaVNQWFJBdFVFNUxxSk9uX2R6X25qNjkzNE1LOUM1a011ZmpUd29sMHI2OTdyNmJrSVFScmNUTkl3WFhfc0h4N3ZHZkctRnlWNFRncUg1Wi13SHVDU0ZldkE?oc=5",
+    "published": "2026-11-26T09:41:22+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "cf442a6e0ce0",
-    "headline": "EXCLUSIVE: Billionaire Boehly signs US-backed share swap deal to buy Lukoil global assets - Reuters",
-    "summary": "EXCLUSIVE: Billionaire Boehly signs US-backed share swap deal to buy Lukoil global assets Reuters",
+    "id": "752416ca56f4",
+    "headline": "Explainer: Why are Indian rice prices rising despite record stocks? - Reuters",
+    "summary": "Explainer: Why are Indian rice prices rising despite record stocks? Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM05VWXNudnhTWW1BY2VFUHpZRzdNSjU4TG1Ob3NYZTRKM0tNUWNGQmxyNEp6NW0yTEJWaTZabF9UNW9CUUZTclBhaGpnQmZ6WVRZTVhqS3dpOTBsZEtaOGZnMzFPQlR5MDRpZThJNmU0cXc5Q0trMDNhdWtxVjV4V1lMYzYyR1RHU0lBNDdWZDlzOWxBN1J1Wm0xWlJkNEVMaVNXUXdQcTRuUHlvczlnMTd1VGRWQQ?oc=5",
-    "published": "2026-11-25T22:54:57+00:00",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUnVRejZuaktCS2E0RmxXX3JjTDdJQkRhS196SXlxcEFaUHpEMmp4cVlLWi1BckhuRmVfRE1jTUxfclpid3BsMWxqUi1hQ3gyb3JXbTNHeThzV1dyc1RDaHBMS2I1UGk3a3lHZk45WWlGNU5qU0tSOVFUSkJfTmJZVUYzejl0Ymx4V2R5S3NRNGNzUlh2OC1wdGFqMU9RUkVyTzVqcV93?oc=5",
+    "published": "2026-11-26T09:35:44+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "bc7a6f84a7fe",
-    "headline": "Russian forces hit Kyiv with ballistic missiles, mayor says - Reuters",
-    "summary": "Russian forces hit Kyiv with ballistic missiles, mayor says Reuters",
+    "id": "cadb1033415b",
+    "headline": "Russian court arrests deputy aerospace forces commander, Kommersant reports - Reuters",
+    "summary": "Russian court arrests deputy aerospace forces commander, Kommersant reports Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOUhrdXc0NFhybXpCcmF1VjM2RlFseVBqOW0xdXJBQlZWT0w5TmZRTjFTbEpjWTVlZHBmMHZMQ0tVcm5OMnk5RjhKWklxQlFfY1hDQTB4dmZNQWwwd2tLb0xLNGRNbUpNXzNCZGw0Sm1fNlhkSEUzNUZvQ2hkVHNOMGhOOFJlSnZJcXQ4UldFb01FY2J2YmpLUW1NTi1rWnRBb3c?oc=5",
-    "published": "2026-11-25T22:07:09+00:00",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQzFOeDFjM0VPTXBIZkxlelN0ZFAtQ25fOUZkTVVheGM0cURoX1RqVXUzTGttUDlLTmhuczVlelh1eGJUYkVWQllDQ1ZzTlB3OUdQMjloczZsRGR4WGwzbF9XWURoSk9Tb2FybGNlbExBc243elBHTGxtNnpacDR3Y1pSaDctcFZqdUs5UkJiZ1R1Q09lTWxkUmN2TnNSZUdaQlpPNUl1N0tZVDJGd0xOT0lTU0tGUzA?oc=5",
+    "published": "2026-11-26T09:26:51+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "6d65dff2b623",
-    "headline": "How the Trump administration determined Jensen Huang is not a national security threat - Reuters",
-    "summary": "How the Trump administration determined Jensen Huang is not a national security threat Reuters",
+    "id": "d2495d793803",
+    "headline": "Pakistan, Saudi, Turkey to hold Mecca alliance meeting in Islamabad Nov 27-28, sources say - Reuters",
+    "summary": "Pakistan, Saudi, Turkey to hold Mecca alliance meeting in Islamabad Nov 27-28, sources say Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZ0IzSk1IWkpMeGFmZWlDR2RseE11U3ZSbXlIOGdQalJyOS1rakJjUUxYZDYwd2ZYZERTQTdNNTQzR1dVMmRwVU1KNmhxc2ZtOXhwczJJckVxT0dUSHJnZEJpUnp0MXVVX1VqSElzQkJLc25neHJEZEYzZ0R5LXdnb01hNGZaTFFrbEc3c1haRVZpUUFldnRZY3NqVmlSRGVNVEloQ1Q2Q29VQzlRSWxtSUdnVHNIUGVwZ2VuekdHS1I1UQ?oc=5",
-    "published": "2026-11-25T21:55:12+00:00",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMDF5SHdSaFU4NXhZTFlZQmMyQ19INlpPU2VuSkFkWnBaMjZ1WDltYnIwNDBSQy1tMWxnYlR5V0VXNFFFcUpadU5oT01PeVNmNzg4SG45X3ROUE16eXhGZng1MUYxc0xCUkxfVFZ5UWNfdjNaOHlEUlRQaHJkWFllVEQwSUx1ejgzWWp2VURYTE16M1dMRDZFX1dLd2JacmhoZ2xoTElkTWR4dVVvMW1rdnFuSll2WG85VDhHRzA5MXp0cWp6VC10M0M5bzM?oc=5",
+    "published": "2026-11-26T08:45:23+00:00",
     "provider": "finnhub"
    },
    {
-    "id": "322d59d2ece8",
-    "headline": "Macy's postpones Thanksgiving Day Parade due to severe weather",
-    "summary": "Macy's announced on Wednesday that the annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html",
-    "published": "2026-11-25T21:26:36+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "85266b1264c7",
-    "headline": "Macy's Thanksgiving Day Parade postponed due to weather for first time in 100 years - Reuters",
-    "summary": "Macy's Thanksgiving Day Parade postponed due to weather for first time in 100 years Reuters",
+    "id": "4325850c0158",
+    "headline": "South Korea unification minister nominee pledges 'realistic' approach to North Korea - Reuters",
+    "summary": "South Korea unification minister nominee pledges 'realistic' approach to North Korea Reuters",
     "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObWhPYmVCWGllQUlkVVlDc2xCb1puNVJmRzRxb0M0TkxUXzJhUF96ZW9HalhkbHdCODVNcW40ZXZrTEhWR0ZpUHZZU1JmZ29TbXdZR2ZLMlNnMzJ2eUhaUXp4VkJOV2RvVnNweTdWbkFuUWptYmRCblc5aXBtOXlQSy1TSHpHQjRrUUpuYXIweEZtbldKSTltWG9US2p3eGZ6UTlBSjE5YW1qdGNsdVI3Y0wxeURLdF9IS1d3c3NuNVpxdTJfQmN5UmpjZ1ZZbFlW?oc=5",
-    "published": "2026-11-25T21:13:00+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "af32ddaa9025",
-    "headline": "Volatility-weary investors side swiped as tariff mayhem adds to tech pain - Reuters",
-    "summary": "Volatility-weary investors side swiped as tariff mayhem adds to tech pain Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZGd2TDZySmQ2VXE4QUhfUG1OOGU3S3l4eWVDMGFKLWNVRlp1dE1zYnNmOUNYTGpQeGZtS3RrWC11R0x0aEo2YnBsU2Y1NTEwT2V2eF9fQmhfLXc1ekFmajRGUWg0NVZheFBtUy15RWd6NkpsZzFSZTY1M1FIYjI5b2htVWVYemdvRDQyTUFQbw?oc=5",
-    "published": "2026-11-25T20:50:19+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "82f2a7290b91",
-    "headline": "US authorizes SpaceX to deploy 1 million satellites for data centers in space - Reuters",
-    "summary": "US authorizes SpaceX to deploy 1 million satellites for data centers in space Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVk5uRnprd285MEw5V2prcHR6bXljVGN4cUZuOHA4eHJUZkFzOVFnS1QtYnZaal8yYUYxa0t1cW84WjVzQWpub0czSGxUblh3STB6WnZxcThWZUxNRDk2emliZ0tfTmk5U3YxY3FZRXdEYWNyb2VMTmlkZE5RNWZHOS12OWdjSkpNdzhGU0Z4NWo3VmpSZHNXWGNJZUFpZjl2T2xuUkRKRXBpOTFqVFdFLXFvV0xHd1czWDFKbFU3OWFGU21B?oc=5",
-    "published": "2026-11-25T20:44:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "e9cdcf6e9e82",
-    "headline": "Fed survey shows continued economic growth, sticky inflation in recent weeks - Reuters",
-    "summary": "Fed survey shows continued economic growth, sticky inflation in recent weeks Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZm5vWXNOWWIxaUVxUEVsRDBCWmpwYmd6eWJMLW1tcnJMVmxvR08ybXFaYWlFcVZ2YU1fYk9hbWotWlBXTzVValBHSFFzNjM1QlpyVWNCXzFPTFRZMUtWeHp0SThmaWxRMTVYVXp3UlM2R3pKQnVNS2hiZ1VERU9EVnFGNlA5dGZEa1NtZ1o5REVxM3ZzX2ZpOXRaN0lydzlDZk1VQ2FlS212U3dw?oc=5",
-    "published": "2026-11-25T20:42:46+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "a26b51ba227a",
-    "headline": "Vance says he was assured Jensen Huang was not under DOJ investigation",
-    "summary": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
-    "published": "2026-11-25T20:28:42+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "00e68d185acb",
-    "headline": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
-    "summary": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
-    "published": "2026-11-25T20:07:57+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "3e29399724fb",
-    "headline": "We're buying more of a stock down big from its July highs",
-    "summary": "We're dipping into our large cash position as the market remains oversold.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/investingclub/2026/11/25/were-buying-more-of-a-stock-down-big-from-its-july-highs.html",
-    "published": "2026-11-25T19:55:18+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "241d60f1be89",
-    "headline": "Pakistan's PIA to shift UK flights to own fleet after Norse Atlantic suspension - Reuters",
-    "summary": "Pakistan's PIA to shift UK flights to own fleet after Norse Atlantic suspension Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTkFGakJWZVBjNkpWNGJSajBSZFVudDhWdVhpYU4xWjROeWRjZ05JMHpDa0oxekJDeUUxQTVIVHc3cUZYQktSbmV1bVFZT2VsR0tJVW1NWk9maVVmU0RrY1J0U050cU14S2s5MEZLS28xM3lIVDEzcThxbmlGWXBvOGxaZkNEbEZJdGN5aFRxSndmU0RhSGVyN0tsaS1SWkl1WFJ2ajZZcWJnMEJSS2NZd3A0QUp4MFdPRk1jWlg2SWdhaEFqdlpLZlRTT1JLcVla?oc=5",
-    "published": "2026-11-25T19:32:39+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "627e6aa7826c",
-    "headline": "Bullish hopes spring as traders bet against a higher VIX: Options Action Live",
-    "summary": "With stocks mounting a comeback Wednesday, options trading across a few key volatility products suggests big swings in stocks may dampen in the near term.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/25/bullish-hopes-spring-as-traders-bet-against-a-higher-vix-options-action-live.html",
-    "published": "2026-11-25T19:12:45+00:00",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUFRkc1Q0anhMc2ExSG5hX2Z2UFNHQVY2ejc5SmQ1b2NZZXBUMnVUSnVUQnFiMHpwVk5GbmgtNFBxZVpUUFV1V1g3VVVjYW03NHpHYnMyUXdSRTB4eFVmajNDZDg4bEEwcXR5eXBNZmptVkxvZVdXc252WEhhV25KWmhkZ3hCaERjUjB4VlNOMUVMNTVuYXdhLVZsTndWVWhEZVY0eW45RlI0OEVsc1p1TzNJVnRETUpobGZLZDR5enpZTHBlRDdwRFhQRnN1REE?oc=5",
+    "published": "2026-11-26T07:55:00+00:00",
     "provider": "finnhub"
    }
   ]
@@ -13908,9 +14327,9 @@
  "usage": {
   "today": {
    "date": "2026-11-26",
-   "runs": 1,
+   "runs": 2,
    "ai_tokens": 0,
-   "filtered_headlines": 2,
+   "filtered_headlines": 12,
    "briefs_written": 0
   }
  },
