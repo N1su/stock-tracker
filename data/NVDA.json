@@ -2,13 +2,13 @@
  "version": 2,
  "ticker": "NVDA",
  "name": "NVIDIA",
- "updated_at": "2026-11-28T04:45:48.443293+00:00",
+ "updated_at": "2026-11-28T15:37:23.707747+00:00",
  "daily_done": "2026-11-28",
  "market": {
   "is_open": false,
   "session": null,
   "holiday": null,
-  "checked": "2026-11-28T04:45:48.440615+00:00"
+  "checked": "2026-11-28T15:37:23.704266+00:00"
  },
  "profile": {
   "name": "NVIDIA Corporation",
@@ -12692,8 +12692,14 @@
     "published": "2026-11-27T21:37:57+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "fbc41246fe4a": {
     "id": "fbc41246fe4a",
@@ -12705,8 +12711,14 @@
     "published": "2026-11-27T21:06:00+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "6793d761ade7": {
     "id": "6793d761ade7",
@@ -12737,8 +12749,14 @@
     "published": "2026-11-27T19:54:29+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "0ec569a86ae7": {
     "id": "0ec569a86ae7",
@@ -12750,8 +12768,14 @@
     "published": "2026-11-27T19:49:36+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "a664c57aae10": {
     "id": "a664c57aae10",
@@ -12763,8 +12787,14 @@
     "published": "2026-11-27T19:48:09+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "097f3fe00b52": {
     "id": "097f3fe00b52",
@@ -12814,8 +12844,14 @@
     "published": "2026-11-27T19:19:02+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "87aec853fe69": {
     "id": "87aec853fe69",
@@ -12846,8 +12882,14 @@
     "published": "2026-11-27T19:10:43+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "7ca88517e508": {
     "id": "7ca88517e508",
@@ -12897,8 +12939,14 @@
     "published": "2026-11-27T18:57:52+00:00",
     "provider": "yahoo",
     "first_seen": "2026-11-27T21:53:35.411581+00:00",
-    "sorted": false,
-    "sort_attempts": 2
+    "sorted": true,
+    "sort_attempts": 3,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "unsorted"
    },
    "e80dc7f47a31": {
     "id": "e80dc7f47a31",
@@ -12987,7 +13035,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "4f8b29218fd1": {
     "id": "4f8b29218fd1",
@@ -13019,7 +13067,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "a2892dd30ae3": {
     "id": "a2892dd30ae3",
@@ -13051,7 +13099,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "455582e53f25": {
     "id": "455582e53f25",
@@ -13083,7 +13131,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "cb649b0ac15f": {
     "id": "cb649b0ac15f",
@@ -13096,7 +13144,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "bd61fd412baf": {
     "id": "bd61fd412baf",
@@ -13109,7 +13157,7 @@
     "provider": "yahoo",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
     "sorted": false,
-    "sort_attempts": 1
+    "sort_attempts": 2
    },
    "b6b650b9b0f5": {
     "id": "b6b650b9b0f5",
@@ -13121,6 +13169,377 @@
     "published": "2026-11-23T21:28:00+00:00",
     "provider": "google",
     "first_seen": "2026-11-28T04:45:48.443293+00:00",
+    "sorted": false,
+    "sort_attempts": 2
+   },
+   "b5eedbc6e77a": {
+    "id": "b5eedbc6e77a",
+    "headline": "This Dividend King Has Raised Its Payout 54 Straight Years. It's My Top Pick for December.",
+    "summary": "Investors and analysts alike are skeptical at best. This skepticism, however, only bolsters the contrarian argument.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/this-dividend-king-has-raised-its-payout-54-straight-years-its-my-top-pick-for-december/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T15:20:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "5b2c0b9170fd": {
+    "id": "5b2c0b9170fd",
+    "headline": "Is Microsoft Office's Moat In Trouble?",
+    "summary": "Anthropic’s new productivity tools are taking aim at Microsoft Office, but can they break Microsoft’s grip on enterprise customers?",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/is-microsoft-office-s-moat-in-trouble/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T15:20:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "b6bce62fe68a": {
+    "id": "b6bce62fe68a",
+    "headline": "Ice Cube Is Taking the BIG3 Public — and He Wants You to Own a Piece",
+    "summary": "For the first time in sports history, a professional league is going public — and Ice Cube wants everyday fans to be the ones buying in.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/ice-cube-is-taking-the-big3-public-and-he-wants-you-to-own-a-piece/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T15:09:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "ad5e227b7e0e": {
+    "id": "ad5e227b7e0e",
+    "headline": "The Tech Market Correction Is Over, According to Morgan Stanley. Here Are 2 Crypto Stocks to Watch in 2027.",
+    "summary": "Coinbase and Strategy offer two different ways to invest if crypto stocks recover.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/the-tech-market-correction-is-over-according-to-mo/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T15:02:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "27b7aeb73676": {
+    "id": "27b7aeb73676",
+    "headline": "The 3 Best Quantum Computing Stocks to Buy in the Tech Sell-Off",
+    "summary": "The quantum computing space has not been spared in the tech sell-off.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/the-3-best-quantum-computing-stocks-to-buy-in-the-tech-sell-off/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:57:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "f78d3cb111f0": {
+    "id": "f78d3cb111f0",
+    "headline": "Prediction: Palantir and Nvidia Will Be Worth This Much by Year-end 2027 (Hint: Only 1 Is a Buy)",
+    "summary": "Investors looking to choose one of these AI stalwarts for their portfolios have an easy choice to make right now.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/prediction-palantir-and-nvidia-will-be-worth-this-much-by-year-end-2027-hint-only-1-is-a-buy/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:44:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "1e22bfb6539e": {
+    "id": "1e22bfb6539e",
+    "headline": "Intel Is Up 56% in a Year but 59% Off Its June High: Sell, or Load Up?",
+    "summary": "Key TakeawaysIntel stock is up 56% in a year but sits 59% below its June 30 closing high, after a fourth-quarter outlook that came in about $1. 6 billion under consensus.",
+    "source": "Yahoo Finance",
+    "url": "https://www.tikr.com/blog/intel-is-up-56-in-a-year-but-59-off-its-june-high-sell-or-load-up?ref=yahoofinance&tlnk=yf-261128-x974344g&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:34:48+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "60625ae2542d": {
+    "id": "60625ae2542d",
+    "headline": "Dell Stock Shrugged Off the Nvidia Shipment Pause Reports and Jumped 6.7%",
+    "summary": "Nvidia reportedly told Dell to hold shipments to four Asian countries, yet investors piled in anyway. One price level on Monday will reveal whether the market sees a brief hiccup or a lasting break in the AI buildout.",
+    "source": "Yahoo Finance",
+    "url": "https://247wallst.com/investing/2026/11/28/dell-stock-shrugged-off-the-nvidia-shipment-pause-reports-and-jumped-6-7/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:32:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "36afe4492786": {
+    "id": "36afe4492786",
+    "headline": "Satya Nadella: “If Amazon Doesn’t, Shop Will.” Shopify Just Gained 15% in a Week. Time to Buy?",
+    "summary": "Key TakeawaysShopify shares gained 15% in the past week as tech rebounded with Nvidia and DZ Bank upgraded Shopify to Buy. Microsoft CEO Satya Nadella says if Amazon won’t accept shoppers’ AI agents, someone else will, and Shopify is set up to be that someone.",
+    "source": "Yahoo Finance",
+    "url": "https://www.tikr.com/blog/satya-nadella-if-amazon-doesnt-shop-will-shopify-just-gained-15-in-a-week-time-to-buy?ref=yahoofinance&tlnk=yf-261128-hfv5ff2x&.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:30:45+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "8398394ff4da": {
+    "id": "8398394ff4da",
+    "headline": "Donald Trump urges Nvidia to rehire former CEO Jensen Huang",
+    "summary": "US President Donald Trump has urged Nvidia's board to rehire Jensen Huang, joining calls for his return that include a petition with more than 200,000 signatures. The former CEO is due to face questions in Congress on 1 December.View on euronews",
+    "source": "Yahoo Finance",
+    "url": "https://www.euronews.com/2026/11/23/donald-trump-urges-nvidia-to-rehire-former-ceo-jensen-huang?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:27:23+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "facc1e7b16d3": {
+    "id": "facc1e7b16d3",
+    "headline": "We May Be Witnessing Wall Street's 2 Biggest Bubbles Bursting Simultaneously",
+    "summary": "The stock market’s No. 1 catalyst and its $1.5 trillion risk-measuring powder keg appear ready to pop.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/we-may-be-witnessing-wall-street-2-biggest-bubbles-bursting-simultaneously/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:26:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "e49c766d5026": {
+    "id": "e49c766d5026",
+    "headline": "A New Catalyst for Coinbase?",
+    "summary": "Berkshire Hathaway reported financial results over the weekend, providing investors with insights from the world of insurance.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/a-new-catalyst-for-coinbase/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:20:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "d50b5c11794d": {
+    "id": "d50b5c11794d",
+    "headline": "Dow Jones Futures: What To Do After Big Market Move; Nvidia's Jensen Huang Heads To Capitol Hill",
+    "summary": "In a wild, powerful market week, Tesla stock leads new buys. Nvidia's Jensen Huang is heading to Capitol Hill.",
+    "source": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:13:00+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "3c84e2c8fbba": {
+    "id": "3c84e2c8fbba",
+    "headline": "What Is a Business Development Company? Ares Capital, the Largest Publicly Traded One, Yields About 10%.",
+    "summary": "This small group of stocks offers something that many investors are looking for, but didn’t know existed.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/what-is-a-business-development-company-ares-capital-the-largest-publicly-traded-one-yields-about-10/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T14:05:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "ff397ec45306": {
+    "id": "ff397ec45306",
+    "headline": "Meet the Consumer Stock That Turned $10,000 Into $20,600 in 2026. Here's Why I'd Still Buy It.",
+    "summary": "This surprising stock has more than doubled this year. I'm still a believer.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/meet-the-consumer-stock-that-turned-usd10-000-into-usd20-600-in-2026-here-s-why-i-d-still-buy-it/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T13:42:01+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "b53f1364c7c6": {
+    "id": "b53f1364c7c6",
+    "headline": "VGT vs. QQQ: Which Tech ETF Is the Better Buy for 2027?",
+    "summary": "I'd prefer a bit of diversification heading into the new year.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/vgt-vs-qqq-which-tech-etf-is-the-better-buy-for-2027/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T13:34:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "6fb464353798": {
+    "id": "6fb464353798",
+    "headline": "Textron Unloads a Barely Profitable Industrial Business",
+    "summary": "Textron Industrial has barely grown for five straight years. So Textron will get rid of it.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/textron-unloads-a-barely-profitable-industrial-business/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T13:28:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "a55bd56cef8e": {
+    "id": "a55bd56cef8e",
+    "headline": "Could $5,000 in NuScale Power Stock Set You Up for Life? (Hint: Yes, But There's a Catch)",
+    "summary": "NuScale Power stock clearly has ample upside potential.",
+    "source": "Yahoo Finance",
+    "url": "https://www.fool.com/investing/2026/11/28/could-usd5-000-in-nuscale-power-stock-set-you-up-for-life-hint-yes-but-there-s-a-catch/?.tsrc=rss",
+    "image": null,
+    "published": "2026-11-28T13:25:02+00:00",
+    "provider": "yahoo",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": true,
+    "filtered": true,
+    "relevant": false,
+    "ai_summary": "",
+    "impact": "neutral",
+    "importance": "low",
+    "topic": "other",
+    "story": "filtered"
+   },
+   "3b26e7de85bf": {
+    "id": "3b26e7de85bf",
+    "headline": "Political and corporate leaders react to Huang's return as Nvidia CEO",
+    "summary": "",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZnlVTjVfX19obXNnQmFYcHJyY1VpcHZSOHh1aFJOTHh0eVBZVl9KOG9sWk5TZUlqWVMxSTdMUWVVa1BFeGhhSkZzNXJLSUUtajdRT2xadGhCMG1xOFI3UG9zS0tmbXRhdk05dGU0OEJRcnZ1eVZjWWpmcXNyOTM3ZTk1WVRQNENBMjhzMnpWczQySlJMRmFqc3pDanEtNzNuNllqb1d3?oc=5",
+    "image": null,
+    "published": "2026-11-24T17:41:46+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "79f0e6d3f811": {
+    "id": "79f0e6d3f811",
+    "headline": "Why Trump believed he needed to get Jensen Huang back on top at Nvidia",
+    "summary": "",
+    "source": "PBS",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcHVnamlXQVRuX1lscHU3VWY4dGp3NmNlZjBDOXBWZVJJUmVHbTVIRTlsTUlITGV3andJbXlkTUlydk9ZY2t1eHJWVWdSRTUxQ2EtLWFaOG00bWhXWlFPeEtsSzNLWGJuMTFMY2t6b3dlSG82THplWVlOV2xrbms2RktCT0hDVmdsWFI0T012MHFaZ1FDVDVwQXhmMFVaZUFQQUtVR25JZWdLUF9z0gGyAUFVX3lxTFBkSEdQdlduR3lFal9WbTV6U0lGV0RJdHNyVkpIV2lyaEN1eEEyMm0yNS1hZG9tNURNU3RTcEVReWVGU3hWeTE0S2lwWVE3a0FNRGY4c28zMXp4SXBJWjl0MnNWSFVRSHp4RnJLMFF0bnVCZC11eTVQSGt1NDNqNFpsdTZSd05vWTlRdUdRbi1sMHN6d3FsVGxZd25JV2xTV0xyQVJEVUpSS2gtUXlZaUltdEE?oc=5",
+    "image": null,
+    "published": "2026-11-24T15:18:48+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "eace5c7d82ca": {
+    "id": "eace5c7d82ca",
+    "headline": "Huang profits from Nvidia’s stock surge after he returns as CEO",
+    "summary": "",
+    "source": "The Hill",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iNFV2cVNVWHlkeHljRzBDYklMMVRYQkJqd2ljZ2pBTElOWDlkZ2NmR1EwQXpwdWltRVQyR3Y2RDVhZHA5MVBTTmNyUzg2cnRqNEhjZ0plXzJfZE1QQVNpWVVPU0VpMHRYTTY2SFZpQWx4Q3lsWW5QNzFB0gF_QVVfeXFMTUNUWVJmaXRwRU12RE9lNWZkVHphQWR2eHhWRkE1bUZ5YzJrZWNPamRKUVVhVnBpeXBZNzdXNy1NWmVVa1FGQzlrdWJoakk3LWJlcXcxUk1NeW5Vd2U3aTctSkw0ZUhMOVRVTDZESzFPWTZMRkZxVHRaNUxRY2RLSQ?oc=5",
+    "image": null,
+    "published": "2026-11-23T21:55:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "ea024cd0cb11": {
+    "id": "ea024cd0cb11",
+    "headline": "Nvidia board reinstates Huang as CEO",
+    "summary": "",
+    "source": "Politico",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV2JGdWZOWUZTUzhxZzZna2FIMS1WbjBTQVcwdDUxdTlhVDhudGxhNUxwQU84QzF2T09GUTFNVG1paUdpYjRURUFmbnRlekhGd2tyX3BZMXRxUEV5cV9wR2JvR0NBLXNtZUswLWIzbmNtLXFtM0hDUTNWNE5sQ2dzS05R?oc=5",
+    "image": null,
+    "published": "2026-11-23T14:56:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
+    "sorted": false,
+    "sort_attempts": 1
+   },
+   "417bc7a74a1c": {
+    "id": "417bc7a74a1c",
+    "headline": "Nvidia stock cools after Huang’s return-driven surge",
+    "summary": "",
+    "source": "Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUjJVOFZYSk5kbjVGWlFnUFNjQzMwcDFRZkROWkdjYlQ4dllhYjNFS2ZaT0JKUDdxV2h5ZVc0UHhQUGhFSXFUdFFScXR5eEZsMG1aRVBNbm95dldZRWdhQXRFdXNHRkszc3luSWhZcG05dS1PTFJEejIxQ2prazVzdHNwSjJWeDZNM3lKSzR4SHNqYzA4X29tMTFjM0HSAaIBQVVfeXFMT24xTXNMOG9Hc0xRVGVIejZzblEtRXVkNEoyYkhzODVkUlc3MkdQcmtsaWtGRUp1X056ZXVZU1VRazY4YUdKMW9ONm1Ock9MS0ZfcmthdlBrUnpSZm9JeVpVNVlYQUtYU3FIVVQzUEhhdzFiVGZCSV8zcm9YSnBuWkRjLUhkMlNMa091MThydF9iUjI1OTFfcHd0R0NDVTByeFpR?oc=5",
+    "image": null,
+    "published": "2026-11-23T08:00:00+00:00",
+    "provider": "google",
+    "first_seen": "2026-11-28T15:37:23.707747+00:00",
     "sorted": false,
     "sort_attempts": 1
    }
@@ -13136,21 +13555,66 @@
   "by_provider": {},
   "market": [
    {
+    "id": "d73d548666b5",
+    "headline": "Armed individuals exit ship off Yemen with crew safe, says UK agency - Reuters",
+    "summary": "Armed individuals exit ship off Yemen with crew safe, says UK agency Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSmJza0RDY1R0YmlvRDBuNkxHYkRHc012MDVlS0stTzcwTVZuNGpTZ3dHZFI4UlFXekZlek1VbE1rYTV2OXhJRUdkLWZDa0dUX0NxNWVUb3FCY3dBSlc0T1Y5d0NHdjhmeXVvSTA4Sk1EamlUaTdYMXJoMHRNWm5TQXJTcWYxRi1qTy1mNzk5NkxQNlhyTTlsYzJNVExXNHBoamlfNTVGbXlkbWwwTkZYcFVpOWVRdXJZZEE?oc=5",
+    "published": "2026-11-28T14:35:47+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "57fa648df9e3",
+    "headline": "The doctor, the patient and the smartwatch: What physicians think of the third voice at your appointment",
+    "summary": "Many Americans use a smartwatch or fitness tracker to collect their health data, and doctors say the devices are increasingly becoming part of annual checkups.",
+    "source": "CNBC",
+    "url": "https://www.cnbc.com/make-it/2026/11/28/wearable-health-trackers-doctors.html",
+    "published": "2026-11-28T13:00:02+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "b1d10806593d",
+    "headline": "MSF charity condemns Israeli strike that killed two staff outside Gaza clinic - Reuters",
+    "summary": "MSF charity condemns Israeli strike that killed two staff outside Gaza clinic Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSlN6bWNCajEzSzJDU0o3Qk5qQnJiS3Zxb2VaUnFjM05vM0hkZ2E3NnJNeXlVdEVVMkNwdGRXcmRaTGF3bHI4emRsaVhaTHVtV3dmNDJlWUFGY1YzTTFxNlNkaFViN1FYdlo3WVM4SUJlaTZkc1AyVE9MdmZkMDdYeE1wR3RzRXFzeTVvY0lrczh4N1ZGXzM4NWR2MmF6NkRYeDBWNEtMOEswT3BxU2dxYllRcmM?oc=5",
+    "published": "2026-11-28T12:29:10+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "4f97d7936d02",
+    "headline": "Explosion reported at school in Afghanistan, official says - Reuters",
+    "summary": "Explosion reported at school in Afghanistan, official says Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVRKa09nUTkyZHR6Tnp6aTFwNzFYOHd0WGRtWjFEU2Z4RmFvRzVETWJwbEF4WHROdnpCVU9NMVBYYUJtbVU5NzVqNEVkaEVhNUtmMHFrbFE0cW5OQmdXYkpiV0JvbGoteXRYamR6Mjl0clR1cmp2elB5LU9IOUFjZzcwSXFjTXVxcy1XbmJHdGQwbjZMREhfNzRwS29Jck8zbURsQkdoTXMtZw?oc=5",
+    "published": "2026-11-28T08:05:25+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "a954773072e0",
+    "headline": "Iran's flogging of singer was warning from anxious hardliners, insiders say - Reuters",
+    "summary": "Iran's flogging of singer was warning from anxious hardliners, insiders say Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHEwNVJXaUs1bXFUR0FoQUQ2TTJWNThDakwyUkMxZk41VlYwYUthWVdNck1vT3pIY1BZdjQ4S3RIOFZuUlRjRUZoRUxxTmRaOVI1ZjU2RURfVzJMSGo0RVpnZ29XTmlXeV9zbExvOWMwdEZ6a0ozQzBZNkhsQWpsamFrTnlLMUgwTnpHd2htUTdrRUw3a0F5V1lTUDI2dDRTbjQ1UjBObzdKUm50N2hfTHNzVE1hSDNGMng0?oc=5",
+    "published": "2026-11-28T07:14:00+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "3aac628b293e",
+    "headline": "US military repelled drones at UK airbase this month, FT reports - Reuters",
+    "summary": "US military repelled drones at UK airbase this month, FT reports Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPLVBLa19DdUlDcGg5RVY2bjFfYS1QYXJRQmE0Z1ZfNm02WmI5RnBhcEhKSGdRR01XdUJhandJSzQ0SEF5bWRlZlBUbUJPbVJLbjROSUozYnJseGhLekl6bEhTTU5tbEVQMWtCU3Z1YzJiTTZNcnBrdVNYQ3ZudHpLVFREbWhkcUNWSVQ0bHdCVUF5RU0?oc=5",
+    "published": "2026-11-28T05:18:00+00:00",
+    "provider": "finnhub"
+   },
+   {
     "id": "e7d5b2114361",
     "headline": "Son of Hamas chief survives Israeli strike, Hamas says - Reuters",
     "summary": "Son of Hamas chief survives Israeli strike, Hamas says Reuters",
     "source": "Reuters",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXhxUTlzbVROVWJBME9JOGtIQnZUczNMMXdBTUV0QlByWWRCWThyeXlfcDA0T2MyaHlVbFlFSW0wbkpjbGd1WXVjQkZQaDNuZFM1VFkxaU9fN2lXUGtwa0xmQ0xHZHVaYko0M3FfVmdmd0l1LUpJOVhrNF9vTzk2OUJ0bVB4MU9JNnFCWFdESncyd0NBbHJodGpyUlRLNXRRRjhDYXJTRQ?oc=5",
     "published": "2026-11-27T23:26:36+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "56f4aec546aa",
-    "headline": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform - Reuters",
-    "summary": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
-    "published": "2026-11-27T20:56:01+00:00",
     "provider": "finnhub"
    },
    {
@@ -13172,6 +13636,15 @@
     "provider": "finnhub"
    },
    {
+    "id": "24d62f8250a3",
+    "headline": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction - Reuters",
+    "summary": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM0xwNFVEWnAyNUxEdzNWcUR2X2tPbDZtLTZyTUNKMFY0VlpIaHFMV2ZuT2ZfeEJCcHpjQk9JU1dyeEpRZDZQSnJIbWRGWEZqZEJfQnZyYmNadGJneDNhUnVoUVFYOC1PZXVydXFQOFVvdFVDTjN4QjhhRU5WbTdEZzZCTkFfd2ZtdmZTVWw0YWhhYTFLU05iZUpNMFR3dk9uUXZnLTQxUUxrYW1rM1RBZDBwYk9FWFJscWF2MS1CN2xjY3FYWHc?oc=5",
+    "published": "2026-11-27T18:26:56+00:00",
+    "provider": "finnhub"
+   },
+   {
     "id": "48cd1c099a68",
     "headline": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally - Reuters",
     "summary": "Britain's FTSE 100 posts biggest weekly gain in eight months as miners, banks rally Reuters",
@@ -13181,12 +13654,21 @@
     "provider": "finnhub"
    },
    {
+    "id": "a96d83a7f8f4",
+    "headline": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption - Reuters",
+    "summary": "Mexico files complaint with US over DEA tip line on alleged traffickers, official corruption Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOd2lSdWtGZDVPZzFmZWxiRm9aZ2ZkcDhYV2lDUHRfRjhpcVpyNk80a2JRSUdhUXBMT0MyUUFZUDFpUi1LRzVDLTBrTTZaYjhyeDh6OVNmSUhKWlZNdUhQZmZ1U2NBcWhoSE1VSFNRMTRlR2VHa1Zwbm9jcDJPdzRMMEJSSFdsaXVfOGZwRjkxOFp6d1YxdXlJZUdza3oyM21fMnQtTE1SZ01xS094NS1TY1pRRXFmMFE1b1VoN2c5cWI4dw?oc=5",
+    "published": "2026-11-27T16:48:09+00:00",
+    "provider": "finnhub"
+   },
+   {
     "id": "7f0ffc6a0c7f",
-    "headline": "At least eight found dead on migrant boat off Spain's Canary Islands - Reuters",
-    "summary": "At least eight found dead on migrant boat off Spain's Canary Islands Reuters",
+    "headline": "Fourteen found dead on migrant boat off Spain's Canary Islands - Reuters",
+    "summary": "Fourteen found dead on migrant boat off Spain's Canary Islands Reuters",
     "source": "Reuters",
     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFg3b1hQNEFySWI3WEZRY21RRGFIQndWTWhVZkdpYUlVczFmR2hiSnZaemxZTzFqYU1uSThFbEVMSkgyVFR1SXE3UEpBd09jOWNzcW9IaXl0TXZIS3k2VXlEUDBVcEJjc25UOHBEXzhJcFBCX2YtdXpqLVVMN1lmVFliYWJ0QnY0YUhOOWJGblFRaXlmbFFpMUZ0aWdvRHRWQ0E4RFd3?oc=5",
-    "published": "2026-11-27T16:43:46+00:00",
+    "published": "2026-11-27T16:08:00+00:00",
     "provider": "finnhub"
    },
    {
@@ -13205,6 +13687,15 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/investingclub/2026/11/27/top-10-things-to-watch-in-the-stock-market-on-black-friday.html",
     "published": "2026-11-27T14:28:36+00:00",
+    "provider": "finnhub"
+   },
+   {
+    "id": "b729fed4aa0e",
+    "headline": "Czech lower house approves windfall tax on refineries, will hit Orlen - Reuters",
+    "summary": "Czech lower house approves windfall tax on refineries, will hit Orlen Reuters",
+    "source": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOUZlQzhOdlJaT2pkWWdHWm9wbFE3UVFYOURGS3Q5R2NpTEZyMmRLY3cxZHRSa3pwNHVSWXlTTkYweDZ5V1NMcDNqNHhjZkZ6MjNVbHJIREpBdkhna2hOUTZVNFZ6SDJOdmNxR1RscDhaNURwZFpvc0dqeF94eUxFeWV3TWF3R05OM1RjeFpIbXFZWmhYdF8wVTNtbC1oVEV2cjY5UA?oc=5",
+    "published": "2026-11-27T13:37:42+00:00",
     "provider": "finnhub"
    },
    {
@@ -13241,78 +13732,6 @@
     "source": "CNBC",
     "url": "https://www.cnbc.com/make-it/2026/11/27/durable-goods-reliability-cars-appliances-tvs.html",
     "published": "2026-11-27T13:05:02+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "c2c429c4fc8d",
-    "headline": "Global diesel market to run into deficit in second quarter of 2027 - Reuters",
-    "summary": "Global diesel market to run into deficit in second quarter of 2027 Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUh5OURIMC1MRmNIM3pMa2ZMUnBhZjl4TjRVUWl6QTg4Mk9FdXluQWVubzNSOUNMUmROMGdnWGp2Wlp3Y1NxdFdaQ0tubFFoZTVlS3hydlBkcDJUWURvLVZKamppQTlvSm8yYkV0NE5rRlp6TVUtSzNsOUtGYUJtR1pWMl94TjA5UFRta3lPVldBaGtxQm95Wng2UVlwckszVVhaTHFYQ044cjNPQUE?oc=5",
-    "published": "2026-11-27T12:25:44+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "2586e0a7e509",
-    "headline": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war - Reuters",
-    "summary": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVE1ZllSR0xRNHFVUjR0WWJjQXF2MllxbUV3WUQ2Vno2WFFCbzkyODBvWjE1WmtscC1rdkVLdVJXUDhUUXFiMDZQbS01akV2UjhQQUFwMWp2aWdrdm5ZQy11b0tvX3BkSVU1WmdUV2J4N2l0UF9tcHVqRzBuWkxhRUVsU1FtMTl1aEhRWkx3RFI2VDlraEhKemFOV0ZEX0todDFpTTBsTndhZk0zclNaWk5lNA?oc=5",
-    "published": "2026-11-27T11:13:46+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "ffc7af8ca835",
-    "headline": "Inflation has shoppers hunting for value. That bodes well for Black Friday",
-    "summary": "Even as consumers face macroeconomic headwinds, retailers are expecting robust holiday spending through Black Friday and beyond.",
-    "source": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/27/black-friday-2026-inflation-value-deals.html",
-    "published": "2026-11-27T11:00:01+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "71f694abec29",
-    "headline": "FACTBOX Spain election: what the main parties are proposing - Reuters",
-    "summary": "FACTBOX Spain election: what the main parties are proposing Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQWRyM0NQRDdFNTJsMVZKTzVoMEd3UXpzOWZQYjZSejZXc29xbVA3emVPcC1XV0lSMnRXWWhObmJ6cDJrMTdzV005ZVJlT3Z2UGJLWTBNeDE1T0hsOUtXNkp4T3VtV0VJeE83SkFUTjZlTkxRYUI5NTNPdTVsek5RNWdaSXM0Q3FCM1JRM2x1UlhaSzk0bWxkWFdHdw?oc=5",
-    "published": "2026-11-27T10:59:25+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "38f69b70fce9",
-    "headline": "Four Jehovah's Witnesses convicted of 'extremism' in Russian-annexed Crimea - Reuters",
-    "summary": "Four Jehovah's Witnesses convicted of 'extremism' in Russian-annexed Crimea Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYU5YQVdzaHpXYmVSRG9uaWNkNVB4UTl5blFhczE3aTk1ZXV4N3FDOHE1Y0ludElpV0dyVE54eXR6TjZsR3Mxd2p2RmVwMUhpenBqNl9MVy00djNYd0RHSm04ZEZXQzg5R0JHcWw4bEZUZ0ppRkxwUkxkbDFvY3hUMDZBSzE4Q3RwRTZCdmZvMUZBTThhTklOWVF0TldZZ2hUc29tSXRBQmJPNmJC?oc=5",
-    "published": "2026-11-27T10:22:17+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "756786992259",
-    "headline": "Former government chief of China's Guangxi sentenced to death with reprieve over graft - Reuters",
-    "summary": "Former government chief of China's Guangxi sentenced to death with reprieve over graft Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4dEZuT0pwQTVreDduek1JSVNKVTB4UkJFMDZUZFBtQUYtYVlHYVZSdklGNXNsbU1vWHc3cS02NkFGSnlSa3Z4a0dybGlwWHpXYW9TUGwyLTJjSmFNNDIzOE5iRlRCS3JBYUpFcVhxOUQwR1dNem5EZm15akU4YV9uc21tYUVwa0tXRmRkdmFuZ2FmeGlScEd6MTljM0RrSXhpazNJSVV4WVVJRDhXc1l1RHdyUWZpVEdmQkE?oc=5",
-    "published": "2026-11-27T10:01:23+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "776cbd8db5d2",
-    "headline": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs - Reuters",
-    "summary": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUFZ5amdzZG00RTRadGk1NlNDb0JFeTNseGJid3dwNWtNTFBvaVQ1LVdnSUs1Rkk3Uy1tTlNDVVBmMkRkV1QxU3lGcHR2ZzU0bG9PMlM4OXphZHpVVVBXNS14WnRNX2xsWEZrSXV4TjRHUlZFWUlEYldEY1NFZlRqa2xjNUE2T0l5cWJ3MTU4aGo3Qk91WVcwdHdtZWdkTEZ2bWdnUGxrVHdOYmZ4ZDVMOGtWc2U5S2ZuM1FjRQ?oc=5",
-    "published": "2026-11-27T07:39:00+00:00",
-    "provider": "finnhub"
-   },
-   {
-    "id": "db6f2ec23a63",
-    "headline": "Indian firms utilising only 20%-30% of free trade agreement benefits, RBI governor says - Reuters",
-    "summary": "Indian firms utilising only 20%-30% of free trade agreement benefits, RBI governor says Reuters",
-    "source": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdFhhQzVlSnZ0TUtmdUY5WUhtWHd3R1kyTXpLZTk2XzFINUFmYWlKakpFcmZsS21GNEdKd0VUMTVReHZmR0xnM2dxRjk3aXA3U0lXX3F1cG55REhGMGd2NVJzUzFkNDBKQmJOTENiWlJ1S2FxMFE2QjZhSEpyeWhKay1WeUNGQnB3NFhQUy1qdjJ4dmNqWkNjbUVqUWxsSUVtSTJrWEw0Y0hzQkxFYUxTU05FNUd3NjAtNENwVUFvOVZidw?oc=5",
-    "published": "2026-11-27T07:18:00+00:00",
     "provider": "finnhub"
    }
   ]
@@ -13660,9 +14079,9 @@
  "usage": {
   "today": {
    "date": "2026-11-28",
-   "runs": 1,
+   "runs": 2,
    "ai_tokens": 0,
-   "filtered_headlines": 5,
+   "filtered_headlines": 17,
    "briefs_written": 0
   }
  },
