@@ -177,6 +177,15 @@
    "calls_by_job": {},
    "thinking_by_job": {},
    "skipped_for_budget": {}
+  },
+  {
+   "date": "2026-11-28",
+   "runs": 1,
+   "tokens": 0,
+   "by_job": {},
+   "calls_by_job": {},
+   "thinking_by_job": {},
+   "skipped_for_budget": {}
   }
  ]
 }
